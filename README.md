@@ -1,4 +1,6 @@
 # destroytoday.com
+
+[![Code Climate](https://codeclimate.com/github/destroytoday/destroytoday.com.png)](https://codeclimate.com/github/destroytoday/destroytoday.com)
  
 ### Rules
 
