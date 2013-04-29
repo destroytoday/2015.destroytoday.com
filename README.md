@@ -23,8 +23,10 @@ Iterate through these rules whenever making any changes.
 3. No nesting beyond 2 levels deep
 4. All colors must be variables
 5. Keep layout separate from styling
-6. No negative margins or importants
+6. No importants
 7. No ID selectors
+8. Only use negative margins as a last resort
+9. All loaded fonts must start with properly-sized fallbacks
 
 **Updating**
 
