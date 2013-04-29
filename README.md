@@ -18,7 +18,7 @@ Iterate through these rules whenever making any changes.
 
 **CSS**
 
-1. No mention of pixels, ever. Only ems or percentages.
+1. No mention of pixels besides borders. Only ems or percentages.
 2. CSS selectors must not relate to HTML structure
 3. No nesting beyond 2 levels deep
 4. All colors must be variables
