@@ -2,7 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/destroytoday/destroytoday.com.png)](https://codeclimate.com/github/destroytoday/destroytoday.com)
  
-### Rules
+## Rules
 
 Iterate through these rules whenever making any changes.
 
@@ -10,6 +10,10 @@ Iterate through these rules whenever making any changes.
 
 1. Mobile first without hindering desktop
 2. No sidebars
+
+**Behaviors**
+
+1. No hovering
 
 **Assets**
 
@@ -34,3 +38,12 @@ Iterate through these rules whenever making any changes.
 
 1. Must be easy
 2. Must be able to be done from anywhere
+
+## Inspiration
+
+* <http://friendsoftheweb.com/>
+* <http://www.strangenative.com/>
+* <http://oak.is/thinking/>
+* <http://yaronschoen.com/>
+* <http://thegreatdiscontent.com/>
+* <http://thekoan.org/>
