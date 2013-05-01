@@ -13,7 +13,7 @@ Iterate through these rules whenever making any changes.
 
 **Behaviors**
 
-1. No hovering
+1. No hover-to-reveal
 
 **Assets**
 
