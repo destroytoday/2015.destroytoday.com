@@ -48,3 +48,26 @@ Iterate through these rules whenever making any changes.
 * <http://thegreatdiscontent.com/>
 * <http://thekoan.org/>
 * <http://37signals.com/svn>
+
+## Content Types
+
+**info**
+
+* text with lists
+* photo with text
+
+**blog post**
+
+* essay with photo
+* announcement with logo or photo
+* tutorial with source code
+* tutorial with screenshots
+
+**project**
+
+* logo, description, link(s)
+* logo, description, screenshots
+
+## Features
+
+* content-based variable color scheme
