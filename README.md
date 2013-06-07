@@ -66,6 +66,12 @@ Iterate through these rules whenever making any changes.
 * logo, description, link(s)
 * logo, description, screenshots
 
+**list**
+
+* numbered text lists
+* bulleted text lists
+* thumbnail lists
+
 ## Features
 
 * content-based variable color scheme
