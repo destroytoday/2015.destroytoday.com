@@ -46,6 +46,7 @@ Iterate through these rules whenever making any changes.
 * <http://thegreatdiscontent.com/>
 * <http://thekoan.org/>
 * <http://37signals.com/svn>
+* <http://frankchimero.com>
 
 ## Content Types
 
