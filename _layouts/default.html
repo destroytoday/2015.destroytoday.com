@@ -22,12 +22,16 @@
       {% capture base_color %}{% if meta.base_color.value %}{{ meta.base_color.value }}{% else %}#000{% endif %}{% endcapture %}
       {% capture header_color %}{% if meta.header_color.value %}{{ meta.header_color.value }}{% else %}#F5F5F5{% endif %}{% endcapture %}
       {% capture background_color %}{% if meta.background_color.value %}{{ meta.background_color.value }}{% else %}#FFF{% endif %}{% endcapture %}
-      {% capture highlight_color %}{% if meta.highlight_color.value %}{{ meta.highlight_color.value }}{% else %}#008CC1{% endif %}{% endcapture %}
+      {% capture highlight_color %}{% if meta.highlight_color.value %}{{ meta.highlight_color.value }}{% else %}#007998{% endif %}{% endcapture %}
       {% capture lowlight_color %}{% if meta.lowlight_color.value %}{{ meta.lowlight_color.value }}{% else %}#999{% endif %}{% endcapture %}
 
       html, body {
         background-color: {{ background_color }};
         color: {{ base_color }}
+      }
+
+      body {
+        border-top: solid 4px {{ highlight_color }};
       }
 
       a {
@@ -74,6 +78,8 @@
       </div>
     </header>
     {{ content }}
+    <footer>
+    </footer>
     <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
   </body>
 </html>

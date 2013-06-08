@@ -7,7 +7,17 @@
 {% endcapture %}
 
 {% capture content %}
-  {% include 'includes/article' %}
+  <div class='wrapper'>
+    <div class='content'>
+      {% include 'includes/article' %}
+
+      {% for post in posts %}
+        {% if post != posts.first %}
+          {% include 'includes/article-listing' %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 {% endcapture %}
 
 {% include 'layouts/default' %}

@@ -1,0 +1,10 @@
+<article class='subarticle'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='{{ post.url }}'>{{ post.title }}</a>
+    </h2>
+  </hgroup>
+  <div class='content-body'>
+    {{ post.body | truncatewords: 50 }} <a class='more' href='{{ post.url }}'>Read&nbsp;more</a>
+  </div>
+</article>

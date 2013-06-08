@@ -365,7 +365,7 @@ a {
   visibility: hidden; }
 
 .wrapper {
-  max-width: 42.667em;
+  max-width: 46.875em;
   margin: 0 auto;
   padding: 0 0.5em; }
 
@@ -382,6 +382,11 @@ h1 {
   font-weight: 700; }
 
 h2 {
+  -webkit-transition: font-size 0.25s ease;
+  -moz-transition: font-size 0.25s ease;
+  -ms-transition: font-size 0.25s ease;
+  -o-transition: font-size 0.25s ease;
+  transition: font-size 0.25s ease;
   margin: 1em 0;
   font-size: 2em;
   line-height: 1.25em;
@@ -391,7 +396,7 @@ h4 {
   font-size: 1.25em; }
 
 .main-header {
-  padding: 1.75em 0 0.5em; }
+  padding: 2em 0 0.5em; }
 
 .main-title {
   margin: 0.25em 0 1em; }
@@ -430,12 +435,22 @@ h4 {
   text-decoration: none; }
 .content-body .more {
   border-bottom: none; }
+  .content-body .more:after {
+    -webkit-transition: opacity 0.25s ease;
+    -moz-transition: opacity 0.25s ease;
+    -ms-transition: opacity 0.25s ease;
+    -o-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    content: "\2192";
+    opacity: 0; }
   .content-body .more:hover:after {
-    content: "\2192"; }
+    opacity: 1; }
 
-@media screen and (min-width: 40.1em) {
+.subarticle h2 {
+  font-size: 1.5em; }
+
+@media only screen and (min-width: 40.1em) {
   .main-header {
-    padding-top: 1.625em;
     overflow: hidden; }
 
   .main-title {
@@ -444,9 +459,12 @@ h4 {
 
   .main-nav {
     float: right; } }
-@media screen and (min-width: 30.1em) {
+@media only screen and (min-width: 30.1em) {
   h2 {
     font-size: 300%; }
+
+  .subarticle h2 {
+    font-size: 200%; }
 
   .content-header {
     margin: 3em 2em; }

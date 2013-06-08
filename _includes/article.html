@@ -1,19 +1,15 @@
-<div class='wrapper'>
-  <div class='content'>
-    <article class='article'>
-      <hgroup class='content-header'>
-        <h2 class='content-title webfont'>
-          <a href='{{ article_url }}'>{{ article_title }}</a>
-        </h2>
-        <h3 class='content-subheader'>
-          <a class='previous nav-icon ss-icon' href='#'>previous</a>
-          <a class='content-date' href='{{ article_url }}'>{{ article_date | date: '%B %d, %Y' }}</a>
-          <a class='next nav-icon ss-icon' href='#'>next</a>
-        </h3>
-      </hgroup>
-      <div class='content-body'>
-        {{ article_body }}
-      </div>
-    </article>
-  </div> <!-- content -->
-</div> <!-- wrapper -->
+<article class='article'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='{{ article_url }}'>{{ article_title }}</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='previous nav-icon ss-icon' href='#'>previous</a>
+      <a class='content-date' href='{{ article_url }}'>{{ article_date | date: '%B %d, %Y' }}</a>
+      <a class='next nav-icon ss-icon' href='#'>next</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    {{ article_body }}
+  </div>
+</article>
