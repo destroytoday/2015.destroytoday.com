@@ -1,0 +1,13 @@
+{% include 'includes/header' %}
+
+{% assign article = posts.first %}
+{% assign article_title = article.title %}
+{% assign article_url = article.url %}
+{% assign article_date = article.date %}
+{% capture article_body %}
+  {{ article.body | truncatewords: 100 }} <a class='more' href='{{ article.url }}'>Read&nbsp;more</a>
+{% endcapture %}
+
+{% include 'includes/article' %}
+
+{% include 'includes/footer' %}

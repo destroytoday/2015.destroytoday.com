@@ -1,0 +1,168 @@
+@import '_normalize'
+@import '_ss-standard'
+
+// variables
+
+$base-font: "jaf-bernina-sans-1","jaf-bernina-sans-2", "Helvetica Neue", Helvetica, sans-serif
+$title-font: "lexia-1", "lexia-2", "Helvetica Neue", Helvetica, sans-serif
+
+$base-color: #000
+$background-color: #FFF
+$subheader-color: #999
+$highlight-color: #008cc1
+//#d98c17
+//#009663
+//#d51c28
+//#008cc1
+$lowlight-color: #CCC
+
+// reset
+
+@media screen and (max-device-width: 480px)
+  html
+    -webkit-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%
+
+*
+  box-sizing: border-box
+
+ul
+  padding: 0
+
+li
+  list-style-type: none
+
+// base
+
+body
+  background-color: $background-color
+  font: 400 100%/1.65 $base-font
+  text-rendering: optimizeLegibility
+
+img
+  max-width: 100%
+
+a
+  color: $base-color
+  text-decoration: none
+
+  &:hover
+    color: $highlight-color
+
+// fonts
+
+.wf-loading .webfont
+  visibility: hidden
+
+// page
+
+.wrapper
+  max-width: 42.667em
+  margin: 0 auto
+  padding: 0 0.5em
+
+// headers
+
+h1, h2
+  text-align: center
+
+h2, h4
+  font-family: $title-font
+  font-weight: 700
+
+h1
+  font-size: 1.5em
+  line-height: 1em
+  font-weight: 700
+
+h2
+  margin: 1em 0
+  font-size: 2em
+  line-height: 1.25em
+  letter-spacing: -1px
+
+h4
+  font-size: 1.25em
+
+.main-header
+  padding: 1.75em 0 2em
+
+.main-title
+  margin: 0.25em 0 1em
+
+// nav
+
+.main-nav
+  text-align: center
+
+.main-nav-list
+  margin: 0.5em 0 0
+
+  > li
+    display: inline-block
+    margin-left: 0.75em
+
+    &:first-child
+      margin-left: 0
+
+// article
+
+.article-header
+  margin: 2em 1em
+
+.article-title
+  margin: 0
+
+.article-subheader
+  font-size: 1em
+  font-weight: normal
+  color: $subheader-color
+  text-align: center
+
+  a
+    color: $subheader-color
+
+  .nav-icon
+    position: relative
+    top: 3px
+
+.article-date
+  margin: 0 0.5em
+
+.article-body
+  p
+    position: relative
+
+  a
+    text-decoration: none
+
+  .more
+    border-bottom: none
+
+    &:hover:after
+      content: '\2192'
+
+@media screen and (min-width: 40.1em)
+  .main-header
+    padding-top: 1.625em
+    overflow: hidden
+
+  .main-title
+    float: left
+    margin-bottom: 0.25em
+
+  .main-nav
+    float: right
+
+@media screen and (min-width: 30.1em)
+  body
+    font-size: 112.5%
+
+  h2
+    font-size: 300%
+
+  .article-header
+    margin: 3em 2em
+
+  .article-subheader
+    text-align: center

@@ -1,0 +1,1063 @@
+@charset "UTF-8";
+/* normalize.css v2.1.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Prevent system color scheme's background color being used in Firefox, IE,
+ *    and Opera.
+ * 2. Prevent system color scheme's text color being used in Firefox, IE, and
+ *    Opera.
+ * 3. Set default font family to sans-serif.
+ * 4. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  background: #fff;
+  /* 1 */
+  color: #000;
+  /* 2 */
+  font-family: sans-serif;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 4 */
+  -webkit-text-size-adjust: 100%;
+  /* 4 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre-wrap; }
+
+/**
+ * Set consistent quote types.
+ */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2012 Oak Studios LLC
+*
+* Upload this file to your web server
+* and place this within your <head> tags.
+* <link href="webfonts/ss-standard.css" rel="stylesheet" />
+*/
+@font-face {
+  font-family: "SSStandard";
+  src: url("ss-standard.eot");
+  src: url("ss-standard.eot?#iefix") format("embedded-opentype"), url("ss-standard.woff") format("woff"), url("ss-standard.ttf") format("truetype"), url("ss-standard.svg#SSStandard") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* This triggers a redraw in IE to Fix IE8's :before content rendering. */
+html:hover [class^="ss-"] {
+  -ms-zoom: 1; }
+
+.ss-icon, .ss-icon.ss-standard,
+[class^="ss-"]:before, [class*=" ss-"]:before,
+[class^="ss-"].ss-standard:before, [class*=" ss-"].ss-standard:before,
+[class^="ss-"].right:after, [class*=" ss-"].right:after,
+[class^="ss-"].ss-standard.right:after, [class*=" ss-"].ss-standard.right:after {
+  font-family: "SSStandard";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased; }
+
+[class^="ss-"].right:before,
+[class*=" ss-"].right:before {
+  display: none;
+  content: ''; }
+
+.ss-cursor:before, .ss-cursor.right:after {
+  content: ''; }
+
+.ss-crosshair:before, .ss-crosshair.right:after {
+  content: '⌖'; }
+
+.ss-search:before, .ss-search.right:after {
+  content: '🔎'; }
+
+.ss-zoomin:before, .ss-zoomin.right:after {
+  content: ''; }
+
+.ss-zoomout:before, .ss-zoomout.right:after {
+  content: ''; }
+
+.ss-view:before, .ss-view.right:after {
+  content: '👀'; }
+
+.ss-attach:before, .ss-attach.right:after {
+  content: '📎'; }
+
+.ss-link:before, .ss-link.right:after {
+  content: '🔗'; }
+
+.ss-move:before, .ss-move.right:after {
+  content: ''; }
+
+.ss-write:before, .ss-write.right:after {
+  content: '✎'; }
+
+.ss-writingdisabled:before, .ss-writingdisabled.right:after {
+  content: ''; }
+
+.ss-erase:before, .ss-erase.right:after {
+  content: '✐'; }
+
+.ss-compose:before, .ss-compose.right:after {
+  content: '📝'; }
+
+.ss-lock:before, .ss-lock.right:after {
+  content: '🔒'; }
+
+.ss-unlock:before, .ss-unlock.right:after {
+  content: '🔓'; }
+
+.ss-key:before, .ss-key.right:after {
+  content: '🔑'; }
+
+.ss-backspace:before, .ss-backspace.right:after {
+  content: '⌫'; }
+
+.ss-ban:before, .ss-ban.right:after {
+  content: '🚫'; }
+
+.ss-trash:before, .ss-trash.right:after {
+  content: ''; }
+
+.ss-target:before, .ss-target.right:after {
+  content: '◎'; }
+
+.ss-tag:before, .ss-tag.right:after {
+  content: ''; }
+
+.ss-bookmark:before, .ss-bookmark.right:after {
+  content: '🔖'; }
+
+.ss-flag:before, .ss-flag.right:after {
+  content: '⚑'; }
+
+.ss-like:before, .ss-like.right:after {
+  content: '👍'; }
+
+.ss-dislike:before, .ss-dislike.right:after {
+  content: '👎'; }
+
+.ss-heart:before, .ss-heart.right:after {
+  content: '♥'; }
+
+.ss-halfheart:before, .ss-halfheart.right:after {
+  content: ''; }
+
+.ss-star:before, .ss-star.right:after {
+  content: '⋆'; }
+
+.ss-halfstar:before, .ss-halfstar.right:after {
+  content: ''; }
+
+.ss-sample:before, .ss-sample.right:after {
+  content: ''; }
+
+.ss-crop:before, .ss-crop.right:after {
+  content: ''; }
+
+.ss-layers:before, .ss-layers.right:after {
+  content: ''; }
+
+.ss-fill:before, .ss-fill.right:after {
+  content: ''; }
+
+.ss-stroke:before, .ss-stroke.right:after {
+  content: ''; }
+
+.ss-phone:before, .ss-phone.right:after {
+  content: '📞'; }
+
+.ss-phonedisabled:before, .ss-phonedisabled.right:after {
+  content: ''; }
+
+.ss-rss:before, .ss-rss.right:after {
+  content: ''; }
+
+.ss-facetime:before, .ss-facetime.right:after {
+  content: ''; }
+
+.ss-reply:before, .ss-reply.right:after {
+  content: '↩'; }
+
+.ss-send:before, .ss-send.right:after {
+  content: ''; }
+
+.ss-mail:before, .ss-mail.right:after {
+  content: '✉'; }
+
+.ss-inbox:before, .ss-inbox.right:after {
+  content: '📥'; }
+
+.ss-chat:before, .ss-chat.right:after {
+  content: '💬'; }
+
+.ss-ellipsischat:before, .ss-ellipsischat.right:after {
+  content: ''; }
+
+.ss-ellipsis:before, .ss-ellipsis.right:after {
+  content: '…'; }
+
+.ss-user:before, .ss-user.right:after {
+  content: '👤'; }
+
+.ss-femaleuser:before, .ss-femaleuser.right:after {
+  content: '👧'; }
+
+.ss-users:before, .ss-users.right:after {
+  content: '👥'; }
+
+.ss-cart:before, .ss-cart.right:after {
+  content: ''; }
+
+.ss-creditcard:before, .ss-creditcard.right:after {
+  content: '💳'; }
+
+.ss-dollarsign:before, .ss-dollarsign.right:after {
+  content: '💲'; }
+
+.ss-barchart:before, .ss-barchart.right:after {
+  content: '📊'; }
+
+.ss-piechart:before, .ss-piechart.right:after {
+  content: ''; }
+
+.ss-box:before, .ss-box.right:after {
+  content: '📦'; }
+
+.ss-home:before, .ss-home.right:after {
+  content: '⌂'; }
+
+.ss-buildings:before, .ss-buildings.right:after {
+  content: '🏢'; }
+
+.ss-warehouse:before, .ss-warehouse.right:after {
+  content: ''; }
+
+.ss-globe:before, .ss-globe.right:after {
+  content: '🌎'; }
+
+.ss-navigate:before, .ss-navigate.right:after {
+  content: ''; }
+
+.ss-compass:before, .ss-compass.right:after {
+  content: ''; }
+
+.ss-signpost:before, .ss-signpost.right:after {
+  content: ''; }
+
+.ss-map:before, .ss-map.right:after {
+  content: ''; }
+
+.ss-location:before, .ss-location.right:after {
+  content: ''; }
+
+.ss-pin:before, .ss-pin.right:after {
+  content: '📍'; }
+
+.ss-database:before, .ss-database.right:after {
+  content: ''; }
+
+.ss-hdd:before, .ss-hdd.right:after {
+  content: ''; }
+
+.ss-music:before, .ss-music.right:after {
+  content: '♫'; }
+
+.ss-mic:before, .ss-mic.right:after {
+  content: '🎤'; }
+
+.ss-volume:before, .ss-volume.right:after {
+  content: '🔈'; }
+
+.ss-lowvolume:before, .ss-lowvolume.right:after {
+  content: '🔉'; }
+
+.ss-highvolume:before, .ss-highvolume.right:after {
+  content: '🔊'; }
+
+.ss-airplay:before, .ss-airplay.right:after {
+  content: ''; }
+
+.ss-camera:before, .ss-camera.right:after {
+  content: '📷'; }
+
+.ss-picture:before, .ss-picture.right:after {
+  content: '🌄'; }
+
+.ss-video:before, .ss-video.right:after {
+  content: '📹'; }
+
+.ss-play:before, .ss-play.right:after {
+  content: '▶'; }
+
+.ss-pause:before, .ss-pause.right:after {
+  content: ''; }
+
+.ss-stop:before, .ss-stop.right:after {
+  content: '■'; }
+
+.ss-record:before, .ss-record.right:after {
+  content: '●'; }
+
+.ss-rewind:before, .ss-rewind.right:after {
+  content: '⏪'; }
+
+.ss-fastforward:before, .ss-fastforward.right:after {
+  content: '⏩'; }
+
+.ss-skipback:before, .ss-skipback.right:after {
+  content: '⏮'; }
+
+.ss-skipforward:before, .ss-skipforward.right:after {
+  content: '⏭'; }
+
+.ss-eject:before, .ss-eject.right:after {
+  content: '⏏'; }
+
+.ss-repeat:before, .ss-repeat.right:after {
+  content: '🔁'; }
+
+.ss-replay:before, .ss-replay.right:after {
+  content: '↺'; }
+
+.ss-shuffle:before, .ss-shuffle.right:after {
+  content: '🔀'; }
+
+.ss-book:before, .ss-book.right:after {
+  content: '📕'; }
+
+.ss-openbook:before, .ss-openbook.right:after {
+  content: '📖'; }
+
+.ss-notebook:before, .ss-notebook.right:after {
+  content: '📓'; }
+
+.ss-newspaper:before, .ss-newspaper.right:after {
+  content: '📰'; }
+
+.ss-grid:before, .ss-grid.right:after {
+  content: ''; }
+
+.ss-rows:before, .ss-rows.right:after {
+  content: ''; }
+
+.ss-columns:before, .ss-columns.right:after {
+  content: ''; }
+
+.ss-thumbnails:before, .ss-thumbnails.right:after {
+  content: ''; }
+
+.ss-filter:before, .ss-filter.right:after {
+  content: ''; }
+
+.ss-desktop:before, .ss-desktop.right:after {
+  content: '💻'; }
+
+.ss-laptop:before, .ss-laptop.right:after {
+  content: ''; }
+
+.ss-tablet:before, .ss-tablet.right:after {
+  content: ''; }
+
+.ss-cell:before, .ss-cell.right:after {
+  content: '📱'; }
+
+.ss-battery:before, .ss-battery.right:after {
+  content: '🔋'; }
+
+.ss-highbattery:before, .ss-highbattery.right:after {
+  content: ''; }
+
+.ss-mediumbattery:before, .ss-mediumbattery.right:after {
+  content: ''; }
+
+.ss-lowbattery:before, .ss-lowbattery.right:after {
+  content: ''; }
+
+.ss-emptybattery:before, .ss-emptybattery.right:after {
+  content: ''; }
+
+.ss-lightbulb:before, .ss-lightbulb.right:after {
+  content: '💡'; }
+
+.ss-downloadcloud:before, .ss-downloadcloud.right:after {
+  content: ''; }
+
+.ss-download:before, .ss-download.right:after {
+  content: ''; }
+
+.ss-uploadcloud:before, .ss-uploadcloud.right:after {
+  content: ''; }
+
+.ss-upload:before, .ss-upload.right:after {
+  content: ''; }
+
+.ss-fork:before, .ss-fork.right:after {
+  content: ''; }
+
+.ss-merge:before, .ss-merge.right:after {
+  content: ''; }
+
+.ss-transfer:before, .ss-transfer.right:after {
+  content: '⇆'; }
+
+.ss-refresh:before, .ss-refresh.right:after {
+  content: '↻'; }
+
+.ss-sync:before, .ss-sync.right:after {
+  content: ''; }
+
+.ss-loading:before, .ss-loading.right:after {
+  content: ''; }
+
+.ss-wifi:before, .ss-wifi.right:after {
+  content: ''; }
+
+.ss-connection:before, .ss-connection.right:after {
+  content: ''; }
+
+.ss-file:before, .ss-file.right:after {
+  content: '📄'; }
+
+.ss-folder:before, .ss-folder.right:after {
+  content: '📁'; }
+
+.ss-quote:before, .ss-quote.right:after {
+  content: '“'; }
+
+.ss-text:before, .ss-text.right:after {
+  content: ''; }
+
+.ss-font:before, .ss-font.right:after {
+  content: ''; }
+
+.ss-print:before, .ss-print.right:after {
+  content: '⎙'; }
+
+.ss-fax:before, .ss-fax.right:after {
+  content: '📠'; }
+
+.ss-list:before, .ss-list.right:after {
+  content: ''; }
+
+.ss-layout:before, .ss-layout.right:after {
+  content: ''; }
+
+.ss-action:before, .ss-action.right:after {
+  content: ''; }
+
+.ss-redirect:before, .ss-redirect.right:after {
+  content: '↪'; }
+
+.ss-expand:before, .ss-expand.right:after {
+  content: '⤢'; }
+
+.ss-contract:before, .ss-contract.right:after {
+  content: ''; }
+
+.ss-help:before, .ss-help.right:after {
+  content: '❓'; }
+
+.ss-info:before, .ss-info.right:after {
+  content: 'ℹ'; }
+
+.ss-alert:before, .ss-alert.right:after {
+  content: '⚠'; }
+
+.ss-caution:before, .ss-caution.right:after {
+  content: '⛔'; }
+
+.ss-logout:before, .ss-logout.right:after {
+  content: ''; }
+
+.ss-plus:before, .ss-plus.right:after {
+  content: '+'; }
+
+.ss-hyphen:before, .ss-hyphen.right:after {
+  content: '-'; }
+
+.ss-check:before, .ss-check.right:after {
+  content: '✓'; }
+
+.ss-delete:before, .ss-delete.right:after {
+  content: '␡'; }
+
+.ss-settings:before, .ss-settings.right:after {
+  content: '⚙'; }
+
+.ss-dashboard:before, .ss-dashboard.right:after {
+  content: ''; }
+
+.ss-notifications:before, .ss-notifications.right:after {
+  content: '🔔'; }
+
+.ss-notificationsdisabled:before, .ss-notificationsdisabled.right:after {
+  content: '🔕'; }
+
+.ss-clock:before, .ss-clock.right:after {
+  content: '⏲'; }
+
+.ss-stopwatch:before, .ss-stopwatch.right:after {
+  content: '⏱'; }
+
+.ss-calendar:before, .ss-calendar.right:after {
+  content: '📅'; }
+
+.ss-addcalendar:before, .ss-addcalendar.right:after {
+  content: ''; }
+
+.ss-removecalendar:before, .ss-removecalendar.right:after {
+  content: ''; }
+
+.ss-checkcalendar:before, .ss-checkcalendar.right:after {
+  content: ''; }
+
+.ss-deletecalendar:before, .ss-deletecalendar.right:after {
+  content: ''; }
+
+.ss-briefcase:before, .ss-briefcase.right:after {
+  content: '💼'; }
+
+.ss-cloud:before, .ss-cloud.right:after {
+  content: '☁'; }
+
+.ss-droplet:before, .ss-droplet.right:after {
+  content: '💧'; }
+
+.ss-flask:before, .ss-flask.right:after {
+  content: ''; }
+
+.ss-up:before, .ss-up.right:after {
+  content: '⬆'; }
+
+.ss-upright:before, .ss-upright.right:after {
+  content: '⬈'; }
+
+.ss-right:before, .ss-right.right:after {
+  content: '➡'; }
+
+.ss-downright:before, .ss-downright.right:after {
+  content: '⬊'; }
+
+.ss-down:before, .ss-down.right:after {
+  content: '⬇'; }
+
+.ss-downleft:before, .ss-downleft.right:after {
+  content: '⬋'; }
+
+.ss-left:before, .ss-left.right:after {
+  content: '⬅'; }
+
+.ss-upleft:before, .ss-upleft.right:after {
+  content: '⬉'; }
+
+.ss-navigateup:before, .ss-navigateup.right:after {
+  content: ''; }
+
+.ss-navigateright:before, .ss-navigateright.right:after {
+  content: '▻'; }
+
+.ss-navigatedown:before, .ss-navigatedown.right:after {
+  content: ''; }
+
+.ss-navigateleft:before, .ss-navigateleft.right:after {
+  content: '◅'; }
+
+.ss-directup:before, .ss-directup.right:after {
+  content: '▴'; }
+
+.ss-directright:before, .ss-directright.right:after {
+  content: '▹'; }
+
+.ss-dropdown:before, .ss-dropdown.right:after {
+  content: '▾'; }
+
+.ss-directleft:before, .ss-directleft.right:after {
+  content: '◃'; }
+
+.ss-retweet:before, .ss-retweet.right:after {
+  content: ''; }
+
+/* Legacy classes */
+.ss-volumelow:before, .ss-volumelow.right:after {
+  content: '🔉'; }
+
+.ss-volumehigh:before, .ss-volumehigh.right:after {
+  content: '🔊'; }
+
+.ss-batteryhigh:before, .ss-batteryhigh.right:after {
+  content: ''; }
+
+.ss-batterymedium:before, .ss-batterymedium.right:after {
+  content: ''; }
+
+.ss-batterylow:before, .ss-batterylow.right:after {
+  content: ''; }
+
+.ss-batteryempty:before, .ss-batteryempty.right:after {
+  content: ''; }
+
+.ss-clouddownload:before, .ss-clouddownload.right:after {
+  content: ''; }
+
+.ss-cloudupload:before, .ss-cloudupload.right:after {
+  content: ''; }
+
+.ss-calendaradd:before, .ss-calendaradd.right:after {
+  content: ''; }
+
+.ss-calendarremove:before, .ss-calendarremove.right:after {
+  content: ''; }
+
+.ss-calendarcheck:before, .ss-calendarcheck.right:after {
+  content: ''; }
+
+.ss-calendardelete:before, .ss-calendardelete.right:after {
+  content: ''; }
+
+@media screen and (max-device-width: 480px) {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%; } }
+* {
+  box-sizing: border-box; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+body {
+  background-color: white;
+  font: 400 100%/1.65 "jaf-bernina-sans-1", "jaf-bernina-sans-2", "Helvetica Neue", Helvetica, sans-serif;
+  text-rendering: optimizeLegibility; }
+
+img {
+  max-width: 100%; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    color: #008cc1; }
+
+.wf-loading .webfont {
+  visibility: hidden; }
+
+.wrapper {
+  max-width: 42.667em;
+  margin: 0 auto;
+  padding: 0 0.5em; }
+
+h1, h2 {
+  text-align: center; }
+
+h2, h4 {
+  font-family: "lexia-1", "lexia-2", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700; }
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: 700; }
+
+h2 {
+  margin: 1em 0;
+  font-size: 2em;
+  line-height: 1.25em;
+  letter-spacing: -1px; }
+
+h4 {
+  font-size: 1.25em; }
+
+.main-header {
+  padding: 1.75em 0 2em; }
+
+.main-title {
+  margin: 0.25em 0 1em; }
+
+.main-nav {
+  text-align: center; }
+
+.main-nav-list {
+  margin: 0.5em 0 0; }
+  .main-nav-list > li {
+    display: inline-block;
+    margin-left: 0.75em; }
+    .main-nav-list > li:first-child {
+      margin-left: 0; }
+
+.article-header {
+  margin: 2em 1em; }
+
+.article-title {
+  margin: 0; }
+
+.article-subheader {
+  font-size: 1em;
+  font-weight: normal;
+  color: #999999;
+  text-align: center; }
+  .article-subheader a {
+    color: #999999; }
+  .article-subheader .nav-icon {
+    position: relative;
+    top: 3px; }
+
+.article-date {
+  margin: 0 0.5em; }
+
+.article-body p {
+  position: relative; }
+.article-body a {
+  text-decoration: none; }
+.article-body .more {
+  border-bottom: none; }
+  .article-body .more:hover:after {
+    content: "\2192"; }
+
+@media screen and (min-width: 40.1em) {
+  .main-header {
+    padding-top: 1.625em;
+    overflow: hidden; }
+
+  .main-title {
+    float: left;
+    margin-bottom: 0.25em; }
+
+  .main-nav {
+    float: right; } }
+@media screen and (min-width: 30.1em) {
+  body {
+    font-size: 112.5%; }
+
+  h2 {
+    font-size: 300%; }
+
+  .article-header {
+    margin: 3em 2em; }
+
+  .article-subheader {
+    text-align: center; } }
