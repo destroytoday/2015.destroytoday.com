@@ -1,8 +1,11 @@
-<article class='subarticle'>
+<article class='article-listing'>
   <hgroup class='content-header'>
     <h2 class='content-title webfont'>
       <a href='{{ post.url }}'>{{ post.title }}</a>
     </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='{{ post.url }}'>{{ post.date | date: '%B %d, %Y' }}</a>
+    </h3>
   </hgroup>
   <div class='content-body'>
     {{ post.body | truncatewords: 50 }} <a class='more' href='{{ post.url }}'>Read&nbsp;more</a>

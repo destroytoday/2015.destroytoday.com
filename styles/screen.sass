@@ -14,7 +14,7 @@ $highlight-color: #008cc1
 //#009663
 //#d51c28
 //#008cc1
-$lowlight-color: #CCC
+$separator-color: #E6E6E6
 
 // reset
 
@@ -42,6 +42,7 @@ img
   max-width: 100%
 
 a
+  +transition(color 0.25s ease)
   text-decoration: none
 
 // fonts
@@ -139,7 +140,15 @@ h4
     &:hover:after
       opacity: 1
 
-.subarticle h2
+.list article
+  padding-bottom: 2em
+  margin-bottom: 3em
+  border-bottom: solid 3px $separator-color
+
+  &:last-child
+    border-bottom: none
+
+.article-listing h2
   font-size: 1.5em
 
 +min-width(40.1em)
@@ -157,7 +166,7 @@ h4
   h2
     font-size: 300%
 
-  .subarticle h2
+  .article-listing h2
     font-size: 200%
 
   .content-header

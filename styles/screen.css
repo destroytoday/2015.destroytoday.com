@@ -359,6 +359,11 @@ img {
   max-width: 100%; }
 
 a {
+  -webkit-transition: color 0.25s ease;
+  -moz-transition: color 0.25s ease;
+  -ms-transition: color 0.25s ease;
+  -o-transition: color 0.25s ease;
+  transition: color 0.25s ease;
   text-decoration: none; }
 
 .wf-loading .webfont {
@@ -446,7 +451,14 @@ h4 {
   .content-body .more:hover:after {
     opacity: 1; }
 
-.subarticle h2 {
+.list article {
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+  border-bottom: solid 3px #e6e6e6; }
+  .list article:last-child {
+    border-bottom: none; }
+
+.article-listing h2 {
   font-size: 1.5em; }
 
 @media only screen and (min-width: 40.1em) {
@@ -463,7 +475,7 @@ h4 {
   h2 {
     font-size: 300%; }
 
-  .subarticle h2 {
+  .article-listing h2 {
     font-size: 200%; }
 
   .content-header {
