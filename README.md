@@ -128,3 +128,7 @@ Iterate through these rules whenever making any changes.
 --
 
 ![](http://dstry.it/PU4c/Screen%20Shot%202013-06-08%20at%2010.51.13%20AM.png)
+
+--
+
+![](http://dstry.it/PXIU/Screen%20Shot%202013-06-08%20at%2012.18.57%20PM.png)
