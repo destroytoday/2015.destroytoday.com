@@ -19,23 +19,35 @@
     {% include 'includes/typekit' %}
 
     <style>
-      {% capture color   %}{% if meta.color.value   %}{{ meta.color.value   }}{% else %}#008cc1{% endif %}{% endcapture %}
-      {% capture bgcolor %}{% if meta.bgcolor.value %}{{ meta.bgcolor.value }}{% else %}#f5f5f5{% endif %}{% endcapture %}
+      {% capture base_color %}{% if meta.base_color.value %}{{ meta.base_color.value }}{% else %}#000{% endif %}{% endcapture %}
+      {% capture header_color %}{% if meta.header_color.value %}{{ meta.header_color.value }}{% else %}#F5F5F5{% endif %}{% endcapture %}
+      {% capture background_color %}{% if meta.background_color.value %}{{ meta.background_color.value }}{% else %}#FFF{% endif %}{% endcapture %}
+      {% capture highlight_color %}{% if meta.highlight_color.value %}{{ meta.highlight_color.value }}{% else %}#008CC1{% endif %}{% endcapture %}
+      {% capture lowlight_color %}{% if meta.lowlight_color.value %}{{ meta.lowlight_color.value }}{% else %}#999{% endif %}{% endcapture %}
+
+      html, body {
+        background-color: {{ background_color }};
+        color: {{ base_color }}
+      }
+
+      a {
+        color: {{ base_color }};
+      }
 
       a:hover,
       .main-title-prefix,
-      .article-subheader a:hover,
-      .article-body a:hover,
-      .article-body .more {
-        color: {{ color }};
+      .content-subheader a:hover,
+      .content-body a:hover,
+      .content-body .more {
+        color: {{ highlight_color }};
       }
 
-      .article-body a {
-        border-bottom: solid 2px {{ color }}
+      .content-subheader, .content-subheader a {
+        color: {{ lowlight_color }};
       }
 
-      .main-header {
-        background-color: {{ bgcolor }};
+      .content-body a {
+        border-bottom: solid 2px {{ highlight_color }}
       }
     </style>
   </head>
@@ -61,3 +73,7 @@
         </nav>
       </div>
     </header>
+    {{ content }}
+    <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
+  </body>
+</html>

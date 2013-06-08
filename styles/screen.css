@@ -352,7 +352,6 @@ li {
   list-style-type: none; }
 
 body {
-  background-color: white;
   font: 400 100%/1.65 "jaf-bernina-sans-1", "jaf-bernina-sans-2", "Helvetica Neue", Helvetica, sans-serif;
   text-rendering: optimizeLegibility; }
 
@@ -360,10 +359,7 @@ img {
   max-width: 100%; }
 
 a {
-  color: black;
   text-decoration: none; }
-  a:hover {
-    color: #008cc1; }
 
 .wf-loading .webfont {
   visibility: hidden; }
@@ -395,7 +391,7 @@ h4 {
   font-size: 1.25em; }
 
 .main-header {
-  padding: 1.75em 0 2em; }
+  padding: 1.75em 0 0.5em; }
 
 .main-title {
   margin: 0.25em 0 1em; }
@@ -411,33 +407,30 @@ h4 {
     .main-nav-list > li:first-child {
       margin-left: 0; }
 
-.article-header {
+.content-header {
   margin: 2em 1em; }
 
-.article-title {
+.content-title {
   margin: 0; }
 
-.article-subheader {
+.content-subheader {
   font-size: 1em;
   font-weight: normal;
-  color: #999999;
   text-align: center; }
-  .article-subheader a {
-    color: #999999; }
-  .article-subheader .nav-icon {
+  .content-subheader .nav-icon {
     position: relative;
     top: 3px; }
 
-.article-date {
+.content-date {
   margin: 0 0.5em; }
 
-.article-body p {
+.content-body p {
   position: relative; }
-.article-body a {
+.content-body a {
   text-decoration: none; }
-.article-body .more {
+.content-body .more {
   border-bottom: none; }
-  .article-body .more:hover:after {
+  .content-body .more:hover:after {
     content: "\2192"; }
 
 @media screen and (min-width: 40.1em) {
@@ -452,14 +445,11 @@ h4 {
   .main-nav {
     float: right; } }
 @media screen and (min-width: 30.1em) {
-  body {
-    font-size: 112.5%; }
-
   h2 {
     font-size: 300%; }
 
-  .article-header {
+  .content-header {
     margin: 3em 2em; }
 
-  .article-subheader {
+  .content-subheader {
     text-align: center; } }

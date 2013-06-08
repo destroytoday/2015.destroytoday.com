@@ -1,5 +1,3 @@
-{% include 'includes/header' %}
-
 {% assign article = posts.first %}
 {% assign article_title = article.title %}
 {% assign article_url = article.url %}
@@ -8,6 +6,8 @@
   {{ article.body | truncatewords: 100 }} <a class='more' href='{{ article.url }}'>Read&nbsp;more</a>
 {% endcapture %}
 
-{% include 'includes/article' %}
+{% capture content %}
+  {% include 'includes/article' %}
+{% endcapture %}
 
-{% include 'includes/footer' %}
+{% include 'layouts/default' %}

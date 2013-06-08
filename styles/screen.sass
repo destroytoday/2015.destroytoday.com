@@ -34,7 +34,6 @@ li
 // base
 
 body
-  background-color: $background-color
   font: 400 100%/1.65 $base-font
   text-rendering: optimizeLegibility
 
@@ -42,11 +41,7 @@ img
   max-width: 100%
 
 a
-  color: $base-color
   text-decoration: none
-
-  &:hover
-    color: $highlight-color
 
 // fonts
 
@@ -84,7 +79,7 @@ h4
   font-size: 1.25em
 
 .main-header
-  padding: 1.75em 0 2em
+  padding: 1.75em 0 0.5em
 
 .main-title
   margin: 0.25em 0 1em
@@ -104,31 +99,27 @@ h4
     &:first-child
       margin-left: 0
 
-// article
+// content
 
-.article-header
+.content-header
   margin: 2em 1em
 
-.article-title
+.content-title
   margin: 0
 
-.article-subheader
+.content-subheader
   font-size: 1em
   font-weight: normal
-  color: $subheader-color
   text-align: center
-
-  a
-    color: $subheader-color
 
   .nav-icon
     position: relative
     top: 3px
 
-.article-date
+.content-date
   margin: 0 0.5em
 
-.article-body
+.content-body
   p
     position: relative
 
@@ -154,14 +145,11 @@ h4
     float: right
 
 @media screen and (min-width: 30.1em)
-  body
-    font-size: 112.5%
-
   h2
     font-size: 300%
 
-  .article-header
+  .content-header
     margin: 3em 2em
 
-  .article-subheader
+  .content-subheader
     text-align: center
