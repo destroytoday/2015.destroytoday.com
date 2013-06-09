@@ -85,7 +85,7 @@ Iterate through these rules whenever making any changes.
 
 ![](http://dstry.it/PUpz/Screen%20Shot%202013-04-30%20at%202.36.12%20PM.png)
 
--- 
+--
 
 ![](http://dstry.it/PUsT/Screen%20Shot%202013-04-30%20at%203.43.43%20PM.png)
 
@@ -132,3 +132,7 @@ Iterate through these rules whenever making any changes.
 --
 
 ![](http://dstry.it/PXIU/Screen%20Shot%202013-06-08%20at%2012.18.57%20PM.png)
+
+--
+
+![](http://dstry.it/PWIZ/Screen%20Shot%202013-06-08%20at%2010.53.03%20PM.png)
