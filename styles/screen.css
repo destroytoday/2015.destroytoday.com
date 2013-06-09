@@ -401,7 +401,7 @@ h4 {
   font-size: 1.25em; }
 
 .main-header {
-  padding: 2em 0 0.5em; }
+  padding: 2em 0; }
 
 .main-title {
   margin: 0.25em 0 1em; }
@@ -418,13 +418,13 @@ h4 {
       margin-left: 0; }
 
 .content-header {
-  margin: 2em 1em; }
+  margin: 1em 1em 2em; }
 
 .content-title {
   margin: 0; }
 
 .content-subheader {
-  font-size: 1em;
+  font-size: 0.875em;
   font-weight: normal;
   text-align: center; }
   .content-subheader .nav-icon {
@@ -446,7 +446,7 @@ h4 {
     -ms-transition: opacity 0.25s ease;
     -o-transition: opacity 0.25s ease;
     transition: opacity 0.25s ease;
-    content: "\2192";
+    content: " \2192";
     opacity: 0; }
   .content-body .more:hover:after {
     opacity: 1; }
@@ -454,23 +454,29 @@ h4 {
 .list article {
   padding-bottom: 2em;
   margin-bottom: 3em;
-  border-bottom: solid 3px #e6e6e6; }
+  border-bottom: solid 2px #e6e6e6; }
   .list article:last-child {
     border-bottom: none; }
 
 .article-listing h2 {
   font-size: 1.5em; }
 
-@media only screen and (min-width: 40.1em) {
-  .main-header {
-    overflow: hidden; }
+code {
+  position: relative;
+  top: -1px;
+  padding: 0.25em 0.5em;
+  font-family: "Monaco", monospace, serif;
+  font-size: 0.75em;
+  background-color: #eeeeee;
+  color: black; }
 
-  .main-title {
-    float: left;
-    margin-bottom: 0.25em; }
+pre > code {
+  display: block;
+  padding: 1em; }
+  pre > code.bash {
+    background-color: #191919;
+    color: white; }
 
-  .main-nav {
-    float: right; } }
 @media only screen and (min-width: 30.1em) {
   h2 {
     font-size: 300%; }
@@ -479,7 +485,8 @@ h4 {
     font-size: 200%; }
 
   .content-header {
-    margin: 3em 2em; }
+    margin: 1em 2em 3em; }
 
   .content-subheader {
+    font-size: 100%;
     text-align: center; } }

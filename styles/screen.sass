@@ -5,16 +5,13 @@
 
 $base-font: "jaf-bernina-sans-1","jaf-bernina-sans-2", "Helvetica Neue", Helvetica, sans-serif
 $title-font: "lexia-1", "lexia-2", "Helvetica Neue", Helvetica, sans-serif
+$code-font: "Monaco", monospace, serif
 
-$base-color: #000
-$background-color: #FFF
-$subheader-color: #999
-$highlight-color: #008cc1
-//#d98c17
-//#009663
-//#d51c28
-//#008cc1
 $separator-color: #E6E6E6
+$inline-code-text-color: #000
+$inline-code-background-color: #EEE
+$bash-code-text-color: #FFF
+$bash-code-background-color: #191919
 
 // reset
 
@@ -82,7 +79,7 @@ h4
   font-size: 1.25em
 
 .main-header
-  padding: 2em 0 0.5em
+  padding: 2em 0
 
 .main-title
   margin: 0.25em 0 1em
@@ -105,13 +102,13 @@ h4
 // content
 
 .content-header
-  margin: 2em 1em
+  margin: 1em 1em 2em
 
 .content-title
   margin: 0
 
 .content-subheader
-  font-size: 1em
+  font-size: 0.875em
   font-weight: normal
   text-align: center
 
@@ -134,7 +131,7 @@ h4
 
     &:after
       +transition(opacity 0.25s ease)
-      content: '\2192'
+      content: ' \2192'
       opacity: 0
 
     &:hover:after
@@ -143,7 +140,7 @@ h4
 .list article
   padding-bottom: 2em
   margin-bottom: 3em
-  border-bottom: solid 3px $separator-color
+  border-bottom: solid 2px $separator-color
 
   &:last-child
     border-bottom: none
@@ -151,16 +148,26 @@ h4
 .article-listing h2
   font-size: 1.5em
 
-+min-width(40.1em)
-  .main-header
-    overflow: hidden
+// code
 
-  .main-title
-    float: left
-    margin-bottom: 0.25em
+code
+  position: relative
+  top: -1px
+  padding: 0.25em 0.5em
+  font-family: $code-font
+  font-size: 0.75em
+  background-color: #EEE
+  color: #000
 
-  .main-nav
-    float: right
+pre > code
+  display: block
+  padding: 1em
+
+  &.bash
+    background-color: $bash-code-background-color
+    color: $bash-code-text-color
+
+// breakpoints
 
 +min-width(30.1em)
   h2
@@ -170,7 +177,8 @@ h4
     font-size: 200%
 
   .content-header
-    margin: 3em 2em
+    margin: 1em 2em 3em
 
   .content-subheader
+    font-size: 100%
     text-align: center

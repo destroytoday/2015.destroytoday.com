@@ -24,6 +24,7 @@
       {% capture background_color %}{% if meta.background_color.value %}{{ meta.background_color.value }}{% else %}#FFF{% endif %}{% endcapture %}
       {% capture highlight_color %}{% if meta.highlight_color.value %}{{ meta.highlight_color.value }}{% else %}#007998{% endif %}{% endcapture %}
       {% capture lowlight_color %}{% if meta.lowlight_color.value %}{{ meta.lowlight_color.value }}{% else %}#999{% endif %}{% endcapture %}
+      {% capture knockout_color %}{% if meta.knockout_color.value %}{{ meta.knockout_color.value }}{% else %}{{ background_color }}{% endif %}{% endcapture %}
 
       html, body {
         background-color: {{ background_color }};
@@ -34,9 +35,12 @@
         border-top: solid 5px {{ highlight_color }};
       }
 
-      a {
-        color: {{ base_color }};
+      ::selection {
+        background-color: {{ highlight_color }};
+        color: {{ knockout_color }};
       }
+
+      a { color: {{ base_color }}; }
 
       a:hover,
       .main-title-prefix,
