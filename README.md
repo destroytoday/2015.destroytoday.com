@@ -37,6 +37,12 @@ Iterate through these rules whenever making any changes.
 1. Must be easy
 2. Must be able to be done from anywhere
 
+## Removing
+
+* sidebar
+* comments
+* tweet buttons
+
 ## Inspiration
 
 * <http://friendsoftheweb.com/>
