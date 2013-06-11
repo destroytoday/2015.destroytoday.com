@@ -150,3 +150,7 @@ Iterate through these rules whenever making any changes.
 --
 
 ![](http://dstry.it/PZ3m/Screen%20Shot%202013-06-11%20at%2010.47.17%20AM.png)
+
+--
+
+![](http://dstry.it/PZKn/Screen%20Shot%202013-06-11%20at%203.44.29%20PM.png)
