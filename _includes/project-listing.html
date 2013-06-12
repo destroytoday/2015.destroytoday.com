@@ -1,3 +1,6 @@
 <li class='project-listing'>
-  <a href='{{ project.url }}'><img src='{{ project.meta.thumb }}' style='border-bottom: solid 4px {{ project.meta.highlight_color }}'></a>
+  <div class='wrapper'>
+    <a href='{{ project.url }}'><img src='{{ project.meta.thumb }}' style='border-bottom: solid 4px {{ project.meta.highlight_color }}'></a>
+    <span class='overlay' style='background-color: {{ project.meta.highlight_color }}; color: {{ project.meta.knockout_color | fallback: '#FFF' }}'>{{ project.title }}</span>
+  </div>
 </li>

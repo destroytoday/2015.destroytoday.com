@@ -55,10 +55,14 @@ a
 
 // page
 
-.wrapper
-  max-width: 46.875em
-  margin: 0 auto
-  padding: 0 0.5em
+body
+  & > .wrapper
+    max-width: 46.875em
+    margin: 0 auto
+    padding: 0 0.5em
+
+  .content
+    min-height: 50vh
 
 // headers
 
@@ -141,19 +145,19 @@ h4
 .content-title
   margin: 0
 
-.content-subheader
+.content-subheader, .listing-footer
   font-size: 0.875em
   font-weight: normal
   text-align: center
 
-  .nav-icon
-    +transition(opacity 0.25s $easeInOutQuad)
-    position: relative
-    top: 3px
-    opacity: 0
+.nav-icon
+  +transition(opacity 0.25s $easeInOutQuad)
+  position: relative
+  top: 3px
+  opacity: 0
 
-    +max-width(56em)
-      opacity: 1
+  +max-width(56em)
+    opacity: 1
 
 .content-date
   margin: 0 0.5em
@@ -230,13 +234,27 @@ h4
   display: inline-block
   width: 33%
   font-size: 16px
-  margin: 0
-  padding: 1em
+
+  .wrapper
+    +transition(margin 0.25s $easeInOutQuad)
+    position: relative
+    margin: 0.75em
+
+  .overlay
+    +transition(height 0.4s $easeOutCubic)
+    display: none
+    position: absolute
+    overflow: hidden
+    width: 100%
+    height: 0
+    bottom: 0
+    text-align: center
+    line-height: 2em
+
+  &:hover .overlay
+    height: 2em
 
 .project
-  img
-    margin: 2em 0
-
   p:first-child > img
     margin: 0
 
@@ -266,22 +284,31 @@ pre > code
   h2
     font-size: 300%
 
-  .page
-    .article-listing.latest
-      h2
-        font-size: 300%
+  .page .article-listing.latest, .article
+    h2
+      font-size: 300%
 
-      .content-header
-        margin-bottom: 3em
+    .content-header
+      margin-bottom: 3em
 
   .article-listing
     h2
       font-size: 200%
 
+  .project
+    img
+      margin: 2em 0
+
+  .project-listing
+    .wrapper
+      margin: 1em
+
+    .overlay
+      display: block
+
   .content-header
     margin-left: 2em
     margin-right: 2em
 
-  .content-subheader
+  .content-subheader, .listing-footer
     font-size: 100%
-    text-align: center

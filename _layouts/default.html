@@ -13,6 +13,7 @@
     <link rel='icon' type='image/png' href='/images/favicon.png'>
     <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
 
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="{{ site.feed_url }}">
     <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
     <link href='/styles/screen.css' rel='stylesheet'>
 
@@ -39,35 +40,37 @@
         color: {{ knockout_color }};
       }
 
-      a { color: {{ base_color }}; }
+      a,
+      .pagination a:hover {
+        color: {{ base_color }};
+      }
+
+      .project-listing:hover img {
+        border-bottom-color: {{ base_color }};
+      }
 
       a:hover,
       .main-title-prefix,
       .main-nav-list > .is-selected > a,
-      .pagination a:hover,
+      .pagination a,
       .content-subheader a:hover,
       .content-body a:hover,
-      .content-body .more {
+      .content-body .more,
+      .content-footer a,
+      .listing-footer a:hover {
         color: {{ highlight_color }};
       }
 
       .content-subheader,
       .content-subheader a,
-      .pagination a {
+      .listing-footer,
+      .listing-footer a,
+      .main-footer {
         color: {{ lowlight_color }};
       }
 
       .content-body a {
         border-bottom: solid 2px {{ highlight_color }}
-      }
-
-      .content-footer a,
-      .listing-footer a {
-        color: {{ highlight_color }};
-      }
-
-      .main-footer {
-        color: {{ lowlight_color }};
       }
     </style>
   </head>
@@ -82,13 +85,17 @@
         </h1>
         <nav class='main-nav'>
           <ul class='main-nav-list'>
-            {% for page in site.pages %}
-              {% if page.title != 'Home' %}
-              <li{% if page.url == url or parent.url == page.url %} class='is-selected'{% endif %}>
-                <a href='{{ page.url }}'>{{ page.title }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
+            {% capture section %}{{ url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+            <li{% if section == 'about' %} class='is-selected'{% endif %}>
+              <a href='/about'>About</a>
+            </li>
+            <li{% if section == '' or section == 'blog' %} class='is-selected'{% endif %}>
+              <a href='/blog'>Blog</a>
+            </li>
+            <li{% if section == 'work' %} class='is-selected'{% endif %}>
+              <a href='/work'>Work</a>
+            </li>
+            <li><a href='mailto:jonnie@destroytoday.com'>Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -102,11 +109,11 @@
     <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
     <script>
       document.body.onkeyup = function(e){
-        {% if next %}
+        {% if parent and next %}
         if (e.keyCode == '37') { window.location = '{{ next.url }}'; }
         {% endif %}
 
-        {% if previous %}
+        {% if parent and previous %}
         if (e.keyCode == '39') { window.location = '{{ previous.url }}'; }
         {% endif %}
       };
