@@ -7,11 +7,14 @@ $base-font: "jaf-bernina-sans-1","jaf-bernina-sans-2", "Helvetica Neue", Helveti
 $title-font: "lexia-1", "lexia-2", "Helvetica Neue", Helvetica, sans-serif
 $code-font: "Monaco", monospace, serif
 
-$separator-color: #E6E6E6
+$separator-color: #DDD
 $inline-code-text-color: #000
 $inline-code-background-color: #EEE
-$bash-code-text-color: #FFF
-$bash-code-background-color: #191919
+$block-code-background-color: #191919
+$block-code-text-color: #FFF
+$html-code-text-color: #d9c48b
+
+$separator: solid 2px $separator-color
 
 // reset
 
@@ -39,8 +42,11 @@ img
   max-width: 100%
 
 a
-  +transition(color 0.25s ease)
+  +transition(color 0.15s $easeInOutQuad)
   text-decoration: none
+
+  img
+    vertical-align: top
 
 // fonts
 
@@ -92,17 +98,45 @@ h4
 .main-nav-list
   margin: 0.5em 0 0
 
-  > li
+  & > li
     display: inline-block
     margin-left: 0.75em
 
     &:first-child
       margin-left: 0
 
+// footer
+
+.main-footer
+  padding: 2em 0
+  text-align: center
+
+// pagination
+
+.pagination
+  +transition(opacity 0.25s $easeInOutQuad)
+  position: fixed
+  top: 50%
+  font-size: 2em
+  opacity: 0
+
+  & > .icon
+    position: relative
+    top: -0.5em
+
+  &.next
+    left: 1rem
+
+  &.previous
+    right: 1rem
+
+  +min-width(56em)
+    opacity: 1
+
 // content
 
 .content-header
-  margin: 1em 1em 2em
+  margin: 1em
 
 .content-title
   margin: 0
@@ -113,8 +147,13 @@ h4
   text-align: center
 
   .nav-icon
+    +transition(opacity 0.25s $easeInOutQuad)
     position: relative
     top: 3px
+    opacity: 0
+
+    +max-width(56em)
+      opacity: 1
 
 .content-date
   margin: 0 0.5em
@@ -129,24 +168,77 @@ h4
   .more
     border-bottom: none
 
-    &:after
-      +transition(opacity 0.25s ease)
-      content: ' \2192'
-      opacity: 0
+.more
+  &:after
+    +transition(opacity 0.25s $easeInOutQuad)
+    content: ' \2192'
+    opacity: 0
 
-    &:hover:after
-      opacity: 1
+  &:hover:after
+    opacity: 1
 
-.list article
-  padding-bottom: 2em
+// article
+
+.content-footer
+  border-top: $separator
+  padding: 2em 0
+  margin: 2em 0
+  text-align: center
+
+.article-listing
+  padding-bottom: 1.5em
   margin-bottom: 3em
-  border-bottom: solid 2px $separator-color
+  border-bottom: $separator
+
+  p
+    display: inline
+
+  h2
+    font-size: 1.5em
+
+  .tag-list
+    text-align: center
 
   &:last-child
+    padding-bottom: 0
+    margin-bottom: 0
     border-bottom: none
 
-.article-listing h2
-  font-size: 1.5em
+.tag-list
+  & > li
+    display: inline
+
+.page
+  .article-listing.latest
+    h2
+      font-size: 2em
+
+    img
+      margin-bottom: 1em
+
+    .content-header
+      margin-bottom: 2em
+
+// project
+
+.project-list
+  font-size: 0
+  letter-spacing: 0
+  word-spacing: 0
+
+.project-listing
+  display: inline-block
+  width: 33%
+  font-size: 16px
+  margin: 0
+  padding: 1em
+
+.project
+  img
+    margin: 2em 0
+
+  p:first-child > img
+    margin: 0
 
 // code
 
@@ -162,10 +254,11 @@ code
 pre > code
   display: block
   padding: 1em
+  background-color: $block-code-background-color
+  color: $block-code-text-color
 
-  &.bash
-    background-color: $bash-code-background-color
-    color: $bash-code-text-color
+  &.html, &.css
+    color: $html-code-text-color
 
 // breakpoints
 
@@ -173,11 +266,21 @@ pre > code
   h2
     font-size: 300%
 
-  .article-listing h2
-    font-size: 200%
+  .page
+    .article-listing.latest
+      h2
+        font-size: 300%
+
+      .content-header
+        margin-bottom: 3em
+
+  .article-listing
+    h2
+      font-size: 200%
 
   .content-header
-    margin: 1em 2em 3em
+    margin-left: 2em
+    margin-right: 2em
 
   .content-subheader
     font-size: 100%

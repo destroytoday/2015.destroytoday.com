@@ -1,21 +1,20 @@
-{% assign article = posts.first %}
-{% assign article_title = article.title %}
-{% assign article_url = article.url %}
-{% assign article_date = article.date %}
-{% capture article_body %}
-  {{ article.body | truncatewords: 100 }} <a class='more' href='{{ article.url }}'>Read&nbsp;more</a>
-{% endcapture %}
-
 {% capture content %}
   <div class='wrapper'>
-    <div class='content list'>
-      {% include 'includes/article' %}
+    <div class='content'>
+      <div class='article-list'>
+        {% for article in posts limit:6 %}
+          {% if article == posts.first %}
+            {% capture article_body %}{{ article.excerpt }}<p><a class='more' href='{{ article.url }}'>Read&nbsp;more</a></p>{% endcapture %}
+          {% else %}
+            {% capture article_body %}<p>{{ article.excerpt | strip_html }}<a class='more' href='{{ article.url }}'>Read&nbsp;more</a></p>{% endcapture %}
+          {% endif %}
 
-      {% for post in posts %}
-        {% if post != posts.first %}
           {% include 'includes/article-listing' %}
-        {% endif %}
-      {% endfor %}
+        {% endfor %}
+      </div>
+      <footer class='content-footer'>
+        <a href='{{ url }}/archive'>Archive &rarr;</a></div>
+      </footer>
     </div>
   </div>
 {% endcapture %}

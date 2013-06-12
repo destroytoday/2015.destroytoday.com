@@ -4,12 +4,13 @@
       <a href='{{ article_url }}'>{{ article_title }}</a>
     </h2>
     <h3 class='content-subheader'>
-      <a class='previous nav-icon ss-icon' href='#'>previous</a>
+      <a class='next nav-icon ss-icon' href='{{ next.url }}' style='visibility: {% if next %}visible{% else %}hidden{% endif %}'>navigateleft</a>
       <a class='content-date' href='{{ article_url }}'>{{ article_date | date: '%B %d, %Y' }}</a>
-      <a class='next nav-icon ss-icon' href='#'>next</a>
+      <a class='previous nav-icon ss-icon' href='{{ previous.url }}' style='visibility: {% if previous %}visible{% else %}hidden{% endif %}'>navigateright</a>
     </h3>
   </hgroup>
   <div class='content-body'>
     {{ article_body }}
   </div>
+  {% include 'includes/follow-footer' %}
 </article>

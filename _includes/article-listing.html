@@ -1,13 +1,16 @@
-<article class='article-listing'>
+<article class='article-listing{% if article == posts.first %} latest{% endif %}'>
   <hgroup class='content-header'>
     <h2 class='content-title webfont'>
-      <a href='{{ post.url }}'>{{ post.title }}</a>
+      <a href='{{ article.url }}'>{{ article.title }}</a>
     </h2>
     <h3 class='content-subheader'>
-      <a class='content-date' href='{{ post.url }}'>{{ post.date | date: '%B %d, %Y' }}</a>
+      <a class='content-date' href='{{ article.url }}'>{{ article.date | date: '%B %d, %Y' }}</a>
     </h3>
   </hgroup>
   <div class='content-body'>
-    {{ post.body | truncatewords: 50 }} <a class='more' href='{{ post.url }}'>Read&nbsp;more</a>
+    {{ article_body }}
   </div>
+  <footer class='listing-footer'>
+    <ul class='tag-list'>{% for tag in article.taxonomy.tags %}<li><a href='{{ tag.url }}'>{{ tag }}</a>{% if tag != article.taxonomy.tags.last %}, {% endif %}</li>{% endfor %}</ul>
+  </footer>
 </article>

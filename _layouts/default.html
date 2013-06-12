@@ -19,12 +19,11 @@
     {% include 'includes/typekit' %}
 
     <style>
-      {% capture base_color %}{% if meta.base_color.value %}{{ meta.base_color.value }}{% else %}#000{% endif %}{% endcapture %}
-      {% capture header_color %}{% if meta.header_color.value %}{{ meta.header_color.value }}{% else %}#F5F5F5{% endif %}{% endcapture %}
-      {% capture background_color %}{% if meta.background_color.value %}{{ meta.background_color.value }}{% else %}#FFF{% endif %}{% endcapture %}
-      {% capture highlight_color %}{% if meta.highlight_color.value %}{{ meta.highlight_color.value }}{% else %}#007998{% endif %}{% endcapture %}
-      {% capture lowlight_color %}{% if meta.lowlight_color.value %}{{ meta.lowlight_color.value }}{% else %}#999{% endif %}{% endcapture %}
-      {% capture knockout_color %}{% if meta.knockout_color.value %}{{ meta.knockout_color.value }}{% else %}{{ background_color }}{% endif %}{% endcapture %}
+      {% capture base_color       %}{{ meta.base_color.value       | fallback: '#000'           }}{% endcapture %}
+      {% capture background_color %}{{ meta.background_color.value | fallback: '#FFF'           }}{% endcapture %}
+      {% capture highlight_color  %}{{ meta.highlight_color.value  | fallback: '#007998'        }}{% endcapture %}
+      {% capture lowlight_color   %}{{ meta.lowlight_color.value   | fallback: '#999'           }}{% endcapture %}
+      {% capture knockout_color   %}{{ meta.knockout_color.value   | fallback: background_color }}{% endcapture %}
 
       html, body {
         background-color: {{ background_color }};
@@ -44,23 +43,36 @@
 
       a:hover,
       .main-title-prefix,
+      .main-nav-list > .is-selected > a,
+      .pagination a:hover,
       .content-subheader a:hover,
       .content-body a:hover,
       .content-body .more {
         color: {{ highlight_color }};
       }
 
-      .content-subheader, .content-subheader a {
+      .content-subheader,
+      .content-subheader a,
+      .pagination a {
         color: {{ lowlight_color }};
       }
 
       .content-body a {
         border-bottom: solid 2px {{ highlight_color }}
       }
+
+      .content-footer a,
+      .listing-footer a {
+        color: {{ highlight_color }};
+      }
+
+      .main-footer {
+        color: {{ lowlight_color }};
+      }
     </style>
   </head>
 
-  <body>
+  <body class='{{ type }}'>
     <header class='main-header'>
       <div class='wrapper'>
         <h1 class='main-title'>
@@ -72,7 +84,7 @@
           <ul class='main-nav-list'>
             {% for page in site.pages %}
               {% if page.title != 'Home' %}
-              <li>
+              <li{% if page.url == url or parent.url == page.url %} class='is-selected'{% endif %}>
                 <a href='{{ page.url }}'>{{ page.title }}</a>
               </li>
               {% endif %}
@@ -82,8 +94,22 @@
       </div>
     </header>
     {{ content }}
-    <footer>
+    <footer class='main-footer'>
+      &copy; {{ site.date | date: '%Y' }} Destroy Today, LLC. All Rights Reserved
     </footer>
+    {% if parent and next %}<div class='pagination next'><a class='icon ss-navigateleft' href='{{ next.url }}'></a></div>{% endif %}
+    {% if parent and previous %}<div class='pagination previous'><a class='icon ss-navigateright' href='{{ previous.url }}'></a></div>{% endif %}
     <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
+    <script>
+      document.body.onkeyup = function(e){
+        {% if next %}
+        if (e.keyCode == '37') { window.location = '{{ next.url }}'; }
+        {% endif %}
+
+        {% if previous %}
+        if (e.keyCode == '39') { window.location = '{{ previous.url }}'; }
+        {% endif %}
+      };
+    </script>
   </body>
 </html>

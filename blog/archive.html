@@ -1,0 +1,16 @@
+{% capture content %}
+  <div class='wrapper'>
+    <div class='content'>
+      <ul class='archive-list'>
+      {% for article in posts %}
+        <li>
+          <h3><a href='{{ article.url }}'>{{ article.title }}</a></h3>
+        </li>
+      {% endfor %}
+      </ul>
+      {% include 'includes/follow-footer' %}
+    </div>
+  </div>
+{% endcapture %}
+
+{% include 'layouts/default' %}
