@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{site.title | xml_escape}}</title>
+    <link>{{site.permalink}}</link>
+    <description>{{site.description | xml_escape}}</description>
+    <pubDate>{{site.date | date_to_rfc822}}</pubDate>
+    {% for post in parent.posts limit: 10 %}
+    <item>
+      <title>{{post.title | xml_escape}}</title>
+      <link>{{post.permalink}}</link>
+      <pubDate>{{post.date | date_to_rfc822}}</pubDate>
+      <author>{{post.user.firstname | xml_escape}} {{post.user.lastname | xml_escape}}</author>
+      <guid>{{post.permalink}}</guid>
+      <description>{{post.body | xml_escape}}</description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
