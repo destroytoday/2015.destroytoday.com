@@ -166,3 +166,7 @@ Iterate through these rules whenever making any changes.
 --
 
 ![](http://dstry.it/PcmI/user-personality.png)
+
+--
+
+![](http://dstry.it/PfU5/Screen%20Shot%202013-06-14%20at%2012.47.09%20PM.png)
