@@ -529,7 +529,7 @@ h4 {
 
 .project-listing {
   display: inline-block;
-  width: 33%;
+  width: 50%;
   font-size: 16px; }
   .project-listing .wrapper {
     -webkit-transition: margin 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -591,10 +591,12 @@ pre > code {
   .project img {
     margin: 2em 0; }
 
-  .project-listing .wrapper {
-    margin: 1em; }
-  .project-listing .overlay {
-    display: block; }
+  .project-listing {
+    width: 33%; }
+    .project-listing .wrapper {
+      margin: 1em; }
+    .project-listing .overlay {
+      display: block; }
 
   .content-header {
     margin-left: 2em;
