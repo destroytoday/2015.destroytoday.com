@@ -1,4 +1,4 @@
-guard 'sass', :output => 'styles', :all_on_start => true do
+guard 'sass', :output => 'styles', :all_on_start => true, :style => :compressed do
   watch %r{^styles/(.+\.sass)$}
 end
 
