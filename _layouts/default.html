@@ -7,17 +7,19 @@
 
     <title>{{ site.title }}</title>
 
-    <meta name='description' content='description'>
+    <meta property="twitter:account_id" content="14839458">
+    <meta name='description' content='Destroy Today is a partnership between builders. Its focus is on solving problems through products crafted with close attention to design and user experience.'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     <link rel='icon' type='image/png' href='/images/favicon.png'>
     <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
 
-    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="{{ site.feed_url }}">
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="http://feeds.feedburner.com/destroytoday">
     <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
     <link href='/styles/screen.css' rel='stylesheet'>
 
     {% include 'includes/typekit' %}
+    {% include 'includes/analytics' %}
 
     <style>
       {% capture base_color       %}{{ meta.base_color.value       | fallback: '#000'           }}{% endcapture %}
@@ -100,10 +102,13 @@
         </nav>
       </div>
     </header>
+
     {{ content }}
+
     <footer class='main-footer'>
       &copy; {{ site.date | date: '%Y' }} Destroy Today, LLC. All Rights Reserved
     </footer>
+
     {% if parent and next %}<div class='pagination next'><a class='icon ss-navigateleft' href='{{ next.url }}'></a></div>{% endif %}
     {% if parent and previous %}<div class='pagination previous'><a class='icon ss-navigateright' href='{{ previous.url }}'></a></div>{% endif %}
     <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
