@@ -225,17 +225,26 @@ h4
     .content-header
       margin-bottom: 2em
 
-// project
+// lists
 
-.project-list
+.vertical-list, .grid-list
   font-size: 0
   letter-spacing: 0
   word-spacing: 0
 
-.project-listing
+.vertical-listing
+  display: inline-block
+  width: 100%
+  padding: 0 2em 0 0.5em
+  margin-top: 1em
+  vertical-align: top
+
+  font-size: 1rem
+
+.grid-listing
   display: inline-block
   width: 50%
-  font-size: 16px
+  font-size: 1rem
 
   .wrapper
     +transition(margin 0.25s $easeInOutQuad)
@@ -255,6 +264,8 @@ h4
 
   &:hover .overlay
     height: 2em
+
+// project
 
 .project
   p:first-child > img
@@ -301,7 +312,10 @@ pre > code
     img
       margin: 2em 0
 
-  .project-listing
+  .vertical-listing
+    width: 50%
+
+  .grid-listing
     width: 33%
 
     .wrapper

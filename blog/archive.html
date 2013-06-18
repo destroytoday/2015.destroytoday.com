@@ -1,10 +1,10 @@
 {% capture content %}
   <div class='wrapper'>
     <div class='content'>
-      <ul class='archive-list'>
+      <ul class='vertical-list'>
       {% for article in posts %}
-        <li>
-          <h3><a href='{{ article.url }}'>{{ article.title }}</a></h3>
+        <li class='vertical-listing' style="border-left: solid 5px {{ article.meta.highlight_color | fallback: '#007998' }}">
+          <a href='{{ article.url }}'>{{ article.title }}</a>
         </li>
       {% endfor %}
       </ul>
