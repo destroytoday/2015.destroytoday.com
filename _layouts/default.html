@@ -7,15 +7,15 @@
 
     <title>{{ site.title }}</title>
 
-    <meta property="twitter:account_id" content="14839458">
-    <meta name='description' content='Destroy Today is a partnership between builders. Its focus is on solving problems through products crafted with close attention to design and user experience.'>
+    <meta property="twitter:account_id" content="{{ site.meta.twitter_id }}">
+    <meta name='description' content='{{ site.meta.description }}'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     <link rel='icon' type='image/png' href='/images/favicon.png'>
     <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
 
-    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="http://feeds.feedburner.com/destroytoday">
-    <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="{{ site.meta.feed_url }}">
+    <link href="//cdn.symbolset.com/{{ site.meta.symbolset_id }}/symbolset.css" rel="stylesheet">
     <link href='/styles/screen.css' rel='stylesheet'>
 
     {% include 'includes/typekit' %}
@@ -97,7 +97,10 @@
             <li{% if section == 'work' %} class='is-selected'{% endif %}>
               <a href='/work'>Work</a>
             </li>
-            <li><a href='mailto:jonnie@destroytoday.com'>Contact</a></li>
+            <!-- <li{% if section == 'play' %} class='is-selected'{% endif %}>
+              <a href='/play'>Play</a>
+            </li> -->
+            <li><a href='mailto:{{ site.meta.email }}'>Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -109,19 +112,32 @@
       &copy; {{ site.date | date: '%Y' }} Destroy Today, LLC. All Rights Reserved
     </footer>
 
-    {% if parent and next %}<div class='pagination next'><a class='icon ss-navigateleft' href='{{ next.url }}'></a></div>{% endif %}
-    {% if parent and previous %}<div class='pagination previous'><a class='icon ss-navigateright' href='{{ previous.url }}'></a></div>{% endif %}
-    <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
-    <script>
-      document.body.onkeyup = function(e){
-        {% if parent and next %}
-        if (e.keyCode == '37') { window.location = '{{ next.url }}'; }
-        {% endif %}
+    {% if parent and (previous or next) %}
+      {% if next %}
+        <div class='pagination next'>
+          <a class='icon ss-navigateleft' href='{{ next.url }}'></a>
+        </div>
+      {% endif %}
 
-        {% if parent and previous %}
-        if (e.keyCode == '39') { window.location = '{{ previous.url }}'; }
-        {% endif %}
-      };
-    </script>
+      {% if previous %}
+        <div class='pagination previous'>
+          <a class='icon ss-navigateright' href='{{ previous.url }}'></a>
+        </div>
+      {% endif %}
+
+      <script>
+        document.body.onkeyup = function(e){
+          {% if next %}
+          if (e.keyCode == '37') { window.location = '{{ next.url }}'; }
+          {% endif %}
+
+          {% if previous %}
+          if (e.keyCode == '39') { window.location = '{{ previous.url }}'; }
+          {% endif %}
+        };
+      </script>
+    {% endif %}
+
+    <script src="//cdn.symbolset.com/{{ site.meta.symbolset_id }}/symbolset.js"></script>
   </body>
 </html>
