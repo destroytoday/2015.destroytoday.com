@@ -8,9 +8,9 @@
     </h3>
   </hgroup>
   <div class='content-body'>
-    {{ article_body }}
+    {{ article.excerpt }}
+    <p>
+      <a class='more' href='{{ article.url }}'>Read&nbsp;more</a>
+    </p>
   </div>
-  <footer class='listing-footer'>
-    <ul class='tag-list'>{% for tag in article.taxonomy.tags %}<li><a href='{{ tag.url }}'>{{ tag }}</a>{% if tag != article.taxonomy.tags.last %}, {% endif %}</li>{% endfor %}</ul>
-  </footer>
 </article>
