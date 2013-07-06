@@ -178,3 +178,15 @@ Iterate through these rules whenever making any changes.
 --
 
 ![](http://dstry.it/PiFX/Screen%20Shot%202013-06-18%20at%208.12.27%20AM.png)
+
+--
+
+![](http://dstry.it/Q5uo/Screen%20Shot%202013-07-06%20at%202.56.05%20PM.png)
+
+--
+
+![](http://dstry.it/Q5yB/Screen%20Shot%202013-07-06%20at%202.56.27%20PM.png)
+
+--
+
+![](http://dstry.it/Q5fv/Screen%20Shot%202013-07-06%20at%202.57.02%20PM.png)
