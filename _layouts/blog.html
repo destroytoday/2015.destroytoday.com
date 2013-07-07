@@ -1,23 +1,12 @@
+{% assign articles = posts %}
+{% assign article = posts.first %}
+{% assign current = posts.first %}
+
 {% capture content %}
   <div class='wrapper'>
     <div class='content'>
-      {% assign article = posts.first %}
       {% include 'includes/article-listing' %}
-
-      <section class='list-section'>
-        <h3>Past articles</h3>
-        <ul class='vertical-list'>
-          {% for article in posts offset: 1 limit: 6 %}
-            <li class='vertical-listing' style="border-left: solid 5px {{ article.meta.highlight_color | fallback: site.meta.highlight_color }}">
-              <a href='{{ article.url }}'>{{ article.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-        <footer class='list-footer'>
-          <a href='/{{ slug }}/archive'>Archive &rarr;</a>
-        </footer>
-      </section>
-
+      {% include 'includes/past-articles' %}
       {% include 'includes/follow-footer' %}
     </div>
   </div>

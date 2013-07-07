@@ -1,12 +1,11 @@
-{% assign article_title = title %}
-{% assign article_url = url %}
-{% assign article_date = date %}
-{% assign article_body = body %}
+{% assign articles = parent.posts %}
 
 {% capture content %}
   <div class='wrapper'>
     <div class='content'>
       {% include 'includes/article' %}
+      {% include 'includes/past-articles' %}
+      {% include 'includes/follow-footer' %}
     </div>
   </div>
 {% endcapture %}
