@@ -43,6 +43,7 @@
       }
 
       a,
+      .tweet-button:hover,
       .pagination a:hover {
         color: {{ base_color }};
       }
@@ -59,6 +60,7 @@
       .content-body a:hover,
       .content-body .more,
       .content-footer a,
+      .tweet-button,
       .listing-footer a:hover,
       .list-footer a {
         color: {{ highlight_color }};
@@ -140,5 +142,6 @@
     {% endif %}
 
     <script src="//cdn.symbolset.com/{{ site.meta.symbolset_id }}/symbolset.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
   </body>
 </html>

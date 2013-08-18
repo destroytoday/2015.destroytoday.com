@@ -12,4 +12,14 @@
   <div class='content-body'>
     {{ current.body }}
   </div>
+  <footer class='article-footer'>
+    {% capture tweet_text %}I thoroughly enjoyed this post > "{{ title }}":{% endcapture %}
+    <a class='tweet-button' href='https://twitter.com/intent/tweet?original_referer={{ permalink | escape }}&text={{ tweet_text | escape }}&tw_p=tweetbutton&url={{ permalink | escape }}&via={{ site.meta.twitter }}' target='_blank'><span class='ss-icon ss-social-regular'>twitter</span><span id='twitter-count' class='count'></span></a>
+    <script>
+      function count_callback(data) { document.getElementById('twitter-count').innerHTML = data.count; }
+      var script = document.createElement('script');
+      script.setAttribute("src", 'http://urls.api.twitter.com/1/urls/count.json?callback=count_callback&url={{ permalink | escape }}');
+      document.getElementsByTagName("head")[0].appendChild(script);
+    </script>
+  </footer>
 </article>
