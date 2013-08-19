@@ -1,13 +1,3 @@
 {% assign articles = parent.posts %}
 
-{% capture content %}
-  <div class='wrapper'>
-    <div class='content'>
-      {% include 'includes/article' %}
-      {% include 'includes/past-articles' %}
-      {% include 'includes/follow-footer' %}
-    </div>
-  </div>
-{% endcapture %}
-
-{% include 'layouts/default' %}
+{% include 'layouts/blog' %}
