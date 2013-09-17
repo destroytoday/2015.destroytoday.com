@@ -1,5 +1,6 @@
 @import '_normalize'
 @import '_mixins'
+@import '_twilight'
 
 // variables
 
@@ -308,7 +309,7 @@ h4
 
 // code
 
-code
+p > code
   position: relative
   top: -1px
   padding: 0.25em 0.5em
@@ -316,15 +317,6 @@ code
   font-size: 0.75em
   background-color: #EEE
   color: #000
-
-pre > code
-  display: block
-  padding: 1em
-  background-color: $block-code-background-color
-  color: $block-code-text-color
-
-  &.html, &.css
-    color: $html-code-text-color
 
 // breakpoints
 

@@ -20,64 +20,7 @@
 
     {% include 'includes/typekit' %}
     {% include 'includes/analytics' %}
-
-    <style>
-      {% capture base_color       %}{{ current.meta.base_color.value       | fallback: '#000'                     }}{% endcapture %}
-      {% capture background_color %}{{ current.meta.background_color.value | fallback: '#FFF'                     }}{% endcapture %}
-      {% capture highlight_color  %}{{ current.meta.highlight_color.value  | fallback: site.meta.highlight_color  }}{% endcapture %}
-      {% capture lowlight_color   %}{{ current.meta.lowlight_color.value   | fallback: '#999'                     }}{% endcapture %}
-      {% capture knockout_color   %}{{ current.meta.knockout_color.value   | fallback: background_color           }}{% endcapture %}
-
-      html, body {
-        background-color: {{ background_color }};
-        color: {{ base_color }}
-      }
-
-      body {
-        border-top: solid 5px {{ highlight_color }};
-      }
-
-      ::selection {
-        background-color: {{ highlight_color }};
-        color: {{ knockout_color }};
-      }
-
-      a,
-      .tweet-button:hover,
-      .pagination a:hover {
-        color: {{ base_color }};
-      }
-
-      .project-listing:hover img {
-        border-bottom-color: {{ base_color }};
-      }
-
-      a:hover,
-      .main-title-prefix,
-      .main-nav-list > .is-selected > a,
-      .pagination a,
-      .content-subheader a:hover,
-      .content-body a:hover,
-      .content-body .more,
-      .content-footer a,
-      .tweet-button,
-      .listing-footer a:hover,
-      .list-footer a {
-        color: {{ highlight_color }};
-      }
-
-      .content-subheader,
-      .content-subheader a,
-      .listing-footer,
-      .listing-footer a,
-      .main-footer {
-        color: {{ lowlight_color }};
-      }
-
-      .content-body a {
-        border-bottom: solid 2px {{ highlight_color }}
-      }
-    </style>
+    {% include 'includes/custom-color' %}
   </head>
 
   <body class='{{ type }}'>
@@ -100,9 +43,6 @@
             <li{% if section == 'work' %} class='is-selected'{% endif %}>
               <a href='/work'>Work</a>
             </li>
-            <!-- <li{% if section == 'play' %} class='is-selected'{% endif %}>
-              <a href='/play'>Play</a>
-            </li> -->
             <li><a href='mailto:{{ site.meta.email }}'>Contact</a></li>
           </ul>
         </nav>
@@ -115,33 +55,10 @@
       &copy; {{ site.date | date: '%Y' }} Destroy Today, LLC. All Rights Reserved
     </footer>
 
-    {% if (url == '/' or parent) and (current.previous or current.next) %}
-      {% if current.next %}
-        <div class='pagination next'>
-          <a class='icon ss-navigateleft' href='{{ current.next.url }}'></a>
-        </div>
-      {% endif %}
-
-      {% if current.previous %}
-        <div class='pagination previous'>
-          <a class='icon ss-navigateright' href='{{ current.previous.url }}'></a>
-        </div>
-      {% endif %}
-
-      <script>
-        document.body.onkeyup = function(e){
-          {% if current.next %}
-          if (e.keyCode == '37') { window.location = '{{ current.next.url }}'; }
-          {% endif %}
-
-          {% if current.previous %}
-          if (e.keyCode == '39') { window.location = '{{ current.previous.url }}'; }
-          {% endif %}
-        };
-      </script>
-    {% endif %}
+    {% include 'includes/pagination' %}
 
     <script src="//cdn.symbolset.com/{{ site.meta.symbolset_id }}/symbolset.js"></script>
     <script src="//platform.twitter.com/widgets.js"></script>
+    {% include 'includes/syntax-highlighting' %}
   </body>
 </html>

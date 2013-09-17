@@ -1,0 +1,25 @@
+{% if (url == '/' or parent) and (current.previous or current.next) %}
+  {% if current.next %}
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='{{ current.next.url }}'></a>
+    </div>
+  {% endif %}
+
+  {% if current.previous %}
+    <div class='pagination previous'>
+      <a class='icon ss-navigateright' href='{{ current.previous.url }}'></a>
+    </div>
+  {% endif %}
+
+  <script>
+    document.body.onkeyup = function(e){
+      {% if current.next %}
+      if (e.keyCode == '37') { window.location = '{{ current.next.url }}'; }
+      {% endif %}
+
+      {% if current.previous %}
+      if (e.keyCode == '39') { window.location = '{{ current.previous.url }}'; }
+      {% endif %}
+    };
+  </script>
+{% endif %}
