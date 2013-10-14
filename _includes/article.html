@@ -1,5 +1,5 @@
 <article class='article'>
-  <hgroup class='content-header'>
+  <header class='content-header'>
     <h2 class='content-title webfont'>
       <a href='{{ current.url }}'>{{ current.title }}</a>
     </h2>
@@ -8,7 +8,7 @@
       <a class='content-date' href='{{ current.url }}'>{{ current.date | date: '%B %d, %Y' }}</a>
       <a class='previous nav-icon ss-icon' href='{{ current.previous.url }}' style='visibility: {% if current.previous %}visible{% else %}hidden{% endif %}'>navigateright</a>
     </h3>
-  </hgroup>
+  </header>
   <div class='content-body'>
     {{ current.body }}
   </div>
