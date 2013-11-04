@@ -33,11 +33,11 @@
         </h1>
         <nav class='main-nav'>
           <ul class='main-nav-list'>
-            {% capture section %}{{ url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+            {% assign section = url | remove_first:'/' | split:'/' | first %}
             <li{% if section == 'about' %} class='is-selected'{% endif %}>
               <a href='/about'>About</a>
             </li>
-            <li{% if section == '' or section == 'blog' %} class='is-selected'{% endif %}>
+            <li{% if section == null or section == 'blog' %} class='is-selected'{% endif %}>
               <a href='/blog'>Blog</a>
             </li>
             <li{% if section == 'work' %} class='is-selected'{% endif %}>

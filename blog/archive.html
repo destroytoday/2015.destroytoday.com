@@ -2,7 +2,7 @@
   <div class='wrapper'>
     <div class='content'>
       {% for article in posts %}
-        {% capture year %}{{ article.date | date: '%Y' }}{% endcapture %}
+        {% assign year = article.date | date: '%Y' %}
 
         {% if year != prev_year %}
           {% if prev_year %}
