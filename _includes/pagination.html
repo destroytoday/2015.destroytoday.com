@@ -1,4 +1,4 @@
-{% if (url == '/' or parent) and (current.previous or current.next) %}
+{% if (home? or parent) and (current.previous or current.next) %}
   {% if current.next %}
     <div class='pagination next'>
       <a class='icon ss-navigateleft' href='{{ current.next.url }}'></a>
