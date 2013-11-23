@@ -190,3 +190,7 @@ Iterate through these rules whenever making any changes.
 --
 
 ![](http://dstry.it/Q5fv/Screen%20Shot%202013-07-06%20at%202.57.02%20PM.png)
+
+--
+
+![](http://dstry.it/SeCo/image.png)
