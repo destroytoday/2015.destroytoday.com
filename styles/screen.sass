@@ -150,7 +150,8 @@ h4
 .content-title
   margin: 0
 
-.content-subheader, .listing-footer
+.content-subheader,
+.listing-footer
   font-size: 0.875em
   font-weight: normal
   text-align: center
@@ -170,6 +171,7 @@ h4
 .content-body
   p
     position: relative
+    font-size: 0.875em
 
   p + h3,
   pre + h3,
@@ -199,6 +201,7 @@ h4
   border-top: $separator
   padding: 2em 0 0
   margin: 2em 0 0
+
   text-align: center
 
 .article
@@ -286,7 +289,7 @@ h4
   margin: 0.5em 0
   vertical-align: top
 
-  font-size: 1rem
+  font-size: 0.875rem
 
 .grid-listing
   display: inline-block
@@ -358,6 +361,7 @@ p > code
 
   .vertical-listing
     width: 50%
+    font-size: 1rem
 
   .grid-listing
     width: 33%
@@ -374,6 +378,9 @@ p > code
 
   .content-subheader, .listing-footer
     font-size: 100%
+
+  .content-body p
+    font-size: 1em
 
   .content-footer
     padding-bottom: 2em
