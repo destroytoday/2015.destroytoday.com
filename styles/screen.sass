@@ -173,12 +173,26 @@ h4
     position: relative
     font-size: 0.875em
 
-  p + h3,
-  pre + h3,
-  ul + h3,
-  ol + h3,
-  video + h3
+    &:first-child
+      margin-top: 2rem
+
+      img, video
+        margin-top: 0
+
+  img, video, iframe
+    margin: 1em 0
+
+  pre
+    margin: 2em 0
+
+  h3
     margin-top: 2em
+
+  h3 + p > img
+    margin-top: 1em
+
+  h3 + pre
+    margin-top: 2.5em
 
   a
     text-decoration: none
@@ -242,17 +256,6 @@ h4
   & > li
     display: inline
 
-.page
-  .article-listing.latest
-    h2
-      font-size: 2em
-
-    img
-      margin-bottom: 1em
-
-    .content-header
-      margin-bottom: 2em
-
 .tweet-button
   display: block
 
@@ -315,12 +318,6 @@ h4
   &:hover .overlay
     height: 2em
 
-// project
-
-.project
-  p:first-child > img, video
-    margin: 0
-
 // code
 
 p > code
@@ -344,20 +341,22 @@ p > code
   .list-footer
     text-align: left
 
-  .page .article-listing.latest, .article
+  .article
+    padding-bottom: 3em
+    margin-bottom: 2em
+
     h2
       font-size: 300%
 
     .content-header
-      margin-bottom: 3em
+      margin-bottom: 2em
+
+  .article-footer
+    margin-top: 3em
 
   .article-listing
     h2
       font-size: 200%
-
-  .project
-    img, video
-      margin: 2em 0
 
   .vertical-listing
     width: 50%
@@ -379,8 +378,23 @@ p > code
   .content-subheader, .listing-footer
     font-size: 100%
 
-  .content-body p
-    font-size: 1em
+  .content-body
+    p
+      font-size: 1em
+
+      &:first-child
+        margin-top: 3em
+
+    img, video, iframe
+      margin-top: 2em
+      margin-bottom: 2em
+
+    pre
+      margin-top: 4em
+      margin-bottom: 4em
+
+    p > a > img
+      margin-top: 1em
 
   .content-footer
     padding-bottom: 2em
