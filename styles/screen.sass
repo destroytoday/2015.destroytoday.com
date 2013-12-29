@@ -36,6 +36,8 @@ li
 // base
 
 body
+  overflow-x: hidden
+
   font: 400 100%/1.65 $base-font
   text-rendering: optimizeLegibility
 
@@ -53,19 +55,6 @@ a
 
 .wf-loading .webfont
   visibility: hidden
-
-// page
-
-body
-  overflow-x: hidden
-
-  & > .wrapper
-    max-width: 46.875em
-    margin: 0 auto
-    padding: 0 1em
-
-  .content
-    min-height: 50vh
 
 // headers
 
@@ -114,6 +103,14 @@ h4
 
     &:first-child
       margin-left: 0
+
+// content
+
+.main-content
+  max-width: 46.875em
+  min-height: 50vh
+  margin: 0 auto
+  padding: 0 1em
 
 // footer
 
@@ -286,19 +283,23 @@ h4
   margin: 1.5em 0
   text-align: center
 
-.vertical-list, .grid-list
+.vertical-list
+  +prefix-property(column-count, 1)
+  +prefix-property(column-gap, 2em)
+
+.vertical-listing
+  +prefix-property(column-break-inside, avoid)
+  display: inline-block
+  width: 100%
+  padding-left: 0.5em
+  margin: 0.5em 0
+
+  font-size: 0.875rem
+
+.grid-list
   font-size: 0
   letter-spacing: 0
   word-spacing: 0
-
-.vertical-listing
-  display: inline-block
-  width: 100%
-  padding: 0 2em 0 0.5em
-  margin: 0.5em 0
-  vertical-align: top
-
-  font-size: 0.875rem
 
 .grid-listing
   display: inline-block
@@ -364,12 +365,14 @@ p > code
     h2
       font-size: 200%
 
+  .vertical-list
+    +prefix-property(column-count, 2)
+
   .vertical-listing
-    width: 50%
     font-size: 1rem
 
   .grid-listing
-    width: 33%
+    width: 33.3333%
 
     .wrapper
       margin: 1em
