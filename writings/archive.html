@@ -1,0 +1,28 @@
+{% capture content %}
+  {% for article in posts %}
+    {% assign year = article.date | date: '%Y' %}
+
+    {% if year != prev_year %}
+      {% if prev_year %}
+          </ul>
+        </section>
+      {% endif %}
+
+        <section class='list-section'>
+          <h3>{{ year }}</h3>
+          <ul class='vertical-list'>
+    {% endif %}
+
+    <li class='vertical-listing' style="border-left: solid 5px {{ article.meta.highlight_color | fallback: site.meta.highlight_color }}">
+      <a href='{{ article.url }}'>{{ article.title }}</a>
+    </li>
+
+    {% assign prev_year = year %}
+  {% endfor %}
+    </ul>
+  </section>
+
+  {% include 'includes/follow-footer' %}
+{% endcapture %}
+
+{% include 'layouts/default' %}

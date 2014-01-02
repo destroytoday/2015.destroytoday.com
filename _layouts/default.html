@@ -24,7 +24,7 @@
   </head>
 
   <body class='{{ type }}'>
-    <header class='main-header'>
+    <header id='main-header' class='main-header'>
       <div class='wrapper'>
         <h1 class='main-title'>
           <a href='/'>
@@ -34,23 +34,31 @@
         <nav class='main-nav'>
           <ul class='main-nav-list'>
             {% assign section = url | remove_first:'/' | split:'/' | first %}
-            <li{% if section == 'about' %} class='is-selected'{% endif %}>
-              <a href='/about'>About</a>
-            </li>
-            <li{% if section == null or section == 'blog' %} class='is-selected'{% endif %}>
-              <a href='/blog'>Blog</a>
-            </li>
-            <li{% if section == 'work' %} class='is-selected'{% endif %}>
-              <a href='/work'>Work</a>
-            </li>
-            <li><a href='mailto:{{ site.meta.email }}'>Contact</a></li>
+            {% assign prev_group = 0 %}
+
+            {% for page in site.pages %}
+              {% unless page.home? %}
+                {% if page.meta.group != prev_group %}
+                  </ul>
+                  <ul class='main-nav-list'>
+                {% endif %}
+
+                <li{% if section == page.slug %} class='is-selected'{% endif %}>
+                  <a href='{{ page.url }}'>{{ page.title }}</a>
+                </li>
+
+                {% assign prev_group = page.meta.group %}
+              {% endunless %}
+            {% endfor %}
           </ul>
         </nav>
       </div>
     </header>
 
     <main class='main-content'>
-      {{ content }}
+      <div class='wrapper'>
+        {{ content }}
+      </div>
     </main>
 
     <footer class='main-footer'>
@@ -62,6 +70,88 @@
 
     <script src="//cdn.symbolset.com/{{ site.meta.symbolset_id }}/symbolset.js"></script>
     <script src="//platform.twitter.com/widgets.js"></script>
+    <script>
+      var mainHeader = document.getElementById('main-header');
+      var body = document.body;
+      var mainHeader_startHeight,
+          startTouchY,
+          touchY,
+          prevTouchY,
+          touchDirection,
+          scrollTop,
+          prevScrollTop = 0;
+
+      window.onscroll = function(e) {
+        scrollTop = this.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > 0 && prevScrollTop == 0)
+        {
+          body.className += ' is-scrolled';
+        }
+        else if (scrollTop == 0 && prevScrollTop > 0)
+        {
+          body.className = body.className.replace(' is-scrolled', '');
+        }
+
+        prevScrollTop = scrollTop;
+      };
+
+      mainHeader.addEventListener('click', function(e){
+        if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+        else
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+      });
+
+      [].forEach.call(document.querySelectorAll('.main-nav-list a'), function(link) {
+        link.addEventListener('touchstart', function(e) {
+          e.stopPropagation();
+        });
+      });
+
+      var window_touchmoved = function(e) {
+        e.preventDefault();
+
+        touchY = e.changedTouches[0].clientY;
+        mainHeader.style.height =
+          mainHeader_startHeight + (touchY - startTouchY) + 'px';
+
+        touchDirection = touchY > prevTouchY ? 1 : -1;
+
+        prevTouchY = touchY;
+      };
+
+      mainHeader.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+
+        mainHeader_startHeight = this.offsetHeight;
+        startTouchY =
+          prevTouchY = e.changedTouches[0].clientY;
+
+        this.className += ' is-touching';
+        window.addEventListener('touchmove', window_touchmoved, false);
+      }, false);
+
+      mainHeader.addEventListener('touchend', function(e) {
+        window.removeEventListener('touchmove', window_touchmoved);
+
+        this.style.height = '';
+        this.className = this.className.replace(' is-touching', '');
+
+        if (touchDirection == -1)
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+        else
+        {
+          this.className += ' is-expanded';
+        }
+      }, false);
+    </script>
     {% include 'includes/syntax-highlighting' %}
   </body>
 </html>

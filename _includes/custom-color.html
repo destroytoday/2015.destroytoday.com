@@ -10,11 +10,8 @@
     color: {{ base_color }}
   }
 
-  body {
-    border-top: solid 5px {{ highlight_color }};
-  }
-
-  ::selection {
+  ::selection,
+  .main-header {
     background-color: {{ highlight_color }};
     color: {{ knockout_color }};
   }
@@ -30,8 +27,6 @@
   }
 
   a:hover,
-  .main-title-prefix,
-  .main-nav-list > .is-selected > a,
   .pagination a,
   .content-subheader a:hover,
   .content-body a:hover,
@@ -52,6 +47,10 @@
   .article-footer p,
   .article-footer p a {
     color: {{ lowlight_color }};
+  }
+
+  .main-header a {
+    color: {{ knockout_color }};
   }
 
   .content-body a {
