@@ -1,0 +1,35 @@
+{% capture content %}
+  {{ body }}
+
+  <div class='list-columns'>
+    <div class='list-column'>
+    {% for article in posts %}
+      {% assign year = article.date | date: '%Y' %}
+
+      {% if year != prev_year %}
+        {% if prev_year %}
+            </ul>
+          </section>
+          {% cycle "", "</div><div class='list-column'>" %}
+        {% endif %}
+
+          <section class='list-section'>
+            <h3>{{ year }}</h3>
+            <ul class='vertical-list'>
+      {% endif %}
+
+      <li class='vertical-listing' style="border-left: solid 5px {{ article.meta.highlight_color | fallback: site.meta.highlight_color }}">
+        <a href='{{ article.url }}'>{{ article.title }}</a>
+      </li>
+
+      {% assign prev_year = year %}
+    {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  {% include 'includes/follow-footer' %}
+{% endcapture %}
+
+{% include 'layouts/default' %}

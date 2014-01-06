@@ -1,5 +1,5 @@
-<section class='list-section'>
-  <h3>Featured writings</h3>
+<section class='column-section list-section'>
+  <h3>Featured {{ page.title | downcase }}</h3>
   <ul class='vertical-list'>
     {% for article in page.taxonomy.tags.featured.posts %}
       {% if article != current %}
@@ -10,6 +10,6 @@
     {% endfor %}
   </ul>
   <footer class='list-footer'>
-    <a href='/writings'>Archive &rarr;</a>
+    <a href='{{ page.url }}'>Archive &rarr;</a>
   </footer>
 </section>

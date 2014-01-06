@@ -1,0 +1,20 @@
+{% capture content %}
+  {{ body }}
+
+  <section class='shelf-section'>
+    <ul class='shelf-list'>
+    {% for page in pages %}
+      <li class='shelf-listing'>
+        <a class='listing-thumbnail' href='{{ page.url }}'>
+          <img src='{{ page.pages.first.assets.first }}' alt="{{ page.title | escape }}">
+        </a>
+        <a class='listing-header' href='{{ page.url }}'>
+          <h1 class='listing-title'>{{ page.title }}</h1>
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </section>
+{% endcapture %}
+
+{% include 'layouts/default' %}

@@ -1,0 +1,18 @@
+{% capture content %}
+  {{ body }}
+
+  <section class='column-section list-section'>
+    <ul class='vertical-list'>
+    {% for article in posts %}
+      <li class='vertical-listing' style="border-left: solid 5px {{ article.meta.highlight_color | fallback: site.meta.highlight_color }}">
+        <a href='{{ article.url }}'>{{ article.title }}</a>
+      </li>
+
+    {% endfor %}
+    </ul>
+  </section>
+
+  {% include 'includes/follow-footer' %}
+{% endcapture %}
+
+{% include 'layouts/default' %}

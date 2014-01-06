@@ -1,1 +1,5 @@
-{% include 'layouts/default' %}
+{% assign page = site.pages.blog %}
+{% assign article = page.posts.first %}
+{% assign current = page.posts.first %}
+
+{% include 'layouts/article' %}
