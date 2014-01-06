@@ -19,7 +19,7 @@ $separator: solid 2px $separator-color
     -ms-text-size-adjust: 100%
 
 *
-  box-sizing: border-box
+  +prefix-property(box-sizing, border-box)
 
 ul
   padding: 0
@@ -87,11 +87,26 @@ h4
   padding: 2rem 0
   height: 6.25rem
 
+  &:before
+    +transition(all 0.35s $easeOutCubic)
+    +prefix-property(opacity, 0.5)
+    cursor: pointer
+    position: absolute
+    left: 50%
+    bottom: 0
+    margin-left: -0.5em
+
+    font-size: 0.875rem
+
   &:not(.is-touching)
     +transition(height 0.35s $easeOutCubic)
 
   &.is-expanded
     height: 16.25em
+
+    &:before
+      +rotate(180deg)
+      bottom: 0.25em
 
   > .wrapper
     max-width: 46.875rem
@@ -201,7 +216,7 @@ h4
 .content-body
   p
     position: relative
-    font-size: 0.875em
+    font-size: 0.9375rem
 
     &:first-child
       margin-top: 2rem
@@ -420,6 +435,9 @@ p > code
     padding-right: 1rem
     font-size: 87.5%
 
+    &:before
+      +prefix-property(opacity, 0)
+
   .main-nav
     position: relative
     float: left
@@ -520,30 +538,6 @@ p > code
   .content-footer
     padding-bottom: 2em
     margin-bottom: 2em
-
-@media only screen and (min-width: 30em) and (max-width: 40.1em)
-  .is-scrolled
-    .main-header
-      position: fixed
-      top: 0
-      width: 100%
-      height: 4.5625rem
-      padding-top: 1rem
-      padding-bottom: 1rem
-
-    .main-title
-      margin-top: -3.5rem
-      opacity: 0
-
-    .main-content
-      position: relative
-      top: 3rem
-
-    .main-header:not(:hover)
-      height: 3rem
-
-      .main-nav-list > li:nth-child(2)
-        opacity: 0
 
 +min-width(40.1em)
   .shelf-listing

@@ -24,7 +24,7 @@
   </head>
 
   <body class='{{ type }}'>
-    <header id='main-header' class='main-header'>
+    <header id='main-header' class='main-header ss-navigatedown'>
       <div class='wrapper'>
         <h1 class='main-title'>
           <a href='/'>
@@ -82,25 +82,14 @@
           touchY,
           prevTouchY,
           touchDirection,
-          scrollTop,
-          prevScrollTop = 0;
-
-      window.onscroll = function(e) {
-        scrollTop = this.pageYOffset || document.documentElement.scrollTop;
-
-        if (scrollTop > 0 && prevScrollTop == 0)
-        {
-          body.className += ' is-scrolled';
-        }
-        else if (scrollTop == 0 && prevScrollTop > 0)
-        {
-          body.className = body.className.replace(' is-scrolled', '');
-        }
-
-        prevScrollTop = scrollTop;
-      };
+          touch;
 
       mainHeader.addEventListener('click', function(e){
+        if (touch)
+        {
+          e.preventDefault();
+        }
+
         if (this.className.search('is-expanded') == -1)
         {
           this.className += ' is-expanded';
@@ -131,6 +120,7 @@
 
       mainHeader.addEventListener('touchstart', function(e) {
         e.preventDefault();
+        touch = true;
 
         mainHeader_startHeight = this.offsetHeight;
         startTouchY =
@@ -150,7 +140,7 @@
         {
           this.className = this.className.replace(' is-expanded', '');
         }
-        else
+        else if (this.className.search('is-expanded') == -1)
         {
           this.className += ' is-expanded';
         }

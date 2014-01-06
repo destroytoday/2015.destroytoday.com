@@ -10,7 +10,11 @@
     color: {{ base_color }}
   }
 
-  ::selection,
+  ::selection {
+    background-color: {{ highlight_color }};
+    color: {{ knockout_color }};
+  }
+
   .main-header {
     background-color: {{ highlight_color }};
     color: {{ knockout_color }};
