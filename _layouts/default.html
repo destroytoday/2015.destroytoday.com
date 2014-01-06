@@ -85,7 +85,7 @@
           touch;
 
       mainHeader.addEventListener('click', function(e){
-        if (touch)
+        if (touch || window.innerWidth <= 480)
         {
           e.preventDefault();
         }
