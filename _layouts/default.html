@@ -103,6 +103,9 @@
       [].forEach.call(document.querySelectorAll('.main-nav-list a'), function(link) {
         link.addEventListener('touchstart', function(e) {
           e.stopPropagation();
+          e.preventDefault();
+
+          window.location.href = link.href;
         });
       });
 
