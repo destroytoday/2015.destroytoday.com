@@ -5,7 +5,7 @@
   <script>
     function count_callback(data) { document.getElementById('twitter-count').innerHTML = data.count; }
     var script = document.createElement('script');
-    script.setAttribute("src", 'http://urls.api.twitter.com/1/urls/count.json?callback=count_callback&url={{ current.permalink | escape }}');
+    script.setAttribute("src", '//urls.api.twitter.com/1/urls/count.json?callback=count_callback&url={{ current.permalink | escape }}');
     document.getElementsByTagName("head")[0].appendChild(script);
   </script>
 </footer>
