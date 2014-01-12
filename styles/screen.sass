@@ -45,6 +45,9 @@ a
   img
     vertical-align: top
 
+p > code
+  white-space: nowrap
+
 // fonts
 
 .wf-loading .webfont
@@ -247,6 +250,11 @@ h4
     margin-left: -20%
     max-width: 140%
 
+  .note
+    padding: 1em
+    background-color: #EEE
+    font-size: 0.825em
+
   .more
     border-bottom: none
 
@@ -267,11 +275,6 @@ h4
   margin: 2em 0 0
 
   text-align: center
-
-.article
-  border-bottom: $separator
-  padding-bottom: 2em
-  margin-bottom: 2em
 
 .article-footer
   margin-top: 2em
@@ -321,6 +324,11 @@ h4
     font-size: 1.5em
     font-weight: 600
 
+.featured-section
+  border-top: $separator
+  padding-top: 1em
+  margin-top: 2em
+
 // lists
 
 .list-section
@@ -345,6 +353,7 @@ h4
 
   .vertical-listing
     +prefix-property(column-break-inside, avoid)
+    display: inline-block
 
 .grid-list
   font-size: 0
@@ -493,9 +502,6 @@ p > code
     width: 33.3333%
 
   .article
-    padding-bottom: 3em
-    margin-bottom: 2em
-
     h2
       font-size: 300%
 
@@ -508,6 +514,9 @@ p > code
   .article-listing
     h2
       font-size: 200%
+
+  .featured-section
+    margin-top: 3em
 
   .column-section .vertical-list
     +prefix-property(column-count, 2)
@@ -548,6 +557,9 @@ p > code
 
     p > a > img
       margin-top: 1em
+
+    .note
+      font-size: 0.875em
 
   .content-footer
     padding-bottom: 2em

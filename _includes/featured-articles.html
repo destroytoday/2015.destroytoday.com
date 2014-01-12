@@ -1,7 +1,9 @@
-<section class='column-section list-section'>
+{% assign articles = page.taxonomy.tags.featured.posts %}
+{% if articles %}
+<section class='featured-section column-section list-section'>
   <h3>Featured {{ page.title | downcase }}</h3>
   <ul class='vertical-list'>
-    {% for article in page.taxonomy.tags.featured.posts %}
+    {% for article in articles %}
       {% if article != current %}
         <li class='vertical-listing' style="border-left: solid 5px {{ article.meta.highlight_color | fallback: site.meta.highlight_color }}">
           <a href='{{ article.url }}'>{{ article.title }}</a>
@@ -13,3 +15,4 @@
     <a href='{{ page.url }}'>Archive &rarr;</a>
   </footer>
 </section>
+{% endif %}
