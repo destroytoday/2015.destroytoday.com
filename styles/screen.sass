@@ -18,7 +18,9 @@ $separator: solid 2px $separator-color
     -webkit-text-size-adjust: 100%
     -ms-text-size-adjust: 100%
 
-*
+*,
+*:before,
+*:after
   +prefix-property(box-sizing, border-box)
 
 ul
@@ -249,6 +251,15 @@ h4
   strong > img
     margin-left: -20%
     max-width: 140%
+
+  blockquote
+    margin: 2em 1em
+    padding-left: 1em
+    border-left: solid 5px
+    font-style: italic
+
+    p:first-child
+      margin-top: 1em
 
   .note
     padding: 1em
