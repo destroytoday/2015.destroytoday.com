@@ -227,10 +227,10 @@ h4
     &:first-child
       margin-top: 2rem
 
-      img, .video-wrapper
+      img, .video-outer
         margin-top: 0
 
-  img, .video-wrapper
+  img, .video-outer
     margin: 1em 0
 
   pre
@@ -268,6 +268,10 @@ h4
 
   .more
     border-bottom: none
+
+  .left
+    margin-left: auto
+    margin-right: auto
 
 .more
   &:after
@@ -445,9 +449,9 @@ p > code
 
 // video
 
-.video-wrapper
+.video-inner
   position: relative
-  padding-top: 56.25%
+  padding-bottom: 56.25%
 
   iframe, video
     position: absolute
@@ -558,7 +562,7 @@ p > code
       &:first-child
         margin-top: 3em
 
-    img, .video-wrapper
+    img, .video-outer
       margin-top: 2em
       margin-bottom: 2em
 
@@ -597,3 +601,12 @@ p > code
   .main-nav-list
     right: 0
     margin-top: 0
+
+  .content-body
+    .left
+      float: left
+      max-width: 18.75em
+      width: 50%
+      margin-top: 0
+      margin-bottom: 1em
+      margin-right: 2em
