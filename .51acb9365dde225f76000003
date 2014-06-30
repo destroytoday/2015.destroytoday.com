@@ -1,5 +1,5 @@
 ---
-time: 1404168093
+time: 1404169617
 inventory:
   /home/index.html:
     md5: 90ff500a7320042389addd0b9ba4a4c2
@@ -11,8 +11,8 @@ inventory:
     md5: dac65ee1f454ee412a331ea006951a98
     time: 1404167947
   /office-hours/index.html:
-    md5: dc11d56f71bdae7e4cf08e9a5f1726fa
-    time: 1404167947
+    md5: a9a397a51e1fff383db7a819a7233908
+    time: 1404169601
   /blog/index.html:
     md5: 6620aeff3157bd2e652201cf8e6fa49c
     time: 1404167947
@@ -302,20 +302,20 @@ inventory:
     md5: a2581045f180e1742c8f62f40200df8c
     time: 1404167961
   /experiments/index.html:
-    md5: 0da90362c6aa29e9ec5a0df0908211bb
-    time: 1404167961
+    md5: 9683efff2db00d5805f2cb0e0b5e5b50
+    time: 1404169615
   /blog/feed/index.html:
-    md5: 3f324302a07a6e408558c6f92c92eb73
-    time: 1404167962
+    md5: 4b7cb8dd5ea441f16321f5e5f2796911
+    time: 1404169616
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: 6373649290e0f9fd7fe295544e9c7e2a
-    time: 1404167962
+    md5: 9022007b30f2fac01fa31ac32b993fa1
+    time: 1404169616
   /feed.xml:
-    md5: 5236c9c507488ec1b3c52c6de631dce5
-    time: 1404167962
+    md5: d4da731d05dd2115009c3eee2806ecbb
+    time: 1404169616
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
