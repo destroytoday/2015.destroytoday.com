@@ -1,0 +1,525 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+
+    <title>Destroy Today - Taxonomy in Siteleaf</title>
+
+    <meta property="twitter:account_id" content="14839458">
+    <meta name='description' content='Destroy Today is a partnership between builders. Its focus is on solving problems through products crafted with close attention to design and user experience.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
+
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="http://feeds.feedburner.com/destroytoday">
+    <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
+    <link href='/styles/screen.css' rel='stylesheet'>
+
+    <script>
+  (function() {
+  var config = {
+  kitId: 'aeu3zes',
+  scriptTimeout: 3000
+  };
+  var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
+
+    <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3256994-11']);
+  _gaq.push(['_setDomainName', 'destroytoday.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <style>
+  
+  
+  
+  
+  
+
+  html, body {
+    background-color: #FFF;
+    color: #000
+  }
+
+  ::selection {
+    background-color: #8dcf3f;
+    color: #FFF;
+  }
+
+  .main-header {
+    background-color: #8dcf3f;
+    color: #FFF;
+  }
+
+  a,
+  .tweet-button:hover,
+  .pagination a:hover {
+    color: #000;
+  }
+
+  .project-listing:hover img {
+    border-bottom-color: #000;
+  }
+
+  a:hover,
+  .pagination a,
+  .content-subheader a:hover,
+  .content-body a:hover,
+  .content-body .more,
+  .content-footer a,
+  .tweet-button,
+  .listing-footer a:hover,
+  .list-footer a,
+  .article-footer p a:hover {
+    color: #8dcf3f;
+  }
+
+  .content-subheader,
+  .content-subheader a,
+  .listing-footer,
+  .listing-footer a,
+  .main-footer,
+  .article-footer p,
+  .article-footer p a {
+    color: #999;
+  }
+
+  .main-header a {
+    color: #FFF;
+  }
+
+  .content-body a {
+    border-bottom: solid 2px #8dcf3f;
+  }
+
+  .content-body blockquote {
+    border-left-color: #8dcf3f;
+  }
+</style>
+
+  </head>
+
+  <body class='post'>
+    <header id='main-header' class='main-header ss-navigatedown'>
+      <div class='wrapper'>
+        <h1 class='main-title'>
+          <a href='/'>
+            <span class='main-title-prefix'>destroy</span><span class='main-title-suffix'>today</span>
+          </a>
+        </h1>
+        <nav class='main-nav'>
+          <ul class='main-nav-list'>
+            
+            
+
+            
+              
+            
+              
+                
+
+                <li>
+                  <a href='/about'>About</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/office-hours'>Office Hours</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li class='is-selected'>
+                  <a href='/blog'>Writings</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/findings'>Findings</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li>
+                  <a href='/work'>Projects</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/experiments'>Experiments</a>
+                </li>
+
+                
+              
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class='main-content'>
+      <div class='wrapper'>
+        
+<article class='article'>
+  <header class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/taxonomy-in-siteleaf'>Taxonomy in Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='next nav-icon ss-icon' href='/blog/gif-workflow' style='visibility: visible'>navigateleft</a>
+      <a class='content-date' href='/blog/taxonomy-in-siteleaf'>July 13, 2013</a>
+      <a class='previous nav-icon ss-icon' href='/blog/qandanda' style='visibility: visible'>navigateright</a>
+    </h3>
+  </header>
+  <div class='content-body'>
+    <p><img src="/assets/taxonomy-in-siteleaf-ui.png" alt="ui"> </p>
+
+<p>Last week, I wrote about <a href="/blog/metadata-in-siteleaf">metadata</a> in <a href="http://siteleaf.com">Siteleaf</a> and the variety of ways you could use it to customize your website. In this post, I’ll do the same, but with metadata’s much cooler, older brother—taxonomy.</p>
+
+<p>The word ‘taxonomy’ isn’t used very often on the web, but almost every website uses some form of taxonomy—the most common being ‘tags’. Siteleaf supports the use of tags on posts, but in a way that is more flexible than most systems. Instead of posts having only one set of tags, they are capable of having as many tag sets as you’d like—each with its own name. In the UI, Siteleaf automatically creates ‘Tags’ to get you started, but don’t let that hold you back from being creative.</p>
+
+<pre><code class="html">&lt;h2&gt;{{ title }}&lt;/h2&gt;
+{{ body }}
+&lt;ul&gt;
+{% for tag in taxonomy.tags %}
+    &lt;li&gt;
+        &lt;a href=&quot;{{ tag.url }}&quot;&gt;{{ tag.value }}&lt;/a&gt;
+    &lt;/li&gt;
+{% endfor %}
+&lt;/ul&gt;
+</code></pre>
+
+<p>Let’s start by looking at the code involved for listing a set of tags. In the code above, we’re creating a template for our individual blog posts. Because the object tied to our template is a post, we can access the <code>taxonomy</code> keyword and loop through the <code>tags</code> set. If our set were named ‘Colors’, we would use <code>taxonomy.colors</code>.</p>
+
+<p>In each listing, we link the name of the tag to its page, using <code>value</code> for the text and <code>url</code> for the URL. Since taxonomy is more involved than key/value metadata, we have a nice list of useful variables to work with. Take a look at the <a href="https://github.com/siteleaf/siteleaf-themes#taxonomy-and-tags">theme documentation</a> for a full list.</p>
+
+<p>Now that we have a list of the post’s tags, where does each one link? Upon publishing, Siteleaf auto-generates a page for every tag, using a taxonomy template. This allows you to list all the posts that pertain to a given tag.</p>
+
+<pre><code class="html">&lt;h2&gt;{{ value }}&lt;/h2&gt;
+{% for post in posts %}
+    &lt;article&gt;
+        &lt;h3&gt;{{ post.title }}&lt;/h3&gt;
+        {{ post.body }}
+    &lt;/article&gt;
+{% endfor %}
+</code></pre>
+
+<p>This is a basic taxonomy template. It displays the name of the tag with a list of the tag’s posts. If the URL to our tag is <code>/blog/tags/design</code>, we would create this template at the path <code>/blog/tags/default.html</code>. </p>
+
+<p>Now, tags are pretty basic. There’s nothing new here that we can’t already do with most CMSs. But, what if we look beyond tags? What could we create with custom tag sets or multiple tag sets on a single site? Let’s go through a few use-cases.</p>
+
+<h3>Semantic tagging</h3>
+
+<p><img src="/assets/taxonomy-in-siteleaf-bar-homepage.png" alt="bar-homepage"> </p>
+
+<p><a href="http://larryfox.us">Larry Fox</a>, fellow developer at <a href="http://oak.is">Oak</a>, runs <a href="http://barlawrence.com">Bar Lawrence</a>, Studiomates’ provider of fine cocktails. Whether we’re celebrating a launch or putting a nail in the coffin of a long week, Bar Lawrence is always a treat.</p>
+
+<p><img src="/assets/taxonomy-in-siteleaf-bar-taxonomy.jpg" alt="bar-taxonomy"></p>
+
+<p>The Bar Lawrence website runs on Siteleaf and uses taxonomy for the drink ingredients. Each drink is a post, published on the date it is served. And because Larry uses taxonomy to handle the ingredients, each one is linked and indexed.</p>
+
+<p><img src="/assets/taxonomy-in-siteleaf-bar-highlighted-ingredients.jpg" alt="bar-highlighted-ingredients"></p>
+
+<p>The drink listings on the website include each drink’s title along with its linked ingredients underneath. With some fancy CSS footwork, Larry designed the ingredients to highlight upon hovering the drink, indicating that you can click them to see more.</p>
+
+<p><img src="/assets/taxonomy-in-siteleaf-bar-gin.png" alt="gin"> </p>
+
+<p>When you click an ingredient link, it takes you to a list of previously served drinks that were made using that ingredient. Larry treats his ingredients taxonomy similar to how tags relate to blog posts, but because of the custom name, his website’s URL is more semantic. Where the URL would normally be <code>/menu/tags/gin</code> or <code>/menu/categories/gin</code>, it now provides a more readable path, <code>/menu/ingredients/gin</code>.</p>
+
+<p><img src="/assets/taxonomy-in-siteleaf-bar-index.png" alt="index"> </p>
+
+<p>Bar Lawrence also has a full list of ingredients that serves as an index for navigating the drinks. With only a dozen lines of code, Larry has added another way to browse and explore the website. Let’s take a look at how we could create an index of our own.</p>
+
+<pre><code class="html">{% assign sorted_ingredients = ingredients | sort: &#39;value&#39; %}
+
+&lt;dl class=&quot;ingredients&quot;&gt;
+{% for ingredient in sorted_ingredients %}
+    {% assign letter = ingredient.value | truncate: 1, &#39;&#39; | capitalize %}
+
+    {% if letter != previous_letter %}
+        &lt;dt accesskey=&quot;{{ letter }}&quot;&gt;{{ letter }}&lt;/dt&gt;
+    {% endif %}
+
+    &lt;dd&gt;
+        &lt;a href=&quot;{{ ingredient.url }}&quot;&gt;{{ ingredient.value }}&lt;/a&gt;
+    &lt;/dd&gt;
+
+    {% assign previous_letter = letter %}
+{% endfor %}
+&lt;/dl&gt;
+</code></pre>
+
+<p>First, we sort the ingredients, using the Liquid filter, <code>sort</code>. This provides us with a new array that runs alphabetically, from A-Z. Next, we loop through the sorted ingredients and extract the first letter of each ingredient, using the <code>truncate</code> filter.</p>
+
+<p><code>truncate</code> takes two parameters: the intended length and the string to append (<code>...</code> by default). Since we want to cut our ingredient down to one letter with no appended string, we pass <code>1</code> and an empty string. We then use a conditional to check if the letter differs from that of the previous ingredient’s. If it does, we insert the letter into the HTML. Lastly, we insert the ingredient and link to its page.</p>
+
+<p>Larry’s implementation of taxonomy with ingredients works beautifully for cocktails, but I can also see it handling even broader subjects, like meal recipes. With multiple tag sets, you could assign one for ingredients and another for meal type (breakfast, dessert, etc).</p>
+
+<h3>Multiple tag sets</h3>
+
+<p><img src="/assets/taxonomy-in-siteleaf-cafe-homepage.png" alt="cafe-homepage"> </p>
+
+<p>While we’re talking about drinks, let’s talk about the best one—coffee. At Studiomates, I handle the caffeine business, <a href="http://cafejonnie.com">Café Jonnie</a>. Similar to Bar Lawrence, Café Jonnie catalogs the drinks that are served, but lists the beans rather than the specific drinks. I could follow Larry’s lead by including the ingredients for each bag of beans, but instead, I focus on the roaster and origin.</p>
+
+<p><img src="/assets/taxonomy-in-siteleaf-cafe-taxonomy.jpg" alt="cafe-taxonomy"> </p>
+
+<p>Unlike Bar Lawrence, Café Jonnie’s tag sets consist of singular values—and that’s okay. This is a use-case where we don’t need more than one value for the given tag sets. Think of the tag sets as key/value metadata, but with the linking and indexing that comes with taxonomy. With this setup, I can browse all of the beans from a given roaster or location. The taxonomy value has more of a parent association to the post.</p>
+
+<h3>Use-cases as inspiration</h3>
+
+<p><img src="/assets/taxonomy-in-siteleaf-library.png" alt="library"> </p>
+
+<p>Like many of Siteleaf’s features, we designed taxonomy through use-cases. <a href="http://aworkinglibrary.com">A Working Library</a>, website of fellow Studiomate Mandy Brown, played a big role in shaping the feature. Mandy writes and reviews books on her website. In her reviews, she includes each book’s author and publisher as linked categories, so you can see a list of other books by them.</p>
+
+<p>This works as-is, but it requires mixing the two fields into one group, ‘Categories’. This name could apply to anything, and it results in URLs like <code>/books/category/doubleday</code>. With taxonomy in Siteleaf, we could break these two fields into their own tag sets, ‘Author’ and ‘Publisher’, so our URLs could have more meaning, like <code>/books/publisher/doubleday</code> and <code>/books/author/annalee-newitz</code>.</p>
+
+<h3>Wrapping up</h3>
+
+<p>I hope this post shed some light on one of the more powerful Siteleaf features. With its ability to easily add new navigation structures, while remaining simple and flexible, I’m confident we’ll continue to discover use-cases. If you have any questions after reading this, don’t hesitate to <a href="http://twitter.com/destroytoday">reach out</a>.</p>
+
+  </div>
+  <footer class='article-footer'>
+  
+  
+  <a class='tweet-button' href='https://twitter.com/intent/tweet?original_referer=http://destroytoday.com/blog/taxonomy-in-siteleaf&text=I thoroughly enjoyed this post &gt; &quot;Taxonomy in Siteleaf&quot;:&tw_p=tweetbutton&url=http://destroytoday.com/blog/taxonomy-in-siteleaf&via=destroytoday' target='_blank'><span class='ss-icon ss-social-regular'>twitter</span><span id='twitter-count' class='count'></span></a>
+  <script>
+    function count_callback(data) { document.getElementById('twitter-count').innerHTML = data.count; }
+    var script = document.createElement('script');
+    script.setAttribute("src", 'http://urls.api.twitter.com/1/urls/count.json?callback=count_callback&url=http://destroytoday.com/blog/taxonomy-in-siteleaf');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  </script>
+</footer>
+
+</article>
+
+
+
+<section class='featured-section column-section list-section'>
+  <h3>Featured writings</h3>
+  <ul class='vertical-list'>
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #364350">
+          <a href='/blog/building-the-carousel-website'>Building the Carousel website with Dropbox</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #549BA6">
+          <a href='/blog/cushion'>Cushion</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #bab0a8">
+          <a href='/blog/my-dad'>Book covers, model airplanes, and my dad</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #C94A00">
+          <a href='/blog/building-the-pencil-page'>Building the Pencil page with FiftyThree</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #2e9ef0">
+          <a href='/blog/gif-workflow'>The perfect GIF workflow using Dropbox and Alfred</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #005dba">
+          <a href='/blog/redesigning-with-rules'>Redesigning with rules</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #499462">
+          <a href='/blog/lessons-learned-in-a-year-on-my-own'>Lessons learned in a year on my own</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #f5503c">
+          <a href='/blog/wedding-tech'>The tech behind our wedding</a>
+        </li>
+      
+    
+  </ul>
+  <footer class='list-footer'>
+    <a href='/blog'>Archive &rarr;</a>
+  </footer>
+</section>
+
+
+<footer class='content-footer'>
+  <p>Follow <a href='http://twitter.com/destroytoday'>@destroytoday</a> on Twitter.</p>
+</footer>
+
+
+      </div>
+    </main>
+
+    <footer class='main-footer'>
+      <p>Made with <span class="ss-icon">love</span> in Brooklyn</p>
+      <p>&copy; 2014 Destroy Today, LLC. All Rights Reserved</p>
+    </footer>
+
+    
+  
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='/blog/gif-workflow'></a>
+    </div>
+  
+
+  
+    <div class='pagination previous'>
+      <a class='icon ss-navigateright' href='/blog/qandanda'></a>
+    </div>
+  
+
+  <script>
+    document.body.onkeyup = function(e){
+      
+      if (e.keyCode == '37') { window.location = '/blog/gif-workflow'; }
+      
+
+      
+      if (e.keyCode == '39') { window.location = '/blog/qandanda'; }
+      
+    };
+  </script>
+
+
+
+    <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+    <script>
+      var mainHeader = document.getElementById('main-header');
+      var body = document.body;
+      var mainHeader_startHeight,
+          startTouchY,
+          touchY,
+          prevTouchY,
+          touchDirection,
+          touch;
+
+      mainHeader.addEventListener('click', function(e){
+        if (touch || window.innerWidth <= 480)
+        {
+          e.preventDefault();
+        }
+
+        if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+        else
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+      });
+
+      [].forEach.call(document.querySelectorAll('.main-nav-list a'), function(link) {
+        link.addEventListener('touchstart', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+
+          window.location.href = link.href;
+        });
+      });
+
+      var window_touchmoved = function(e) {
+        e.preventDefault();
+
+        touchY = e.changedTouches[0].clientY;
+        mainHeader.style.height =
+          mainHeader_startHeight + (touchY - startTouchY) + 'px';
+
+        touchDirection = touchY > prevTouchY ? 1 : -1;
+
+        prevTouchY = touchY;
+      };
+
+      mainHeader.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        touch = true;
+
+        mainHeader_startHeight = this.offsetHeight;
+        startTouchY =
+          prevTouchY = e.changedTouches[0].clientY;
+
+        this.className += ' is-touching';
+        window.addEventListener('touchmove', window_touchmoved, false);
+      }, false);
+
+      mainHeader.addEventListener('touchend', function(e) {
+        window.removeEventListener('touchmove', window_touchmoved);
+
+        this.style.height = '';
+        this.className = this.className.replace(' is-touching', '');
+
+        if (touchDirection == -1)
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+        else if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+      }, false);
+    </script>
+    
+<script src="/scripts/rainbow.js"></script>
+
+
+  </body>
+</html>
+
+

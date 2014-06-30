@@ -1,0 +1,464 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+
+    <title>Destroy Today - The perfect GIF workflow using Dropbox and Alfred</title>
+
+    <meta property="twitter:account_id" content="14839458">
+    <meta name='description' content='Destroy Today is a partnership between builders. Its focus is on solving problems through products crafted with close attention to design and user experience.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
+
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="http://feeds.feedburner.com/destroytoday">
+    <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
+    <link href='/styles/screen.css' rel='stylesheet'>
+
+    <script>
+  (function() {
+  var config = {
+  kitId: 'aeu3zes',
+  scriptTimeout: 3000
+  };
+  var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
+
+    <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3256994-11']);
+  _gaq.push(['_setDomainName', 'destroytoday.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <style>
+  
+  
+  
+  
+  
+
+  html, body {
+    background-color: #FFF;
+    color: #000
+  }
+
+  ::selection {
+    background-color: #2e9ef0;
+    color: #FFF;
+  }
+
+  .main-header {
+    background-color: #2e9ef0;
+    color: #FFF;
+  }
+
+  a,
+  .tweet-button:hover,
+  .pagination a:hover {
+    color: #000;
+  }
+
+  .project-listing:hover img {
+    border-bottom-color: #000;
+  }
+
+  a:hover,
+  .pagination a,
+  .content-subheader a:hover,
+  .content-body a:hover,
+  .content-body .more,
+  .content-footer a,
+  .tweet-button,
+  .listing-footer a:hover,
+  .list-footer a,
+  .article-footer p a:hover {
+    color: #2e9ef0;
+  }
+
+  .content-subheader,
+  .content-subheader a,
+  .listing-footer,
+  .listing-footer a,
+  .main-footer,
+  .article-footer p,
+  .article-footer p a {
+    color: #999;
+  }
+
+  .main-header a {
+    color: #FFF;
+  }
+
+  .content-body a {
+    border-bottom: solid 2px #2e9ef0;
+  }
+
+  .content-body blockquote {
+    border-left-color: #2e9ef0;
+  }
+</style>
+
+  </head>
+
+  <body class='post'>
+    <header id='main-header' class='main-header ss-navigatedown'>
+      <div class='wrapper'>
+        <h1 class='main-title'>
+          <a href='/'>
+            <span class='main-title-prefix'>destroy</span><span class='main-title-suffix'>today</span>
+          </a>
+        </h1>
+        <nav class='main-nav'>
+          <ul class='main-nav-list'>
+            
+            
+
+            
+              
+            
+              
+                
+
+                <li>
+                  <a href='/about'>About</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/office-hours'>Office Hours</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li class='is-selected'>
+                  <a href='/blog'>Writings</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/findings'>Findings</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li>
+                  <a href='/work'>Projects</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/experiments'>Experiments</a>
+                </li>
+
+                
+              
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class='main-content'>
+      <div class='wrapper'>
+        
+<article class='article'>
+  <header class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/gif-workflow'>The perfect GIF workflow using Dropbox and Alfred</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='next nav-icon ss-icon' href='/blog/markdown-in-siteleaf' style='visibility: visible'>navigateleft</a>
+      <a class='content-date' href='/blog/gif-workflow'>July 20, 2013</a>
+      <a class='previous nav-icon ss-icon' href='/blog/taxonomy-in-siteleaf' style='visibility: visible'>navigateright</a>
+    </h3>
+  </header>
+  <div class='content-body'>
+    <p><img src="/assets/gif-workflow-header.jpg" alt="header"> </p>
+
+<p>Like many internet dwellers, I prefer to use <a href="http://en.wikipedia.org/wiki/Graphics_Interchange_Format">GIFs</a> as a form of response rather than words. Why <em>say</em> you’re angry when you can <a href="http://dl.dropboxusercontent.com/u/121678/gifs/wwf-wrestling-girl-mad.gif">show it</a>. On Twitter, I’m <a href="https://twitter.com/garbnzgh/status/340135598700498944">quick</a> to respond with a GIF, which catches most people off guard—they wonder how I found an appropriate GIF so fast. Some <a href="https://twitter.com/dezinezync/status/345745470959792128">assume</a> I already have the URL copied to my clipboard, and this is partly true, but how did it get there? In this post, I’ll walk through my GIF workflow, detailing how I combine Dropbox and Alfred to optimize my TTGIF, or <em>time to GIF</em>.</p>
+
+<h3>Dropbox</h3>
+
+<p><a href="http://db.tt/sUwztpQ">Dropbox</a> is an essential tool for storing and linking GIFs. Sure, it can be used to backup important files or seamlessly share folders between computers, but I pay for the GIF-specific features—the most important of these being predictable URLs for files within your public folder.</p>
+
+<p><img src="/assets/gif-workflow-dock.jpg" alt="dock"> </p>
+
+<p>In my public Dropbox folder, I have a folder named, “gifs.” For ease of accessibility, I keep this folder in my dock, with the contents displayed as a grid. If I stumble across a GIF I want to save, I simply drag it to this folder and it is added to the collection. In the background, Dropbox syncs the GIF to my online storage and within seconds, it’s available for use.</p>
+
+<p><img src="/assets/gif-workflow-dock-stack.png" alt="dock-stack"></p>
+
+<p>Clicking the folder opens a temporary window with rows upon rows of GIF thumbnails. Here, I can browse through my collection and find the perfect GIF for the occasion. I keep the folder sorted by “Date Added,” so I have a general memory of where each GIF is located. And because the files are local, I don’t need to wait for the GIFs to load.</p>
+
+<p><img src="/assets/gif-workflow-stack-preview.jpg" alt="stack-preview"></p>
+
+<p>For times when I need more than just a thumbnail, I can preview a GIF using “Quick Look” by pressing the spacebar while hovering its thumbnail. This spawns a popup window that loops through the hovered GIF. Unfortunately, GIFs on OS X play at a slower framerate locally than on the web, so be sure to preview in the browser prior to responding.</p>
+
+<p>At this point, I <em>could</em> right-click one of the files, select “Copy Public Link,” and have a URL ready to paste—but why stop there? We can easily shave off a few clicks and greatly improve search with the help of my friend, Alfred.</p>
+
+<h3>Alfred</h3>
+
+<p><a href="http://www.alfredapp.com/">Alfred</a> is undoubtedly the best productivity app out there. For years, it has been my go-to app launcher, but recently, I’ve taken advantage of Alfred’s true power by writing several custom extensions. Each refines one of my daily workflows by automating a given task.</p>
+
+<p><img src="/assets/gif-workflow-alfred-workflow.jpg" alt="alfred-workflow"> </p>
+
+<p>In the latest version of Alfred, you can wire several actions together into a chain, called a “Workflow.” With these workflows, you can write all sorts of complex scripts and trigger them with a single key command. For my <a href="/assets/gif-filter.zip">GIF workflow</a>, I only use two actions—file filter and bash script.</p>
+
+<p><img src="/assets/gif-workflow-alfred-filter.jpg" alt="alfred-filter"> </p>
+
+<p>In the file filter settings, I use the keyword, “gif,” so whenever I type “gif” into Alfred, it triggers this filter. Alfred will search for files that include any text that comes after “gif.” This is too broad when used system-wide, but I can add a scope to restrict Alfred to a specific folder.</p>
+
+<p><img src="/assets/gif-workflow-alfred-search-scope.jpg" alt="search-scope"> </p>
+
+<p>In the “Search Scope” tab, I use the “gif” folder from my public Dropbox folder as a whitelisted path. Now, Alfred will search only this folder when we use the “gif” keyword.</p>
+
+<p><img src="/assets/gif-workflow-alfred-code.jpg" alt="alfred-code"> </p>
+
+<p>The second action in this workflow is a bash script. The script first takes the filename from the selected file in our filter and appends it to the public Dropbox base URL. Then, it runs <code>pbcopy</code> on the URL to copy it to the clipboard.</p>
+
+<p><img src="/assets/gif-workflow-alfred-search.jpg" alt="alfred-search"></p>
+
+<p>Since Alfred searches filenames, I manually set each GIF’s filename with several descriptive keywords. Because I’m the one writing each keyword, it’s much easier to recall a relevant search term for any GIF in my collection. Now I can start to type “troll,” select the classic GIF of Duck Hunt’s laughing dog, and paste it in a tweet.</p>
+
+<h3>Wrapping up</h3>
+
+<p>So that’s it. With Dropbox and Alfred, I can copy a GIF’s URL to my clipboard in seconds and respond like a pro. Think you have a better workflow? If so, I’d love to <a href="http://twitter.com/destroytoday">hear</a> about it.</p>
+
+  </div>
+  <footer class='article-footer'>
+  
+  
+  <a class='tweet-button' href='https://twitter.com/intent/tweet?original_referer=http://destroytoday.com/blog/gif-workflow&text=I thoroughly enjoyed this post &gt; &quot;The perfect GIF workflow using Dropbox and Alfred&quot;:&tw_p=tweetbutton&url=http://destroytoday.com/blog/gif-workflow&via=destroytoday' target='_blank'><span class='ss-icon ss-social-regular'>twitter</span><span id='twitter-count' class='count'></span></a>
+  <script>
+    function count_callback(data) { document.getElementById('twitter-count').innerHTML = data.count; }
+    var script = document.createElement('script');
+    script.setAttribute("src", 'http://urls.api.twitter.com/1/urls/count.json?callback=count_callback&url=http://destroytoday.com/blog/gif-workflow');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  </script>
+</footer>
+
+</article>
+
+
+
+<section class='featured-section column-section list-section'>
+  <h3>Featured writings</h3>
+  <ul class='vertical-list'>
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #364350">
+          <a href='/blog/building-the-carousel-website'>Building the Carousel website with Dropbox</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #549BA6">
+          <a href='/blog/cushion'>Cushion</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #bab0a8">
+          <a href='/blog/my-dad'>Book covers, model airplanes, and my dad</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #C94A00">
+          <a href='/blog/building-the-pencil-page'>Building the Pencil page with FiftyThree</a>
+        </li>
+      
+    
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #005dba">
+          <a href='/blog/redesigning-with-rules'>Redesigning with rules</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #499462">
+          <a href='/blog/lessons-learned-in-a-year-on-my-own'>Lessons learned in a year on my own</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #f5503c">
+          <a href='/blog/wedding-tech'>The tech behind our wedding</a>
+        </li>
+      
+    
+  </ul>
+  <footer class='list-footer'>
+    <a href='/blog'>Archive &rarr;</a>
+  </footer>
+</section>
+
+
+<footer class='content-footer'>
+  <p>Follow <a href='http://twitter.com/destroytoday'>@destroytoday</a> on Twitter.</p>
+</footer>
+
+
+      </div>
+    </main>
+
+    <footer class='main-footer'>
+      <p>Made with <span class="ss-icon">love</span> in Brooklyn</p>
+      <p>&copy; 2014 Destroy Today, LLC. All Rights Reserved</p>
+    </footer>
+
+    
+  
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='/blog/markdown-in-siteleaf'></a>
+    </div>
+  
+
+  
+    <div class='pagination previous'>
+      <a class='icon ss-navigateright' href='/blog/taxonomy-in-siteleaf'></a>
+    </div>
+  
+
+  <script>
+    document.body.onkeyup = function(e){
+      
+      if (e.keyCode == '37') { window.location = '/blog/markdown-in-siteleaf'; }
+      
+
+      
+      if (e.keyCode == '39') { window.location = '/blog/taxonomy-in-siteleaf'; }
+      
+    };
+  </script>
+
+
+
+    <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+    <script>
+      var mainHeader = document.getElementById('main-header');
+      var body = document.body;
+      var mainHeader_startHeight,
+          startTouchY,
+          touchY,
+          prevTouchY,
+          touchDirection,
+          touch;
+
+      mainHeader.addEventListener('click', function(e){
+        if (touch || window.innerWidth <= 480)
+        {
+          e.preventDefault();
+        }
+
+        if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+        else
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+      });
+
+      [].forEach.call(document.querySelectorAll('.main-nav-list a'), function(link) {
+        link.addEventListener('touchstart', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+
+          window.location.href = link.href;
+        });
+      });
+
+      var window_touchmoved = function(e) {
+        e.preventDefault();
+
+        touchY = e.changedTouches[0].clientY;
+        mainHeader.style.height =
+          mainHeader_startHeight + (touchY - startTouchY) + 'px';
+
+        touchDirection = touchY > prevTouchY ? 1 : -1;
+
+        prevTouchY = touchY;
+      };
+
+      mainHeader.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        touch = true;
+
+        mainHeader_startHeight = this.offsetHeight;
+        startTouchY =
+          prevTouchY = e.changedTouches[0].clientY;
+
+        this.className += ' is-touching';
+        window.addEventListener('touchmove', window_touchmoved, false);
+      }, false);
+
+      mainHeader.addEventListener('touchend', function(e) {
+        window.removeEventListener('touchmove', window_touchmoved);
+
+        this.style.height = '';
+        this.className = this.className.replace(' is-touching', '');
+
+        if (touchDirection == -1)
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+        else if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+      }, false);
+    </script>
+    
+
+  </body>
+</html>
+
+

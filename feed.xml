@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Destroy Today</title>
+    <link>http://destroytoday.com</link>
+    <pubDate>Mon, 30 Jun 2014 22:39:22 +0000</pubDate>
+    
+    <item>
+      <title>Web Friends interview</title>
+      <link>http://destroytoday.com/blog/web-friends-interview</link>
+      <pubDate>Mon, 16 Jun 2014 10:26:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/web-friends-interview</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://webfriends.io/season/2/episode/2/&quot;&gt;&lt;img src=&quot;/assets/web-friends-interview.png&quot; alt=&quot;web-friends-interview&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Internet and real-life friend, &lt;a href=&quot;http://garthdb.com&quot;&gt;Garth Braithwaite&lt;/a&gt;, invited me onto his aptly named podcast, &lt;a href=&quot;http://webfriends.io&quot;&gt;Web Friends&lt;/a&gt;. I shared a handful of pro tips about freelancing and we reminisced about my &lt;a href=&quot;/work/destroytwitter&quot;&gt;apps&lt;/a&gt; from back in the day. If you’re thinking of quitting your full-time job for the freelance world, but don’t really want to follow through, don’t &lt;a href=&quot;http://webfriends.io/season/2/episode/2/&quot;&gt;listen to this interview&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building the Carousel website with Dropbox</title>
+      <link>http://destroytoday.com/blog/building-the-carousel-website</link>
+      <pubDate>Tue, 15 Apr 2014 13:30:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/building-the-carousel-website</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/carousel-hero.jpg&quot; alt=&quot;carousel-hero&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A friend of mine and designer at Dropbox, &lt;a href=&quot;http://twitter.com/colin_dunn&quot;&gt;Colin Dunn&lt;/a&gt;, reached out to me in January. He asked if I would mind him referring me to one of their project managers, &lt;a href=&quot;http://twitter.com/prestontweets&quot;&gt;Preston Hershorn&lt;/a&gt;, for an upcoming gig. Of course, I didn’t mind.&lt;/p&gt;
+
+&lt;p&gt;We spoke a few times on the phone, discussing a mystery project that needed a marketing website. I was fresh off of building the &lt;a href=&quot;/work/fiftythree&quot;&gt;Pencil website&lt;/a&gt; for &lt;a href=&quot;http://fiftythree.com&quot;&gt;FiftyThree&lt;/a&gt;, and interested in building more of these single-page websites with a touch of something special. These websites allowed me to return to my roots of experimenting with code while also serving an actual purpose.&lt;/p&gt;
+
+&lt;p&gt;I flew out to San Francisco to work in-house at Dropbox for a week. On the first day, I sat in on a team meeting to review the state of this mystery project, named “Carousel”. A few team members provided an overview of the branding, along with its history. They demo’d the app itself, their original idea for the website, and storyboards for the upcoming video. It was impressive to see such a large-scale project represented by such a determined team. There was no question they all believed in Carousel.&lt;/p&gt;
+
+&lt;div class='left video-outer' style='max-width: 300px'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 210%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-mobile.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/carousel-mobile.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/carousel-mobile.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-mobile.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;While at Dropbox HQ, I worked on the mobile website, which would step the viewer through several views. A stack of photos would fall, arranging each photo on the device, to fill in the app’s content. Several transitions would play out, demonstrating the app’s main draw—sharing photos. The photos would then return to a stack and prompt the viewer to download the app.&lt;/p&gt;
+
+&lt;p&gt;Since these steps felt very clear-cut, I decided to treat each one as a “slide”. Instead of using a traditional scroll, and adding yet another moving part to the already active page, I locked it in place. I then listened for touch events and advanced to the next step with any vertical movement longer than a thumb’s radius.&lt;/p&gt;
+
+&lt;p&gt;The designer, &lt;a href=&quot;http://byalicelee.com&quot;&gt;Alice Lee&lt;/a&gt;, provided me with flats and we discussed possible transitions. I first used Chrome’s device emulator to test the website, but then moved to using an actual device. This helped in discovering a few key areas of improvement where we could tie the transitions closer to the gestures of the viewer. Since we were swiping up to advance, I wanted the content to feel like it was being pushed with the viewer’s thumb or finger—the logo would scale down in the direction of the swipe and the stack of photos would be pulled up from the bottom. &lt;/p&gt;
+
+&lt;p&gt;Originally, the stack of photos on the last slide returned to the bottom of the stage, but this felt unnatural, as if the photos were swimming against the current of the swipe. I reversed the positioning of the stack, placing them at the top of the stage, with the content below. Again, following the direction of the swipe, this adjustment really pulled the ending together. The last slide now appears to be the continuation of first slide.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-intro.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/carousel-intro.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/carousel-intro.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-intro.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I wrapped up the mobile website that week, with exception for a few content tweaks throughout the rest of the project. After returning home to Brooklyn, I started on the desktop version. Dropbox wanted a completely different experience from mobile, but they also made it clear they didn’t want a separate “m.carousel.com” subdomain. Considering the mobile version used CSS for all of the transitions, I knew I would need to start from scratch with the desktop’s stylesheet. I ended up using the same HTML as the mobile version, but swapping out the stylesheets based on media queries on the stylesheet tags.&lt;/p&gt;
+
+&lt;p&gt;The original design of the desktop website used scroll-based breakpoints to trigger each transition. The text would follow one-to-one with the scroll and the device would remain fixed. This worked, but with the constant movement of the text, the viewer would be forced to switch focus between the two sides of the page. I switched the text to a fixed position and animated it in parallel with the device. This felt better, but there was a lot of waiting between transitions—and the wait would grow longer with the height of the window.&lt;/p&gt;
+
+&lt;p&gt;With only a couple weeks left, we decided to scrap the triggered animations and start over. Instead of relying on harsh breakpoints, we would track the animation with the scroll. To soften the feel, I took a page out of my Flash days and added friction to the scroll. This allowed the animations to ease into place without feeling so jarring. A few people at Dropbox looked at the website and felt the animations needed to snap into place better. At that time, they were a bit loose—you could easily scrub through the entire animation with a couple swipes on the trackpad.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-conversation.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/carousel-conversation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/carousel-conversation.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-conversation.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I definitely didn’t want to return to the triggered approach from before, so I improvised. Since I was already using friction for a softer feel, I could simply increase the friction based on the scroll’s proximity to each lockpoint. In the code, I call these “speed bumps” and that’s exactly what they are. And, to make these speed bumps less apparent, I ease the friction based on the actual distance. This was enough to achieve the slick movement of the transitions while snapping each slide into place.&lt;/p&gt;
+
+&lt;p&gt;In the final week, there were several more revisions to the content. Initially, the desktop version had twice as many transitions, with each one split into separate parts. The second slide would swipe the screen up to portray a greater collection of photos. The third slide would transition into the conversation view with a fourth slide for easing the second message in from the bottom. We simplified these transitions by combining them, one by one, until we were left with three essential slides.&lt;/p&gt;
+
+&lt;p&gt;At launch, I let out a great sigh of relief. This project took a lot out of me because it consisted of countless technical challenges and several changes in direction late in the game. I’m happy with the end result, though. If we settled at any point instead of pushing through the difficult decisions, I think we would have been left with regret. Looking back, I’m incredibly grateful and fortunate that such a small gesture on Colin’s part, of putting my name in the hat, led to this collaboration.&lt;/p&gt;
+
+&lt;p&gt;Visit &lt;a href=&quot;https://carousel.com&quot;&gt;carousel.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On sabbatical</title>
+      <link>http://destroytoday.com/blog/on-sabbatical</link>
+      <pubDate>Mon, 14 Apr 2014 00:32:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/on-sabbatical</guid>
+      <description>&lt;p&gt;Today, I start my sabbatical. This is a first for me and, perhaps, an over-the-top reaction to the fact that I don’t take any time off, but I need it. With a first quarter consisting of nothing but client work, I know I need to slow down and give myself some time to reset.&lt;/p&gt;
+
+&lt;p&gt;The year started out promising, with a few potential gigs, but before long, each one fell through. I found myself going into February with only negative line items on my bank statement and not a single confirmed project. It was tough to endure, but something told me to wait it out—that these project didn’t pan out for a reason.&lt;/p&gt;
+
+&lt;p&gt;Then, all of a sudden, I reunited with a previous client, &lt;a href=&quot;http://chr.ma&quot;&gt;Chroma&lt;/a&gt;, and a &lt;a href=&quot;http://twitter.com/colin_dunn&quot;&gt;friend&lt;/a&gt; at Dropbox put in a good word for me. I had two confirmed projects and more than enough work to keep me busy until April. On top of that, Mailbox asked if I could take on their website as well. At this point, I &lt;em&gt;definitely&lt;/em&gt; had more than enough work to keep me busy.&lt;/p&gt;
+
+&lt;p&gt;In a little under two months, I finished &lt;a href=&quot;http://chr.ma&quot;&gt;all&lt;/a&gt; &lt;a href=&quot;http://carousel.com&quot;&gt;three&lt;/a&gt; &lt;a href=&quot;http://mailboxapp.com&quot;&gt;websites&lt;/a&gt; as well as a &lt;a href=&quot;http://ableparris.com&quot;&gt;personal website&lt;/a&gt; for my friend. This resulted in an incredible number of late nights and long weekends, but also, enough income to provide a comfortable runway into summer. I considered taking on more client work, but then I stopped and realized—I should take this time and invest it in myself. What else could I do in two months?&lt;/p&gt;
+
+&lt;p&gt;Today, I shift focus to &lt;a href=&quot;http://cushionapp.com&quot;&gt;Cushion&lt;/a&gt;, but I also start from scratch with my day-to-day routine. These past two months have proven that just because I &lt;em&gt;can&lt;/em&gt; work on four websites simultaneousely doesn’t mean I &lt;em&gt;should&lt;/em&gt;. By the end of this sabbatical, I want to be excited to take on new work, but mindful in deciding how much is enough.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Start interview</title>
+      <link>http://destroytoday.com/blog/the-start-interview</link>
+      <pubDate>Fri, 04 Apr 2014 15:38:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/the-start-interview</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://thestart.fm/interviews/the-flyer-guy&quot;&gt;&lt;img src=&quot;/assets/the-start-interview.png&quot; alt=&quot;the-start-interview&quot;&gt;&lt;/a&gt; &lt;/p&gt;
+
+&lt;iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/1949?style=dark' width='100%'&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twitter.com/nr&quot;&gt;Nick Rovisa&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/patrickbjohnson&quot;&gt;Patrick Johnson&lt;/a&gt; invited me to join them on their podcast, &lt;a href=&quot;http://thestart.fm/interviews/the-flyer-guy&quot;&gt;The Start&lt;/a&gt;. We covered my entrance into design at RISD pre-college, my first internship-turned-job at a small studio in Baltimore, and the origin of the name “Destroy Today”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cushion</title>
+      <link>http://destroytoday.com/blog/cushion</link>
+      <pubDate>Sun, 30 Mar 2014 16:32:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/cushion</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/timeline.png&quot; alt=&quot;timeline&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This weekend, I registered a new domain name and published a new website—&lt;a href=&quot;http://cushionapp.com&quot;&gt;cushionapp.com&lt;/a&gt;. For the past few months, I’ve been nurturing an idea. This idea started as a simple &lt;a href=&quot;http://dstry.it/TVi6&quot;&gt;prototype&lt;/a&gt; for seeing how long a freelancer could coast, based on their income applied to their monthly expenses. I shared this idea with the late night Twitter crowd and discovered that &lt;a href=&quot;https://twitter.com/destroytoday/status/425496976294412288&quot;&gt;they liked it&lt;/a&gt;, too. I could feel I was onto something.&lt;/p&gt;
+
+&lt;p&gt;Over the following weeks, I shaped the idea. I started thinking about my day-to-day as a freelancer and wondered what would make it easier. Considering the original idea, I thought about breaking income into three types—deposited, pending, and potential—then, &lt;a href=&quot;http://dstry.it/UGwQ&quot;&gt;mapping&lt;/a&gt; them over time. I thought about my existing projects and how I wished I could &lt;a href=&quot;http://dstry.it/UQxb&quot;&gt;track&lt;/a&gt; when they were delayed or dragged on too long. I thought about potential projects and what it would be like if I could visually &lt;a href=&quot;http://dstry.it/UUN2&quot;&gt;weigh&lt;/a&gt; the pros and cons. After designing several of these prototypes, I realized just how much I needed this app.&lt;/p&gt;
+
+&lt;p&gt;The decision to commit was easy, but I also made another decision—to go on this trip alone. When I first started building apps, like &lt;a href=&quot;/work/destroyflickr&quot;&gt;DestroyFlickr&lt;/a&gt; and &lt;a href=&quot;/work/destroytwitter&quot;&gt;DestroyTwitter&lt;/a&gt;, I worked by myself, so I had free reign to take them wherever I wanted to go. Instead of focusing on the same features that every other app already had, I would experiment. I would implement the kind of features that none of the bigger apps would ever bother adding. And, sometimes, those unique features would be what set my apps apart from the rest.&lt;/p&gt;
+
+&lt;p&gt;With Cushion, I also want to focus on its feel and make it as personal an experience as possible. Rather than aim for unbelievable growth, I’d like to establish Cushion as a independent app, where users can have a direct connection to the person behind it. By creating an account, you are also creating a relationship. &lt;/p&gt;
+
+&lt;p&gt;If you’re interested in following along, &lt;a href=&quot;http://cushionapp.com&quot;&gt;subscribe here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Hold a Pencil podcast interview</title>
+      <link>http://destroytoday.com/blog/how-to-hold-a-pencil-podcast-interview</link>
+      <pubDate>Wed, 26 Mar 2014 10:47:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/how-to-hold-a-pencil-podcast-interview</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://twitter.com/reubeningber&quot;&gt;Reuben Inger&lt;/a&gt; invited me to join him on his podcast, &lt;a href=&quot;http://howtoholdapencil.com/episode/017/&quot;&gt;How to Hold a Pencil&lt;/a&gt;, for an interview about how I started in the design/dev world. I also talked about taking the leap into freelancing and the fears and freedoms that come with it.&lt;/p&gt;
+
+&lt;iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/1926?style=dark' width='100%'&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Question marks in Liquid variable names</title>
+      <link>http://destroytoday.com/findings/question-marks-in-liquid-variable-names</link>
+      <pubDate>Mon, 24 Feb 2014 17:15:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/findings/question-marks-in-liquid-variable-names</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/liquid&quot;&gt;Liquid&lt;/a&gt; is a very forgiving templating language, which is part of why I love it. I sometimes find myself pushing Liquid to its limits to see how much it will allow before throwing an error. With a history of Ruby under my belt, I’ve become accustomed to using boolean methods that end with a question mark (ex: &lt;code&gt;new?&lt;/code&gt;, &lt;code&gt;blank?&lt;/code&gt;, etc).&lt;/p&gt;
+
+&lt;p&gt;I felt rather adventureous one day, so I tried following this same approach with Liquid. I created a metadata value named &lt;code&gt;inverted?&lt;/code&gt; in &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt; to indicate that the page should use white text instead of black. In my template, I added the conditional &lt;code&gt;{% if meta.inverted? %}&lt;/code&gt; to insert a CSS class into body.&lt;/p&gt;
+
+&lt;p&gt;It worked!&lt;/p&gt;
+
+&lt;p&gt;From there, I discovered that Liquid has no objections with hyphens in variable names, either. Instead of &lt;code&gt;background_color&lt;/code&gt;, I can use the CSS syntax &lt;code&gt;background-color&lt;/code&gt; and access it with &lt;code&gt;{{ meta.background-color }}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Liquid, I love you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mailbox</title>
+      <link>http://destroytoday.com/work/mailbox</link>
+      <pubDate>Tue, 18 Feb 2014 22:51:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/work/mailbox</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/mailbox-logo.svg&quot; alt=&quot;mailbox-logo&quot;&gt;&lt;/p&gt;
+
+&lt;p style='text-align: center'&gt;Visit the &lt;a href='http://mailboxapp.com'&gt;Mailbox website&lt;/a&gt;. Write-up coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Carousel</title>
+      <link>http://destroytoday.com/work/carousel</link>
+      <pubDate>Tue, 18 Feb 2014 22:24:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/work/carousel</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/carousel-logo.svg&quot; alt=&quot;dropbox-logo&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A friend of mine and designer at Dropbox, &lt;a href=&quot;http://twitter.com/colin_dunn&quot;&gt;Colin Dunn&lt;/a&gt;, reached out to me in January. He asked if I would mind him referring me to one of their project managers, &lt;a href=&quot;http://twitter.com/prestontweets&quot;&gt;Preston Hershorn&lt;/a&gt;, for an upcoming gig. Of course, I didn’t mind.&lt;/p&gt;
+
+&lt;p&gt;We spoke a few times on the phone, discussing a mystery project that needed a marketing website. I was fresh off of building the &lt;a href=&quot;/work/fiftythree&quot;&gt;Pencil website&lt;/a&gt; for &lt;a href=&quot;http://fiftythree.com&quot;&gt;FiftyThree&lt;/a&gt;, and interested in building more of these single-page websites with a touch of something special. These websites allowed me to return to my roots of experimenting with code while also serving an actual purpose.&lt;/p&gt;
+
+&lt;p&gt;I flew out to San Francisco to work in-house at Dropbox for a week. On the first day, I sat in on a team meeting to review the state of this mystery project, named “Carousel”. A few team members provided an overview of the branding, along with its history. They demo’d the app itself, their original idea for the website, and storyboards for the upcoming video. It was impressive to see such a large-scale project represented by such a determined team. There was no question they all believed in Carousel.&lt;/p&gt;
+
+&lt;div class='left video-outer' style='max-width: 300px'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 210%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-mobile.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/carousel-mobile.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/carousel-mobile.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-mobile.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;While at Dropbox HQ, I worked on the mobile website, which would step the viewer through several views. A stack of photos would fall, arranging each photo on the device, to fill in the app’s content. Several transitions would play out, demonstrating the app’s main draw—sharing photos. The photos would then return to a stack and prompt the viewer to download the app.&lt;/p&gt;
+
+&lt;p&gt;Since these steps felt very clear-cut, I decided to treat each one as a “slide”. Instead of using a traditional scroll, and adding yet another moving part to the already active page, I locked it in place. I then listened for touch events and advanced to the next step with any vertical movement longer than a thumb’s radius.&lt;/p&gt;
+
+&lt;p&gt;The designer, &lt;a href=&quot;http://byalicelee.com&quot;&gt;Alice Lee&lt;/a&gt;, provided me with flats and we discussed possible transitions. I first used Chrome’s device emulator to test the website, but then moved to using an actual device. This helped in discovering a few key areas of improvement where we could tie the transitions closer to the gestures of the viewer. Since we were swiping up to advance, I wanted the content to feel like it was being pushed with the viewer’s thumb or finger—the logo would scale down in the direction of the swipe and the stack of photos would be pulled up from the bottom. &lt;/p&gt;
+
+&lt;p&gt;Originally, the stack of photos on the last slide returned to the bottom of the stage, but this felt unnatural, as if the photos were swimming against the current of the swipe. I reversed the positioning of the stack, placing them at the top of the stage, with the content below. Again, following the direction of the swipe, this adjustment really pulled the ending together. The last slide now appears to be the continuation of first slide.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-intro.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/carousel-intro.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/carousel-intro.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-intro.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I wrapped up the mobile website that week, with exception for a few content tweaks throughout the rest of the project. After returning home to Brooklyn, I started on the desktop version. Dropbox wanted a completely different experience from mobile, but they also made it clear they didn’t want a separate “m.carousel.com” subdomain. Considering the mobile version used CSS for all of the transitions, I knew I would need to start from scratch with the desktop’s stylesheet. I ended up using the same HTML as the mobile version, but swapping out the stylesheets based on media queries on the stylesheet tags.&lt;/p&gt;
+
+&lt;p&gt;The original design of the desktop website used scroll-based breakpoints to trigger each transition. The text would follow one-to-one with the scroll and the device would remain fixed. This worked, but with the constant movement of the text, the viewer would be forced to switch focus between the two sides of the page. I switched the text to a fixed position and animated it in parallel with the device. This felt better, but there was a lot of waiting between transitions—and the wait would grow longer with the height of the window.&lt;/p&gt;
+
+&lt;p&gt;With only a couple weeks left, we decided to scrap the triggered animations and start over. Instead of relying on harsh breakpoints, we would track the animation with the scroll. To soften the feel, I took a page out of my Flash days and added friction to the scroll. This allowed the animations to ease into place without feeling so jarring. A few people at Dropbox looked at the website and felt the animations needed to snap into place better. At that time, they were a bit loose—you could easily scrub through the entire animation with a couple swipes on the trackpad.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-conversation.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/carousel-conversation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/carousel-conversation.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-conversation.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I definitely didn’t want to return to the triggered approach from before, so I improvised. Since I was already using friction for a softer feel, I could simply increase the friction based on the scroll’s proximity to each lockpoint. In the code, I call these “speed bumps” and that’s exactly what they are. And, to make these speed bumps less apparent, I ease the friction based on the actual distance. This was enough to achieve the slick movement of the transitions while snapping each slide into place.&lt;/p&gt;
+
+&lt;p&gt;In the final week, there were several more revisions to the content. Initially, the desktop version had twice as many transitions, with each one split into separate parts. The second slide would swipe the screen up to portray a greater collection of photos. The third slide would transition into the conversation view with a fourth slide for easing the second message in from the bottom. We simplified these transitions by combining them, one by one, until we were left with three essential slides.&lt;/p&gt;
+
+&lt;p&gt;At launch, I let out a great sigh of relief. This project took a lot out of me because it consisted of countless technical challenges and several changes in direction late in the game. I’m happy with the end result, though. If we settled at any point instead of pushing through the difficult decisions, I think we would have been left with regret. Looking back, I’m incredibly grateful and fortunate that such a small gesture on Colin’s part, of putting my name in the hat, led to this collaboration.&lt;/p&gt;
+
+&lt;p&gt;Visit &lt;a href=&quot;https://carousel.com&quot;&gt;carousel.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fix widows with non‑breaking spaces</title>
+      <link>http://destroytoday.com/findings/fix-widows-with-non-breaking-spaces</link>
+      <pubDate>Fri, 10 Jan 2014 16:16:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/findings/fix-widows-with-non-breaking-spaces</guid>
+      <description>&lt;p&gt;After learning the ins and outs of typography in design school, I started seeing the world through new eyes. Unfortunately, these eyes focus on the imperfections, like a single word on its own line, known as a “widow”. These imperfections are everywhere on the web because type isn’t laid out as carefully as it is in print.&lt;/p&gt;
+
+&lt;p&gt;While CSS &lt;em&gt;does&lt;/em&gt; have a &lt;code&gt;widows&lt;/code&gt; property, it’s for handling widow lines in column layouts—not words. Because of this, we need to rely on a hack—placing a non-breaking space between the last two words. In the past, I used the &lt;code&gt;&amp;amp;nbsp;&lt;/code&gt; entity, but stopped because of how much it clutters the code. Now, I use an actual non-breaking space character, which can be created with &lt;code&gt;option+space&lt;/code&gt;. This works as long as you have &lt;code&gt;&amp;lt;meta charset=&amp;#39;UTF-8&amp;#39;&amp;gt;&lt;/code&gt; in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; block.&lt;/p&gt;
+
+&lt;p&gt;I like this approach because it’s clean and easy. The non-breaking space looks like any other space and when used in titles, it even prevents widows in the UI of &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Note&lt;/h3&gt;
+
+&lt;p&gt;I’m well-aware of the more automated ways of handling widows, like using the &lt;code&gt;String.replace&lt;/code&gt; method in Javascript with a regular expression, but I try to refrain from using JS when there are HTML or CSS‑based alternatives. Also, manually inserting a non-breaking space allows me to pick and choose where to prevent widows, in cases where a title widow is long enough to live on its own line.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CreativeMornings</title>
+      <link>http://destroytoday.com/blog/creativemornings</link>
+      <pubDate>Wed, 08 Jan 2014 21:12:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/creativemornings</guid>
+      <description>&lt;div class=&quot;video-wrapper&quot;&gt;
+    &lt;iframe src=&quot;http://creativemornings.com/talks/embed/want-to-speak-at-creativemornings/6&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This past December, I spoke at &lt;a href=&quot;http://creativemornings.com&quot;&gt;CreativeMornings&lt;/a&gt;, a breakfast lecture series for the creative community with 65 chapters worldwide and growing. The New York venue is located several blocks from my co-working space, &lt;a href=&quot;http://studiomates.com&quot;&gt;Studiomates&lt;/a&gt;, so I’m often in attendance. This time, however, I was fortunate enough to take the stage. Considering the month’s theme, “Make,” my talk focused on my dad and how he made me into the “maker” I am today.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;For an extended transcription of my talk, you can refer to the &lt;a href=&quot;/blog/my-dad&quot;&gt;previous article&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chroma</title>
+      <link>http://destroytoday.com/work/chroma</link>
+      <pubDate>Tue, 07 Jan 2014 16:48:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/work/chroma</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/chroma-logo.png&quot; alt=&quot;chroma-logo&quot;&gt;&lt;/p&gt;
+
+&lt;p style='text-align: center'&gt;Visit the &lt;a href='http://chr.ma'&gt;Chrome website&lt;/a&gt;. Write-up coming soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Book covers, model airplanes, and my dad</title>
+      <link>http://destroytoday.com/blog/my-dad</link>
+      <pubDate>Sun, 05 Jan 2014 10:52:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/my-dad</guid>
+      <description>&lt;p&gt;&lt;em&gt;This post is an extended transcription of my CreativeMornings talk, given on December 13th. The theme was “Make,” and instead of speaking about my own work, I decided to talk about my dad, his work, and how he turned me into the maker I am today.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/my-dad-covers.jpg&quot; alt=&quot;my-dad-covers&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My dad is a freelance book cover illustrator. He started right out of college and has been pushing out covers ever since—about 37 years now. If you’ve ever been in a book store, you’ve seen one of his covers. If you’ve walked past a cardboard box on the street with a stack of books in it, you’ve seen one of his covers.&lt;/p&gt;
+
+&lt;p&gt;For the first 20 years, he painted each and every cover. He would take a few reference photos with his polaroid land camera and spend the following month painting with acrylics on a gessoed masonite board. Upon finishing, he would slip the cover in a Fedex box and ship it to his publisher in New York, hoping it would arrive in one piece. Now, my dad uses Photoshop. He can start a cover on a Friday and email it to his publisher on Monday.&lt;/p&gt;
+
+&lt;p&gt;Since my dad works from home, my siblings and I grew up watching him illustrate these covers. He greeted us in the morning from his studio and wished us goodnight from his studio. My dad burns the midnight oil better than anyone I know, which explains why working a 14-hour day sometimes feels normal to me. Some nights, we would work alongside each other in his studio, watching any given Philly game, with the audio from the local radio broadcast.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/my-dad-polaroid.jpg&quot; alt=&quot;my-dad-polaroid&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;Because my parents live in the small town of Macungie, PA, my dad would ask us to pose for him rather than hiring models. At the time, there was nothing special about this—it was just part of our childhood. I would spend a few minutes looking like a boy without a family and he would pay me $20, which I could use towards my next video game. To a kid, this was a steal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/my-dad-lizzy.jpg&quot; alt=&quot;my-dad-lizzy&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;Posing for my dad was rarely planned—he would just call us over from his studio and ask us to spare a few minutes. The shoot often involved my mom holding a piece of foamcore as a makeshift reflector or picking out the correct attire for us. We would goof around, treating this like our own version of dress-up.&lt;/p&gt;
+
+&lt;p&gt;After holding still for a few shots, trying to make each other laugh while not laughing ourselves, we would go back to whatever we were doing. Then, several months later, we would find ourselves on another cover. This felt like magic. My dad doesn’t need green screens or professional lighting—he can make a cover out of anything.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/my-dad-sketches.jpg&quot; alt=&quot;my-dad-sketches&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To start a cover, one of my dad’s publishers would send him a sketch. The sketch was often more of a scribble than anything descriptive, so they would follow up the sketch with a call. The art director would chime in and provide a sketch of their own. This would typically be more elaborate, but still difficult for most to interpret. My dad had no problem, though. He would take these sketches and produce a cover with the exact image his publishers had in mind.&lt;/p&gt;
+
+&lt;p&gt;Because of this, his publishers would consistently return to him when they needed the job done right. This had a major impact on my own work ethic and the kind of relationships I try to build with others. If you establish yourself as someone who can always finish the job with a level of quality beyond expectations, you will never have trouble finding work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/my-dad-airplanes.jpg&quot; alt=&quot;dad&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Though my dad is at the top of his game with book covers, his true passion lies with model airplanes. When he wished us goodnight from his studio, he usually had an airplane in front of him rather than a cover. &lt;/p&gt;
+
+&lt;p&gt;He started building airplanes at the age of eight, having learned from &lt;em&gt;his&lt;/em&gt; dad. Back then, video games and computers didn’t exist (*&lt;em&gt;gasp&lt;/em&gt;*), so models were a common hobby for the average kid. Hobby shops are rare these days, but if you can find one, there’s a good chance it will have a section for model airplanes. But, my dad doesn’t just build his airplanes from kits. He actually constructs them from scratch, and each one is an exact replica of an existing airplane from a previous era, mainly WWI and WWII.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/my-dad-bones.jpg&quot; alt=&quot;my-dad-bones&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;A single airplane will take anywhere from two months to a year to complete. Each one is constructed from several sheets of balsa wood that are cut down to size and glued in place. The airplane is then wrapped in tissue paper and decorated with all the details of its original design. As a kid, I witnessed the daily progress of every plane—each one built as separate parts, then pieced together at the end. Now, I see progress in months, when I’m able to visit home. I’ll catch him either starting a new plane or putting the finishing touches on one I’ve seen only once or twice before. Nevertheless, he’s always excited to show me his latest creation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/my-dad-flying.jpg&quot; alt=&quot;my-dad-flying&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Building model airplanes requires enough work on its own to be considered a full-time job, let alone a hobby, but my dad isn’t the type to just shelf a piece of work and call it a day. Every airplane he builds can also fly as well as it looks. In his eyes, what’s a plane that can’t fly? He takes this very seriously, too, to the extent of mowing only a portion of his backyard, so the rest could remain a soft “landing strip” for testing and minor tweaking. He calls it “Hallman’s Meadow”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/my-dad-winder.jpg&quot; alt=&quot;my-dad-winder&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;As you might expect by now, these airplanes aren’t RC-powered. Believe it or not, they fly on rubber band power. Inside each airplane is a greased rubber band running from a hook in the back to the propeller in the front. The length of the rubber band depends on the size of the airplane, with some reaching as long as several feet. &lt;/p&gt;
+
+&lt;p&gt;Winding one of these airplanes by hand would be very tiring, not to mention time-consuming, considering a single flight requires several hundred winds. Instead, my dad uses a makeshift winder. This MacGyver-esque device can wind ten times faster than using your hand. It also comes equipped with a calculator that keeps track of the number of winds, using a magnet that is literally taped to the crank. Surprising no one, you can’t buy these—he knows a guy who makes them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/mass-launch.jpg&quot; alt=&quot;mass-launch&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My dad also competes as a member of the Flying Aces Club. He drives to either Geneseo or Wawayanda in upstate New York and flies against dozens of other “pilots”—each of whom has been building and flying airplanes for decades. They spend a few days competing, but also discussing their craft, process, and experiences from the past year’s build. Having been to several competitions as a kid, I can tell you that each one of these fliers wants nothing more than to share what they know and celebrate each other’s flights.&lt;/p&gt;
+
+&lt;p&gt;At the age of 59, my dad is considered the young gun among the other fliers, with most of them old enough to be &lt;em&gt;his&lt;/em&gt; dad, but as a 5-time grand champion, he carries a strong reputation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/my-dad-canopy.jpg&quot; alt=&quot;my-dad-canopy&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;Along with constructing the actual airplanes, my dad also builds tools to help him make specific parts of each plane. One of these tools, he calls a “canopy vacuformer”, is a contraption that forms the canopy of an airplane from a single sheet of plastic. &lt;/p&gt;
+
+&lt;p&gt;My dad places the top-half of the tool in his oven with the plastic securely held in place. The plastic is heated at a temperature between 300-350 degrees, until malleable. Then, he removes the plastic from the oven and places it on top of the balsa mold of the canopy. With the family vacuum, he suctions the plastic down to perfectly fit over the mold, forming the canopy of the airplane.&lt;/p&gt;
+
+&lt;p&gt;As a kid, growing up watching this process, I didn’t think twice about it—this was just how you build the canopy for a rubber band-powered model airplane. How else would you do it? Now, I truly appreciate the creativity and resourcefulness on my dad’s part to even think of a process like this, utlizing household appliances.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/my-dad-detail.jpg&quot; alt=&quot;my-dad-detail&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;The attention to detail my dad puts into every airplane is incredible. His obsession with even the most minute details is one that I often see in myself. Every time he reveals his latest workboard of airplane parts to me, I soak in every consideration he shares and admire the precision of each piece. Everything is always perfect. In my own work, I want people to feel the way I do when I see his work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/my-dad-process.jpg&quot; alt=&quot;my-dad-process&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;While constructing an airplane, my dad takes the time to document the entire process, which is why I do the same with my own projects. I love seeing how each part comes together and how it contributes to the final product. Seeing this documentation as a kid, I learned its importance in telling the story of each airplane. I could witness the struggles, decisions and sacrifices that lead to the end result, making every airplane so much better.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/mitsubishi.jpg&quot; alt=&quot;mitsubishi&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;My dad’s airplanes are more than just airplanes. Each one is a piece of art and an extension of my dad. Though these planes don’t really matter in the grand scheme of things, they mean the world to him. He taught me everything I know about craftsmanship and what it’s like to be truly passionate about our work. And, I’m passionate about my work because of my dad.&lt;/p&gt;
+
+&lt;h3&gt;Related links&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://hallmanstudio.com&quot;&gt;http://hallmanstudio.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/user/maxfliart/videos&quot;&gt;http://youtube.com/user/maxfliart/videos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Back on my own</title>
+      <link>http://destroytoday.com/blog/back-on-my-own</link>
+      <pubDate>Fri, 06 Dec 2013 21:53:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/back-on-my-own</guid>
+      <description>&lt;p&gt;This is my last week at &lt;a href=&quot;http://oak.is&quot;&gt;Oak&lt;/a&gt;. It would be an understatement to say I had a great time working with them. They are some of the most talented builders I’ve ever shared a repo with and I’m thankful to have had the opportunity. Considering my unrelenting domination in Halo, I’m actually surprised they even wanted me around in the first place. In all seriousness, their passion and drive is nothing short of inspiring and I truly believe in everything they do.&lt;/p&gt;
+
+&lt;p&gt;Regarding &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt;, I will retain an advisor role and continue to sing its praises. You can expect the same frequency of tutorials as well as consistent contributions to &lt;a href=&quot;http://labs.siteleaf.net&quot;&gt;Siteleaf Labs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As for what’s next, I’ll be back on my own, as Destroy Today, ready to take on whatever projects come my direction. If you’re interested in working together, feel free to &lt;a href=&quot;mailto:jonnie@destroytoday.com&quot;&gt;reach out&lt;/a&gt;. To be completely transparent, here’s the kind of work I’m looking for:&lt;/p&gt;
+
+&lt;h3&gt;Small-scale frontend dev&lt;/h3&gt;
+
+&lt;p&gt;I recently collaborated with &lt;a href=&quot;http://fiftythree.com&quot;&gt;FiftyThree&lt;/a&gt; to &lt;a href=&quot;/blog/building-the-pencil-page/&quot;&gt;build the product page&lt;/a&gt; for their first piece of hardware, &lt;a href=&quot;http://fiftythree.com/pencil&quot;&gt;Pencil&lt;/a&gt;. I’d love to continue working on this scale and with this level of commitment. They came to me with a flat, single-resolution design, and I built it into a responsive site. The turnaround was quick and the handoff was clean.&lt;/p&gt;
+
+&lt;h3&gt;Concept/prototype design&lt;/h3&gt;
+
+&lt;p&gt;While at Adobe, I spent a year designing small, mobile prototype apps for various clients, like the NBC Olympics. Though none of them saw the light of day, I’d really like to design more of these. The apps were experimental and unexpected. They would have been incredibly fun to use and easy to build.&lt;/p&gt;
+
+&lt;h3&gt;Design &amp;amp; dev consulting&lt;/h3&gt;
+
+&lt;p&gt;In the past, I’ve taken a few consulting jobs, whether it was to vet a dev team or take part in a brainstorming session. These could be anywhere between a few hours to a full day and helpful for times when a dev team is questioning the possibility of a design or when a fresh mind is needed to toss around ideas.&lt;/p&gt;
+
+&lt;p&gt;Think we might be a good fit? &lt;a href=&quot;mailto:jonnie@destroytoday.com&quot;&gt;Let’s talk&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building the Pencil page with FiftyThree</title>
+      <link>http://destroytoday.com/blog/building-the-pencil-page</link>
+      <pubDate>Thu, 21 Nov 2013 10:45:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/building-the-pencil-page</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/fiftythree-desktop-homepage.jpg&quot; alt=&quot;fiftythree-desktop-homepage&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fiftythree.com&quot;&gt;FiftyThree&lt;/a&gt; has always been an inspiration of mine—their dedication to craft is admirable. When they asked me to work with them on the product page for their first piece of hardware, &lt;a href=&quot;http://fiftythree.com/pencil&quot;&gt;Pencil&lt;/a&gt;, I jumped at the opportunity.&lt;/p&gt;
+
+&lt;p&gt;The project started out with a meeting at the FiftyThree office—a beautiful loft in Tribeca. &lt;a href=&quot;http://twitter.com/kjchun&quot;&gt;KJ Chun&lt;/a&gt; walked me through the design he prepared for the page and &lt;a href=&quot;http://twitter.com/heavymeta&quot;&gt;Ian Curry&lt;/a&gt; showed me a few interaction prototypes for the fancier sections. I wore the serious professional face, but on the inside, I felt like a kid on Christmas Eve, and Santa was giving me a sneak peek at all my presents.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video poster=&quot;/assets/fiftythree-pencil-parts.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/fiftythree-pencil-parts.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/fiftythree-pencil-parts.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/fiftythree-pencil-parts.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Pencil product page was my first foray into scrolling effects—no pressure. I’ve never been a fan of scrolling effects, mainly because most implementations hijack the scrollbar. With that in mind, I coded it in a way that would maintain the integrity of the scroll, while still surprising the viewer. I wanted the parts to reveal themselves as if you could feel them sliding out. The animation works when resizing the window as well, so if you drag from the bottom, you can actually pull the pencil apart.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video poster=&quot;/assets/fiftythree-pencil-form.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/fiftythree-pencil-form.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/fiftythree-pencil-form.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/fiftythree-pencil-form.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The “Inspired Form” section was originally designed to rotate the pencil with the horizontal tracking of the cursor, but it felt unnatural. If someone were to scroll the entirety of the page, they might miss it, as it required them to stop and move their cursor perpendicular to the scroll. As an alternative, I experimented with scrolling to rotate the pencil, so everyone would discover it. The pencil starts by facing left and rotates a full 180 degrees, exposing the front of the pencil half-way through. Luckily, this accomplished the natural feel I’m always aiming for in my work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/fiftythree-desktop.jpg&quot; alt=&quot;fiftythree-desktop&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;The page is fully responsive—even the scrolling effects. The FiftyThree team was open to suggestions on how to reflow the content across each breakpoint. I took a few cues from their existing product pages for consistency, but also tried a couple new directions of my own.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/fiftythree-mobile.jpg&quot; alt=&quot;fiftythree-mobile&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;After a long week, I handed the code off to &lt;a href=&quot;http://twitter.com/tfeener&quot;&gt;Tara Feener&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/gscottolson&quot;&gt;Scott Olson&lt;/a&gt;, who prepared it for production. Not knowing when it would launch, I continued with my other work, but kept an eye on the site. A few Twitter mentions started to roll in and I knew it was live. I couldn’t be happier with the end result, as well as the response. It was an absolute privilege working with the FiftyThree team and tagging along for a small part of their adventure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Layouts in Siteleaf</title>
+      <link>http://destroytoday.com/blog/layouts-in-siteleaf</link>
+      <pubDate>Mon, 28 Oct 2013 16:21:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/layouts-in-siteleaf</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/layouts-in-siteleaf.svg&quot; alt=&quot;layouts-in-siteleaf&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;In my last article about &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt;, I wrote about what goes into &lt;a href=&quot;/blog/porting-a-theme-to-siteleaf/&quot;&gt;porting a theme&lt;/a&gt; to Siteleaf from another CMS. This time around, I’ll show you how to write cleaner, less redundant templates through the use of layouts.&lt;/p&gt;
+
+&lt;h3&gt;What is a layout?&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        ...
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        &amp;lt;header&amp;gt;...&amp;lt;/header&amp;gt;
+        {{ content }}
+        &amp;lt;footer&amp;gt;...&amp;lt;/footer&amp;gt;
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In Siteleaf, a layout is a base template that can be used and reused as a foundation for your website. For example, the &lt;a href=&quot;https://github.com/destroytoday/destroytoday.com/blob/master/_layouts/default.html&quot;&gt;default layout&lt;/a&gt; for my website consists of the HTML head content, the header, and the footer. In between the header and footer, I use a &lt;code&gt;{{ content }}&lt;/code&gt; tag to insert the rest of my website’s content. This way, I don’t need to copy and paste the surrounding code into every template. I can assign a block of HTML to the &lt;code&gt;content&lt;/code&gt; variable and &lt;a href=&quot;https://github.com/Shopify/liquid/&quot;&gt;Liquid&lt;/a&gt;, our templating engine, will place the variable’s value wherever referenced.&lt;/p&gt;
+
+&lt;h3&gt;Creating a layout&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/layouts-in-siteleaf-structure-0.jpg&quot; alt=&quot;file structure&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s get our hands dirty by building our own layout. Start by creating a &lt;code&gt;_layouts&lt;/code&gt; folder in your website’s root directory. In this folder, create a &lt;code&gt;default.html&lt;/code&gt; file. This file will be used as the base layout. Below is some basic code you can use to get started with your layout:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;title&amp;gt;{{ title }}&amp;lt;/title&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        {{ content }}
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This code simply sets the browser window title and shows any HTML assigned to the &lt;code&gt;content&lt;/code&gt; variable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/layouts-in-siteleaf-structure-1.jpg&quot; alt=&quot;file structure&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;Now, in your website’s default template (&lt;code&gt;default.html&lt;/code&gt; in your root directory), write the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;{% capture content %}
+    &amp;lt;article&amp;gt;
+        &amp;lt;h1&amp;gt;{{ title }}&amp;lt;/h1&amp;gt;
+        {{ body }}
+    &amp;lt;/article&amp;gt;
+{% endcapture %}
+
+{% include &amp;#39;layouts/default&amp;#39; %}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With Liquid, we can use the &lt;code&gt;capture&lt;/code&gt; tag to assign a block of content to a given variable. In our example above, we assign the title and body of the current page to the variable, &lt;code&gt;content&lt;/code&gt;. We then use the &lt;code&gt;include&lt;/code&gt; tag to take an HTML file—our default layout—and insert it on that line. The included layout will use the &lt;code&gt;content&lt;/code&gt; variable we assigned and Liquid will render this template as a complete HTML page.&lt;/p&gt;
+
+&lt;h3&gt;Using multiple layouts&lt;/h3&gt;
+
+&lt;p&gt;Now that we have a single layout, let’s take a look at adding another one. Imagine we have a blog page that shows a post with next and previous links. Since we don’t want these links on all of our pages, we’ll create a new layout on top of the default layout.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/layouts-in-siteleaf-structure-2.jpg&quot; alt=&quot;file structure&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;Start by creating a &lt;code&gt;blog.html&lt;/code&gt; file in your &lt;code&gt;_layouts&lt;/code&gt; directory and write the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;{% capture content %}
+    &amp;lt;article&amp;gt;
+        &amp;lt;h1&amp;gt;{{ title }}&amp;lt;/h1&amp;gt;
+        {{ body }}
+    &amp;lt;/article&amp;gt;
+    &amp;lt;nav&amp;gt;
+        {% if previous %}&amp;lt;a href=&amp;quot;{{ previous }}&amp;quot;&amp;gt;previous&amp;lt;/a&amp;gt;{% endif %}
+        {% if next %}&amp;lt;a href=&amp;quot;{{ next }}&amp;quot;&amp;gt;next&amp;lt;/a&amp;gt;{% endif %}
+    &amp;lt;/nav&amp;gt;
+{% endcapture %}
+
+{% include &amp;#39;layouts/default&amp;#39; %}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Like before, we assign our title and body to the variable &lt;code&gt;content&lt;/code&gt;, but this time, we also add links to the previous and next posts if they exist. Then, we include the default layout.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/layouts-in-siteleaf-structure-3.jpg&quot; alt=&quot;file structure&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;Next, we need to write a blog template that uses this layout. Create a &lt;code&gt;blog&lt;/code&gt; directory in your website’s folder and a &lt;code&gt;default.html&lt;/code&gt; file inside of it. This HTML file will now be used by all pages and posts that start with &lt;code&gt;/blog&lt;/code&gt; in their URL. Inside the &lt;code&gt;blog/default.html&lt;/code&gt; file, write the following line of code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;{% include &amp;#39;layouts/blog&amp;#39; %}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, all of our blog posts will use the blog layout, displaying the post with next and previous links, but also inheriting the default layout, so we keep all of our HTML head content. We use an include rather than just putting its code in this template because it allows us to reuse the layout elsewhere.&lt;/p&gt;
+
+&lt;p&gt;Let’s say we started a new section on our website, like “Library,” which uses posts for books we’ve read. We could change the name of our blog layout to something more reusable, like &lt;code&gt;paginated.html&lt;/code&gt;, which tells us that the layout supports pagination through the next and previous links. Then, we can use it for both our blog and our library.&lt;/p&gt;
+
+&lt;h3&gt;Wrapping up&lt;/h3&gt;
+
+&lt;p&gt;Layouts can be incredibly useful for websites that vary from section to section. They can also help keep code to a minimum, resulting in cleaner code base. Try applying layouts to your current website and see if you can reduce the copy pasta. And, as always, don’t hesitate to &lt;a href=&quot;http://twitter.com/destroytoday&quot;&gt;reach out&lt;/a&gt; if you have any questions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Brooklyn Beta is people</title>
+      <link>http://destroytoday.com/blog/brooklyn-beta-is-people</link>
+      <pubDate>Tue, 15 Oct 2013 12:23:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/brooklyn-beta-is-people</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/brooklyn-beta.jpg&quot; alt=&quot;brooklyn-beta&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This past week, I attended &lt;a href=&quot;http://brooklynbeta.org&quot;&gt;Brooklyn Beta&lt;/a&gt;, an annual web conference conveniently held a few blocks from my neighborhood. This marked my second year at the event and although the speakers were as unique as last year’s, I found that the conversations I had throughout the conference stuck with me more than the actual talks. This shouldn’t diminish the work of the hosts, &lt;a href=&quot;http://twitter.com/shiflett&quot;&gt;Chris&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/fictivecameron&quot;&gt;Cameron&lt;/a&gt;, considering it is one of the reasons they host the conference each year—Brooklyn Beta is partly an excuse to bring the internet to one place. And, it does a good job. For those few days in October, I’m off the computer and away from Twitter, but the streets of my neighborhood are filled with everyone from my stream. I have the chance to finally meet them in person and build a stronger, longer-lasting connection.&lt;/p&gt;
+
+&lt;h3&gt;Memorable conversations&lt;/h3&gt;
+
+&lt;p&gt;On that note, listed below are the conversations I had at Brooklyn Beta that stayed with me through the weekend. A few of them were on general life-related topics, but others left me re-thinking how I handle my day-to-day work.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/ericaheinz&quot;&gt;Erica Heinz&lt;/a&gt; on working long hours&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/wjosephflynn&quot;&gt;Joey Flynn&lt;/a&gt; on San Fransisco vs New York&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/ableparris&quot;&gt;Able Parris&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/markweaver&quot;&gt;Mark Weaver&lt;/a&gt; on having kids&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/susanjrobertson&quot;&gt;Susan Robertson&lt;/a&gt; on customer support&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/jodify&quot;&gt;Jodi Leo&lt;/a&gt; on real estate in New York&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/paperkary&quot;&gt;Kary Campbell&lt;/a&gt; on freelancing&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/aaronrobbs&quot;&gt;Aaron Robbs&lt;/a&gt; on Japanese barbers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/howells&quot;&gt;Daniel Howells&lt;/a&gt; on the cost of weddings&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/enriqueallen&quot;&gt;Enrique Allen&lt;/a&gt; on marketing a product&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twitter.com/e_olsen&quot;&gt;Eric Olsen&lt;/a&gt; on being mugged&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Internet friends, now real-life friends&lt;/h3&gt;
+
+&lt;p&gt;Brooklyn Beta also provided me with the opportuntiy to meet many of the people I talk to online, but have never met in person—some of them being internet friends going on five years!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twitter.com/philcoffman&quot;&gt;Phil Coffman&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/motherfuton&quot;&gt;Noah Stokes&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/sensibleworld&quot;&gt;Jory Raphael&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/jacksonlatka&quot;&gt;Jackson Latka&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/imjameshall&quot;&gt;James Hall&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/wilsonminer&quot;&gt;Wilson Miner&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/danielwilber&quot;&gt;Daniel Wilbur&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/wjosephflynn&quot;&gt;Joey Flynn&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/jackcheng&quot;&gt;Jack Cheng&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/e_olsen&quot;&gt;Eric Olsen&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/soffes&quot;&gt;Sam Soffes&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/house&quot;&gt;Allison House&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/dan_shin_&quot;&gt;Dan Shin&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Thanks&lt;/h3&gt;
+
+&lt;p&gt;Lastly, I want to thank &lt;a href=&quot;http://twitter.com/shiflett&quot;&gt;Chris&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/fictivecameron&quot;&gt;Cameron&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/jessiarrington&quot;&gt;Jessi&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/cr8tonmershon&quot;&gt;Creighton&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/rose22&quot;&gt;Casson&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/jenmussari&quot;&gt;Jen&lt;/a&gt;, and everyone else involved in making Brooklyn Beta happen. To some, it’s just another conference, but to me, it provides the time away from work we so desperately need, while still encouraging reflection on what we do.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FiftyThree</title>
+      <link>http://destroytoday.com/work/fiftythree</link>
+      <pubDate>Sun, 06 Oct 2013 21:40:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/work/fiftythree</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/fiftythree-logo.svg&quot; alt=&quot;fiftythree-logo&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://fiftythree.com&quot;&gt;FiftyThree&lt;/a&gt; has always been an inspiration of mine—their dedication to craft is admirable. When they asked me to work with them on the product page for their first piece of hardware, &lt;a href=&quot;http://fiftythree.com/pencil&quot;&gt;Pencil&lt;/a&gt;, I jumped at the opportunity.&lt;/p&gt;
+
+&lt;p&gt;The project started out with a meeting at the FiftyThree office—a beautiful loft in Tribeca. &lt;a href=&quot;http://twitter.com/kjchun&quot;&gt;KJ Chun&lt;/a&gt; walked me through the design he prepared for the page and &lt;a href=&quot;http://twitter.com/heavymeta&quot;&gt;Ian Curry&lt;/a&gt; showed me a few interaction prototypes for the fancier sections. I wore the serious professional face, but on the inside, I felt like a kid on Christmas Eve, and Santa was giving me a sneak peek at all my presents.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/fiftythree-pencil-parts.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/fiftythree-pencil-parts.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/fiftythree-pencil-parts.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/fiftythree-pencil-parts.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Pencil product page was my first foray into scrolling effects—no pressure. I’ve never been a fan of scrolling effects, mainly because most implementations hijack the scrollbar. With that in mind, I coded it in a way that would maintain the integrity of the scroll, while still surprising the viewer. I wanted the parts to reveal themselves as if you could feel them sliding out. The animation works when resizing the window as well, so if you drag from the bottom, you can actually pull the pencil apart.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/fiftythree-pencil-form.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/fiftythree-pencil-form.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/fiftythree-pencil-form.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/fiftythree-pencil-form.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The “Inspired Form” section was originally designed to rotate the pencil with the horizontal tracking of the cursor, but it felt unnatural. If someone were to scroll the entirety of the page, they might miss it, as it required them to stop and move their cursor perpendicular to the scroll. As an alternative, I experimented with scrolling to rotate the pencil, so everyone would discover it. The pencil starts by facing left and rotates a full 180 degrees, exposing the front of the pencil half-way through. Luckily, this accomplished the natural feel I’m always aiming for in my work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/fiftythree-desktop.jpg&quot; alt=&quot;fiftythree-desktop&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;The page is fully responsive—even the scrolling effects. The FiftyThree team was open to suggestions on how to reflow the content across each breakpoint. I took a few cues from their existing product pages for consistency, but also tried a couple new directions of my own.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/fiftythree-mobile.jpg&quot; alt=&quot;fiftythree-mobile&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;After a long week, I handed the code off to &lt;a href=&quot;http://twitter.com/tfeener&quot;&gt;Tara Feener&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/gscottolson&quot;&gt;Scott Olson&lt;/a&gt;, who prepared it for production. Not knowing when it would launch, I continued with my other work, but kept an eye on the site. A few Twitter mentions started to roll in and I knew it was live. I couldn’t be happier with the end result, as well as the response. It was an absolute privilege working with the FiftyThree team and tagging along for a small part of their adventure.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Porting a theme to Siteleaf</title>
+      <link>http://destroytoday.com/blog/porting-a-theme-to-siteleaf</link>
+      <pubDate>Mon, 16 Sep 2013 21:04:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/porting-a-theme-to-siteleaf</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/porting-a-theme-to-siteleaf-martin.png&quot; alt=&quot;porting-a-theme-to-siteleaf-martin&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Today, I ported &lt;a href=&quot;http://martin.siteleaf.net&quot;&gt;another theme&lt;/a&gt; to &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt;—&lt;a href=&quot;http://twitter.com/house&quot;&gt;Allison House&amp;rsquo;s&lt;/a&gt; &lt;a href=&quot;http://house.github.io/martin/&quot;&gt;Martin theme&lt;/a&gt;. I started porting themes to Siteleaf earlier this month as a self-imposed challenge. A friend of mine asked if a particular theme was possible to implement using Siteleaf and rather than answer with a simple &amp;lsquo;yes&amp;rsquo;, I responded with &lt;a href=&quot;http://balzac.siteleaf.net&quot;&gt;the ported theme&lt;/a&gt;. This was a great way of demonstrating Siteleaf&amp;rsquo;s adaptability, but also a useful exercise for myself to see where Siteleaf excels and where it falls short. In this post, I&amp;rsquo;ll walk through porting the Martin theme and show you just how easy it can be.&lt;/p&gt;
+
+&lt;p&gt;If you first take a look at the &lt;a href=&quot;https://github.com/destroytoday/martin-for-siteleaf/commit/4d7bb736b682294513db591d9c47bdb34713c507#L9R3&quot;&gt;diff&lt;/a&gt; on Github, you&amp;rsquo;ll immediately see how little I needed to change in order to port the theme to Siteleaf. In fact, I only replaced six lines—and I deleted several dozen in the process. I accomplished this by extracting the theme&amp;rsquo;s content to Siteleaf and wiring these spots to page variables and meta fields.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/porting-a-theme-to-siteleaf-sections.png&quot; alt=&quot;porting-a-theme-to-siteleaf-sections&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;Looking at the previous code, we can separate the entire page into three sections—header, body (represented as a &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt;), and footer. If we take a closer look at the body, the bulk of it is simple HTML that can easily be rendered from Markdown. Because of this, we can replace the entire block of code inside the &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; tag with the liquid tag &lt;code&gt;{{ body }}&lt;/code&gt; and move the previous content into a Siteleaf page body, rewritten in Markdown. Siteleaf will render that Markdown to HTML, inject it into our template, and allow us to modify it easily in the CMS, without touching the template code. Previously, the snippet of code to produce a table looked like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;h2&amp;gt;Table&amp;lt;/h2&amp;gt;
+&amp;lt;table&amp;gt;
+  &amp;lt;thead&amp;gt;
+    &amp;lt;tr&amp;gt;
+      &amp;lt;th&amp;gt;Whiskey&amp;lt;/th&amp;gt;
+      &amp;lt;th&amp;gt;Tango&amp;lt;/th&amp;gt;
+      &amp;lt;th&amp;gt;Foxtrot&amp;lt;/th&amp;gt;
+    &amp;lt;/tr&amp;gt;
+  &amp;lt;/thead&amp;gt;
+  &amp;lt;tbody&amp;gt;
+    &amp;lt;tr&amp;gt;
+      &amp;lt;td&amp;gt;Apple&amp;lt;/td&amp;gt;
+      &amp;lt;td&amp;gt;1&amp;lt;/td&amp;gt;
+      &amp;lt;td&amp;gt;a&amp;lt;/td&amp;gt;
+    &amp;lt;/tr&amp;gt;
+    &amp;lt;tr&amp;gt;
+      &amp;lt;td&amp;gt;Blueberry&amp;lt;/td&amp;gt;
+      &amp;lt;td&amp;gt;2&amp;lt;/td&amp;gt;
+      &amp;lt;td&amp;gt;b&amp;lt;/td&amp;gt;
+    &amp;lt;/tr&amp;gt;
+    &amp;lt;tr&amp;gt;
+      &amp;lt;td&amp;gt;Banana&amp;lt;/td&amp;gt;
+      &amp;lt;td&amp;gt;3&amp;lt;/td&amp;gt;
+      &amp;lt;td&amp;gt;c&amp;lt;/td&amp;gt;
+    &amp;lt;/tr&amp;gt;
+  &amp;lt;/tbody&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, thanks to Markdown, we can replicate this table in the Siteleaf CMS, using the following code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;markdown&quot;&gt;## Table
+
+| Whiskey    | Tango | Foxtrot |
+| ---------- | ----- | ------- |
+| Apple      | 1     | a       |
+| Blueberry  | 2     | b       |
+| Banana     | 3     | c       |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The end result is the same both ways, but with Siteleaf and Markdown, the content is much easier to digest and no longer hard-coded into the template. You can compare the before/after of the page&amp;rsquo;s content in these two gists: &lt;a href=&quot;https://gist.github.com/destroytoday/6598835&quot;&gt;HTML&lt;/a&gt; vs &lt;a href=&quot;https://gist.github.com/destroytoday/6598658&quot;&gt;Markdown&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The body content is typically the easiest to extract because Siteleaf does most of the work. Let&amp;rsquo;s now take a look at the header, which is comprised of a few external links, the page&amp;rsquo;s title and its tagline.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/porting-a-theme-to-siteleaf-header.png&quot; alt=&quot;porting-a-theme-to-siteleaf-header&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;If this theme were meant for multiple pages, the links at the top would appear on every page, so it&amp;rsquo;s safe to consider these global values. As such, we can extract them into site meta fields. Starting with the byline in the top-left, we &lt;em&gt;could&lt;/em&gt; simply replace it with the full URL to the GitHub profile page, but instead, let&amp;rsquo;s write the template in a way that saves us from repeating the URI with every occurrance. I take this approach because we use several GitHub links on the top bar, including one for the repo and another for a zip of the master branch. Here&amp;rsquo;s a look at the previous code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;div class=&amp;quot;byline&amp;quot;&amp;gt;
+  &amp;lt;a href=&amp;quot;https://github.com/house&amp;quot;&amp;gt;github.com/house&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;downloads&amp;quot;&amp;gt;
+  &amp;lt;a href=&amp;quot;https://github.com/house/martin&amp;quot;&amp;gt;Fork on GitHub&amp;lt;/a&amp;gt;
+  &amp;amp;bull;
+  &amp;lt;a href=&amp;quot;https://github.com/house/martin/archive/master.zip&amp;quot;&amp;gt;Download ZIP&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The base GitHub URL appears three times (and once without the protocol), the GitHub username four times, and the GitHub repo name twice. If we take a stance and agree to use GitHub to host our source code when using this theme, we can extract both the GitHub username and repo name into site meta fields:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;div class=&amp;quot;byline&amp;quot;&amp;gt;
+  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}&amp;quot;&amp;gt;github.com/{{ site.meta.github_user }}&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;downloads&amp;quot;&amp;gt;
+  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}/{{ site.meta.github_repo }}&amp;quot;&amp;gt;Fork on GitHub&amp;lt;/a&amp;gt;
+  &amp;amp;bull; 
+  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}/{{ site.meta.github_repo }}/archive/master.zip&amp;quot;&amp;gt;Download ZIP&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With this setup, if we ever decide to change our username or repo name, we only need to do it once, without touching the template code. I try to extract as much content as possible, so anyone could upload the theme and have full control over the copy. We can achieve this with a couple more site meta fields, but let&amp;rsquo;s also specify fallbacks, so these are optional to the user:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;div class=&amp;quot;byline&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}&amp;quot;&amp;gt;github.com/{{ site.meta.github_user }}&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;div class=&amp;quot;downloads&amp;quot;&amp;gt;
+  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}/{{ site.meta.github_repo }}&amp;quot;&amp;gt;{{ site.meta.fork_text | fallback: &amp;#39;Fork on GitHub&amp;#39; }}&amp;lt;/a&amp;gt;
+  &amp;amp;bull; 
+  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}/{{ site.meta.github_repo }}/archive/master.zip&amp;quot;&amp;gt;{{ site.meta.download_text | fallback: &amp;#39;Download ZIP&amp;#39; }}&amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The second half the header consists of the page&amp;rsquo;s title and tagline. Since this theme is intended to be a single, standalone page, I could&amp;rsquo;ve used the site title and a site meta field for the tagline, but I wanted to keep it open to multiple pages, so I went with the page title and a page meta field:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;hgroup&amp;gt;
+  &amp;lt;h1&amp;gt;{{ title }}&amp;lt;/h1&amp;gt;
+  &amp;lt;h2 class=&amp;quot;tagline&amp;quot;&amp;gt;{{ meta.tagline }}&amp;lt;/h2&amp;gt;
+&amp;lt;/hgroup&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, if we ever add a &amp;lsquo;Team&amp;rsquo; page, we can adapt the header to the new page without needing to touch the template.&lt;/p&gt;
+
+&lt;p&gt;The last remaining piece of the puzzle is the window title. Typically, I set this to &lt;code&gt;{{ site.title }} / {{ title }}&lt;/code&gt;, but this theme&amp;rsquo;s title includes both the title and a credit to the creator, Allison. Rather than set the site title to such a length, once again, I used a site meta field with a fallback to the site title:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;title&amp;gt;{{ site.meta.window_title | fallback: site.title }}&amp;lt;/title&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Again, the user can upload the theme without specifying the &lt;code&gt;window_title&lt;/code&gt;, but it&amp;rsquo;s also there if they need it.&lt;/p&gt;
+
+&lt;h3&gt;Wrapping up&lt;/h3&gt;
+
+&lt;p&gt;Allison&amp;rsquo;s theme, &lt;a href=&quot;http://house.github.io/martin/&quot;&gt;Martin&lt;/a&gt;, is a beautiful theme, and its simplicity, both in style and code, is what attracted me. While the theme is a good example for a single-page site, there is so much more to cover when porting larger, more complex themes. Hopefully, this walkthrough gives you a solid starting point to try it for yourself. I&amp;rsquo;m going to continue porting themes to Siteleaf, while providing the source code on &lt;a href=&quot;https://github.com/destroytoday&quot;&gt;my GitHub account&lt;/a&gt;. You can also check out the &lt;a href=&quot;https://github.com/siteleaf/siteleaf-themes/wiki/Siteleaf-themes-on-Github&quot;&gt;list of existing themes&lt;/a&gt; on the Siteleaf wiki.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Washing the dishes and other moments of thought</title>
+      <link>http://destroytoday.com/blog/washing-the-dishes</link>
+      <pubDate>Sun, 04 Aug 2013 14:11:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/washing-the-dishes</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/washing-dishes.jpg&quot; alt=&quot;washing-dishes&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;When I turned seven years old, my family moved from the city of Allentown to the suburbs of Macungie. Our house was one of the first built in the development, with a quarter-acre backyard consisting of only dirt and rock. My mom spent most of her time transforming it into a typical yard in the suburbs—full of healthy grass and tall trees lining the perimeter. One day, she found a flat rock the size of a seat and placed it upon one of the tree beds. Mom called that our “thinking rock.” Whenever we needed some alone time to think, we could walk to the back of the yard and sit on it. I still remember it for that purpose. To anyone else, it is a rock, but to my mom, it is a place for thinking.&lt;/p&gt;
+
+&lt;p&gt;A couple years ago, I threw out my back. This wasn’t the first time I threw out my back, but it was the first time the pain lasted more than a day—eight months to be exact. I tried everything from foam roller exercises and spine alignment tools to chiropractors and physical therapists. Losing hope of recovery, I decided to try acupuncture. Twice a week, I would spend 20 minutes lying face down with a dozen needles strategically placed in my back. What was first considered to be a last resort for relief turned into one of my most precious times for thinking. I found myself relying on this time to clear my head and address anything that was plaguing me that week. I would leave each session feeling rested and motivated to seize the day.&lt;/p&gt;
+
+&lt;p&gt;Now, I do my best thinking while washing the dishes. To most, it feels like a chore, but I consider it quality thinking time. My hands are busy, I feel productive, and I have no mental blocks—my thoughts flow like the water from the faucet. Those 15 minutes of constant, mindless activity provide the perfect environment for deep thought. I think of all that needs to be done for the week ahead. I think of anything causing roadblocks in my work. I think of ways to improve my current workflows. As I think of all these things, I keep a mental to-do list. And when I finish washing the dishes, I feel a small sense of accomplishment—enough to leave me eager to tackle the next item on the list.&lt;/p&gt;
+
+&lt;p&gt;These moments are important. Getting away from the computer and away from our work sometimes feels like the only way to move past mental blocks or obstacles. We’ve all been there, sitting at the computer, staring at nothing, thinking of nothing. Hours might go by before you realize you haven’t accomplished anything at all. This happens to me constantly and it tears me apart. Internally, I know I should be full-speed ahead, but I can’t get into it. The key is to find your moment of thought, realize its value, and lean on it when you need to take a break.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

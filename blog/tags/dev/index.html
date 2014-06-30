@@ -1,0 +1,569 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+
+    <title>Destroy Today - dev</title>
+
+    <meta property="twitter:account_id" content="14839458">
+    <meta name='description' content='Destroy Today is a partnership between builders. Its focus is on solving problems through products crafted with close attention to design and user experience.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
+
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="http://feeds.feedburner.com/destroytoday">
+    <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
+    <link href='/styles/screen.css' rel='stylesheet'>
+
+    <script>
+  (function() {
+  var config = {
+  kitId: 'aeu3zes',
+  scriptTimeout: 3000
+  };
+  var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
+
+    <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3256994-11']);
+  _gaq.push(['_setDomainName', 'destroytoday.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <style>
+  
+  
+  
+  
+  
+
+  html, body {
+    background-color: #FFF;
+    color: #000
+  }
+
+  ::selection {
+    background-color: #BBB;
+    color: #FFF;
+  }
+
+  .main-header {
+    background-color: #BBB;
+    color: #FFF;
+  }
+
+  a,
+  .tweet-button:hover,
+  .pagination a:hover {
+    color: #000;
+  }
+
+  .project-listing:hover img {
+    border-bottom-color: #000;
+  }
+
+  a:hover,
+  .pagination a,
+  .content-subheader a:hover,
+  .content-body a:hover,
+  .content-body .more,
+  .content-footer a,
+  .tweet-button,
+  .listing-footer a:hover,
+  .list-footer a,
+  .article-footer p a:hover {
+    color: #BBB;
+  }
+
+  .content-subheader,
+  .content-subheader a,
+  .listing-footer,
+  .listing-footer a,
+  .main-footer,
+  .article-footer p,
+  .article-footer p a {
+    color: #999;
+  }
+
+  .main-header a {
+    color: #FFF;
+  }
+
+  .content-body a {
+    border-bottom: solid 2px #BBB;
+  }
+
+  .content-body blockquote {
+    border-left-color: #BBB;
+  }
+</style>
+
+  </head>
+
+  <body class='tag'>
+    <header id='main-header' class='main-header ss-navigatedown'>
+      <div class='wrapper'>
+        <h1 class='main-title'>
+          <a href='/'>
+            <span class='main-title-prefix'>destroy</span><span class='main-title-suffix'>today</span>
+          </a>
+        </h1>
+        <nav class='main-nav'>
+          <ul class='main-nav-list'>
+            
+            
+
+            
+              
+            
+              
+                
+
+                <li>
+                  <a href='/about'>About</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/office-hours'>Office Hours</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li class='is-selected'>
+                  <a href='/blog'>Writings</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/findings'>Findings</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li>
+                  <a href='/work'>Projects</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/experiments'>Experiments</a>
+                </li>
+
+                
+              
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class='main-content'>
+      <div class='wrapper'>
+        
+  <div class='wrapper'>
+    <div class='content'>
+      <div class='article-list'>
+        
+  
+  <article class='article-listing latest'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/layouts-in-siteleaf'>Layouts in Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/layouts-in-siteleaf'>October 28, 2013</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p><img src="/assets/layouts-in-siteleaf.svg" alt="layouts-in-siteleaf"></p>
+
+<p>In my last article about <a href="http://siteleaf.com">Siteleaf</a>, I wrote about what goes into <a href="/blog/porting-a-theme-to-siteleaf/">porting a theme</a> to Siteleaf from another CMS. This time around, I’ll show you how to write cleaner, less redundant templates through the use of layouts.</p>
+
+    <p>
+      <a class='more' href='/blog/layouts-in-siteleaf'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/porting-a-theme-to-siteleaf'>Porting a theme to Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/porting-a-theme-to-siteleaf'>September 16, 2013</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p><strong><img src="/assets/porting-a-theme-to-siteleaf-martin.png" alt="porting-a-theme-to-siteleaf-martin"></strong></p>
+
+<p>Today, I ported <a href="http://martin.siteleaf.net">another theme</a> to <a href="http://siteleaf.com">Siteleaf</a>—<a href="http://twitter.com/house">Allison House&rsquo;s</a> <a href="http://house.github.io/martin/">Martin theme</a>. I started porting themes to Siteleaf earlier this month as a self-imposed challenge. A friend of mine asked if a particular theme was possible to implement using Siteleaf and rather than answer with a simple &lsquo;yes&rsquo;, I responded with <a href="http://balzac.siteleaf.net">the ported theme</a>. This was a great way of demonstrating Siteleaf&rsquo;s adaptability, but also a useful exercise for myself to see where Siteleaf excels and where it falls short. In this post, I&rsquo;ll walk through porting the Martin theme and show you just how easy it can be.</p>
+
+    <p>
+      <a class='more' href='/blog/porting-a-theme-to-siteleaf'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/markdown-in-siteleaf'>Markdown in Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/markdown-in-siteleaf'>July 29, 2013</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p><img src="/assets/markdown-in-siteleaf-ui.png" alt="ui"> </p>
+
+<p>In the last <a href="http://siteleaf.com">Siteleaf</a> post, we explored <a href="/blog/taxonomy-in-siteleaf">taxonomy</a> and the many ways you could use it to extend your website. This time, we’ll break from templating and take a closer look at content—specifically, Markdown’s role in Siteleaf.</p>
+
+    <p>
+      <a class='more' href='/blog/markdown-in-siteleaf'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/taxonomy-in-siteleaf'>Taxonomy in Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/taxonomy-in-siteleaf'>July 13, 2013</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p><img src="/assets/taxonomy-in-siteleaf-ui.png" alt="ui"> </p>
+
+<p>Last week, I wrote about <a href="/blog/metadata-in-siteleaf">metadata</a> in <a href="http://siteleaf.com">Siteleaf</a> and the variety of ways you could use it to customize your website. In this post, I’ll do the same, but with metadata’s much cooler, older brother—taxonomy.</p>
+
+    <p>
+      <a class='more' href='/blog/taxonomy-in-siteleaf'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/qandanda'>Q&amp;&amp;A</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/qandanda'>July 09, 2013</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p><a href="http://instagram.com/p/bhfXHMBWf0/"><img src="/assets/qandanda-photo.jpg" alt="qandanda-photo"></a></p>
+
+<p><em>@davedawson: Mr. @destroytoday is live-coding an API at @studiomates Q&amp;A.</em></p>
+
+<p>Last night, I hosted an event for designers and devs at <a href="http://studiomates.com">Studiomates</a> to gather and ask me any questions they might have about code. The purpose was to provide everyone with in-person help, to answer those questions that are difficult to find, or learn, through Google or <a href="http://stackoverflow.com">Stack Overflow</a>. Think of it as a dev Q&amp;A, or as I like to call it, <a href="http://qandanda.com">Q&amp;&amp;A</a>.</p>
+
+    <p>
+      <a class='more' href='/blog/qandanda'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/metadata-in-siteleaf'>Metadata in Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/metadata-in-siteleaf'>July 07, 2013</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p><img src="/assets/metadata-in-siteleaf-ui.png" alt="ui"> </p>
+
+<p>In <a href="http://siteleaf.com">Siteleaf</a>, metadata is pure key/value data attached to a site, page, or post. It provides a way to interact with templates beyond the basic usage of injecting title or body copy. Metadata can be used to set inline CSS values or specify the number of posts on a given page—the uses are endless. It’s also very flexible, down to a per-entity level. A post could have a completely unique set of metadata compared to that of its siblings. Let’s look at a few examples.</p>
+
+    <p>
+      <a class='more' href='/blog/metadata-in-siteleaf'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/hello-world-im-siteleaf'>Hello World, I’m Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/hello-world-im-siteleaf'>July 01, 2013</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p>Last week, <a href="/blog/an-introduction-to-siteleaf">I ran through</a> a number of <a href="http://siteleaf.com">Siteleaf’s</a> most compelling features and provided a general overview of the service. This week, I’ll hold your hand through creating a basic website using Siteleaf.</p>
+
+    <p>
+      <a class='more' href='/blog/hello-world-im-siteleaf'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/an-introduction-to-siteleaf'>An introduction to Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/an-introduction-to-siteleaf'>June 22, 2013</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p><img src="/assets/an-introduction-to-siteleaf-logo.svg" alt="logo"> </p>
+
+<p>Recently, we at <a href="http://oak.is">Oak</a> launched a new website publishing platform, called <a href="http://siteleaf.com">Siteleaf</a>. In short, Siteleaf lets you build your website locally, edit its content in the cloud, and publish to static. In between, it’s so much more. Let me tell you about it.</p>
+
+    <p>
+      <a class='more' href='/blog/an-introduction-to-siteleaf'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/wedding-tech'>The tech behind our wedding</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/wedding-tech'>September 23, 2012</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p>On the 15th, I became a married man. An inordinate amount of work went into this wedding to ensure that it matched us as a couple in every way, and luckily, everything went without a hitch. I’m a dev at heart, so in the planning, I took it upon myself to be creative where I could. I utilized several services and even experimented with some of the newer web tech out there. In this post, I’ll run through the ‘backend’ of our wedding and provide detail on exactly what went into it.</p>
+
+    <p>
+      <a class='more' href='/blog/wedding-tech'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/hello-world-im-jekyll'>Hello World, I’m Jekyll</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/hello-world-im-jekyll'>August 18, 2011</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p>Continuing the Jekyll series, today, we build our first Jekyll website. So, where to start?—install the dependencies!</p>
+
+    <p>
+      <a class='more' href='/blog/hello-world-im-jekyll'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/checkered-loading-images'>Use Photoshop’s checkered canvas for loading images</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/checkered-loading-images'>August 15, 2011</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p><img src="/assets/checkered-loading-images.jpg" alt="checkered-loading-images"></p>
+
+<p>The best part of releasing a website or app is getting to the point where you can casually tweak things. I decided to have a little fun and set image backgrounds to the checkered canvas Photoshop uses to indicate transparency. It’s incredibly simple, requiring only a repeat background in CSS, but effective nonetheless. Below is the code and you can download the checker asset <a href="/assets/checker.png">here</a>. Feel free to use it on your own site.</p>
+
+    <p>
+      <a class='more' href='/blog/checkered-loading-images'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+  
+  <article class='article-listing'>
+  <hgroup class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/an-introduction-to-jekyll'>An introduction to Jekyll</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='content-date' href='/blog/an-introduction-to-jekyll'>August 09, 2011</a>
+    </h3>
+  </hgroup>
+  <div class='content-body'>
+    <p>The most exciting aspect of the [2011] destroytoday.com reboot is the technology involved. I grew tired of the same old starting point of installing Wordpress, configuring, theming, and rushing the release. A half-designed website is twice as hard to maintain. With an unknown world to discover with <a href="http://jekyllrb.com">Jekyll</a>, the exploration and experimentation fueled my interest and kept me on track to release a well-groomed site when the time was right.</p>
+
+    <p>
+      <a class='more' href='/blog/an-introduction-to-jekyll'>Read&nbsp;more</a>
+    </p>
+  </div>
+</article>
+
+
+
+      </div>
+      <footer class='content-footer'>
+  <p>Follow <a href='http://twitter.com/destroytoday'>@destroytoday</a> on Twitter.</p>
+</footer>
+
+    </div>
+  </div>
+
+      </div>
+    </main>
+
+    <footer class='main-footer'>
+      <p>Made with <span class="ss-icon">love</span> in Brooklyn</p>
+      <p>&copy; 2014 Destroy Today, LLC. All Rights Reserved</p>
+    </footer>
+
+    
+
+
+    <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+    <script>
+      var mainHeader = document.getElementById('main-header');
+      var body = document.body;
+      var mainHeader_startHeight,
+          startTouchY,
+          touchY,
+          prevTouchY,
+          touchDirection,
+          touch;
+
+      mainHeader.addEventListener('click', function(e){
+        if (touch || window.innerWidth <= 480)
+        {
+          e.preventDefault();
+        }
+
+        if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+        else
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+      });
+
+      [].forEach.call(document.querySelectorAll('.main-nav-list a'), function(link) {
+        link.addEventListener('touchstart', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+
+          window.location.href = link.href;
+        });
+      });
+
+      var window_touchmoved = function(e) {
+        e.preventDefault();
+
+        touchY = e.changedTouches[0].clientY;
+        mainHeader.style.height =
+          mainHeader_startHeight + (touchY - startTouchY) + 'px';
+
+        touchDirection = touchY > prevTouchY ? 1 : -1;
+
+        prevTouchY = touchY;
+      };
+
+      mainHeader.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        touch = true;
+
+        mainHeader_startHeight = this.offsetHeight;
+        startTouchY =
+          prevTouchY = e.changedTouches[0].clientY;
+
+        this.className += ' is-touching';
+        window.addEventListener('touchmove', window_touchmoved, false);
+      }, false);
+
+      mainHeader.addEventListener('touchend', function(e) {
+        window.removeEventListener('touchmove', window_touchmoved);
+
+        this.style.height = '';
+        this.className = this.className.replace(' is-touching', '');
+
+        if (touchDirection == -1)
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+        else if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+      }, false);
+    </script>
+    
+
+  </body>
+</html>
+

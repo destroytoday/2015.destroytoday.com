@@ -1,0 +1,555 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+
+    <title>Destroy Today - Metadata in Siteleaf</title>
+
+    <meta property="twitter:account_id" content="14839458">
+    <meta name='description' content='Destroy Today is a partnership between builders. Its focus is on solving problems through products crafted with close attention to design and user experience.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
+
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="http://feeds.feedburner.com/destroytoday">
+    <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
+    <link href='/styles/screen.css' rel='stylesheet'>
+
+    <script>
+  (function() {
+  var config = {
+  kitId: 'aeu3zes',
+  scriptTimeout: 3000
+  };
+  var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
+
+    <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3256994-11']);
+  _gaq.push(['_setDomainName', 'destroytoday.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <style>
+  
+  
+  
+  
+  
+
+  html, body {
+    background-color: #FFF;
+    color: #000
+  }
+
+  ::selection {
+    background-color: #8dcf3f;
+    color: #FFF;
+  }
+
+  .main-header {
+    background-color: #8dcf3f;
+    color: #FFF;
+  }
+
+  a,
+  .tweet-button:hover,
+  .pagination a:hover {
+    color: #000;
+  }
+
+  .project-listing:hover img {
+    border-bottom-color: #000;
+  }
+
+  a:hover,
+  .pagination a,
+  .content-subheader a:hover,
+  .content-body a:hover,
+  .content-body .more,
+  .content-footer a,
+  .tweet-button,
+  .listing-footer a:hover,
+  .list-footer a,
+  .article-footer p a:hover {
+    color: #8dcf3f;
+  }
+
+  .content-subheader,
+  .content-subheader a,
+  .listing-footer,
+  .listing-footer a,
+  .main-footer,
+  .article-footer p,
+  .article-footer p a {
+    color: #999;
+  }
+
+  .main-header a {
+    color: #FFF;
+  }
+
+  .content-body a {
+    border-bottom: solid 2px #8dcf3f;
+  }
+
+  .content-body blockquote {
+    border-left-color: #8dcf3f;
+  }
+</style>
+
+  </head>
+
+  <body class='post'>
+    <header id='main-header' class='main-header ss-navigatedown'>
+      <div class='wrapper'>
+        <h1 class='main-title'>
+          <a href='/'>
+            <span class='main-title-prefix'>destroy</span><span class='main-title-suffix'>today</span>
+          </a>
+        </h1>
+        <nav class='main-nav'>
+          <ul class='main-nav-list'>
+            
+            
+
+            
+              
+            
+              
+                
+
+                <li>
+                  <a href='/about'>About</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/office-hours'>Office Hours</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li class='is-selected'>
+                  <a href='/blog'>Writings</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/findings'>Findings</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li>
+                  <a href='/work'>Projects</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/experiments'>Experiments</a>
+                </li>
+
+                
+              
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class='main-content'>
+      <div class='wrapper'>
+        
+<article class='article'>
+  <header class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/metadata-in-siteleaf'>Metadata in Siteleaf</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='next nav-icon ss-icon' href='/blog/qandanda' style='visibility: visible'>navigateleft</a>
+      <a class='content-date' href='/blog/metadata-in-siteleaf'>July 07, 2013</a>
+      <a class='previous nav-icon ss-icon' href='/blog/hello-world-im-siteleaf' style='visibility: visible'>navigateright</a>
+    </h3>
+  </header>
+  <div class='content-body'>
+    <p><img src="/assets/metadata-in-siteleaf-ui.png" alt="ui"> </p>
+
+<p>In <a href="http://siteleaf.com">Siteleaf</a>, metadata is pure key/value data attached to a site, page, or post. It provides a way to interact with templates beyond the basic usage of injecting title or body copy. Metadata can be used to set inline CSS values or specify the number of posts on a given page—the uses are endless. It’s also very flexible, down to a per-entity level. A post could have a completely unique set of metadata compared to that of its siblings. Let’s look at a few examples.</p>
+
+<h3>Page-specific color</h3>
+
+<p>For my website, I wanted each page to reflect its content. I accomplished this in the previous design through custom color per-page in the ‘Work’ section. All posts, however, looked the same. This time around, since I’m already writing more than ever, I knew posts would benefit from the same custom treatment, but not to the extent of pages. I decided on a single highlight color for each post, extracted from either its hero image or the topic of the post—this one uses the green from the Siteleaf logo.</p>
+
+<p><img src="/assets/metadata-in-siteleaf-color.png" alt="color"> </p>
+
+<p>In our first example, we specify a metadata key <code>color</code> with the value <code>#c00</code>. Notice how Siteleaf displays the correct syntax of this metadata in the lower right. You’ll find these syntax helpers below every input field in Siteleaf’s UI.</p>
+
+<pre><code class="html">&lt;style&gt;
+    a {
+        color: {{ meta.color }};
+    }
+&lt;/style&gt;
+</code></pre>
+
+<p>Then, inside the <code>&lt;head&gt;</code> tag of our default template, we create a <code>&lt;style&gt;</code> tag and set the base link color to our metadata value. The keyword <code>meta</code>, in this instance, references the metadata of the current page or post. When looping through posts, you can access each post’s metadata using <code>{{ post.meta.color }}</code>. If your metadata key isn’t a friendly variable name, you can access it with brackets: <code>{{ meta[&#39;my color&#39;] }}</code>.</p>
+
+<p><em>Note — Siteleaf uses the shorter keyword <code>meta</code> when referencing metadata.</em></p>
+
+<h3>Fallbacks</h3>
+
+<p>Let’s say your website uses page-specific color, but not all pages call for their own color. In this case, you want the metadata to fall back to your brand color. To do this, we use the Siteleaf’s custom Liquid filter <code>fallback</code>. Now, when a page or post doesn’t have a <code>color</code> metadata, the value will fall back to one of the greatest colors in the entire spectrum.</p>
+
+<pre><code class="html">&lt;style&gt;
+    a {
+        color: {{ meta.color | fallback: &#39;#007998&#39; }};
+    }
+&lt;/style&gt;
+</code></pre>
+
+<p><em>Note — Fallbacks work with any variable, not just metadata.</em></p>
+
+<h3>Site metadata</h3>
+
+<p>At the launch of Siteleaf, we only had metadata for pages and posts, but we recently added site metadata as well, taking the separation of content and code one step further. You can use site metadata to manage your website meta, like its description:</p>
+
+<pre><code class="html">&lt;head&gt;
+    &lt;meta name=&#39;description&#39; content=&#39;{{ site.meta.description }}&#39;&gt;
+&lt;/head&gt;
+</code></pre>
+
+<p>Using our fallback example from before, you can use site metadata for the fallback value:</p>
+
+<pre><code class="html">&lt;style&gt;
+    a {
+        color: {{ meta.color | fallback: site.meta.color }};
+    }
+&lt;/style&gt;
+</code></pre>
+
+<p>Site metadata is especially useful for cases where your website is tied to 3rd party services, like <a href="http://symbolset.com">Symbolset</a>, <a href="http://typekit.com">Typekit</a>, or <a href="http://google.com/analytics">Google Analytics</a>. Here are a few examples:</p>
+
+<pre><code class="html">&lt;head&gt;
+    &lt;link href=&quot;//cdn.symbolset.com/{{ site.meta.symbolset_id }}/symbolset.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;/head&gt;
+</code></pre>
+
+<pre><code class="html">&lt;script&gt;
+    (function() {
+        var config = {
+            kitId: &#39;{{ site.meta.typekit_id }}&#39;,
+            scriptTimeout: 3000
+        };
+    })();
+&lt;/script&gt;
+</code></pre>
+
+<pre><code class="html">&lt;script&gt;
+    var _gaq = _gaq || [];
+    _gaq.push([&#39;_setAccount&#39;, &#39;{{ site.meta.analytics_id }}&#39;]);
+    _gaq.push([&#39;_setDomainName&#39;, &#39;{{ site.domain }}&#39;]);
+    _gaq.push([&#39;_trackPageview&#39;]);
+&lt;/script&gt;
+</code></pre>
+
+<h3>Post count limit</h3>
+
+<p>I’m not a fan of hard-coded values in my templates. With them, it would be an ordeal to change something as petty as the number of blog posts on my front page. Fortunately, we can use metadata, keeping these values in Siteleaf, where we can easily update them.</p>
+
+<p><img src="/assets/metadata-in-siteleaf-limit.png" alt="limit"> </p>
+
+<p>For any given page with posts, we simply set the metadata like before. Then, in the template, we set the <code>limit</code> property of the loop to the metadata of the page:</p>
+
+<pre><code class="html">{% for post in posts limit: meta.limit.value %}
+    &lt;article&gt;
+        &lt;h3&gt;{{ post.title }}&lt;/h3&gt;
+        {{ post.body }}
+    &lt;/article&gt;
+{% endfor %}
+</code></pre>
+
+<p><em>Note — we use the keyword <code>value</code> when referencing the metadata because filters, like <code>limit</code>, must be run on the value of the metadata, not the metadata instance itself. If you remove the <code>value</code> keyword, Liquid will throw an <code>undefined method</code> error.</em></p>
+
+<h3>Social network links</h3>
+
+<p>If you’re feeling adventureous, there are a number of tricks you can pull off using Liquid filters and metadata, like listing links to your various networks. There are two ways of going about this that would allow for a flexible, easy-to-update list.</p>
+
+<p><img src="/assets/metadata-in-siteleaf-links-1.png" alt="links"> </p>
+
+<p>The first method uses a comma-separated metadata value. In the template, we use the <code>assign</code> method along with the <code>split</code> filter to create a variable array of links. Notice that we use the <code>value</code> keyword like in the post count example.</p>
+
+<pre><code class="html">{% assign links = meta.links.value | split: &#39;, &#39; %}
+&lt;ul&gt;
+    {% for link in links %}
+        &lt;li&gt;
+            &lt;a href=&quot;{{ link }}&quot;&gt;{{ link }}&lt;/a&gt;
+        &lt;/li&gt;
+    {% endfor %}
+&lt;/ul&gt;
+</code></pre>
+
+<p>The second method allows you to extract the name of the network, but at the cost of gross code. This time, we create metadata for each link, but we prefix each key with a keyword, like ‘link_’.</p>
+
+<p><img src="/assets/metadata-in-siteleaf-links-2.png" alt="links"> </p>
+
+<p>Then, in our template, we loop through the metadata, splitting each key along the way. With a conditional, we check that the metadata is one of our links and if it is, we use the second value in our split key as the network name with our value as the URL. You can even use the capitalize filter if you’d like. I told you it would be gross. </p>
+
+<pre><code class="html">&lt;ul&gt;
+    {% for data in meta %}
+        {% assign key = data.key | split: &#39;_&#39; %}
+        {% if key[0] == &#39;link&#39; %}
+            &lt;li&gt;&lt;a href=&quot;{{ data.value }}&quot;&gt;{{ key[1] | capitalize }}&lt;/a&gt;&lt;/li&gt;
+        {% endif %}
+    {% endfor %}
+&lt;/ul&gt;
+</code></pre>
+
+<h3>Wrapping up</h3>
+
+<p>I hope this article helped in backing up my claim that Siteleaf is a real contender for any website. You shouldn’t need to sacrifice anything when building static. Metadata will allow you to customize any aspect of your website. Be creative. Experiment a bit and see what else you can do. As always, feel free to <a href="http://twitter.com/destroytoday">reach out</a> if you have any questions.</p>
+
+  </div>
+  <footer class='article-footer'>
+  
+  
+  <a class='tweet-button' href='https://twitter.com/intent/tweet?original_referer=http://destroytoday.com/blog/metadata-in-siteleaf&text=I thoroughly enjoyed this post &gt; &quot;Metadata in Siteleaf&quot;:&tw_p=tweetbutton&url=http://destroytoday.com/blog/metadata-in-siteleaf&via=destroytoday' target='_blank'><span class='ss-icon ss-social-regular'>twitter</span><span id='twitter-count' class='count'></span></a>
+  <script>
+    function count_callback(data) { document.getElementById('twitter-count').innerHTML = data.count; }
+    var script = document.createElement('script');
+    script.setAttribute("src", 'http://urls.api.twitter.com/1/urls/count.json?callback=count_callback&url=http://destroytoday.com/blog/metadata-in-siteleaf');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  </script>
+</footer>
+
+</article>
+
+
+
+<section class='featured-section column-section list-section'>
+  <h3>Featured writings</h3>
+  <ul class='vertical-list'>
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #364350">
+          <a href='/blog/building-the-carousel-website'>Building the Carousel website with Dropbox</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #549BA6">
+          <a href='/blog/cushion'>Cushion</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #bab0a8">
+          <a href='/blog/my-dad'>Book covers, model airplanes, and my dad</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #C94A00">
+          <a href='/blog/building-the-pencil-page'>Building the Pencil page with FiftyThree</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #2e9ef0">
+          <a href='/blog/gif-workflow'>The perfect GIF workflow using Dropbox and Alfred</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #005dba">
+          <a href='/blog/redesigning-with-rules'>Redesigning with rules</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #499462">
+          <a href='/blog/lessons-learned-in-a-year-on-my-own'>Lessons learned in a year on my own</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #f5503c">
+          <a href='/blog/wedding-tech'>The tech behind our wedding</a>
+        </li>
+      
+    
+  </ul>
+  <footer class='list-footer'>
+    <a href='/blog'>Archive &rarr;</a>
+  </footer>
+</section>
+
+
+<footer class='content-footer'>
+  <p>Follow <a href='http://twitter.com/destroytoday'>@destroytoday</a> on Twitter.</p>
+</footer>
+
+
+      </div>
+    </main>
+
+    <footer class='main-footer'>
+      <p>Made with <span class="ss-icon">love</span> in Brooklyn</p>
+      <p>&copy; 2014 Destroy Today, LLC. All Rights Reserved</p>
+    </footer>
+
+    
+  
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='/blog/qandanda'></a>
+    </div>
+  
+
+  
+    <div class='pagination previous'>
+      <a class='icon ss-navigateright' href='/blog/hello-world-im-siteleaf'></a>
+    </div>
+  
+
+  <script>
+    document.body.onkeyup = function(e){
+      
+      if (e.keyCode == '37') { window.location = '/blog/qandanda'; }
+      
+
+      
+      if (e.keyCode == '39') { window.location = '/blog/hello-world-im-siteleaf'; }
+      
+    };
+  </script>
+
+
+
+    <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+    <script>
+      var mainHeader = document.getElementById('main-header');
+      var body = document.body;
+      var mainHeader_startHeight,
+          startTouchY,
+          touchY,
+          prevTouchY,
+          touchDirection,
+          touch;
+
+      mainHeader.addEventListener('click', function(e){
+        if (touch || window.innerWidth <= 480)
+        {
+          e.preventDefault();
+        }
+
+        if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+        else
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+      });
+
+      [].forEach.call(document.querySelectorAll('.main-nav-list a'), function(link) {
+        link.addEventListener('touchstart', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+
+          window.location.href = link.href;
+        });
+      });
+
+      var window_touchmoved = function(e) {
+        e.preventDefault();
+
+        touchY = e.changedTouches[0].clientY;
+        mainHeader.style.height =
+          mainHeader_startHeight + (touchY - startTouchY) + 'px';
+
+        touchDirection = touchY > prevTouchY ? 1 : -1;
+
+        prevTouchY = touchY;
+      };
+
+      mainHeader.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        touch = true;
+
+        mainHeader_startHeight = this.offsetHeight;
+        startTouchY =
+          prevTouchY = e.changedTouches[0].clientY;
+
+        this.className += ' is-touching';
+        window.addEventListener('touchmove', window_touchmoved, false);
+      }, false);
+
+      mainHeader.addEventListener('touchend', function(e) {
+        window.removeEventListener('touchmove', window_touchmoved);
+
+        this.style.height = '';
+        this.className = this.className.replace(' is-touching', '');
+
+        if (touchDirection == -1)
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+        else if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+      }, false);
+    </script>
+    
+<script src="/scripts/rainbow.js"></script>
+
+
+  </body>
+</html>
+
+

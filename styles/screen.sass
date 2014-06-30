@@ -1,0 +1,377 @@
+@import '_normalize'
+@import '_mixins'
+
+// variables
+
+$base-font: "jaf-bernina-sans-1","jaf-bernina-sans-2", "Helvetica Neue", Helvetica, sans-serif
+$title-font: "lexia-1", "lexia-2", "Helvetica Neue", Helvetica, sans-serif
+$code-font: "Monaco", monospace, serif
+
+$separator-color: #DDD
+$inline-code-text-color: #000
+$inline-code-background-color: #EEE
+$block-code-background-color: #191919
+$block-code-text-color: #FFF
+$html-code-text-color: #d9c48b
+
+$separator: solid 2px $separator-color
+
+// reset
+
+@media screen and (max-device-width: 480px)
+  html
+    -webkit-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%
+
+*
+  box-sizing: border-box
+
+ul
+  padding: 0
+
+li
+  list-style-type: none
+
+// base
+
+body
+  font: 400 100%/1.65 $base-font
+  text-rendering: optimizeLegibility
+
+img
+  max-width: 100%
+
+a
+  +transition(color 0.15s $easeInOutQuad)
+  text-decoration: none
+
+  img
+    vertical-align: top
+
+// fonts
+
+.wf-loading .webfont
+  visibility: hidden
+
+// page
+
+body
+  & > .wrapper
+    max-width: 46.875em
+    margin: 0 auto
+    padding: 0 1em
+
+  .content
+    min-height: 50vh
+
+// headers
+
+h1, h2
+  text-align: center
+
+h2, h4
+  font-family: $title-font
+  font-weight: 700
+
+h1
+  font-size: 1.5em
+  line-height: 1em
+  font-weight: 700
+
+h2
+  +transition(font-size 0.25s ease)
+  margin: 1em 0
+  font-size: 2em
+  line-height: 1.25em
+  letter-spacing: -1px
+
+h3
+  font-size: 1.25em
+
+h4
+  font-size: 1.25em
+
+.main-header
+  padding: 2em 0 1.5em
+
+.main-title
+  margin: 0.25em 0 1em
+
+// nav
+
+.main-nav
+  text-align: center
+
+.main-nav-list
+  margin: 0.5em 0 0
+
+  & > li
+    display: inline-block
+    margin-left: 0.75em
+
+    &:first-child
+      margin-left: 0
+
+// footer
+
+.main-footer
+  padding: 2em 0
+  font-size: 0.75em
+  text-align: center
+
+// pagination
+
+.pagination
+  +transition(opacity 0.25s $easeInOutQuad)
+  position: fixed
+  top: 50%
+  font-size: 2em
+  opacity: 0
+
+  & > .icon
+    position: relative
+    top: -0.5em
+
+  &.next
+    left: 1rem
+
+  &.previous
+    right: 1rem
+
+  +min-width(56em)
+    opacity: 1
+
+// content
+
+.content-header
+  margin: 1em
+
+.content-title
+  margin: 0
+
+.content-subheader, .listing-footer
+  font-size: 0.875em
+  font-weight: normal
+  text-align: center
+
+.nav-icon
+  +transition(opacity 0.25s $easeInOutQuad)
+  position: relative
+  top: 3px
+  opacity: 0
+
+  +max-width(56em)
+    opacity: 1
+
+.content-date
+  margin: 0 0.5em
+
+.content-body
+  p
+    position: relative
+
+  p + h3,
+  pre + h3
+    margin-top: 2em
+
+  a
+    text-decoration: none
+
+  .more
+    border-bottom: none
+
+.more
+  &:after
+    +transition(opacity 0.25s $easeInOutQuad)
+    content: ' \2192'
+    opacity: 0
+
+  &:hover:after
+    opacity: 1
+
+// article
+
+.content-footer
+  border-top: $separator
+  padding: 2em 0 0
+  margin: 2em 0 0
+  text-align: center
+
+.article
+  border-bottom: $separator
+  padding-bottom: 2em
+  margin-bottom: 2em
+
+.article-footer
+  margin-top: 2em
+  text-align: center
+
+.article-listing
+  border-bottom: $separator
+  padding-bottom: 2em
+  margin-bottom: 2em
+
+  p
+    display: inline
+
+  h2
+    font-size: 2em
+
+  .tag-list
+    text-align: center
+
+  &:last-child
+    padding-bottom: 0
+    margin-bottom: 0
+    border-bottom: none
+
+.tag-list
+  & > li
+    display: inline
+
+.page
+  .article-listing.latest
+    h2
+      font-size: 2em
+
+    img
+      margin-bottom: 1em
+
+    .content-header
+      margin-bottom: 2em
+
+.tweet-button
+  .ss-icon
+    font-size: 1.5em
+    vertical-align: bottom
+
+  .count
+    position: relative
+    top: -0.175em
+    margin-left: 0.25em
+
+    font-family: $title-font
+    font-size: 1.5em
+
+// lists
+
+.list-section h3
+  text-align: center
+
+.list-footer
+  margin: 1.5em 0
+  text-align: center
+
+.vertical-list, .grid-list
+  font-size: 0
+  letter-spacing: 0
+  word-spacing: 0
+
+.vertical-listing
+  display: inline-block
+  width: 100%
+  padding: 0 2em 0 0.5em
+  margin: 0.5em 0
+  vertical-align: top
+
+  font-size: 1rem
+
+.grid-listing
+  display: inline-block
+  width: 50%
+  font-size: 1rem
+
+  .wrapper
+    +transition(margin 0.25s $easeInOutQuad)
+    position: relative
+    margin: 0.75em
+
+  .overlay
+    +transition(height 0.4s $easeOutCubic)
+    display: none
+    position: absolute
+    overflow: hidden
+    width: 100%
+    height: 0
+    bottom: 0
+    text-align: center
+    line-height: 2em
+
+  &:hover .overlay
+    height: 2em
+
+// project
+
+.project
+  p:first-child > img
+    margin: 0
+
+// code
+
+code
+  position: relative
+  top: -1px
+  padding: 0.25em 0.5em
+  font-family: $code-font
+  font-size: 0.75em
+  background-color: #EEE
+  color: #000
+
+pre > code
+  display: block
+  padding: 1em
+  background-color: $block-code-background-color
+  color: $block-code-text-color
+
+  &.html, &.css
+    color: $html-code-text-color
+
+// breakpoints
+
++min-width(30.1em)
+  h2
+    font-size: 300%
+
+  .list-section h3
+    text-align: left
+
+  .list-footer
+    text-align: left
+
+  .page .article-listing.latest, .article
+    h2
+      font-size: 300%
+
+    .content-header
+      margin-bottom: 3em
+
+  .article-listing
+    h2
+      font-size: 200%
+
+  .project
+    img
+      margin: 2em 0
+
+  .vertical-listing
+    width: 50%
+
+  .grid-listing
+    width: 33%
+
+    .wrapper
+      margin: 1em
+
+    .overlay
+      display: block
+
+  .content-header
+    margin-left: 2em
+    margin-right: 2em
+
+  .content-subheader, .listing-footer
+    font-size: 100%
+
+  .content-footer
+    padding-bottom: 2em
+    margin-bottom: 2em

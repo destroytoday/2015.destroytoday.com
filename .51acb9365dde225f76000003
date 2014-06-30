@@ -1,0 +1,891 @@
+---
+time: 1404168093
+inventory:
+  /home/index.html:
+    md5: 90ff500a7320042389addd0b9ba4a4c2
+    time: 1404167947
+  /index.html:
+    md5: 90ff500a7320042389addd0b9ba4a4c2
+    time: 1404167947
+  /about/index.html:
+    md5: dac65ee1f454ee412a331ea006951a98
+    time: 1404167947
+  /office-hours/index.html:
+    md5: dc11d56f71bdae7e4cf08e9a5f1726fa
+    time: 1404167947
+  /blog/index.html:
+    md5: 6620aeff3157bd2e652201cf8e6fa49c
+    time: 1404167947
+  /blog/web-friends-interview/index.html:
+    md5: ae060e0a682350ab74b421fb3e12a50f
+    time: 1404167948
+  /blog/building-the-carousel-website/index.html:
+    md5: 476901b6240330e0f3c1ab26677a54e3
+    time: 1404167948
+  /blog/on-sabbatical/index.html:
+    md5: b68af030f11e614178295f134dc9dba9
+    time: 1404167948
+  /blog/the-start-interview/index.html:
+    md5: 096808a5e78e35820bab57f80bc8aee5
+    time: 1404167948
+  /blog/cushion/index.html:
+    md5: 454f0d2829bac1b4b06da122e3d4d022
+    time: 1404167948
+  /blog/how-to-hold-a-pencil-podcast-interview/index.html:
+    md5: 946c0e84647d85655cebd0d56a6f0d2b
+    time: 1404167948
+  /blog/creativemornings/index.html:
+    md5: 3f4f304f370146441bcc2316eea1461e
+    time: 1404167949
+  /blog/my-dad/index.html:
+    md5: 1f15489ea711f8b455a5f3d2cb3e7422
+    time: 1404167949
+  /blog/back-on-my-own/index.html:
+    md5: 4932207733d5dc5fb28a68cc0ff139c2
+    time: 1404167949
+  /blog/building-the-pencil-page/index.html:
+    md5: 9676ae95481004d30cf143925ef375e2
+    time: 1404167949
+  /blog/layouts-in-siteleaf/index.html:
+    md5: 9d5481917cd82f93dbb73810177cde5f
+    time: 1404167949
+  /blog/brooklyn-beta-is-people/index.html:
+    md5: 56d63ba1e62027b4519adff9d346fc36
+    time: 1404167950
+  /blog/porting-a-theme-to-siteleaf/index.html:
+    md5: 5deabe92171b5e5a990fa8b08553d418
+    time: 1404167950
+  /blog/washing-the-dishes/index.html:
+    md5: 7ccaf997d2cbce3e0645b96e4fea9f74
+    time: 1404167950
+  /blog/markdown-in-siteleaf/index.html:
+    md5: abc655a2801bb972f26d3619f6482220
+    time: 1404167950
+  /blog/gif-workflow/index.html:
+    md5: 3a4a675335e1f85205cc1f25784672cd
+    time: 1404167950
+  /blog/taxonomy-in-siteleaf/index.html:
+    md5: 8faa401e86bbcc411977753a63fa8961
+    time: 1404167950
+  /blog/qandanda/index.html:
+    md5: b517e2ac43928daee97e51f0a78e4e85
+    time: 1404167950
+  /blog/metadata-in-siteleaf/index.html:
+    md5: 1e07285c16869b9add4a85d905f25fe1
+    time: 1404167951
+  /blog/hello-world-im-siteleaf/index.html:
+    md5: 1a38ded664c79eaaf4f234b7cdf0d14d
+    time: 1404167951
+  /blog/an-introduction-to-siteleaf/index.html:
+    md5: 7c2e9a23027c343f290937bbafe91094
+    time: 1404167951
+  /blog/joining-oak/index.html:
+    md5: 4d643418da1706d029f0f949ee919f18
+    time: 1404167951
+  /blog/redesigning-with-rules/index.html:
+    md5: 4b047291b9c5e0eac90b4cf59b3544d0
+    time: 1404167951
+  /blog/lessons-learned-in-a-year-on-my-own/index.html:
+    md5: 514b09f3ac96b5bd309326f6d4ac8aef
+    time: 1404167952
+  /blog/2012-a-year-in-review/index.html:
+    md5: 9175bacf74bee8d562c0183607a90fe3
+    time: 1404167952
+  /blog/wedding-tech/index.html:
+    md5: 405ab8a4cc2e01b41c0db6e276867582
+    time: 1404167952
+  /blog/working-on-teuxdeux/index.html:
+    md5: 280ef87164eb5a36f10db9edd20d259a
+    time: 1404167952
+  /blog/on-building-and-partnering/index.html:
+    md5: 9167eb828e5f3e8a50e500503d779006
+    time: 1404167952
+  /blog/destroy-today-llc/index.html:
+    md5: 1f2bd1e3cdbbdd5b054e3b27cf203c31
+    time: 1404167952
+  /blog/last-day-at-adobe/index.html:
+    md5: d26925b855a4ffea429294abd2979eb8
+    time: 1404167952
+  /blog/dof-drawing-in-instagram/index.html:
+    md5: 8ffd662a01e59916c9948faa2ac734b1
+    time: 1404167953
+  /blog/unliking-in-instagram/index.html:
+    md5: 700bce8a17da2c79e03f197cb77b0528
+    time: 1404167953
+  /blog/user-personality/index.html:
+    md5: 80a7079b2c7b2263e898f6ee5b9560bb
+    time: 1404167953
+  /blog/hello-world-im-jekyll/index.html:
+    md5: fe1c00938c49a49bfcb0becc14867a9e
+    time: 1404167953
+  /blog/checkered-loading-images/index.html:
+    md5: 75de24c92c14f4d241231b8f548d887e
+    time: 1404167954
+  /blog/an-introduction-to-jekyll/index.html:
+    md5: 1a8fe7245b08276edfb4307132791a9c
+    time: 1404167954
+  /blog/letterpressed-indesign-icons/index.html:
+    md5: 4046f4e719d1faece67bf0b6c51a0b7b
+    time: 1404167954
+  /blog/alfred-dev-env/index.html:
+    md5: 578845eb6d0a1abfc687202ce93632dd
+    time: 1404167954
+  /blog/archive/index.html:
+    md5: b3ab8a7f30a970437bea953af32cc7a4
+    time: 1404167954
+  /blog/tags/index.html:
+    md5: d596f18efe7366eca97fff8311bc1cd7
+    time: 1404167955
+  /blog/tags/interview/index.html:
+    md5: a16ba999bed8287ad7e83aa9a3a6a514
+    time: 1404167955
+  /blog/tags/process/index.html:
+    md5: 852681f96dda1c3d09a70bec273e80d9
+    time: 1404167955
+  /blog/tags/featured/index.html:
+    md5: 6d86bf86429e11acc36bfbc3df2fd0cd
+    time: 1404167955
+  /blog/tags/announcement/index.html:
+    md5: b4b3699a361a4be51f0a48bc954bc237
+    time: 1404167955
+  /blog/tags/thoughts/index.html:
+    md5: f1eb3fa2790dece7dd90b71bbd76b264
+    time: 1404167955
+  /blog/tags/cushion/index.html:
+    md5: 61d532a66aff302b9b47349602c46f15
+    time: 1404167955
+  /blog/tags/talk/index.html:
+    md5: fea3efd7409fa95ecc7638bc3a5ad8af
+    time: 1404167956
+  /blog/tags/video/index.html:
+    md5: a8198c71a0a394a3810e978b48cebf2f
+    time: 1404167956
+  /blog/tags/web/index.html:
+    md5: 8e54cf1cea447db795248144ae78b78b
+    time: 1404167956
+  /blog/tags/experience/index.html:
+    md5: 2aabd28be18e466203f7d14a2e6775fc
+    time: 1404167956
+  /blog/tags/working-on/index.html:
+    md5: 9ceebdf5808f0c02a5bfdc3ea2acc52f
+    time: 1404167956
+  /blog/tags/dev/index.html:
+    md5: cb5cf5bb44a350b01437d8c5037ed60a
+    time: 1404167956
+  /blog/tags/code/index.html:
+    md5: cef0c61ec4a1fb1f33dfa77e257325c2
+    time: 1404167957
+  /blog/tags/siteleaf/index.html:
+    md5: a65262fb00222c3d58e09687f0a788e6
+    time: 1404167957
+  /blog/tags/workflow/index.html:
+    md5: d74c5391acaff62966009a152a8b8780
+    time: 1404167957
+  /blog/tags/q-and-and-a/index.html:
+    md5: 72c6c927464416042bacef4099e10925
+    time: 1404167957
+  /blog/tags/design/index.html:
+    md5: f43b85ff0800d948fe87815e2c3ec6b0
+    time: 1404167957
+  /blog/tags/ux-i-want/index.html:
+    md5: 8856737ab5e5be3cf097d04e9f49e72a
+    time: 1404167957
+  /blog/tags/ios/index.html:
+    md5: 9186a5a70eee6cf3ceecc81131e9801d
+    time: 1404167958
+  /blog/tags/jekyll/index.html:
+    md5: c6b6629c85fde9febd4e422d45da2c0f
+    time: 1404167958
+  /blog/tags/tutorial/index.html:
+    md5: 934c67b3cd64dedff67140528a420457
+    time: 1404167958
+  /findings/index.html:
+    md5: f78b82893f1c36e974dcf6ddbc352733
+    time: 1404167958
+  /findings/question-marks-in-liquid-variable-names/index.html:
+    md5: 2e61dd68fd65bd14114380921cf8cad8
+    time: 1404167958
+  /findings/fix-widows-with-non-breaking-spaces/index.html:
+    md5: c2f24320bbfbe44f2605e129ac738fa4
+    time: 1404167958
+  /findings/archive/index.html:
+    md5: 766d6b05f6d0622be047ba491c88bd03
+    time: 1404167958
+  /findings/tags/index.html:
+    md5: 7503b5b57e0f5a65fc82a614accac72b
+    time: 1404167959
+  /work/index.html:
+    md5: 45f11d958bdb328582bafb04c5b51445
+    time: 1404167959
+  /work/mailbox/index.html:
+    md5: 660aed3850d78f1b72ef17f62176b7dd
+    time: 1404167959
+  /work/carousel/index.html:
+    md5: 6a67fef696f8d7146435137b5034a9c2
+    time: 1404167959
+  /work/chroma/index.html:
+    md5: f660cd36e5c5ce2a5c00411a8fc4d9bf
+    time: 1404167959
+  /work/fiftythree/index.html:
+    md5: 7f8fe9ec9371c228a77c017b15628aca
+    time: 1404167959
+  /work/siteleaf/index.html:
+    md5: 467718ba65586e75c2ebac83a3115f6f
+    time: 1404167959
+  /work/teuxdeux/index.html:
+    md5: 5c2464fa882dbfbda3275287876eb9f0
+    time: 1404167959
+  /work/abookapart/index.html:
+    md5: 6de03f4189f040e04a78a51c3304dae9
+    time: 1404167959
+  /work/artsy/index.html:
+    md5: 47ee36261c36c689a18ffa0524dc846e
+    time: 1404167960
+  /work/adobe/index.html:
+    md5: 18a768bbce3f5caed0bc9968c6da7f9c
+    time: 1404167960
+  /work/destroytwitter/index.html:
+    md5: c5371a3b9ba3e7e7c1bf3664c12e87c3
+    time: 1404167960
+  /work/dwarf/index.html:
+    md5: 60dbb86f0d6d4f9746151832d89d3ff0
+    time: 1404167960
+  /work/destroyflickr/index.html:
+    md5: 391457d5caaa0f105e26372a60f183b1
+    time: 1404167960
+  /work/dropmark/index.html:
+    md5: 93eec2ab3d5b21b17d2c2b3f1c142627
+    time: 1404167960
+  /work/archive/index.html:
+    md5: 08b60b45151385e644d5a6c961b2b134
+    time: 1404167960
+  /work/medium/index.html:
+    md5: 869b76d034ff0d6ed217ddb6a2a81224
+    time: 1404167960
+  /work/medium/web/index.html:
+    md5: d759c65314d94df18fed194ca1c82134
+    time: 1404167960
+  /work/medium/app/index.html:
+    md5: 799dfd6f8112bc7cef27a78185bba33b
+    time: 1404167961
+  /work/medium/ios/index.html:
+    md5: c2d03bb37a60c0a1f7118850160068a1
+    time: 1404167961
+  /work/medium/mobile-app/index.html:
+    md5: 53ee4e7421fb700f5ebad2aa795c5ce2
+    time: 1404167961
+  /work/medium/desktop-app/index.html:
+    md5: e5a9ced4a87c58a91803ace25a94204d
+    time: 1404167961
+  /work/role/index.html:
+    md5: 342a319af30679f94abef4d66b0ca2c8
+    time: 1404167961
+  /work/role/frontend-developer/index.html:
+    md5: 936112ac4633c2161d7843fb633d91f2
+    time: 1404167961
+  /work/role/backend-developer/index.html:
+    md5: 6b3d97c3d4d4acd356b5d21fc6df9024
+    time: 1404167961
+  /work/role/mobile-designer/index.html:
+    md5: fd3860cb7255c005161178b360206237
+    time: 1404167961
+  /work/role/web-designer/index.html:
+    md5: 96f8325f999011b8c52ff79ee1806067
+    time: 1404167961
+  /work/role/designer/index.html:
+    md5: 43470805b63bd49111fe7929e5dd36c1
+    time: 1404167961
+  /work/role/developer/index.html:
+    md5: 5febb3045dd4542ba698e1b30fbcc830
+    time: 1404167961
+  /work/role/founder/index.html:
+    md5: a2581045f180e1742c8f62f40200df8c
+    time: 1404167961
+  /experiments/index.html:
+    md5: 0da90362c6aa29e9ec5a0df0908211bb
+    time: 1404167961
+  /blog/feed/index.html:
+    md5: 3f324302a07a6e408558c6f92c92eb73
+    time: 1404167962
+  /CNAME:
+    md5: 4880b32a8a8e4c1cea68a81402517837
+    time: 1404167962
+  /sitemap.xml:
+    md5: 6373649290e0f9fd7fe295544e9c7e2a
+    time: 1404167962
+  /feed.xml:
+    md5: 5236c9c507488ec1b3c52c6de631dce5
+    time: 1404167962
+  /assets/lessons-learned.jpg:
+    md5: 3a12a93de611b25275c6489c80cfcb98
+    time: 1404167962
+  /assets/cafe-jonnie-photo.jpg:
+    md5: 9c6d42c83e5ec3623dc0ed5df42e2a16
+    time: 1404167962
+  /assets/teuxdeux.svg:
+    md5: 496dec608ee5dba246088a44aacfbdb0
+    time: 1404167962
+  /assets/wedding-tech-ifttt.jpg:
+    md5: 7341b99d858105092ae4bdf50f748783
+    time: 1404167962
+  /assets/wedding-tech-invite.jpg:
+    md5: 1ed8e1f3272dd419869752692aa97be6
+    time: 1404167962
+  /assets/wedding-tech-hashtag.jpg:
+    md5: c4d4e8e2a6089d1d1dc783f854813e26
+    time: 1404167962
+  /assets/wedding-tech-photoblog.jpg:
+    md5: 5bd0c40b52d1ce1a429018d43e80c0c9
+    time: 1404167962
+  /assets/wedding-tech-savethedate-flip.jpg:
+    md5: 8b83c13f40fc8e19a39b88ad1199588f
+    time: 1404167962
+  /assets/wedding-tech-rsvpbutton.jpg:
+    md5: 9f06ae8936df932bfb9907988ae305fd
+    time: 1404167963
+  /assets/wedding-tech-teuxdeux.png:
+    md5: 282169fc7f6ef32330062b6ca4f0b8ab
+    time: 1404167963
+  /assets/wedding-tech-savethedate.jpg:
+    md5: 21d324a13a397b75acc0226b360f1708
+    time: 1404167963
+  /assets/wedding-tech-website-homepage.jpg:
+    md5: 6e3de34971472824047a91715d19df96
+    time: 1404167963
+  /assets/wedding-tech-website-attire.jpg:
+    md5: b9d320a0f6ab20f61ca2dc0e56df7488
+    time: 1404167963
+  /assets/2012-a-year-in-review-screenshot.jpg:
+    md5: 42c28a8318e9bae1e6282c5c264435c8
+    time: 1404167963
+  /assets/ux-i-want-unliking-in-instagram.jpg:
+    md5: 8e442daad87f5be638a9d840dea132ae
+    time: 1404167963
+  /assets/ux-i-want-dof-drawing-in-instagram.jpg:
+    md5: 0a7d065c13521d044c909f418224d31f
+    time: 1404167963
+  /assets/user-personality.jpg:
+    md5: 79991e8413a15d53a44f5a11b1bc348e
+    time: 1404167963
+  /assets/letterpressed-indesign-icons-macro.jpg:
+    md5: 057988b230ce11b1bc638e477041421f
+    time: 1404167963
+  /assets/letterpressed-indesign-icons-full.jpg:
+    md5: f6bb1e5839c79fd20f88535e80fb8fd8
+    time: 1404167963
+  /assets/letterpressed-indesign-icons-zoom.jpg:
+    md5: 9e40af6375d5b2a76465a258c3a9cbfe
+    time: 1404167963
+  /assets/hello-world-im-jekyll-first-run.jpg:
+    md5: e68f4b0bb967c7368d26e83dab25dbb4
+    time: 1404167963
+  /assets/hello-world-im-jekyll-layout-file-tree.jpg:
+    md5: a0768f6d98107ec4f8ffadf51d27f315
+    time: 1404167963
+  /assets/hello-world-im-jekyll-new-file-tree.jpg:
+    md5: 688a8bccfde0e3aaf5c94b299f169d77
+    time: 1404167963
+  /assets/checkered-loading-images.jpg:
+    md5: 5a3fc99562b0841e600509e2547965b9
+    time: 1404167963
+  /assets/checker.png:
+    md5: 8c8e6c94b0eabed641a3315b45357a83
+    time: 1404167963
+  /assets/teuxdeux-iphone-1.jpg:
+    md5: 8bff26bc550b16cf577131585d79134b
+    time: 1404167963
+  /assets/teuxdeux-iphone-0.jpg:
+    md5: 6b645c3ac0a62bc13f4232a5415b1294
+    time: 1404167963
+  /assets/teuxdeux-responsive-desktop.jpg:
+    md5: 543c4ea18f4d05631076183355eea369
+    time: 1404167964
+  /assets/teuxdeux-web-closeup.jpg:
+    md5: 22f0b43c8aeb036da81fe7a929760af1
+    time: 1404167964
+  /assets/teuxdeux-web.png:
+    md5: 2fd591c78074aae3d15fe2adf8812bed
+    time: 1404167964
+  /assets/destroytwitter-thumb.png:
+    md5: 8643aa1a53e1daa04f533e76ec5489b0
+    time: 1404167964
+  /assets/dwarf-thumb.png:
+    md5: ad5a9a81e44186c20fd19ae4c83e08ba
+    time: 1404167964
+  /assets/destroyflickr-thumb.png:
+    md5: 029d8dcac47640a2227e16b857183ba8
+    time: 1404167964
+  /assets/dwarf-google.png:
+    md5: b13156e0ddc9a115b4d8705dadd6e8ad
+    time: 1404167964
+  /assets/dwarf-logo.png:
+    md5: 4a16925cedf49d19c7c985fd76d222c7
+    time: 1404167964
+  /assets/dwarf-toolbar.png:
+    md5: 0008dad55a0d0822c54c79a6b4e2145a
+    time: 1404167964
+  /assets/dwarf-rulers.png:
+    md5: 519e5d30c0a62afb8c51f2c1cf18bd61
+    time: 1404167964
+  /assets/destroyflickr-logo.png:
+    md5: 5a1db7fa665b84f9c3e07a67e5da9eb6
+    time: 1404167964
+  /assets/destroyflickr-photo.jpg:
+    md5: cd096f6871e039d04adebb5f7daf20f4
+    time: 1404167964
+  /assets/destroyflickr-photos.jpg:
+    md5: 216c9c674cd46930611b2e018607a671
+    time: 1404167964
+  /assets/destroyflickr-photozoomed.jpg:
+    md5: bbff5d02ad5d28c31197abeee14ce1a3
+    time: 1404167965
+  /assets/destroyflickr-profile.jpg:
+    md5: 89e428e5c0b4ddb7f6fc55b29d0afb1c
+    time: 1404167965
+  /assets/destroyflickr-viewall.jpg:
+    md5: c1e0d5fcdf3db41a6f6ecf538faf4ab2
+    time: 1404167965
+  /assets/destroytwitter-logo.png:
+    md5: f9b8d84650c97b837c0ac637cde7cd2b
+    time: 1404167965
+  /assets/destroytwitter-screens.jpg:
+    md5: f73a3656f9cd1ac9c67e25df5c876ca7
+    time: 1404167965
+  /assets/destroytwitter-themes.jpg:
+    md5: 98b155ee7bcc06e772edfc6d3476aa87
+    time: 1404167965
+  /assets/teuxdeux-logo.svg:
+    md5: 5967104154c35b2c32881ca10cee8f55
+    time: 1404167965
+  /assets/teuxdeux-thumb.svg:
+    md5: 1ed38b17a8220ad3a784824e2314485a
+    time: 1404167965
+  /assets/artsy-thumb.svg:
+    md5: d3a6bfca8f0ccd180b5ec28ed23b4415
+    time: 1404167965
+  /assets/artsy-logo.svg:
+    md5: 5a3fa898f83823ab17c93717a81b3569
+    time: 1404167965
+  /assets/redesigning-with-rules.jpg:
+    md5: 256348eb93c0615f3673345e79916461
+    time: 1404167965
+  /assets/an-introduction-to-siteleaf-interface.png:
+    md5: fcd1ed69e50b05296eea9a78208e8ce3
+    time: 1404167966
+  /assets/an-introduction-to-siteleaf-logo.svg:
+    md5: 5381dbdec343aa7ee5d7b491dee2d171
+    time: 1404167966
+  /assets/an-introduction-to-siteleaf-collaboration.png:
+    md5: 15f1dc3278cc34a427ca2ea73556eaad
+    time: 1404167966
+  /assets/an-introduction-to-siteleaf-anvil.jpg:
+    md5: 4c06fdcd016671396c94749b15712569
+    time: 1404167966
+  /assets/an-introduction-to-siteleaf-publish.png:
+    md5: efdb765ea1ed571484e1a744790c68f8
+    time: 1404167966
+  /assets/hello-world-im-siteleaf-create-site.png:
+    md5: dbe10cb45419c99aae11cef8f7b78f8e
+    time: 1404167966
+  /assets/hello-world-im-siteleaf-site-settings.png:
+    md5: 4e0907c865d66718f89420cc8093cafd
+    time: 1404167966
+  /assets/hello-world-im-siteleaf-publishing-settings.png:
+    md5: 6cc86aac03ce7df035bc239a502e298f
+    time: 1404167966
+  /assets/hello-world-im-siteleaf-new-page.png:
+    md5: 029ebf6dc639b4592f95e4769c15f09a
+    time: 1404167966
+  /assets/hello-world-im-siteleaf-new-page-preview.png:
+    md5: 56264562ea8baaa70ce13598fab4a42a
+    time: 1404167966
+  /assets/hello-world-im-siteleaf-new-post.png:
+    md5: 784016fc26dd9c8f10cf16519ecafd28
+    time: 1404167966
+  /assets/hello-world-im-siteleaf-add-post.png:
+    md5: 79c3691b66afd55e031ec9707f82802f
+    time: 1404167967
+  /assets/hello-world-im-siteleaf-upload-asset.png:
+    md5: 414cbb2efc2741d8d0d3656580d76de8
+    time: 1404167967
+  /assets/hello-world-im-siteleaf-final-post-preview.jpg:
+    md5: f670b717edb1fb01b422b670e390f1f1
+    time: 1404167967
+  /assets/hello-world-im-siteleaf-publish.png:
+    md5: 37e6eb026464ba6a9021aa246afd3a84
+    time: 1404167967
+  /assets/hello-world-im-siteleaf-visibility.png:
+    md5: f51a9b00fb8ee61234f344834a73e2a0
+    time: 1404167967
+  /assets/metadata-in-siteleaf-limit.png:
+    md5: 7a2be3dce6aaaee68451be4cbfeb8aef
+    time: 1404167967
+  /assets/metadata-in-siteleaf-color.png:
+    md5: e97a6ab4582e7725473033fe70a80fa8
+    time: 1404167967
+  /assets/metadata-in-siteleaf-links-2.png:
+    md5: 46f458db7845d313dc52f37d15284cce
+    time: 1404167967
+  /assets/metadata-in-siteleaf-links-1.png:
+    md5: 46d53b512364a9922b2c60b8f0c09470
+    time: 1404167967
+  /assets/metadata-in-siteleaf-ui.png:
+    md5: 82d2b2059c7b07f829645a168104fc3b
+    time: 1404167967
+  /assets/qandanda-photo.jpg:
+    md5: 1d860e684e74d835107831ab4ca8740c
+    time: 1404167967
+  /assets/taxonomy-in-siteleaf-bar-highlighted-ingredients.jpg:
+    md5: c3460a10bc04be2fad916d3850cdbacb
+    time: 1404167967
+  /assets/taxonomy-in-siteleaf-bar-homepage.png:
+    md5: a4a7d6607bb54ff6d030af6ceff69fda
+    time: 1404167967
+  /assets/taxonomy-in-siteleaf-bar-gin.png:
+    md5: 5d5aaee0ceff4e5a6efc750ebe046394
+    time: 1404167967
+  /assets/taxonomy-in-siteleaf-bar-index.png:
+    md5: 767bb0036fa0d3ae85c9db20fefb66df
+    time: 1404167967
+  /assets/taxonomy-in-siteleaf-cafe-taxonomy.jpg:
+    md5: f908c2d731c26d133a61cf5734b45ae6
+    time: 1404167967
+  /assets/taxonomy-in-siteleaf-bar-taxonomy.jpg:
+    md5: 644bfa2233bc876c8af89203dd05790e
+    time: 1404167967
+  /assets/taxonomy-in-siteleaf-library.png:
+    md5: 2eec53546a3b99c7865328014fd56e25
+    time: 1404167967
+  /assets/taxonomy-in-siteleaf-ui.png:
+    md5: 4946c67444078c3851974c7ccebe9514
+    time: 1404167968
+  /assets/taxonomy-in-siteleaf-cafe-homepage.png:
+    md5: 17374cf5da3c28647f564e73a6297c10
+    time: 1404167968
+  /assets/abookapart-desktop.jpg:
+    md5: fe4709b82b1839b6a9c38d6bc0e54a2e
+    time: 1404167968
+  /assets/adobe-digital-publishing-suite-logo.png:
+    md5: 3dd994297d61d7a7541040c0bd390ba5
+    time: 1404167968
+  /assets/dropmark-filter-bar.jpg:
+    md5: 1289ba502f172d292cec2a8b29525cf6
+    time: 1404167968
+  /assets/siteleaf-api.png:
+    md5: de0676fd1db53a834a0b4d8fcea6a5e8
+    time: 1404167968
+  /assets/gif-workflow-header.jpg:
+    md5: a50cbe03170d3f5b9a6301c01aa42694
+    time: 1404167968
+  /assets/markdown-in-siteleaf-editor-text.jpg:
+    md5: 503c3d317f0ecb5c452acf1e2b1fa50a
+    time: 1404167968
+  /assets/superb-bop.jpg:
+    md5: f9587c9591f2aa69598c28772c81dc70
+    time: 1404167968
+  /assets/washing-dishes.jpg:
+    md5: 6450ae2aab6839b41caa943e23d394f1
+    time: 1404167968
+  /Gemfile.lock:
+    md5: 3fe77c50efb3e1213755ebf32239f120
+    time: 1404167968
+  /images/favicon.png:
+    md5: 74047c1a5b02b3ea77cb5e903cd44f94
+    time: 1404167968
+  /README.md:
+    md5: 384d014b6d6dca4cf44cf974b5cda9ab
+    time: 1404167970
+  /styles/_mixins.sass:
+    md5: cc0d69a0434b7f3198f1354239929970
+    time: 1404167970
+  /styles/_normalize.scss:
+    md5: 564e4a54ae8061083e2fa0ed7ff0ea41
+    time: 1404167970
+  /styles/screen.sass:
+    md5: 545999ccacabdc788b0261c4afad5899
+    time: 1404167970
+  /404.html:
+    md5: f6835d14b7eb6dbc388797329cd44f85
+    time: 1404167970
+  /scripts/rainbow.js:
+    md5: 5ba8b6f7f2900795392c27920ebb0803
+    time: 1404167970
+  /assets/fiftythree-thumb.svg:
+    md5: 1b45ba1778f5026d0c60fdf53eef5eba
+    time: 1404167970
+  /assets/brooklyn-beta.jpg:
+    md5: abebab6d0fe8b509d126efcef9ad056d
+    time: 1404167970
+  /assets/layouts-in-siteleaf.svg:
+    md5: 61caeedc529bfbf3897e655607481329
+    time: 1404167970
+  /assets/fiftythree-desktop-homepage.jpg:
+    md5: 92d285f8587df8b2b71b50dd4e51cb05
+    time: 1404167970
+  /assets/last-day-at-adobe.svg:
+    md5: d62220ca5fd57ee50087e9bdbf3a1fb1
+    time: 1404167970
+  /assets/my-dad-sketches.jpg:
+    md5: 9184c2c39274ebe187c532f00177e20c
+    time: 1404167970
+  /assets/coffee-gear-v60-buono.jpg:
+    md5: 68e0e0879349126247311677339eb1d4
+    time: 1404167970
+  /assets/coffee-gear-v60-dripper.jpg:
+    md5: e3262b74180ea462c521c53de816db81
+    time: 1404167970
+  /assets/coffee-gear-hario-grinder.jpg:
+    md5: 0d94de2aff06a28067c45821da1a7531
+    time: 1404167971
+  /assets/chroma-thumb.png:
+    md5: 9c635e83e0da4dff384de7c4780bdcee
+    time: 1404167971
+  /assets/mailbox-thumb.svg:
+    md5: c1d5ffeaee94bbbda042a013d2be3be1
+    time: 1404167971
+  /assets/me-and-macy.jpg:
+    md5: 7ecee46df6edc0c893ca8bb816f25901
+    time: 1404167971
+  /assets/timeline.png:
+    md5: b7f60806545a0b39dd98116feed727d9
+    time: 1404167971
+  /assets/the-start-interview.png:
+    md5: 12afb1f41a6ba127231ecaec35c4f052
+    time: 1404167971
+  /assets/carousel-hero.jpg:
+    md5: 337b4c29c0ce65af3eb2551b8d988675
+    time: 1404167971
+  /assets/web-friends-interview.png:
+    md5: c0d3dc0f8373b30b97acc47f6f715d14
+    time: 1404167972
+  /styles/screen.css:
+    md5: 1f1880d22134e4086ab76acf1fc934a0
+    time: 1404167972
+  /assets/abookapart-mobile.jpg:
+    md5: e0fc0a7fc8fdbe076a1a39e95f53b4b1
+    time: 1404167972
+  /assets/adobe-digital-publishing-suite-thumb.png:
+    md5: dc7e909573c7bc617df60bf32cd9033d
+    time: 1404167972
+  /assets/dropmark-sorting.jpg:
+    md5: 1b0ea570bd4fad8fb1876911917bfe55
+    time: 1404167972
+  /assets/siteleaf-homepage.png:
+    md5: 7a5d3c26ea40cf433ed2e94f1d3b8c3f
+    time: 1404167972
+  /assets/gif-workflow-dock.jpg:
+    md5: ee47f30b0afaee290913cee9743dcdd4
+    time: 1404167972
+  /assets/markdown-in-siteleaf-iawriter.jpg:
+    md5: 8ffea48f9166ec3dd9c23bf4c9c7ea7f
+    time: 1404167972
+  /assets/porting-a-theme-to-siteleaf-sections.png:
+    md5: e905b84c32435281140b79c69b11c357
+    time: 1404167972
+  /assets/layouts-in-siteleaf-structure-0.jpg:
+    md5: 52e7a8e0242122bc3968abf79586d647
+    time: 1404167972
+  /assets/fiftythree-desktop.jpg:
+    md5: e528b5c4fca3861c9033d22053dec6d9
+    time: 1404167972
+  /assets/my-dad-bones.jpg:
+    md5: 489e11e6fb3b67c901bf9f85ffcf114d
+    time: 1404167972
+  /assets/chroma-logo.png:
+    md5: 9cc725107d9393269a04e9e2006e65a9
+    time: 1404167972
+  /assets/mailbox-logo.svg:
+    md5: e04c75d8d484062b32b55c780082ea49
+    time: 1404167972
+  /assets/siteleaf-page.png:
+    md5: 01e06546a3b9175e7d9db03ad490295a
+    time: 1404167972
+  /assets/abookapart-thumb.svg:
+    md5: 56a98ab118c502fb958c8a8d50af523c
+    time: 1404167973
+  /assets/dropmark-thumb.svg:
+    md5: 0d1bbebe5559c69aa83a5f6db41dc111
+    time: 1404167973
+  /assets/gif-workflow-dock-stack.png:
+    md5: ce3cef46ee95ab9304fd78495d158e60
+    time: 1404167973
+  /assets/markdown-in-siteleaf-drag-image.jpg:
+    md5: c9324ac93a63f83f9a7ec1a7e32aed79
+    time: 1404167973
+  /assets/porting-a-theme-to-siteleaf-header.png:
+    md5: f253853879616437615a6a0981635dc6
+    time: 1404167973
+  /assets/layouts-in-siteleaf-structure-1.jpg:
+    md5: 52a963924c8355c68f45f87124e25d6a
+    time: 1404167973
+  /assets/fiftythree-pencil-form.jpg:
+    md5: 8994f6c9c602e998fa1ecf7e8cbff945
+    time: 1404167973
+  /assets/mass-launch.jpg:
+    md5: bee52c8e8fc41d10b29e844e79f0c516
+    time: 1404167973
+  /assets/chroma-angles.mp4:
+    md5: eb1a41adbec9d0b3077297fb2a06ff78
+    time: 1404167973
+  /assets/adobe-thumb.svg:
+    md5: 7905bb2118522c7ccfa51cc785e765f5
+    time: 1404167973
+  /assets/carousel-logo.svg:
+    md5: 0d56be059ad006209537b7ed4729ec68
+    time: 1404167973
+  /assets/siteleaf-posts.png:
+    md5: a9f92583663bbbea38aa5d0d3070a6a0
+    time: 1404167973
+  /assets/gif-workflow-stack-preview.jpg:
+    md5: f560d8982a0ae09ed6c93c2376510c35
+    time: 1404167973
+  /assets/markdown-in-siteleaf-drag-file.png:
+    md5: 5b7c4f3ee73170babde7956ebdea6fbc
+    time: 1404167973
+  /assets/porting-a-theme-to-siteleaf-martin.png:
+    md5: b9f67d7b5adc1163bbe1538c3e4fce4c
+    time: 1404167973
+  /assets/layouts-in-siteleaf-structure-2.jpg:
+    md5: 5c429f4c43014f1a57f461a654044037
+    time: 1404167973
+  /assets/fiftythree-pencil-parts.mp4:
+    md5: 76e73963e66e33312f82a51c149ace9b
+    time: 1404167973
+  /assets/dropmark-logo.svg:
+    md5: 46645c76fa17bb2d3c4f04942a1e4ed8
+    time: 1404167973
+  /assets/abookapart-logo.svg:
+    md5: aef55026798449887d443979b27f9a5e
+    time: 1404167973
+  /assets/mitsubishi.jpg:
+    md5: 1b7ec78a9f33914b1e30c5066524958f
+    time: 1404167973
+  /assets/chroma-angles.jpg:
+    md5: 3fe3721c44bc6a3fae22b84f45e87372
+    time: 1404167974
+  /assets/adobe-logo.svg:
+    md5: 5ecbddc9f1e2280a58296e1fc918593e
+    time: 1404167974
+  /assets/carousel-thumb.svg:
+    md5: b4084bf33ab52efddcbf6e083144ea2d
+    time: 1404167974
+  /assets/siteleaf-thumb.svg:
+    md5: 8b61ef21e3193f9b5b9b210ebea17246
+    time: 1404167974
+  /assets/gif-workflow-alfred-search.jpg:
+    md5: a914f94b181f19518e82c9013eb85fb4
+    time: 1404167974
+  /assets/markdown-in-siteleaf-hover-image.jpg:
+    md5: f66d1aaf67cc8b2dc51677eeab741c64
+    time: 1404167974
+  /assets/layouts-in-siteleaf-structure-3.jpg:
+    md5: e60a9cd566ffd82294e9068936a71dc8
+    time: 1404167974
+  /assets/fiftythree-pencil-parts.ogv:
+    md5: 111a6889206a211c800d92f9b97aa641
+    time: 1404167975
+  /assets/my-dad-covers.jpg:
+    md5: 38d5a5765a9eef4362a292719e30da57
+    time: 1404167975
+  /assets/chroma-angles.ogv:
+    md5: dc539f5708bef33253a9583bc1fdaaa7
+    time: 1404167975
+  /assets/adobe-digital-publishing-suite-library.jpg:
+    md5: 02a112f3944c3aadbaac697743000460
+    time: 1404167975
+  /assets/carousel-mobile.mp4:
+    md5: ea4f6b7950a604fd96d35a6c2369850f
+    time: 1404167975
+  /assets/gif-workflow-alfred-workflow.jpg:
+    md5: 601724441ec61a6fca73424136d007f7
+    time: 1404167975
+  /assets/markdown-in-siteleaf-reference.jpg:
+    md5: 4b6233d096392d2c9daa50932d7dc9ad
+    time: 1404167975
+  /assets/fiftythree-pencil-parts.jpg:
+    md5: dd4a500009eb7583c7c5708b8d0fc9d6
+    time: 1404167975
+  /assets/siteleaf-logo.svg:
+    md5: 48ffecfeab12e415fe7d6c9bc62d12ea
+    time: 1404167975
+  /assets/my-dad-polaroid.jpg:
+    md5: 7a906ce1486d1b134e7ecf1e596f0564
+    time: 1404167975
+  /assets/adobe-digital-publishing-suite-toc.jpg:
+    md5: c055ac56a618cf2b2aa3d525fa3219e3
+    time: 1404167976
+  /assets/carousel-mobile.ogv:
+    md5: 60572022ddfe665cd9de516ed329820c
+    time: 1404167976
+  /assets/gif-workflow-alfred-code.jpg:
+    md5: 12f752ae69e218d1416f975455cfd7f0
+    time: 1404167976
+  /assets/markdown-in-siteleaf-ui.png:
+    md5: c780eda745b89385cdd42efd34467a68
+    time: 1404167976
+  /assets/fiftythree-pencil-form.mp4:
+    md5: 67d9504bf9833a46d62a8ad0c41d2c6e
+    time: 1404167976
+  /assets/my-dad-flying.jpg:
+    md5: f77215ccfd7e6b1cd080a1409b99185c
+    time: 1404167976
+  /assets/adobe-digital-publishing-suite-browsemode.jpg:
+    md5: a343823840e5e3b6a96cfee7f160fb33
+    time: 1404167976
+  /assets/carousel-mobile.jpg:
+    md5: 635e0af4f5f45d08e697470f13b9084c
+    time: 1404167976
+  /assets/gif-workflow-alfred-filter.jpg:
+    md5: 30dc74b3e3b79edadad0863dfe0ecade
+    time: 1404167976
+  /assets/fiftythree-pencil-form.ogv:
+    md5: 999b3ad8fd9691bebd4096faaf17a5af
+    time: 1404167976
+  /assets/my-dad-winder.jpg:
+    md5: 115b154d75c619d77855107614001d87
+    time: 1404167976
+  /assets/carousel-conversation.jpg:
+    md5: f20632d4933cdeebf7b5508392acc58b
+    time: 1404167976
+  /assets/gif-workflow-alfred-search-scope.jpg:
+    md5: b279b3aedf32753b460e71cb19bc5bb0
+    time: 1404167977
+  /assets/fiftythree-mobile.jpg:
+    md5: b4e029d7f966733f94082633a80c20a5
+    time: 1404167977
+  /assets/my-dad-canopy.jpg:
+    md5: 141e4a4d731b6e5ede14d88b86f86bee
+    time: 1404167977
+  /assets/carousel-conversation.mp4:
+    md5: 9f3cfe49a6c05db50a3714a422ea5622
+    time: 1404167977
+  /assets/gif-filter.zip:
+    md5: f1841a86379c9096821033610f2dfb68
+    time: 1404167977
+  /assets/fiftythree-logo.svg:
+    md5: c7ba436c1542b32983b7b506fdb374ab
+    time: 1404167977
+  /assets/my-dad-detail.jpg:
+    md5: f47177bb4d947798177e723bd4eaa712
+    time: 1404167977
+  /assets/carousel-conversation.ogv:
+    md5: 254e14d4f7e5a7ca70c21b6451e4cbb6
+    time: 1404167977
+  /assets/my-dad-process.jpg:
+    md5: b1bb104e5eff59df612ca1e05692f464
+    time: 1404167977
+  /assets/carousel-intro.jpg:
+    md5: 8b7b47d5835b06e3be05b39f31ea45b6
+    time: 1404167977
+  /assets/my-dad-lizzy.jpg:
+    md5: 1150424cc6e318b5dc4dd67a78de184a
+    time: 1404167977
+  /assets/carousel-intro.mp4:
+    md5: f80d1dc8599ddac159b42d8cbf3f1576
+    time: 1404167977
+  /assets/my-dad-airplanes.jpg:
+    md5: e1ca243218f124119ea00ef1cf29147f
+    time: 1404167977
+  /assets/carousel-intro.ogv:
+    md5: 6d3f8c5bba862f48f8718e86b2cea0a7
+    time: 1404167977

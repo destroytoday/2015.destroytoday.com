@@ -1,0 +1,458 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+
+    <title>Destroy Today - Lessons learned in a year on my own</title>
+
+    <meta property="twitter:account_id" content="14839458">
+    <meta name='description' content='Destroy Today is a partnership between builders. Its focus is on solving problems through products crafted with close attention to design and user experience.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
+
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="http://feeds.feedburner.com/destroytoday">
+    <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
+    <link href='/styles/screen.css' rel='stylesheet'>
+
+    <script>
+  (function() {
+  var config = {
+  kitId: 'aeu3zes',
+  scriptTimeout: 3000
+  };
+  var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
+
+    <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3256994-11']);
+  _gaq.push(['_setDomainName', 'destroytoday.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <style>
+  
+  
+  
+  
+  
+
+  html, body {
+    background-color: #FFF;
+    color: #000
+  }
+
+  ::selection {
+    background-color: #499462;
+    color: #FFF;
+  }
+
+  .main-header {
+    background-color: #499462;
+    color: #FFF;
+  }
+
+  a,
+  .tweet-button:hover,
+  .pagination a:hover {
+    color: #000;
+  }
+
+  .project-listing:hover img {
+    border-bottom-color: #000;
+  }
+
+  a:hover,
+  .pagination a,
+  .content-subheader a:hover,
+  .content-body a:hover,
+  .content-body .more,
+  .content-footer a,
+  .tweet-button,
+  .listing-footer a:hover,
+  .list-footer a,
+  .article-footer p a:hover {
+    color: #499462;
+  }
+
+  .content-subheader,
+  .content-subheader a,
+  .listing-footer,
+  .listing-footer a,
+  .main-footer,
+  .article-footer p,
+  .article-footer p a {
+    color: #999;
+  }
+
+  .main-header a {
+    color: #FFF;
+  }
+
+  .content-body a {
+    border-bottom: solid 2px #499462;
+  }
+
+  .content-body blockquote {
+    border-left-color: #499462;
+  }
+</style>
+
+  </head>
+
+  <body class='post'>
+    <header id='main-header' class='main-header ss-navigatedown'>
+      <div class='wrapper'>
+        <h1 class='main-title'>
+          <a href='/'>
+            <span class='main-title-prefix'>destroy</span><span class='main-title-suffix'>today</span>
+          </a>
+        </h1>
+        <nav class='main-nav'>
+          <ul class='main-nav-list'>
+            
+            
+
+            
+              
+            
+              
+                
+
+                <li>
+                  <a href='/about'>About</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/office-hours'>Office Hours</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li class='is-selected'>
+                  <a href='/blog'>Writings</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/findings'>Findings</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li>
+                  <a href='/work'>Projects</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/experiments'>Experiments</a>
+                </li>
+
+                
+              
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class='main-content'>
+      <div class='wrapper'>
+        
+<article class='article'>
+  <header class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/lessons-learned-in-a-year-on-my-own'>Lessons learned in a year on my own</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='next nav-icon ss-icon' href='/blog/redesigning-with-rules' style='visibility: visible'>navigateleft</a>
+      <a class='content-date' href='/blog/lessons-learned-in-a-year-on-my-own'>March 30, 2013</a>
+      <a class='previous nav-icon ss-icon' href='/blog/2012-a-year-in-review' style='visibility: visible'>navigateright</a>
+    </h3>
+  </header>
+  <div class='content-body'>
+    <p><img src="/assets/lessons-learned.jpg" alt="Lessons learned in a year on my own"> </p>
+
+<p>Early last year, I started renting a desk at <a href="http://studiomates.com">Studiomates</a> while working remotely for Adobe. With the majority of mates either running their own companies or freelancing, I felt the itch to follow suit. This feeling has been with me ever since I first started working for someone else. I knew that one day it would be too much to bear.</p>
+
+<p>I sat down with <a href="http://swiss-miss.com">Tina Roth Eisenberg</a> and discussed my dream of being on my own, as well as my nightmares of making the initial jump. (I start to make sense of the memories of everyone in the pool already, yelling for me to join, while I cautiously dip my toe in the water.) She asked me, “What is holding you back the most?” Hands-down, it was my fear of not having that initial project to get me off to a running start. Without this, I would never find a project. I would burn through all my savings and end up homeless. Now, I know this sounds dramatic, but when you’re going through this decision, those thoughts are a daily occurrence—even after making the decision. At that moment, she gave me <a href="/work/teuxdeux">TeuxDeux</a>.</p>
+
+<p>One year later—I’m not homeless. I have a number of <a href="/work">websites and apps</a> under my belt, an immeasurable sense of freedom, and the experience of working alongside <a href="http://artsy.net">some</a> <a href="http://swiss-miss.com">of</a> <a href="http://fictivekin.com">the</a> <a href="http://jasonsantamaria.com">very</a> <a href="http://oak.is">people</a> whose online exchanges once gave me <em>Bieber Fever</em>-like reactions. So, what did I learn?</p>
+
+<h3>Save as much money as you can</h3>
+
+<p>Running out of money is the stress of all stresses. And this is the last stress you want when trying to do good work. It hinders your creativity and forces you to make quick decisions. I left Adobe with a considerable amount of savings, which calmed my nerves to a certain extent, but even still, I had frequent panic attacks.</p>
+
+<p>How much is enough? Think of a number you could see yourself burning through, then double it. Once you’ve doubled that amount, triple it. There were countless expenses that came out of nowhere when starting Destroy Today LLC—the most memorable being the interim health insurance. I had a 3-month window to sign up for COBRA insurance while shopping for more affordable coverage. The idiot in me, who doesn’t read the fine print, decided to wait until the last minute to sign up, so I wouldn’t have to pay for those months. Little did I know COBRA is retroactive, so shortly after, I received $4000 bill from the past three months of coverage. That hurt.</p>
+
+<h3>Hire a lawyer and an accountant</h3>
+
+<p>Setting up a business can be tricky. In New York, there are a few hurdles to intentionally prevent just anyone from starting a business. Like, you must announce your business in two NYC publications, which ends up costing about $1500. Instead of handling this myself, I hired <a href="http://www.linkedin.com/in/jtenenbaum">Jerald</a> to take care of it. Jerald is my lawyer. He takes care of all my client contracts. He also helped me choose the type of incorporation that was right for me. Since Jerald uses half of his office space as an incubator for startups, I know he understands my line of work.</p>
+
+<p>Then there’s accounting. The best money you could ever spend is on an accountant you can trust. <a href="http://www.crycpas.com/index.html">Warren</a> handles my taxes and he’s been handling my dad’s for the past 30 years. I use <a href="http://xero.com">Xero</a> to keep track of invoices and expenses, and every Sunday I balance the books for the previous week. Once a quarter, Warren looks at the numbers and we’re good to go. This confidence in my accounting brings incredible peace of mind come April.</p>
+
+<h3>Join a co-working space</h3>
+
+<p>After a year of renting my desk at Studiomates, I could easily say I will <em>never</em> go back to working at home. The benefits of a co-working space far outweigh the cost of rent or time to commute, and I’m almost certain I wouldn’t have made it on my own if it weren’t for Studiomates.</p>
+
+<p>When at Studiomates, I’m in work mode. I put on my headphones and go full speed ahead. My desk does <em>not</em> sit directly next to my comfortable bed, nor do my video games feed my procrastination. At the end of the day, I ride the subway home and my mental gears shift. I feel a sense of relaxation that only home can provide. This separation keeps me sane.</p>
+
+<p>Inspiration is everywhere in a co-working space. Seeing others work hard inspires me to work <em>harder</em>. Watching others ship amazing products makes me want to do nothing but the same. In my first month at Studiomates, we held a show &amp; tell for everyone to introduce themselves and share what they were working on. My jaw dropped an inch with each presentation. By the end, you could taste the inspiration flowing through the room. People started approaching each other, asking questions and discussing ideas of their own.</p>
+
+<p>In this past year, every single job I’ve taken has come from someone in the studio or visiting the studio. Since (almost) everyone in the space is in the same field, it’s the perfect environment to find work as well as find people to work with. Some of the most common scenarios I see come from a designer needing a developer to build their design, a developer passing a job along because they have too much work, or a casual conversation about an idea turning into a collaboration. And this happens <em>all the time</em>.</p>
+
+<h3>Make your availability known</h3>
+
+<p>This sounds dumb, but it’s important—make it known that you are looking to take on more work. Early on, I missed out on several opportunities because people just assumed I was too busy for their project. It’s easy to imagine. In the weeks leading up to the TeuxDeux launch, I was heads-down, constantly stressing, and only talking about TeuxDeux. In their eyes, no way am I available for more work, but in reality, I’m planning the next few months post-launch. You can have a great network, but if they only see you working, everyone will just assume you’re booked.</p>
+
+<p>On the reverse end, don’t wait for someone to approach you. Reach out to those you want to work with. Send them a note saying you’re available and interested in working together. I sit next to the <a href="http://oak.is">Oak guys</a> at Studiomates and for months, I watched them ship amazing products. One day, on a whim, I wrote a short email to <a href="http://twitter.com/sskylar">Skylar</a> simply saying I’d love to work together. From there, I was able to lend a hand with <a href="/work/dropmark">Dropmark</a>.</p>
+
+<h3>Know your limits</h3>
+
+<p>Leading up to the TeuxDeux launch, I worked 40 hours over the course of a weekend. I felt a constant pressure on my forehead and shots of pain in my chest. I definitely exceeded my limits and my body let me know it. Never work this hard. Ever. Whatever you’re working on is not worth the mental and physical pain. I learned how to tell myself that deadlines will come and go, and everything will be fine, regardless of whether we finish in time. My mom always says, “Tomorrow is another day.” Some nights, I need to say this to myself, but it helps when I do.</p>
+
+<h3>Go for it</h3>
+
+<p>I’ve learned a lot about myself since being on my own. I feel stronger and more independent than I’ve ever felt in my entire life—even if my internal voice is much louder and longer-winded than ever before. Every project is a challenge and provides a real sense of ownership. Each day ends with great excitement for the next. Is it for everyone? No, but if you have the itch, go for it.</p>
+
+  </div>
+  <footer class='article-footer'>
+  
+  
+  <a class='tweet-button' href='https://twitter.com/intent/tweet?original_referer=http://destroytoday.com/blog/lessons-learned-in-a-year-on-my-own&text=I thoroughly enjoyed this post &gt; &quot;Lessons learned in a year on my own&quot;:&tw_p=tweetbutton&url=http://destroytoday.com/blog/lessons-learned-in-a-year-on-my-own&via=destroytoday' target='_blank'><span class='ss-icon ss-social-regular'>twitter</span><span id='twitter-count' class='count'></span></a>
+  <script>
+    function count_callback(data) { document.getElementById('twitter-count').innerHTML = data.count; }
+    var script = document.createElement('script');
+    script.setAttribute("src", 'http://urls.api.twitter.com/1/urls/count.json?callback=count_callback&url=http://destroytoday.com/blog/lessons-learned-in-a-year-on-my-own');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  </script>
+</footer>
+
+</article>
+
+
+
+<section class='featured-section column-section list-section'>
+  <h3>Featured writings</h3>
+  <ul class='vertical-list'>
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #364350">
+          <a href='/blog/building-the-carousel-website'>Building the Carousel website with Dropbox</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #549BA6">
+          <a href='/blog/cushion'>Cushion</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #bab0a8">
+          <a href='/blog/my-dad'>Book covers, model airplanes, and my dad</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #C94A00">
+          <a href='/blog/building-the-pencil-page'>Building the Pencil page with FiftyThree</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #2e9ef0">
+          <a href='/blog/gif-workflow'>The perfect GIF workflow using Dropbox and Alfred</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #005dba">
+          <a href='/blog/redesigning-with-rules'>Redesigning with rules</a>
+        </li>
+      
+    
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #f5503c">
+          <a href='/blog/wedding-tech'>The tech behind our wedding</a>
+        </li>
+      
+    
+  </ul>
+  <footer class='list-footer'>
+    <a href='/blog'>Archive &rarr;</a>
+  </footer>
+</section>
+
+
+<footer class='content-footer'>
+  <p>Follow <a href='http://twitter.com/destroytoday'>@destroytoday</a> on Twitter.</p>
+</footer>
+
+
+      </div>
+    </main>
+
+    <footer class='main-footer'>
+      <p>Made with <span class="ss-icon">love</span> in Brooklyn</p>
+      <p>&copy; 2014 Destroy Today, LLC. All Rights Reserved</p>
+    </footer>
+
+    
+  
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='/blog/redesigning-with-rules'></a>
+    </div>
+  
+
+  
+    <div class='pagination previous'>
+      <a class='icon ss-navigateright' href='/blog/2012-a-year-in-review'></a>
+    </div>
+  
+
+  <script>
+    document.body.onkeyup = function(e){
+      
+      if (e.keyCode == '37') { window.location = '/blog/redesigning-with-rules'; }
+      
+
+      
+      if (e.keyCode == '39') { window.location = '/blog/2012-a-year-in-review'; }
+      
+    };
+  </script>
+
+
+
+    <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+    <script>
+      var mainHeader = document.getElementById('main-header');
+      var body = document.body;
+      var mainHeader_startHeight,
+          startTouchY,
+          touchY,
+          prevTouchY,
+          touchDirection,
+          touch;
+
+      mainHeader.addEventListener('click', function(e){
+        if (touch || window.innerWidth <= 480)
+        {
+          e.preventDefault();
+        }
+
+        if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+        else
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+      });
+
+      [].forEach.call(document.querySelectorAll('.main-nav-list a'), function(link) {
+        link.addEventListener('touchstart', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+
+          window.location.href = link.href;
+        });
+      });
+
+      var window_touchmoved = function(e) {
+        e.preventDefault();
+
+        touchY = e.changedTouches[0].clientY;
+        mainHeader.style.height =
+          mainHeader_startHeight + (touchY - startTouchY) + 'px';
+
+        touchDirection = touchY > prevTouchY ? 1 : -1;
+
+        prevTouchY = touchY;
+      };
+
+      mainHeader.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        touch = true;
+
+        mainHeader_startHeight = this.offsetHeight;
+        startTouchY =
+          prevTouchY = e.changedTouches[0].clientY;
+
+        this.className += ' is-touching';
+        window.addEventListener('touchmove', window_touchmoved, false);
+      }, false);
+
+      mainHeader.addEventListener('touchend', function(e) {
+        window.removeEventListener('touchmove', window_touchmoved);
+
+        this.style.height = '';
+        this.className = this.className.replace(' is-touching', '');
+
+        if (touchDirection == -1)
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+        else if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+      }, false);
+    </script>
+    
+
+  </body>
+</html>
+
+

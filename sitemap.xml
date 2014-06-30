@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>http://destroytoday.com/</loc>
+    <lastmod>2014-01-04 23:01:05 +0000</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://destroytoday.com/about</loc>
+    <lastmod>2014-04-01 23:23:02 +0000</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://destroytoday.com/office-hours</loc>
+    <lastmod>2014-06-30 21:56:48 +0000</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://destroytoday.com/blog</loc>
+    <lastmod>2014-01-06 02:59:46 +0000</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/web-friends-interview</loc>
+    <lastmod>2014-06-16 14:41:57 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/building-the-carousel-website</loc>
+    <lastmod>2014-06-22 15:33:25 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/on-sabbatical</loc>
+    <lastmod>2014-04-14 14:08:33 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/the-start-interview</loc>
+    <lastmod>2014-04-04 19:47:31 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/cushion</loc>
+    <lastmod>2014-04-01 04:14:06 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/how-to-hold-a-pencil-podcast-interview</loc>
+    <lastmod>2014-03-26 19:05:18 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/creativemornings</loc>
+    <lastmod>2014-01-18 22:19:20 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/my-dad</loc>
+    <lastmod>2014-01-09 02:09:56 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/back-on-my-own</loc>
+    <lastmod>2014-01-06 02:39:58 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/building-the-pencil-page</loc>
+    <lastmod>2014-04-15 17:18:22 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/layouts-in-siteleaf</loc>
+    <lastmod>2014-01-06 02:39:58 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/brooklyn-beta-is-people</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/porting-a-theme-to-siteleaf</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/washing-the-dishes</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/markdown-in-siteleaf</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/gif-workflow</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/taxonomy-in-siteleaf</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/qandanda</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/metadata-in-siteleaf</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/hello-world-im-siteleaf</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/an-introduction-to-siteleaf</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/joining-oak</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/redesigning-with-rules</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/lessons-learned-in-a-year-on-my-own</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/2012-a-year-in-review</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/wedding-tech</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/working-on-teuxdeux</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/on-building-and-partnering</loc>
+    <lastmod>2014-01-08 00:16:35 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/destroy-today-llc</loc>
+    <lastmod>2014-01-08 01:04:54 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/last-day-at-adobe</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/dof-drawing-in-instagram</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/unliking-in-instagram</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/user-personality</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/hello-world-im-jekyll</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/checkered-loading-images</loc>
+    <lastmod>2014-01-12 02:20:14 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/an-introduction-to-jekyll</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/blog/letterpressed-indesign-icons</loc>
+    <lastmod>2014-01-06 02:39:59 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://destroytoday.com/findings</loc>
+    <lastmod>2014-01-12 02:41:06 +0000</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/findings/question-marks-in-liquid-variable-names</loc>
+    <lastmod>2014-02-27 18:09:00 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/findings/fix-widows-with-non-breaking-spaces</loc>
+    <lastmod>2014-01-12 15:22:47 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://destroytoday.com/work</loc>
+    <lastmod>2014-01-06 02:40:05 +0000</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/mailbox</loc>
+    <lastmod>2014-05-08 17:43:19 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/carousel</loc>
+    <lastmod>2014-04-15 17:41:38 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/chroma</loc>
+    <lastmod>2014-05-08 17:41:36 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/fiftythree</loc>
+    <lastmod>2014-04-15 17:20:28 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/siteleaf</loc>
+    <lastmod>2014-01-06 02:40:05 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/teuxdeux</loc>
+    <lastmod>2014-01-06 02:40:05 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/abookapart</loc>
+    <lastmod>2014-01-06 02:40:06 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/artsy</loc>
+    <lastmod>2014-01-06 02:40:06 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/adobe</loc>
+    <lastmod>2014-04-06 00:21:16 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/destroytwitter</loc>
+    <lastmod>2014-01-06 02:40:06 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/dwarf</loc>
+    <lastmod>2014-01-06 02:40:06 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/destroyflickr</loc>
+    <lastmod>2014-01-06 02:40:06 +0000</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+
+  <url>
+    <loc>http://destroytoday.com/experiments</loc>
+    <lastmod>2014-06-30 22:03:56 +0000</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+
+</urlset>
