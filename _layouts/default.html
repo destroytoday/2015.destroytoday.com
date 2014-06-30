@@ -43,13 +43,9 @@
                   <ul class='main-nav-list'>
                 {% endif %}
 
-                {% if page.meta.is-disabled %}
-                  <li class='is-disabled'>{{ page.title }}</li>
-                {% else %}
-                  <li{% if section == page.slug %} class='is-selected'{% endif %}>
-                    <a href='{{ page.url }}'>{{ page.title }}</a>
-                  </li>
-                {% endif %}
+                <li{% if section == page.slug %} class='is-selected'{% endif %}>
+                  <a href='{{ page.url }}'>{{ page.title }}</a>
+                </li>
 
                 {% assign prev_group = page.meta.group %}
               {% endunless %}
