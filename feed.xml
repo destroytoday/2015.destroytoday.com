@@ -3,7 +3,23 @@
   <channel>
     <title>Destroy Today</title>
     <link>http://destroytoday.com</link>
-    <pubDate>Mon, 30 Jun 2014 23:06:56 +0000</pubDate>
+    <pubDate>Wed, 02 Jul 2014 01:26:21 +0000</pubDate>
+    
+    <item>
+      <title>Uptime</title>
+      <link>http://destroytoday.com/experiments/uptime</link>
+      <pubDate>Tue, 01 Jul 2014 20:21:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/experiments/uptime</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://uptime.destroytoday.com&quot;&gt;&lt;img src=&quot;/assets/uptime.jpg&quot; alt=&quot;uptime&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://uptime.destroytoday.com&quot;&gt;Uptime&lt;/a&gt; is a simple Ruby app that tracks the downtime of &lt;a href=&quot;http://destroytoday.com&quot;&gt;destroytoday.com&lt;/a&gt; in the style of warehouse injury signs. I’ve always loved these signs for their attempt to motivate workers while providing a safety record for all to see. Safety becomes a game where the workers try to top their highest “score”, or days without injury.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/destroytoday/uptime&quot;&gt;View source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Web Friends interview</title>
@@ -756,24 +772,6 @@
 &lt;h3&gt;Wrapping up&lt;/h3&gt;
 
 &lt;p&gt;Allison&amp;rsquo;s theme, &lt;a href=&quot;http://house.github.io/martin/&quot;&gt;Martin&lt;/a&gt;, is a beautiful theme, and its simplicity, both in style and code, is what attracted me. While the theme is a good example for a single-page site, there is so much more to cover when porting larger, more complex themes. Hopefully, this walkthrough gives you a solid starting point to try it for yourself. I&amp;rsquo;m going to continue porting themes to Siteleaf, while providing the source code on &lt;a href=&quot;https://github.com/destroytoday&quot;&gt;my GitHub account&lt;/a&gt;. You can also check out the &lt;a href=&quot;https://github.com/siteleaf/siteleaf-themes/wiki/Siteleaf-themes-on-Github&quot;&gt;list of existing themes&lt;/a&gt; on the Siteleaf wiki.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Washing the dishes and other moments of thought</title>
-      <link>http://destroytoday.com/blog/washing-the-dishes</link>
-      <pubDate>Sun, 04 Aug 2013 14:11:00 -0400</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/blog/washing-the-dishes</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/assets/washing-dishes.jpg&quot; alt=&quot;washing-dishes&quot;&gt; &lt;/p&gt;
-
-&lt;p&gt;When I turned seven years old, my family moved from the city of Allentown to the suburbs of Macungie. Our house was one of the first built in the development, with a quarter-acre backyard consisting of only dirt and rock. My mom spent most of her time transforming it into a typical yard in the suburbs—full of healthy grass and tall trees lining the perimeter. One day, she found a flat rock the size of a seat and placed it upon one of the tree beds. Mom called that our “thinking rock.” Whenever we needed some alone time to think, we could walk to the back of the yard and sit on it. I still remember it for that purpose. To anyone else, it is a rock, but to my mom, it is a place for thinking.&lt;/p&gt;
-
-&lt;p&gt;A couple years ago, I threw out my back. This wasn’t the first time I threw out my back, but it was the first time the pain lasted more than a day—eight months to be exact. I tried everything from foam roller exercises and spine alignment tools to chiropractors and physical therapists. Losing hope of recovery, I decided to try acupuncture. Twice a week, I would spend 20 minutes lying face down with a dozen needles strategically placed in my back. What was first considered to be a last resort for relief turned into one of my most precious times for thinking. I found myself relying on this time to clear my head and address anything that was plaguing me that week. I would leave each session feeling rested and motivated to seize the day.&lt;/p&gt;
-
-&lt;p&gt;Now, I do my best thinking while washing the dishes. To most, it feels like a chore, but I consider it quality thinking time. My hands are busy, I feel productive, and I have no mental blocks—my thoughts flow like the water from the faucet. Those 15 minutes of constant, mindless activity provide the perfect environment for deep thought. I think of all that needs to be done for the week ahead. I think of anything causing roadblocks in my work. I think of ways to improve my current workflows. As I think of all these things, I keep a mental to-do list. And when I finish washing the dishes, I feel a small sense of accomplishment—enough to leave me eager to tackle the next item on the list.&lt;/p&gt;
-
-&lt;p&gt;These moments are important. Getting away from the computer and away from our work sometimes feels like the only way to move past mental blocks or obstacles. We’ve all been there, sitting at the computer, staring at nothing, thinking of nothing. Hours might go by before you realize you haven’t accomplished anything at all. This happens to me constantly and it tears me apart. Internally, I know I should be full-speed ahead, but I can’t get into it. The key is to find your moment of thought, realize its value, and lean on it when you need to take a break.&lt;/p&gt;
 </description>
     </item>
     

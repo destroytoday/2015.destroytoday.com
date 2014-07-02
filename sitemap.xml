@@ -351,8 +351,14 @@
 
   <url>
     <loc>http://destroytoday.com/experiments</loc>
-    <lastmod>2014-06-30 23:02:54 +0000</lastmod>
+    <lastmod>2014-07-02 01:13:57 +0000</lastmod>
     <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/experiments/uptime</loc>
+    <lastmod>2014-07-02 01:07:03 +0000</lastmod>
+    <priority>0.5</priority>
   </url>
   
 

@@ -82,6 +82,7 @@
   .content-subheader a:hover,
   .content-body a:hover,
   .content-body .more,
+  .project li a,
   .content-footer a,
   .tweet-button,
   .listing-footer a:hover,
@@ -104,8 +105,13 @@
     color: #FFF;
   }
 
-  .content-body a {
+  .content-body a,
+  .project li a:hover {
     border-bottom: solid 2px #3f729b;
+  }
+
+  .project li a {
+    border-bottom: none;
   }
 
   .content-body blockquote {

@@ -80,6 +80,7 @@
   .content-subheader a:hover,
   .content-body a:hover,
   .content-body .more,
+  .project li a,
   .content-footer a,
   .tweet-button,
   .listing-footer a:hover,
@@ -102,8 +103,13 @@
     color: #FFF;
   }
 
-  .content-body a {
+  .content-body a,
+  .project li a:hover {
     border-bottom: solid 2px #BBB;
+  }
+
+  .project li a {
+    border-bottom: none;
   }
 
   .content-body blockquote {
@@ -203,12 +209,24 @@
     <main class='main-content'>
       <div class='wrapper'>
         
-<div class='content-body'>
-  <h2>Experiments</h2>
+  <div class='wrapper'>
+    <div class='content'>
+      <h2>Just playing around</h2>
 
-<p style='text-align: center'>Coming soon.</p>
 
-</div>
+      <ul class='grid-list'>
+        
+          <li class='grid-listing'>
+  <div class='wrapper'>
+    <a href='/experiments/uptime'><img src='/assets/uptime-thumb.png' style='border-bottom: solid 4px #007954'></a>
+    <span class='overlay' style='background-color: #007954; color: #FFF'>Uptime</span>
+  </div>
+</li>
+
+        
+      </ul>
+    </div> <!-- content -->
+  </div> <!-- wrapper -->
 
       </div>
     </main>
@@ -302,4 +320,5 @@
 
   </body>
 </html>
+
 
