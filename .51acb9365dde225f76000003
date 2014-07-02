@@ -1,5 +1,5 @@
 ---
-time: 1404264400
+time: 1404316474
 inventory:
   /home/index.html:
     md5: b807adab1fff734b139f2c3d24f55da7
@@ -314,17 +314,17 @@ inventory:
     md5: b3f82098b655ff901926c787aac3066a
     time: 1404264381
   /blog/feed/index.html:
-    md5: 807d08895a90a32e1779bef61b3728be
-    time: 1404264381
+    md5: 8546be0293681f3baf2b021503ae9a25
+    time: 1404316471
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: 934f3cadc5bc187fe7acf855afdfa715
-    time: 1404264381
+    md5: 2ca63b6c6953c066a78e9568ed32e719
+    time: 1404316471
   /feed.xml:
-    md5: ef76311ae69b34df5960bf1f102717f3
-    time: 1404264382
+    md5: e2bf73f72cec1415bdba9b5167c8f549
+    time: 1404316472
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
@@ -667,12 +667,12 @@ inventory:
   /assets/web-friends-interview.png:
     md5: c0d3dc0f8373b30b97acc47f6f715d14
     time: 1404167972
-  /assets/uptime.jpg:
-    md5: 64d36e08b723afdd4af0eb0787bd4fa2
-    time: 1404264382
   /styles/screen.css:
     md5: a50576c977d914dbe2c06a047bf850c9
     time: 1404264382
+  /assets/uptime.jpg:
+    md5: 66bb74492eddd3376a2ae01f4157e8d1
+    time: 1404316472
   /assets/abookapart-mobile.jpg:
     md5: e0fc0a7fc8fdbe076a1a39e95f53b4b1
     time: 1404167972
@@ -710,8 +710,8 @@ inventory:
     md5: e04c75d8d484062b32b55c780082ea49
     time: 1404167972
   /assets/uptime-thumb.png:
-    md5: c849b521456463ccefffca33ca01083d
-    time: 1404264382
+    md5: 9c7275bb9042c20545a8db4bee9cdeaa
+    time: 1404316473
   /assets/siteleaf-page.png:
     md5: 01e06546a3b9175e7d9db03ad490295a
     time: 1404167972
