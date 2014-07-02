@@ -1,0 +1,15 @@
+{% capture content %}
+  <div class='wrapper'>
+    <div class='content'>
+      {{ body }}
+
+      <ul class='grid-list'>
+        {% for project in posts %}
+          {% include 'includes/project-listing' %}
+        {% endfor %}
+      </ul>
+    </div> <!-- content -->
+  </div> <!-- wrapper -->
+{% endcapture %}
+
+{% include 'layouts/default' %}
