@@ -3,7 +3,7 @@
   <channel>
     <title>Destroy Today</title>
     <link>http://destroytoday.com</link>
-    <pubDate>Wed, 02 Jul 2014 15:54:31 +0000</pubDate>
+    <pubDate>Wed, 02 Jul 2014 19:36:58 +0000</pubDate>
     
     <item>
       <title>Uptime</title>
@@ -191,7 +191,29 @@
       <guid>http://destroytoday.com/work/mailbox</guid>
       <description>&lt;p&gt;&lt;img src=&quot;/assets/mailbox-logo.svg&quot; alt=&quot;mailbox-logo&quot;&gt;&lt;/p&gt;
 
-&lt;p style='text-align: center'&gt;Visit the &lt;a href='http://mailboxapp.com'&gt;Mailbox website&lt;/a&gt;. Write-up coming soon.&lt;/p&gt;
+&lt;p&gt;While in-house at Dropbox, working on the &lt;a href=&quot;/work/carousel&quot;&gt;Carousel website&lt;/a&gt;, the PM for Mailbox, &lt;a href=&quot;http://twitter.com/lizarmistead&quot;&gt;Liz Armistead&lt;/a&gt;, caught a glimpse of my work on the mobile website. She leaned in my direction and asked about my availability—would I have extra time to also take on the Mailbox website? Over the years, I’ve realized that I work best under pressure, but two major projects with the same deadline is floor-of-the-ocean pressure. Continuing a pattern of complete disregard for personal health, I said yes.&lt;/p&gt;
+
+&lt;div class='video-outer'&gt;
+    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+        &lt;video width=&quot;100%&quot; poster=&quot;/assets/mailbox.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
+            &lt;source src=&quot;/assets/mailbox.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+            &lt;source src=&quot;/assets/mailbox.ogv&quot; type=&quot;video/ogg&quot; /&gt;
+            Video tag not supported. Download the video &lt;a href=&quot;/assets/mailbox.mp4&quot;&gt;here&lt;/a&gt;.
+        &lt;/video&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The design of the website took a number of turns before I was given the green light. We landed on using videos to demo the many gestures within the app. Upon scrolling the website, the videos will autoplay once they come into view. When a video falls out of view, it pauses. It’s a straight-forward approach, but very effective, showcasing exactly how the app works without hitting you over the head with effects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/mailbox-devices.jpg&quot; alt=&quot;mailbox-devices&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;The responsive side of the Mailbox website is all about replacing content. Reflowing down to the tablet breakpoint, the website first swaps out all videos for stills. As it narrows to the phone breakpoint, icons replace the stills and the top image is replaced with the Mailbox logo. The most complex part of the responsive implementation would definitely be the line of devices at the bottom of the website—the phones fit perfectly together, but at smaller scales, the laptop is too much. Because of this, I move the laptop below its copy when it hits the phone breakpoint.&lt;/p&gt;
+
+&lt;p&gt;Though the Mailbox website wasn’t as ambitious as the Carousel website, I feel its strength lies in its restraint to &lt;em&gt;not&lt;/em&gt; go over the top. Because the app’s ease and simplicity is its main appeal, the goal of the website is to showcase Mailbox’s key gestures and get users right into the app.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://mailboxapp.com&quot;&gt;Visit the Mailbox website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -259,7 +281,9 @@
 
 &lt;p&gt;At launch, I let out a great sigh of relief. This project took a lot out of me because it consisted of countless technical challenges and several changes in direction late in the game. I’m happy with the end result, though. If we settled at any point instead of pushing through the difficult decisions, I think we would have been left with regret. Looking back, I’m incredibly grateful and fortunate that such a small gesture on Colin’s part, of putting my name in the hat, led to this collaboration.&lt;/p&gt;
 
-&lt;p&gt;Visit &lt;a href=&quot;https://carousel.com&quot;&gt;carousel.com&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://carousel.com&quot;&gt;Visit the Carousel website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

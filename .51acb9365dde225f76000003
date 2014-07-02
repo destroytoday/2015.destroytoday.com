@@ -1,5 +1,5 @@
 ---
-time: 1404316474
+time: 1404329835
 inventory:
   /home/index.html:
     md5: b807adab1fff734b139f2c3d24f55da7
@@ -218,11 +218,11 @@ inventory:
     md5: c9eca6a084f51966cb5a942355d0d43b
     time: 1404264378
   /work/mailbox/index.html:
-    md5: 21a5d4e9893abdb76a75c67ffa176c0f
-    time: 1404264378
+    md5: 1f0d77ac98fcf458cd93bccbc50011eb
+    time: 1404329815
   /work/carousel/index.html:
-    md5: 7f01582208f2f8ec028b4466eb19fcd8
-    time: 1404264378
+    md5: faed84158e8fc3f0a8e96594e36d3a89
+    time: 1404329815
   /work/chroma/index.html:
     md5: 686b49136235aa0e725bbea6792bd78f
     time: 1404264378
@@ -314,17 +314,17 @@ inventory:
     md5: b3f82098b655ff901926c787aac3066a
     time: 1404264381
   /blog/feed/index.html:
-    md5: 8546be0293681f3baf2b021503ae9a25
-    time: 1404316471
+    md5: 37ed55532697eb23ef47862ff0501d58
+    time: 1404329817
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: 2ca63b6c6953c066a78e9568ed32e719
-    time: 1404316471
+    md5: 82dd2d229d62557f1ad3037ca39d805b
+    time: 1404329818
   /feed.xml:
-    md5: e2bf73f72cec1415bdba9b5167c8f549
-    time: 1404316472
+    md5: fbc8fc6d027655493e460484a80620b1
+    time: 1404329818
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
@@ -748,6 +748,9 @@ inventory:
   /assets/carousel-logo.svg:
     md5: 0d56be059ad006209537b7ed4729ec68
     time: 1404167973
+  /assets/mailbox-devices.jpg:
+    md5: ca0901ef96fd7e761c5fe4dad7713e96
+    time: 1404329818
   /assets/siteleaf-posts.png:
     md5: a9f92583663bbbea38aa5d0d3070a6a0
     time: 1404167973
@@ -784,6 +787,9 @@ inventory:
   /assets/carousel-thumb.svg:
     md5: b4084bf33ab52efddcbf6e083144ea2d
     time: 1404167974
+  /assets/mailbox.mp4:
+    md5: 8bca80cb260dda97f58f555d374a826b
+    time: 1404329820
   /assets/siteleaf-thumb.svg:
     md5: 8b61ef21e3193f9b5b9b210ebea17246
     time: 1404167974
@@ -811,6 +817,9 @@ inventory:
   /assets/carousel-mobile.mp4:
     md5: ea4f6b7950a604fd96d35a6c2369850f
     time: 1404167975
+  /assets/mailbox.jpg:
+    md5: c6c625ade8164cfae80b3aa7e6603fc2
+    time: 1404329821
   /assets/gif-workflow-alfred-workflow.jpg:
     md5: 601724441ec61a6fca73424136d007f7
     time: 1404167975
@@ -832,6 +841,9 @@ inventory:
   /assets/carousel-mobile.ogv:
     md5: 60572022ddfe665cd9de516ed329820c
     time: 1404167976
+  /assets/mailbox.ogv:
+    md5: 700809b73be73285c672f2d4a84749c7
+    time: 1404329821
   /assets/gif-workflow-alfred-code.jpg:
     md5: 12f752ae69e218d1416f975455cfd7f0
     time: 1404167976
