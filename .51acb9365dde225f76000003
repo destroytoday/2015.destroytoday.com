@@ -1,5 +1,5 @@
 ---
-time: 1404329835
+time: 1404393763
 inventory:
   /home/index.html:
     md5: b807adab1fff734b139f2c3d24f55da7
@@ -218,8 +218,8 @@ inventory:
     md5: c9eca6a084f51966cb5a942355d0d43b
     time: 1404264378
   /work/mailbox/index.html:
-    md5: 1f0d77ac98fcf458cd93bccbc50011eb
-    time: 1404329815
+    md5: d3edb65fe5e2a84c813d838b7ab840f3
+    time: 1404393756
   /work/carousel/index.html:
     md5: faed84158e8fc3f0a8e96594e36d3a89
     time: 1404329815
@@ -314,17 +314,17 @@ inventory:
     md5: b3f82098b655ff901926c787aac3066a
     time: 1404264381
   /blog/feed/index.html:
-    md5: 37ed55532697eb23ef47862ff0501d58
-    time: 1404329817
+    md5: 9d2166624827b99150f75446261cc4e6
+    time: 1404393761
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: 82dd2d229d62557f1ad3037ca39d805b
-    time: 1404329818
+    md5: fdb6800dda0764067845ff84519e1615
+    time: 1404393761
   /feed.xml:
-    md5: fbc8fc6d027655493e460484a80620b1
-    time: 1404329818
+    md5: ed901d4cb47e0c5753de4f4830166e22
+    time: 1404393762
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962

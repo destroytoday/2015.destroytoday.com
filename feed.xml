@@ -3,7 +3,7 @@
   <channel>
     <title>Destroy Today</title>
     <link>http://destroytoday.com</link>
-    <pubDate>Wed, 02 Jul 2014 19:36:58 +0000</pubDate>
+    <pubDate>Thu, 03 Jul 2014 13:22:41 +0000</pubDate>
     
     <item>
       <title>Uptime</title>
@@ -203,7 +203,7 @@
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;The design of the website took a number of turns before I was given the green light. We landed on using videos to demo the many gestures within the app. Upon scrolling the website, the videos will autoplay once they come into view. When a video falls out of view, it pauses. It’s a straight-forward approach, but very effective, showcasing exactly how the app works without hitting you over the head with effects.&lt;/p&gt;
+&lt;p&gt;The design of the website took a number of turns before I was given the green light. &lt;a href=&quot;http://twitter.com/morganknutson&quot;&gt;Morgan Knutson&lt;/a&gt; led the final version, landing on using videos to demo the many gestures within the app. Upon scrolling the website, the videos will autoplay once they come into view. When a video falls out of view, it pauses. It’s a straight-forward approach, but very effective, showcasing exactly how the app works without hitting you over the head with effects.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/mailbox-devices.jpg&quot; alt=&quot;mailbox-devices&quot;&gt; &lt;/p&gt;
 
