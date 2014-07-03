@@ -3,7 +3,27 @@
   <channel>
     <title>Destroy Today</title>
     <link>http://destroytoday.com</link>
-    <pubDate>Thu, 03 Jul 2014 13:22:41 +0000</pubDate>
+    <pubDate>Thu, 03 Jul 2014 15:09:19 +0000</pubDate>
+    
+    <item>
+      <title>Experiments</title>
+      <link>http://destroytoday.com/blog/experiments</link>
+      <pubDate>Thu, 03 Jul 2014 10:20:00 -0400</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/blog/experiments</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://uptime.destroytoday.com&quot;&gt;&lt;img src=&quot;/assets/uptime.jpg&quot; alt=&quot;uptime&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;After a week in Iceland, I returned to Brooklyn on Monday. Knowing I leave for Portland on Sunday, I didn’t want to get back into the thick of things with &lt;a href=&quot;http://cushionapp.com&quot;&gt;Cushion&lt;/a&gt; just to have any work broken up and left for after the trip. Because of this, I decided to spend this week cleaning up and tackling long overdue to-dos.&lt;/p&gt;
+
+&lt;p&gt;The “Experiments” section of my website was highest on my list. It existed in the previous version, but slipped through the cracks in the redesign. I can’t clearly describe this section, but all of the projects within follow a common theme—they don’t bring in money. I made them just because.&lt;/p&gt;
+
+&lt;p&gt;The first project is a rewrite of an old one—&lt;a href=&quot;/experiments/uptime&quot;&gt;Uptime&lt;/a&gt;. Back when I was first learning Ruby, I thought I’d make a dead-simple app that did one thing—track the uptime of my website. That on its own is a bit boring, so I designed it in the style of warehouse injury signs.&lt;/p&gt;
+
+&lt;p&gt;With absolutely no experience with Ruby, I wrote the single-page app on &lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Rails&lt;/a&gt;, which is the equivalent to building a LEGO house with a construction crew. This time around, with a few years of Ruby under my belt, I spent an afternoon and rebuilt it on the lightweight &lt;a href=&quot;http://sinatrarb.com&quot;&gt;Sinatra&lt;/a&gt; framework. I’m also now hosting the &lt;a href=&quot;https://github.com/destroytoday/uptime&quot;&gt;source code&lt;/a&gt; on Github, in case anyone wants their own uptime page.&lt;/p&gt;
+
+&lt;p&gt;At some point, I stopped experimenting. Over the next few days, I plan to add a few more of my older “experiments” and continue posting more as I make them. I’m hoping it will bring more variety into my work schedule, allowing me to take the occasional afternoon to focus on a random idea.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Uptime</title>
@@ -677,125 +697,6 @@
 &lt;p&gt;&lt;img src=&quot;/assets/fiftythree-mobile.jpg&quot; alt=&quot;fiftythree-mobile&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;After a long week, I handed the code off to &lt;a href=&quot;http://twitter.com/tfeener&quot;&gt;Tara Feener&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/gscottolson&quot;&gt;Scott Olson&lt;/a&gt;, who prepared it for production. Not knowing when it would launch, I continued with my other work, but kept an eye on the site. A few Twitter mentions started to roll in and I knew it was live. I couldn’t be happier with the end result, as well as the response. It was an absolute privilege working with the FiftyThree team and tagging along for a small part of their adventure.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Porting a theme to Siteleaf</title>
-      <link>http://destroytoday.com/blog/porting-a-theme-to-siteleaf</link>
-      <pubDate>Mon, 16 Sep 2013 21:04:00 -0400</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/blog/porting-a-theme-to-siteleaf</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/assets/porting-a-theme-to-siteleaf-martin.png&quot; alt=&quot;porting-a-theme-to-siteleaf-martin&quot;&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Today, I ported &lt;a href=&quot;http://martin.siteleaf.net&quot;&gt;another theme&lt;/a&gt; to &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt;—&lt;a href=&quot;http://twitter.com/house&quot;&gt;Allison House&amp;rsquo;s&lt;/a&gt; &lt;a href=&quot;http://house.github.io/martin/&quot;&gt;Martin theme&lt;/a&gt;. I started porting themes to Siteleaf earlier this month as a self-imposed challenge. A friend of mine asked if a particular theme was possible to implement using Siteleaf and rather than answer with a simple &amp;lsquo;yes&amp;rsquo;, I responded with &lt;a href=&quot;http://balzac.siteleaf.net&quot;&gt;the ported theme&lt;/a&gt;. This was a great way of demonstrating Siteleaf&amp;rsquo;s adaptability, but also a useful exercise for myself to see where Siteleaf excels and where it falls short. In this post, I&amp;rsquo;ll walk through porting the Martin theme and show you just how easy it can be.&lt;/p&gt;
-
-&lt;p&gt;If you first take a look at the &lt;a href=&quot;https://github.com/destroytoday/martin-for-siteleaf/commit/4d7bb736b682294513db591d9c47bdb34713c507#L9R3&quot;&gt;diff&lt;/a&gt; on Github, you&amp;rsquo;ll immediately see how little I needed to change in order to port the theme to Siteleaf. In fact, I only replaced six lines—and I deleted several dozen in the process. I accomplished this by extracting the theme&amp;rsquo;s content to Siteleaf and wiring these spots to page variables and meta fields.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/porting-a-theme-to-siteleaf-sections.png&quot; alt=&quot;porting-a-theme-to-siteleaf-sections&quot;&gt; &lt;/p&gt;
-
-&lt;p&gt;Looking at the previous code, we can separate the entire page into three sections—header, body (represented as a &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt;), and footer. If we take a closer look at the body, the bulk of it is simple HTML that can easily be rendered from Markdown. Because of this, we can replace the entire block of code inside the &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt; tag with the liquid tag &lt;code&gt;{{ body }}&lt;/code&gt; and move the previous content into a Siteleaf page body, rewritten in Markdown. Siteleaf will render that Markdown to HTML, inject it into our template, and allow us to modify it easily in the CMS, without touching the template code. Previously, the snippet of code to produce a table looked like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;h2&amp;gt;Table&amp;lt;/h2&amp;gt;
-&amp;lt;table&amp;gt;
-  &amp;lt;thead&amp;gt;
-    &amp;lt;tr&amp;gt;
-      &amp;lt;th&amp;gt;Whiskey&amp;lt;/th&amp;gt;
-      &amp;lt;th&amp;gt;Tango&amp;lt;/th&amp;gt;
-      &amp;lt;th&amp;gt;Foxtrot&amp;lt;/th&amp;gt;
-    &amp;lt;/tr&amp;gt;
-  &amp;lt;/thead&amp;gt;
-  &amp;lt;tbody&amp;gt;
-    &amp;lt;tr&amp;gt;
-      &amp;lt;td&amp;gt;Apple&amp;lt;/td&amp;gt;
-      &amp;lt;td&amp;gt;1&amp;lt;/td&amp;gt;
-      &amp;lt;td&amp;gt;a&amp;lt;/td&amp;gt;
-    &amp;lt;/tr&amp;gt;
-    &amp;lt;tr&amp;gt;
-      &amp;lt;td&amp;gt;Blueberry&amp;lt;/td&amp;gt;
-      &amp;lt;td&amp;gt;2&amp;lt;/td&amp;gt;
-      &amp;lt;td&amp;gt;b&amp;lt;/td&amp;gt;
-    &amp;lt;/tr&amp;gt;
-    &amp;lt;tr&amp;gt;
-      &amp;lt;td&amp;gt;Banana&amp;lt;/td&amp;gt;
-      &amp;lt;td&amp;gt;3&amp;lt;/td&amp;gt;
-      &amp;lt;td&amp;gt;c&amp;lt;/td&amp;gt;
-    &amp;lt;/tr&amp;gt;
-  &amp;lt;/tbody&amp;gt;
-&amp;lt;/table&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now, thanks to Markdown, we can replicate this table in the Siteleaf CMS, using the following code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;markdown&quot;&gt;## Table
-
-| Whiskey    | Tango | Foxtrot |
-| ---------- | ----- | ------- |
-| Apple      | 1     | a       |
-| Blueberry  | 2     | b       |
-| Banana     | 3     | c       |
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The end result is the same both ways, but with Siteleaf and Markdown, the content is much easier to digest and no longer hard-coded into the template. You can compare the before/after of the page&amp;rsquo;s content in these two gists: &lt;a href=&quot;https://gist.github.com/destroytoday/6598835&quot;&gt;HTML&lt;/a&gt; vs &lt;a href=&quot;https://gist.github.com/destroytoday/6598658&quot;&gt;Markdown&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The body content is typically the easiest to extract because Siteleaf does most of the work. Let&amp;rsquo;s now take a look at the header, which is comprised of a few external links, the page&amp;rsquo;s title and its tagline.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/porting-a-theme-to-siteleaf-header.png&quot; alt=&quot;porting-a-theme-to-siteleaf-header&quot;&gt; &lt;/p&gt;
-
-&lt;p&gt;If this theme were meant for multiple pages, the links at the top would appear on every page, so it&amp;rsquo;s safe to consider these global values. As such, we can extract them into site meta fields. Starting with the byline in the top-left, we &lt;em&gt;could&lt;/em&gt; simply replace it with the full URL to the GitHub profile page, but instead, let&amp;rsquo;s write the template in a way that saves us from repeating the URI with every occurrance. I take this approach because we use several GitHub links on the top bar, including one for the repo and another for a zip of the master branch. Here&amp;rsquo;s a look at the previous code:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;div class=&amp;quot;byline&amp;quot;&amp;gt;
-  &amp;lt;a href=&amp;quot;https://github.com/house&amp;quot;&amp;gt;github.com/house&amp;lt;/a&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;div class=&amp;quot;downloads&amp;quot;&amp;gt;
-  &amp;lt;a href=&amp;quot;https://github.com/house/martin&amp;quot;&amp;gt;Fork on GitHub&amp;lt;/a&amp;gt;
-  &amp;amp;bull;
-  &amp;lt;a href=&amp;quot;https://github.com/house/martin/archive/master.zip&amp;quot;&amp;gt;Download ZIP&amp;lt;/a&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The base GitHub URL appears three times (and once without the protocol), the GitHub username four times, and the GitHub repo name twice. If we take a stance and agree to use GitHub to host our source code when using this theme, we can extract both the GitHub username and repo name into site meta fields:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;div class=&amp;quot;byline&amp;quot;&amp;gt;
-  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}&amp;quot;&amp;gt;github.com/{{ site.meta.github_user }}&amp;lt;/a&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;div class=&amp;quot;downloads&amp;quot;&amp;gt;
-  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}/{{ site.meta.github_repo }}&amp;quot;&amp;gt;Fork on GitHub&amp;lt;/a&amp;gt;
-  &amp;amp;bull; 
-  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}/{{ site.meta.github_repo }}/archive/master.zip&amp;quot;&amp;gt;Download ZIP&amp;lt;/a&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;With this setup, if we ever decide to change our username or repo name, we only need to do it once, without touching the template code. I try to extract as much content as possible, so anyone could upload the theme and have full control over the copy. We can achieve this with a couple more site meta fields, but let&amp;rsquo;s also specify fallbacks, so these are optional to the user:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;div class=&amp;quot;byline&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}&amp;quot;&amp;gt;github.com/{{ site.meta.github_user }}&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;
-&amp;lt;div class=&amp;quot;downloads&amp;quot;&amp;gt;
-  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}/{{ site.meta.github_repo }}&amp;quot;&amp;gt;{{ site.meta.fork_text | fallback: &amp;#39;Fork on GitHub&amp;#39; }}&amp;lt;/a&amp;gt;
-  &amp;amp;bull; 
-  &amp;lt;a href=&amp;quot;https://github.com/{{ site.meta.github_user }}/{{ site.meta.github_repo }}/archive/master.zip&amp;quot;&amp;gt;{{ site.meta.download_text | fallback: &amp;#39;Download ZIP&amp;#39; }}&amp;lt;/a&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The second half the header consists of the page&amp;rsquo;s title and tagline. Since this theme is intended to be a single, standalone page, I could&amp;rsquo;ve used the site title and a site meta field for the tagline, but I wanted to keep it open to multiple pages, so I went with the page title and a page meta field:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;hgroup&amp;gt;
-  &amp;lt;h1&amp;gt;{{ title }}&amp;lt;/h1&amp;gt;
-  &amp;lt;h2 class=&amp;quot;tagline&amp;quot;&amp;gt;{{ meta.tagline }}&amp;lt;/h2&amp;gt;
-&amp;lt;/hgroup&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now, if we ever add a &amp;lsquo;Team&amp;rsquo; page, we can adapt the header to the new page without needing to touch the template.&lt;/p&gt;
-
-&lt;p&gt;The last remaining piece of the puzzle is the window title. Typically, I set this to &lt;code&gt;{{ site.title }} / {{ title }}&lt;/code&gt;, but this theme&amp;rsquo;s title includes both the title and a credit to the creator, Allison. Rather than set the site title to such a length, once again, I used a site meta field with a fallback to the site title:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;title&amp;gt;{{ site.meta.window_title | fallback: site.title }}&amp;lt;/title&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Again, the user can upload the theme without specifying the &lt;code&gt;window_title&lt;/code&gt;, but it&amp;rsquo;s also there if they need it.&lt;/p&gt;
-
-&lt;h3&gt;Wrapping up&lt;/h3&gt;
-
-&lt;p&gt;Allison&amp;rsquo;s theme, &lt;a href=&quot;http://house.github.io/martin/&quot;&gt;Martin&lt;/a&gt;, is a beautiful theme, and its simplicity, both in style and code, is what attracted me. While the theme is a good example for a single-page site, there is so much more to cover when porting larger, more complex themes. Hopefully, this walkthrough gives you a solid starting point to try it for yourself. I&amp;rsquo;m going to continue porting themes to Siteleaf, while providing the source code on &lt;a href=&quot;https://github.com/destroytoday&quot;&gt;my GitHub account&lt;/a&gt;. You can also check out the &lt;a href=&quot;https://github.com/siteleaf/siteleaf-themes/wiki/Siteleaf-themes-on-Github&quot;&gt;list of existing themes&lt;/a&gt; on the Siteleaf wiki.&lt;/p&gt;
 </description>
     </item>
     

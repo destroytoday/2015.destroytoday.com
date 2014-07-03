@@ -217,7 +217,7 @@
       <a href='/blog/web-friends-interview'>Web Friends interview</a>
     </h2>
     <h3 class='content-subheader'>
-      <a class='next nav-icon ss-icon' href='' style='visibility: hidden'>navigateleft</a>
+      <a class='next nav-icon ss-icon' href='/blog/experiments' style='visibility: visible'>navigateleft</a>
       <a class='content-date' href='/blog/web-friends-interview'>June 16, 2014</a>
       <a class='previous nav-icon ss-icon' href='/blog/building-the-carousel-website' style='visibility: visible'>navigateright</a>
     </h3>
@@ -318,6 +318,10 @@
 
     
   
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='/blog/experiments'></a>
+    </div>
+  
 
   
     <div class='pagination previous'>
@@ -327,6 +331,8 @@
 
   <script>
     document.body.onkeyup = function(e){
+      
+      if (e.keyCode == '37') { window.location = '/blog/experiments'; }
       
 
       
