@@ -1,12 +1,12 @@
 ---
-time: 1407161028
+time: 1407163933
 inventory:
   /home/index.html:
-    md5: 329761a2c9294da07866ee31872f510b
-    time: 1407161011
+    md5: d884fc76cdce90e769394ea10fe9a795
+    time: 1407163915
   /index.html:
-    md5: 329761a2c9294da07866ee31872f510b
-    time: 1407161011
+    md5: d884fc76cdce90e769394ea10fe9a795
+    time: 1407163915
   /about/index.html:
     md5: 6467cf4de36700f9b2b85590dbd4c3eb
     time: 1404264366
@@ -17,8 +17,8 @@ inventory:
     md5: 57d784692d310f4c403af7f723c411be
     time: 1407160532
   /blog/sabbatical/index.html:
-    md5: 72daae0e61ab7a067e8f2863e1ce0217
-    time: 1407161012
+    md5: f30a4726ab97121ed3dedeb048bbdb17
+    time: 1407163915
   /blog/experiments/index.html:
     md5: a728c8e3011aa0eacb8ea2288e0fdeea
     time: 1407160532
@@ -323,17 +323,17 @@ inventory:
     md5: b3f82098b655ff901926c787aac3066a
     time: 1404264381
   /blog/feed/index.html:
-    md5: 511a05f1d8269fd7664b8273d0fa6388
-    time: 1407161026
+    md5: b0249fb9cdc12a37443b27224b836b97
+    time: 1407163931
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: 2ed452619adc80efe9d81ebbcb0c976a
-    time: 1407161026
+    md5: b1436cde8864a8bd016297cfba94ae9e
+    time: 1407163931
   /feed.xml:
-    md5: d9e802676d5f4b60e681ed72c6418d6c
-    time: 1407161027
+    md5: df18006f4de364edf6037b0d42d0167a
+    time: 1407163931
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
