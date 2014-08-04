@@ -1,12 +1,12 @@
 ---
-time: 1407159923
+time: 1407160555
 inventory:
   /home/index.html:
-    md5: 47b8db7ceb3ada38175ef29698868043
-    time: 1404400143
+    md5: 96fb85224bb169c63a44fa4958625717
+    time: 1407160531
   /index.html:
-    md5: 47b8db7ceb3ada38175ef29698868043
-    time: 1404400143
+    md5: 96fb85224bb169c63a44fa4958625717
+    time: 1407160531
   /about/index.html:
     md5: 6467cf4de36700f9b2b85590dbd4c3eb
     time: 1404264366
@@ -14,134 +14,140 @@ inventory:
     md5: 24069b94b7f1ed0491435c5dadb60735
     time: 1404264367
   /blog/index.html:
-    md5: d5100db5e375d8f95940ab9d72b43375
-    time: 1404400143
-  /blog/experiments/index.html:
-    md5: 8e6dc162af51e6fe715817911a1dafaf
-    time: 1404400144
-  /blog/web-friends-interview/index.html:
-    md5: 3a31aba2184761356b796b45d3ac196e
-    time: 1404400144
-  /blog/building-the-carousel-website/index.html:
-    md5: 930fe6a699143aed44d992dea7f1b7d4
-    time: 1404264367
-  /blog/on-sabbatical/index.html:
-    md5: 01862adbc56d48db6110de408a145ec8
-    time: 1404264367
-  /blog/the-start-interview/index.html:
-    md5: 47b4b6d622898103ef86b763a938061a
-    time: 1404264367
-  /blog/cushion/index.html:
-    md5: 8e2dfc035cfd25e76699d08c8421d219
-    time: 1404264368
-  /blog/how-to-hold-a-pencil-podcast-interview/index.html:
-    md5: 94d516a076b425ca81f5b044409cef5c
-    time: 1404264368
-  /blog/creativemornings/index.html:
-    md5: 4d1248afababe6e68479e65129d85840
-    time: 1404264368
-  /blog/my-dad/index.html:
-    md5: 917bde7f3f37eb2631d6a28e74e11cb3
-    time: 1404264368
-  /blog/back-on-my-own/index.html:
-    md5: bc00e1093af9c951a07dae2484e8e430
-    time: 1404264368
-  /blog/building-the-pencil-page/index.html:
-    md5: d895ec084630a14d06f1674817473e23
-    time: 1404264369
-  /blog/layouts-in-siteleaf/index.html:
-    md5: e32af2ad6284a76d89e0dba6c4c910ef
-    time: 1404264369
-  /blog/brooklyn-beta-is-people/index.html:
-    md5: 0b691dfd87a372aeccb604f9685f081b
-    time: 1404264369
-  /blog/porting-a-theme-to-siteleaf/index.html:
-    md5: c01846704632ea4d3f1c9212534bc177
-    time: 1404264369
-  /blog/washing-the-dishes/index.html:
-    md5: 9525bb24b68cd8802ec2c728f07cd0e7
-    time: 1404264369
-  /blog/markdown-in-siteleaf/index.html:
-    md5: c0efbb535c1e57c3204934e92c3cc97e
-    time: 1404264369
-  /blog/gif-workflow/index.html:
-    md5: 9577cdd363acbcb79d4a2696c3688d64
-    time: 1404264370
-  /blog/taxonomy-in-siteleaf/index.html:
-    md5: 1cff51744f1ab0dd37b23bd24e8e0cb3
-    time: 1404264370
-  /blog/qandanda/index.html:
-    md5: cb4f4b188776ae6004b4cb2a9d1fbb10
-    time: 1404264370
-  /blog/metadata-in-siteleaf/index.html:
-    md5: da1ad51f425771d6434f444aceac2773
-    time: 1404264370
-  /blog/hello-world-im-siteleaf/index.html:
-    md5: 9c9dedc7825ba60e5d23d054d0d13889
-    time: 1404264370
-  /blog/an-introduction-to-siteleaf/index.html:
-    md5: fae40328aca569e40d0d100f4c720a0b
-    time: 1404264370
-  /blog/joining-oak/index.html:
-    md5: fdcb8936612d987a7527990002166a6c
-    time: 1404264371
-  /blog/redesigning-with-rules/index.html:
-    md5: f5b09dbe91d1d5901935fa6b19b1668d
-    time: 1404264371
-  /blog/lessons-learned-in-a-year-on-my-own/index.html:
-    md5: 7dd286dc3fc51010784f8435b8c80a0a
-    time: 1404264371
-  /blog/2012-a-year-in-review/index.html:
-    md5: 4492e9fa5e02c42e33cf8842d3b84773
-    time: 1404264371
-  /blog/wedding-tech/index.html:
-    md5: 8afbb3f361e8ced8840e264500a34fe2
-    time: 1404264371
-  /blog/working-on-teuxdeux/index.html:
-    md5: 1ae6899f6754fedc8a0c3902085721f0
-    time: 1404264372
-  /blog/on-building-and-partnering/index.html:
-    md5: fcb709ae1fdac269aaade761a9f0188f
-    time: 1404264372
-  /blog/destroy-today-llc/index.html:
-    md5: df1429dfac47d05683c94f7bdcac1b32
-    time: 1404264372
-  /blog/last-day-at-adobe/index.html:
-    md5: 49f8df255e8e52d9a47180200e64d3ca
-    time: 1404264372
-  /blog/dof-drawing-in-instagram/index.html:
-    md5: 7f820782f0da64d0b1bd797843f0571a
-    time: 1404264372
-  /blog/unliking-in-instagram/index.html:
-    md5: ecb3389d9554d59b348fa034b5e194d7
-    time: 1404264372
-  /blog/user-personality/index.html:
-    md5: 9abc8836ad8431a7490f025a1ec60d3a
-    time: 1404264373
-  /blog/hello-world-im-jekyll/index.html:
-    md5: 1f083d9af1f3946e53b21fcf425e0418
-    time: 1404264373
-  /blog/checkered-loading-images/index.html:
-    md5: dfb1934a2de51d9fefa1548f15795020
-    time: 1404264373
-  /blog/an-introduction-to-jekyll/index.html:
-    md5: 5213c6a0bb45f36ff1c4e195fe4ab53c
-    time: 1404264373
-  /blog/letterpressed-indesign-icons/index.html:
-    md5: c8512a5b86ad3c4117671e69863a5a25
-    time: 1404264373
+    md5: 57d784692d310f4c403af7f723c411be
+    time: 1407160532
   /blog/sabbatical/index.html:
-    md5: 6066798cc51335a23225e34cee45bb5a
-    time: 1407159906
+    md5: 63bf4b82db0a69bdd3ef7f6f2e1e6224
+    time: 1407160532
+  /blog/experiments/index.html:
+    md5: a728c8e3011aa0eacb8ea2288e0fdeea
+    time: 1407160532
+  /blog/web-friends-interview/index.html:
+    md5: 99396578541b17952e4c97942661b330
+    time: 1407160532
+  /blog/building-the-carousel-website/index.html:
+    md5: 2a3125539888df9137a2e060ff41bd47
+    time: 1407160533
+  /blog/on-sabbatical/index.html:
+    md5: 5dd53555efdcb242a2fb46cf29be1360
+    time: 1407160533
+  /blog/the-start-interview/index.html:
+    md5: 16fc22a282f9337e372f0986da4bb5cb
+    time: 1407160533
+  /blog/cushion/index.html:
+    md5: e541ea769cd91edcba1a9502e4315019
+    time: 1407160533
+  /blog/how-to-hold-a-pencil-podcast-interview/index.html:
+    md5: 568b801744e72b1cfa073bedf7d6ec9d
+    time: 1407160534
+  /blog/creativemornings/index.html:
+    md5: b95ad9b0ea1a1e92c2360131919eb19b
+    time: 1407160534
+  /blog/my-dad/index.html:
+    md5: ee758e4246ba72f05eaee09841f6cd29
+    time: 1407160534
+  /blog/back-on-my-own/index.html:
+    md5: 2bee349ad3a9dff79c85090ca664fc01
+    time: 1407160534
+  /blog/building-the-pencil-page/index.html:
+    md5: 55d368d34fca8a8d07d575ac9d87dee1
+    time: 1407160534
+  /blog/layouts-in-siteleaf/index.html:
+    md5: 428da74fbd0ae52e27363d502683ff65
+    time: 1407160534
+  /blog/brooklyn-beta-is-people/index.html:
+    md5: 56c6eb8223dff76bc3c3711c8ed7a43e
+    time: 1407160535
+  /blog/porting-a-theme-to-siteleaf/index.html:
+    md5: 7de55f82f5f4d1a7354c107a1c9cadde
+    time: 1407160535
+  /blog/washing-the-dishes/index.html:
+    md5: 66628bf2638695d703b961d2ceb4855a
+    time: 1407160535
+  /blog/markdown-in-siteleaf/index.html:
+    md5: ceda3307d1e1c6485c5d9c6fe3ba9b67
+    time: 1407160535
+  /blog/gif-workflow/index.html:
+    md5: 311716b3e8b891f6ca0c4d2c0184e81f
+    time: 1407160535
+  /blog/taxonomy-in-siteleaf/index.html:
+    md5: 205cfe69ca931c2bdcf7d50d0ae7de67
+    time: 1407160535
+  /blog/qandanda/index.html:
+    md5: 93c175dc142166fd0c14ab51bdd323df
+    time: 1407160536
+  /blog/metadata-in-siteleaf/index.html:
+    md5: c0cd452a3fae3f6c44876cdf04b89d40
+    time: 1407160536
+  /blog/hello-world-im-siteleaf/index.html:
+    md5: c12875240ec35e97e6486a9d645c88a6
+    time: 1407160536
+  /blog/an-introduction-to-siteleaf/index.html:
+    md5: b029069aec7ad55b83ab64128a45cb75
+    time: 1407160536
+  /blog/joining-oak/index.html:
+    md5: 4f573921b9db36961a097d2157484057
+    time: 1407160536
+  /blog/redesigning-with-rules/index.html:
+    md5: bba7d4e5ffaaad5677e7f139b6e6c070
+    time: 1407160537
+  /blog/lessons-learned-in-a-year-on-my-own/index.html:
+    md5: 204907462e757e3909f06069d057ff4c
+    time: 1407160537
+  /blog/2012-a-year-in-review/index.html:
+    md5: 8ac28b02631b050ba6b2e9da586b4477
+    time: 1407160537
+  /blog/wedding-tech/index.html:
+    md5: d61d1f65deddc71e65f21accbc404da4
+    time: 1407160537
+  /blog/working-on-teuxdeux/index.html:
+    md5: 1161a36b3e7fcfbc46727d5369d600ef
+    time: 1407160537
+  /blog/on-building-and-partnering/index.html:
+    md5: d7d7085afcf012cd8ef592ac52ccf478
+    time: 1407160537
+  /blog/destroy-today-llc/index.html:
+    md5: 62489a5b760f3de4e026499ebc52c7ae
+    time: 1407160538
+  /blog/last-day-at-adobe/index.html:
+    md5: af59cd9a4f840a6db1f0a1a5ff919d02
+    time: 1407160538
+  /blog/dof-drawing-in-instagram/index.html:
+    md5: 05657a8b13fd957cbfa932faa1f43790
+    time: 1407160538
+  /blog/unliking-in-instagram/index.html:
+    md5: 478b1f447c51754e40c89f30fd7453d8
+    time: 1407160538
+  /blog/user-personality/index.html:
+    md5: 7ef70fab4809283a36ef3ef402219907
+    time: 1407160538
+  /blog/hello-world-im-jekyll/index.html:
+    md5: f11926e29dcdca1623eaf6fb2d208cb7
+    time: 1407160539
+  /blog/checkered-loading-images/index.html:
+    md5: 8deeb733dc186128dc62c122e8ebd419
+    time: 1407160539
+  /blog/an-introduction-to-jekyll/index.html:
+    md5: f0f684edea3b73b33a2d54874d14fddc
+    time: 1407160539
+  /blog/letterpressed-indesign-icons/index.html:
+    md5: 84576bee73c4bebd99f02439cb93e903
+    time: 1407160539
   /blog/alfred-dev-env/index.html:
-    md5: a9b5bc1542c534626be6801d92f90eea
-    time: 1404264374
+    md5: 9f6ad4652f04f2b5233658b00e16f7cb
+    time: 1407160539
   /blog/archive/index.html:
-    md5: cd2f0aa36c9476af1cd74d04c2175334
-    time: 1404400151
+    md5: a888956a7ccc9f8b37a53ea1ecf5c42b
+    time: 1407160539
   /blog/tags/index.html:
     md5: f7fad9983bb4bd265009be04b5323d7c
     time: 1404264374
+  /blog/tags/featured/index.html:
+    md5: 85a9cd634b9ec3d752e2932bde23c61c
+    time: 1407160540
+  /blog/tags/thoughts/index.html:
+    md5: 975249fad2b1b3078332a2818241a830
+    time: 1407160540
   /blog/tags/working-on/index.html:
     md5: ec692b4d0f0534b39a8e35ea5068a6d9
     time: 1404400152
@@ -151,14 +157,8 @@ inventory:
   /blog/tags/process/index.html:
     md5: e07ac0941e4d6294c571017198e322ab
     time: 1404264374
-  /blog/tags/featured/index.html:
-    md5: 160f74d001d66c8874674ac2cc4a0007
-    time: 1404264374
   /blog/tags/announcement/index.html:
     md5: 24034e1fe1f9723d741a340186cee051
-    time: 1404264375
-  /blog/tags/thoughts/index.html:
-    md5: f36455ff20fea4bdf8d4b2bdbaae5574
     time: 1404264375
   /blog/tags/cushion/index.html:
     md5: fe9d1579e695a62f7e422be695565ad7
@@ -323,17 +323,17 @@ inventory:
     md5: b3f82098b655ff901926c787aac3066a
     time: 1404264381
   /blog/feed/index.html:
-    md5: 735c889933f4353c50a798532f3018ab
-    time: 1407159914
+    md5: 70f384b2c38e675b6f5bd9e1b9fda6f7
+    time: 1407160547
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: 3ba8c4ec2bc92674b896522a93443aa1
-    time: 1407159914
+    md5: 91eb8c82bf0e07148dbc401998a99c9d
+    time: 1407160547
   /feed.xml:
-    md5: 9c234e3f023547ab386198c39030cd22
-    time: 1407159914
+    md5: 44e6853fc35446e3c38f7430b139a40d
+    time: 1407160548
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962

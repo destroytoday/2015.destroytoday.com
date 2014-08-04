@@ -217,7 +217,7 @@
       <a href='/blog/experiments'>Experiments</a>
     </h2>
     <h3 class='content-subheader'>
-      <a class='next nav-icon ss-icon' href='' style='visibility: hidden'>navigateleft</a>
+      <a class='next nav-icon ss-icon' href='/blog/sabbatical' style='visibility: visible'>navigateleft</a>
       <a class='content-date' href='/blog/experiments'>July 03, 2014</a>
       <a class='previous nav-icon ss-icon' href='/blog/web-friends-interview' style='visibility: visible'>navigateright</a>
     </h3>
@@ -255,6 +255,12 @@
 <section class='featured-section column-section list-section'>
   <h3>Featured writings</h3>
   <ul class='vertical-list'>
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #9faaa6">
+          <a href='/blog/sabbatical'>Lessons learned on a 3‑month sabbatical</a>
+        </li>
+      
     
       
         <li class='vertical-listing' style="border-left: solid 5px #364350">
@@ -326,6 +332,10 @@
 
     
   
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='/blog/sabbatical'></a>
+    </div>
+  
 
   
     <div class='pagination previous'>
@@ -335,6 +345,8 @@
 
   <script>
     document.body.onkeyup = function(e){
+      
+      if (e.keyCode == '37') { window.location = '/blog/sabbatical'; }
       
 
       

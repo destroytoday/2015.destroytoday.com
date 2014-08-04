@@ -219,7 +219,7 @@
     <h3 class='content-subheader'>
       <a class='next nav-icon ss-icon' href='' style='visibility: hidden'>navigateleft</a>
       <a class='content-date' href='/blog/sabbatical'>July 27, 2014</a>
-      <a class='previous nav-icon ss-icon' href='' style='visibility: hidden'>navigateright</a>
+      <a class='previous nav-icon ss-icon' href='/blog/experiments' style='visibility: visible'>navigateright</a>
     </h3>
   </header>
   <div class='content-body'>
@@ -278,6 +278,8 @@
 <section class='featured-section column-section list-section'>
   <h3>Featured writings</h3>
   <ul class='vertical-list'>
+    
+      
     
       
         <li class='vertical-listing' style="border-left: solid 5px #364350">
@@ -348,6 +350,24 @@
     </footer>
 
     
+  
+
+  
+    <div class='pagination previous'>
+      <a class='icon ss-navigateright' href='/blog/experiments'></a>
+    </div>
+  
+
+  <script>
+    document.body.onkeyup = function(e){
+      
+
+      
+      if (e.keyCode == '39') { window.location = '/blog/experiments'; }
+      
+    };
+  </script>
+
 
 
     <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
