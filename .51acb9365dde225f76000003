@@ -1,5 +1,5 @@
 ---
-time: 1405626216
+time: 1407159923
 inventory:
   /home/index.html:
     md5: 47b8db7ceb3ada38175ef29698868043
@@ -130,6 +130,9 @@ inventory:
   /blog/letterpressed-indesign-icons/index.html:
     md5: c8512a5b86ad3c4117671e69863a5a25
     time: 1404264373
+  /blog/sabbatical/index.html:
+    md5: 6066798cc51335a23225e34cee45bb5a
+    time: 1407159906
   /blog/alfred-dev-env/index.html:
     md5: a9b5bc1542c534626be6801d92f90eea
     time: 1404264374
@@ -218,8 +221,8 @@ inventory:
     md5: 5718da32131cd062ab94f260a4161bb6
     time: 1404264378
   /work/index.html:
-    md5: 577f5447db50f95a31725402a94bff55
-    time: 1405626208
+    md5: 167f62a598356e39992ac9e250658a44
+    time: 1407159910
   /work/etsy/index.html:
     md5: 5a2c37a3cf6aeba0a4998f8a8d2517e7
     time: 1405626208
@@ -320,17 +323,17 @@ inventory:
     md5: b3f82098b655ff901926c787aac3066a
     time: 1404264381
   /blog/feed/index.html:
-    md5: 93901163203a158f3133d296ff6a8645
-    time: 1405626211
+    md5: 735c889933f4353c50a798532f3018ab
+    time: 1407159914
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: 7c1240e25cdc271db9b38f8982304b09
-    time: 1405626211
+    md5: 3ba8c4ec2bc92674b896522a93443aa1
+    time: 1407159914
   /feed.xml:
-    md5: 9eb41134ba733b1cd67164bdc5f3a21b
-    time: 1405626211
+    md5: 9c234e3f023547ab386198c39030cd22
+    time: 1407159914
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
@@ -685,6 +688,9 @@ inventory:
   /assets/etsy-thumb.svg:
     md5: 45562b481f37e67930e2032ff20c9214
     time: 1405626212
+  /assets/sabbatical.jpg:
+    md5: 5787728f924769bd1915697ef35803e3
+    time: 1407159915
   /assets/abookapart-mobile.jpg:
     md5: e0fc0a7fc8fdbe076a1a39e95f53b4b1
     time: 1404167972
@@ -925,6 +931,9 @@ inventory:
   /assets/carousel-intro.jpg:
     md5: 8b7b47d5835b06e3be05b39f31ea45b6
     time: 1404167977
+  /assets/fiftythree-thumb.jpg:
+    md5: 3c0721043fb0afe961c58697f028a65c
+    time: 1407159915
   /assets/my-dad-lizzy.jpg:
     md5: 1150424cc6e318b5dc4dd67a78de184a
     time: 1404167977

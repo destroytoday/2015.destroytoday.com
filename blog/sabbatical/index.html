@@ -1,0 +1,435 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+
+    <title>Destroy Today - Lessons learned on a 3‑month sabbatical</title>
+
+    <meta property="twitter:account_id" content="14839458">
+    <meta name='description' content='Destroy Today is a partnership between builders. Its focus is on solving problems through products crafted with close attention to design and user experience.'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <link rel='icon' type='image/png' href='/images/favicon.png'>
+    <link rel='shortcut icon' type='image/png' href='/images/favicon.png'>
+
+    <link type="application/rss+xml" rel="alternate" title="Destroy Today" href="http://feeds.feedburner.com/destroytoday">
+    <link href="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.css" rel="stylesheet">
+    <link href='/styles/screen.css' rel='stylesheet'>
+
+    <script>
+  (function() {
+  var config = {
+  kitId: 'aeu3zes',
+  scriptTimeout: 3000
+  };
+  var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
+
+    <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3256994-11']);
+  _gaq.push(['_setDomainName', 'destroytoday.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <style>
+  
+  
+  
+  
+  
+
+  html, body {
+    background-color: #FFF;
+    color: #000
+  }
+
+  ::selection {
+    background-color: #9faaa6;
+    color: #FFF;
+  }
+
+  .main-header {
+    background-color: #9faaa6;
+    color: #FFF;
+  }
+
+  a,
+  .tweet-button:hover,
+  .pagination a:hover {
+    color: #000;
+  }
+
+  .project-listing:hover img {
+    border-bottom-color: #000;
+  }
+
+  a:hover,
+  .pagination a,
+  .content-subheader a:hover,
+  .content-body a:hover,
+  .content-body .more,
+  .project li a,
+  .content-footer a,
+  .tweet-button,
+  .listing-footer a:hover,
+  .list-footer a,
+  .article-footer p a:hover {
+    color: #9faaa6;
+  }
+
+  .content-subheader,
+  .content-subheader a,
+  .listing-footer,
+  .listing-footer a,
+  .main-footer,
+  .article-footer p,
+  .article-footer p a {
+    color: #999;
+  }
+
+  .main-header a {
+    color: #FFF;
+  }
+
+  .content-body a,
+  .project li a:hover {
+    border-bottom: solid 2px #9faaa6;
+  }
+
+  .project li a {
+    border-bottom: none;
+  }
+
+  .content-body blockquote {
+    border-left-color: #9faaa6;
+  }
+</style>
+
+  </head>
+
+  <body class='post'>
+    <header id='main-header' class='main-header ss-navigatedown'>
+      <div class='wrapper'>
+        <h1 class='main-title'>
+          <a href='/'>
+            <span class='main-title-prefix'>destroy</span><span class='main-title-suffix'>today</span>
+          </a>
+        </h1>
+        <nav class='main-nav'>
+          <ul class='main-nav-list'>
+            
+            
+
+            
+              
+            
+              
+                
+
+                <li>
+                  <a href='/about'>About</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/office-hours'>Office Hours</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li class='is-selected'>
+                  <a href='/blog'>Writings</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/findings'>Findings</a>
+                </li>
+
+                
+              
+            
+              
+                
+                  </ul>
+                  <ul class='main-nav-list'>
+                
+
+                <li>
+                  <a href='/work'>Projects</a>
+                </li>
+
+                
+              
+            
+              
+                
+
+                <li>
+                  <a href='/experiments'>Experiments</a>
+                </li>
+
+                
+              
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class='main-content'>
+      <div class='wrapper'>
+        
+<article class='article'>
+  <header class='content-header'>
+    <h2 class='content-title webfont'>
+      <a href='/blog/sabbatical'>Lessons learned on a 3‑month sabbatical</a>
+    </h2>
+    <h3 class='content-subheader'>
+      <a class='next nav-icon ss-icon' href='' style='visibility: hidden'>navigateleft</a>
+      <a class='content-date' href='/blog/sabbatical'>July 27, 2014</a>
+      <a class='previous nav-icon ss-icon' href='' style='visibility: hidden'>navigateright</a>
+    </h3>
+  </header>
+  <div class='content-body'>
+    <p><strong><img src="/assets/sabbatical.jpg" alt="sabbatical"></strong></p>
+
+<p>Earlier this year, I picked up a heavy stream of client work that I just couldn’t turn down. A couple of the projects were delayed, aligning all of their deadlines to form the perfect storm. After about two months straight of working days, nights, and weekends, I wrapped up every last one of them. I was exhausted. I needed rest.</p>
+
+<p>Luckily, that overload of client work padded my bank account enough so that I could take some time off. The original plan was to devote a month to getting my life back in order again, both mentally and physically. I would start exercising, reading, and socializing again. I spent too much time heads-down at my computer and not enough time away from it. This was my chance. But instead of one month, I ended up taking off three.</p>
+
+<h3>Forced time off</h3>
+
+<p>With no agenda, I began establishing routines. I joined a gym (and actually went) and set up a weekly email for basketball in Brooklyn, playing every weekend and occasionally throughout the week. I started each morning with a cup of pour over coffee at home and often rolled into the studio around 11. For the first time in a long while, I didn’t feel in a rush to get anywhere.</p>
+
+<p>After a week without work, however, I felt fully rested and ready to dive back in. The most surprising and unexpected realization to come out of this sabbatical is that I didn’t need three months—I didn’t even need one. I know now that a single week is all I need to reset after a long sprint. I could’ve returned to work early, but I refrained from doing so. I forced myself to take more time off, as if it were mandatory.</p>
+
+<h3>Just say no to clients</h3>
+
+<p>I also forced myself to say no to any client gig that came my way, no matter how tempting the opportunity—I simply said I was on sabbatical. Instead of worrying about missing out, I felt empowered. I had a confindence and restraint that I don’t think I’ve ever had since I started freelancing. And aside from feeling like a total badass, I also witnessed a shift in how clients responded to the news. “Taking time off” is one thing, but being “on sabbatical” carries a lot more weight. Now, instead of clients coming to me with a deadline, they wanted to work around my schedule.</p>
+
+<p>Another week went by and the urge to return grew stronger. I don’t take vacations very often, if at all, because I can’t <em>stay</em> on vacation. If I’m away from the studio for a week, on day 2, I have enough ideas to leave me itching to get back. This sabbatical was no different. Leading into it, I formed the idea for <a href="http://cushionapp.com">Cushion</a>, a freelancer tool that would bring peace of mind to those on their own. The main reason behind it is to help avoid those hectic months that encouraged the sabbatical—I should’ve seen the storm coming and planned accordingly, so I wouldn&rsquo;t need to take so much time off. With this new idea brewing, my vacation from work became a vacation from just client work. </p>
+
+<h3>The need for variety</h3>
+
+<p>I was heads-down at my desk again working on this new app. The first few weeks were amazing—working on a personal project full-time feels like I got away with something. After a while, though, I realized that I <em>need</em> client work to bring variety back to the table, along with challenges other than my own. Knowing exactly what I’ll be working on day after day is one of the reasons I quit my job. The appeal of freelancing is that every day could be completely different from the next.</p>
+
+<p>This need grew. The more I worked on the app, the more I looked forward to client work. I now see client work as an essential ingredient to my productivity. When I’m obligated to work on a client project, I become really good at utilizing the time I’m not working on it. 7pm no longer means it’s time to call it a day—it now means that I have a good five hours to work on something else. I know this isn’t a healthy way to think, but I also know that I’m happiest when I’m producing good work.</p>
+
+<h3>Planning the return</h3>
+
+<p>With a few weeks remaining, I started to plan the months to follow—finally accepting client work again and preparing to ramp up. This time around, however, I wore this new sense of confidence—I felt more prepared than ever before. I realized that when I pause client work, I can clearly see what I need to do differently.</p>
+
+<p>I decided to rethink how I approach client work. With Cushion as my primary focus, I could afford to take on less. Instead of stacking project upon project, leading to that perfect storm, I could settle with one at a time. This way, I wouldn’t need to take another sabbatical again.</p>
+
+<h3>The Cost</h3>
+
+<p>In the end, this 3-month sabbatical cost me $23,116.46. Granted it included trips to Portland and Iceland, it was still a huge financial hit to my wallet. As a freelancer, I’ve grown an incredibly thick skin to news like this, so I took a deep breath and just accepted it. I’ve always wanted to take a sabbatical and I finally did it, but now I know I could just escape for a week in a brand new car instead.</p>
+
+  </div>
+  <footer class='article-footer'>
+  <p><em>Interested in working together? I’m currently available starting in October.</em></p>
+
+  
+  <a class='tweet-button' href='https://twitter.com/intent/tweet?original_referer=http://destroytoday.com/blog/sabbatical&text=I thoroughly enjoyed this post &gt; &quot;Lessons learned on a 3‑month sabbatical&quot;:&tw_p=tweetbutton&url=http://destroytoday.com/blog/sabbatical&via=destroytoday' target='_blank'><span class='ss-icon ss-social-regular'>twitter</span><span id='twitter-count' class='count'></span></a>
+  <script>
+    function count_callback(data) { document.getElementById('twitter-count').innerHTML = data.count; }
+    var script = document.createElement('script');
+    script.setAttribute("src", 'http://urls.api.twitter.com/1/urls/count.json?callback=count_callback&url=http://destroytoday.com/blog/sabbatical');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  </script>
+</footer>
+
+</article>
+
+
+
+<section class='featured-section column-section list-section'>
+  <h3>Featured writings</h3>
+  <ul class='vertical-list'>
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #364350">
+          <a href='/blog/building-the-carousel-website'>Building the Carousel website with Dropbox</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #549BA6">
+          <a href='/blog/cushion'>Cushion</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #bab0a8">
+          <a href='/blog/my-dad'>Book covers, model airplanes, and my dad</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #C94A00">
+          <a href='/blog/building-the-pencil-page'>Building the Pencil page with FiftyThree</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #2e9ef0">
+          <a href='/blog/gif-workflow'>The perfect GIF workflow using Dropbox and Alfred</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #005dba">
+          <a href='/blog/redesigning-with-rules'>Redesigning with rules</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #499462">
+          <a href='/blog/lessons-learned-in-a-year-on-my-own'>Lessons learned in a year on my own</a>
+        </li>
+      
+    
+      
+        <li class='vertical-listing' style="border-left: solid 5px #f5503c">
+          <a href='/blog/wedding-tech'>The tech behind our wedding</a>
+        </li>
+      
+    
+  </ul>
+  <footer class='list-footer'>
+    <a href='/blog'>Archive &rarr;</a>
+  </footer>
+</section>
+
+
+<footer class='content-footer'>
+  <p>Follow <a href='http://twitter.com/destroytoday'>@destroytoday</a> on Twitter.</p>
+</footer>
+
+
+      </div>
+    </main>
+
+    <footer class='main-footer'>
+      <p>Made with <span class="ss-icon">love</span> in Brooklyn</p>
+      <p>&copy; 2014 Destroy Today, LLC. All Rights Reserved</p>
+    </footer>
+
+    
+
+
+    <script src="//cdn.symbolset.com/def34a3b3a8a2254d0505e930e7725af52921dbe/symbolset.js"></script>
+    <script src="//platform.twitter.com/widgets.js"></script>
+    <script>
+      var mainHeader = document.getElementById('main-header');
+      var body = document.body;
+      var mainHeader_startHeight,
+          startTouchY,
+          touchY,
+          prevTouchY,
+          touchDirection,
+          touch;
+
+      mainHeader.addEventListener('click', function(e){
+        if (touch || window.innerWidth <= 480)
+        {
+          e.preventDefault();
+        }
+
+        if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+        else
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+      });
+
+      [].forEach.call(document.querySelectorAll('.main-nav-list a'), function(link) {
+        link.addEventListener('touchstart', function(e) {
+          e.stopPropagation();
+          e.preventDefault();
+
+          window.location.href = link.href;
+        });
+      });
+
+      var window_touchmoved = function(e) {
+        e.preventDefault();
+
+        touchY = e.changedTouches[0].clientY;
+        mainHeader.style.height =
+          mainHeader_startHeight + (touchY - startTouchY) + 'px';
+
+        touchDirection = touchY > prevTouchY ? 1 : -1;
+
+        prevTouchY = touchY;
+      };
+
+      mainHeader.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        touch = true;
+
+        mainHeader_startHeight = this.offsetHeight;
+        startTouchY =
+          prevTouchY = e.changedTouches[0].clientY;
+
+        this.className += ' is-touching';
+        window.addEventListener('touchmove', window_touchmoved, false);
+      }, false);
+
+      mainHeader.addEventListener('touchend', function(e) {
+        window.removeEventListener('touchmove', window_touchmoved);
+
+        this.style.height = '';
+        this.className = this.className.replace(' is-touching', '');
+
+        if (touchDirection == -1)
+        {
+          this.className = this.className.replace(' is-expanded', '');
+        }
+        else if (this.className.search('is-expanded') == -1)
+        {
+          this.className += ' is-expanded';
+        }
+      }, false);
+    </script>
+    
+
+  </body>
+</html>
+
+
