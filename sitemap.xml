@@ -289,8 +289,20 @@
   </url>
   
   <url>
+    <loc>http://destroytoday.com/work/help-scout</loc>
+    <lastmod>2014-11-24T19:52:24+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://destroytoday.com/work/fiftythree-paper</loc>
+    <lastmod>2014-11-24T19:53:00+00:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://destroytoday.com/work/etsy</loc>
-    <lastmod>2014-07-17T19:42:12+00:00</lastmod>
+    <lastmod>2014-11-24T19:51:57+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
@@ -314,7 +326,7 @@
   
   <url>
     <loc>http://destroytoday.com/work/fiftythree</loc>
-    <lastmod>2014-07-31T20:38:13+00:00</lastmod>
+    <lastmod>2014-09-18T14:22:48+00:00</lastmod>
     <priority>0.5</priority>
   </url>
   
