@@ -3,7 +3,21 @@
   <channel>
     <title>Destroy Today</title>
     <link>http://destroytoday.com</link>
-    <pubDate>Mon, 24 Nov 2014 19:54:51 +0000</pubDate>
+    <pubDate>Tue, 02 Dec 2014 02:09:36 +0000</pubDate>
+    
+    <item>
+      <title>Cushion</title>
+      <link>http://destroytoday.com/work/cushion</link>
+      <pubDate>Mon, 01 Dec 2014 20:18:00 -0500</pubDate>
+      <author>Jonnie Hallman</author>
+      <guid>http://destroytoday.com/work/cushion</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/assets/cushion-logo.svg&quot; alt=&quot;cushion-logo&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cushionapp.com&quot;&gt;Cushion&lt;/a&gt; is an app I’ve been working on to provide freelancers with better insight into their day-to-day and bring a calm to the everyday rollercoaster ride of freelancing.&lt;/p&gt;
+
+&lt;p&gt;Learn more at &lt;a href=&quot;http://cushionapp.com&quot;&gt;cushionapp.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Help Scout</title>
@@ -515,34 +529,6 @@
 &lt;li&gt;&lt;a href=&quot;http://hallmanstudio.com&quot;&gt;http://hallmanstudio.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://youtube.com/user/maxfliart/videos&quot;&gt;http://youtube.com/user/maxfliart/videos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Back on my own</title>
-      <link>http://destroytoday.com/blog/back-on-my-own</link>
-      <pubDate>Fri, 06 Dec 2013 21:53:00 -0500</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/blog/back-on-my-own</guid>
-      <description>&lt;p&gt;This is my last week at &lt;a href=&quot;http://oak.is&quot;&gt;Oak&lt;/a&gt;. It would be an understatement to say I had a great time working with them. They are some of the most talented builders I’ve ever shared a repo with and I’m thankful to have had the opportunity. Considering my unrelenting domination in Halo, I’m actually surprised they even wanted me around in the first place. In all seriousness, their passion and drive is nothing short of inspiring and I truly believe in everything they do.&lt;/p&gt;
-
-&lt;p&gt;Regarding &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt;, I will retain an advisor role and continue to sing its praises. You can expect the same frequency of tutorials as well as consistent contributions to &lt;a href=&quot;http://labs.siteleaf.net&quot;&gt;Siteleaf Labs&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;As for what’s next, I’ll be back on my own, as Destroy Today, ready to take on whatever projects come my direction. If you’re interested in working together, feel free to &lt;a href=&quot;mailto:jonnie@destroytoday.com&quot;&gt;reach out&lt;/a&gt;. To be completely transparent, here’s the kind of work I’m looking for:&lt;/p&gt;
-
-&lt;h3&gt;Small-scale frontend dev&lt;/h3&gt;
-
-&lt;p&gt;I recently collaborated with &lt;a href=&quot;http://fiftythree.com&quot;&gt;FiftyThree&lt;/a&gt; to &lt;a href=&quot;/blog/building-the-pencil-page/&quot;&gt;build the product page&lt;/a&gt; for their first piece of hardware, &lt;a href=&quot;http://fiftythree.com/pencil&quot;&gt;Pencil&lt;/a&gt;. I’d love to continue working on this scale and with this level of commitment. They came to me with a flat, single-resolution design, and I built it into a responsive site. The turnaround was quick and the handoff was clean.&lt;/p&gt;
-
-&lt;h3&gt;Concept/prototype design&lt;/h3&gt;
-
-&lt;p&gt;While at Adobe, I spent a year designing small, mobile prototype apps for various clients, like the NBC Olympics. Though none of them saw the light of day, I’d really like to design more of these. The apps were experimental and unexpected. They would have been incredibly fun to use and easy to build.&lt;/p&gt;
-
-&lt;h3&gt;Design &amp;amp; dev consulting&lt;/h3&gt;
-
-&lt;p&gt;In the past, I’ve taken a few consulting jobs, whether it was to vet a dev team or take part in a brainstorming session. These could be anywhere between a few hours to a full day and helpful for times when a dev team is questioning the possibility of a design or when a fresh mind is needed to toss around ideas.&lt;/p&gt;
-
-&lt;p&gt;Think we might be a good fit? &lt;a href=&quot;mailto:jonnie@destroytoday.com&quot;&gt;Let’s talk&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
