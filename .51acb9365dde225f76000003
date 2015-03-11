@@ -1,5 +1,5 @@
 ---
-time: 1420084846
+time: 1426105891
 inventory:
   /home/index.html:
     md5: 4c7e1809fe1dae1bc0a027ff4471138f
@@ -44,8 +44,8 @@ inventory:
     md5: 4a4f105524ece0c9d391f8fb54674c61
     time: 1420084814
   /blog/creativemornings/index.html:
-    md5: f6145f65263a9e0ee9f8d4cd46934644
-    time: 1420084814
+    md5: 6be08497bc551b1f763b6380e8feb594
+    time: 1426105869
   /blog/my-dad/index.html:
     md5: d9c8b3e7454c3a6e83d9ea10fdbf7294
     time: 1420084814
@@ -77,8 +77,8 @@ inventory:
     md5: 8e777bd6a89bdb640d253c31fab0a463
     time: 1420084816
   /blog/qandanda/index.html:
-    md5: 8cd3617a30d6a60093e144a34edb2f57
-    time: 1420084816
+    md5: 71edeb6ccb5656727bcf4a77de676900
+    time: 1426105871
   /blog/metadata-in-siteleaf/index.html:
     md5: c14a10002c459980097d06fa14837836
     time: 1420084816
@@ -146,8 +146,8 @@ inventory:
     md5: b8b8c936555570b4e68820b75961fef1
     time: 1420084820
   /blog/tags/thoughts/index.html:
-    md5: 238bded6d73bbb3934153ae21bd05d8f
-    time: 1420084820
+    md5: 22c55537263683f8da66dcc7ea5e5757
+    time: 1426105878
   /blog/tags/featured/index.html:
     md5: 6273f6c3be75397c2845b969898478e7
     time: 1420084820
@@ -167,11 +167,11 @@ inventory:
     md5: 728f1e4c3d48796b43fc5ef99bb06c89
     time: 1420084821
   /blog/tags/talk/index.html:
-    md5: a18328f30b98b37f83112237cf049fbc
-    time: 1420084821
+    md5: dfef119c8f2d40fb5775d14c6858b4ec
+    time: 1426105879
   /blog/tags/video/index.html:
-    md5: 1d964f5215317004258758dbe43f818d
-    time: 1420084821
+    md5: c9090338a9be56e44d58dc3995d3a53a
+    time: 1426105879
   /blog/tags/web/index.html:
     md5: 3d0a4b980426bc5b5d2882f273159969
     time: 1420084822
@@ -179,8 +179,8 @@ inventory:
     md5: de8c3fbfc2343689641abc8ed437bfd0
     time: 1420084822
   /blog/tags/dev/index.html:
-    md5: d657077c5dc2823e313d67aa876047ea
-    time: 1420084822
+    md5: 3a509bcdde9b19ffa6c78de71ba1db89
+    time: 1426105879
   /blog/tags/code/index.html:
     md5: df13cf8738e6b577ba075b716b83ccfa
     time: 1420084822
@@ -191,8 +191,8 @@ inventory:
     md5: 80cc598fcaabcaa0b5362d155d0a0e0d
     time: 1420084822
   /blog/tags/q-and-and-a/index.html:
-    md5: 4c51c2b7bcc01f3c66c10b3503ee29a6
-    time: 1420084822
+    md5: f7ee8bc8d235b1ab03f8885e9ad1419d
+    time: 1426105880
   /blog/tags/design/index.html:
     md5: 8b32c48c09207c9e4439c228522ebd22
     time: 1420084823
@@ -335,17 +335,17 @@ inventory:
     md5: 25a39b632937aa4775fb7baff6b00aff
     time: 1420084827
   /blog/feed/index.html:
-    md5: 35584b8de406e2286d7fd904d5ce4da9
-    time: 1420084828
+    md5: cd8be360f955c7a30df830379ea39201
+    time: 1426105888
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: adf5cbdd4f577f3300deb978d8dd6af8
-    time: 1420084828
+    md5: b43dcfed0d6be8d4af35216975b212a4
+    time: 1426105888
   /feed.xml:
-    md5: f518a8b8668587f333716ab5dc9edf32
-    time: 1420084828
+    md5: 7c3e67a0bf3a231075f901249974b90c
+    time: 1426105888
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
