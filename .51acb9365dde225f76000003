@@ -1,5 +1,5 @@
 ---
-time: 1426105891
+time: 1426106505
 inventory:
   /home/index.html:
     md5: 4c7e1809fe1dae1bc0a027ff4471138f
@@ -44,8 +44,8 @@ inventory:
     md5: 4a4f105524ece0c9d391f8fb54674c61
     time: 1420084814
   /blog/creativemornings/index.html:
-    md5: 6be08497bc551b1f763b6380e8feb594
-    time: 1426105869
+    md5: 7d64df2e4867221a266d6181e7a546cc
+    time: 1426106489
   /blog/my-dad/index.html:
     md5: d9c8b3e7454c3a6e83d9ea10fdbf7294
     time: 1420084814
@@ -167,11 +167,11 @@ inventory:
     md5: 728f1e4c3d48796b43fc5ef99bb06c89
     time: 1420084821
   /blog/tags/talk/index.html:
-    md5: dfef119c8f2d40fb5775d14c6858b4ec
-    time: 1426105879
+    md5: 24c8bbcaf18ac0f6bb05e4f8aa1aa269
+    time: 1426106496
   /blog/tags/video/index.html:
-    md5: c9090338a9be56e44d58dc3995d3a53a
-    time: 1426105879
+    md5: e31edb6349c5cc66fcaa0379b9b7c458
+    time: 1426106497
   /blog/tags/web/index.html:
     md5: 3d0a4b980426bc5b5d2882f273159969
     time: 1420084822
@@ -335,17 +335,17 @@ inventory:
     md5: 25a39b632937aa4775fb7baff6b00aff
     time: 1420084827
   /blog/feed/index.html:
-    md5: cd8be360f955c7a30df830379ea39201
-    time: 1426105888
+    md5: cebd715546dd809413dc62f453baf2d5
+    time: 1426106503
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: b43dcfed0d6be8d4af35216975b212a4
-    time: 1426105888
+    md5: 607bd97e97d174e2956c2175cf2263be
+    time: 1426106503
   /feed.xml:
-    md5: 7c3e67a0bf3a231075f901249974b90c
-    time: 1426105888
+    md5: f825d99f5db8f4dcc330666941927406
+    time: 1426106504
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
