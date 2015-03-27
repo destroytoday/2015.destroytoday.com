@@ -1,5 +1,5 @@
 ---
-time: 1427488956
+time: 1427490375
 inventory:
   /home/index.html:
     md5: 4c7e1809fe1dae1bc0a027ff4471138f
@@ -14,8 +14,8 @@ inventory:
     md5: aafe64c1e4def506b31800bd74b29664
     time: 1420084812
   /blog/index.html:
-    md5: e0021fc04e9c00dbdbeea203e1f8f8be
-    time: 1420084813
+    md5: cb8b95c05aa17eed0ba8481541e1d0af
+    time: 1427490341
   /blog/in-2015/index.html:
     md5: 3c8e922711ed8610b6f2a8bcb1cfe4ff
     time: 1420084813
@@ -104,14 +104,11 @@ inventory:
     md5: 0231ad48ad59d0dbc084f0cb44c1401d
     time: 1420084818
   /blog/working-on-teuxdeux/index.html:
-    md5: 11acb0619186e288e27ca1ba77c11f54
-    time: 1420084818
-  /blog/on-building-and-partnering/index.html:
-    md5: 92a01de3a0f2e63b7546c38e434a8b53
-    time: 1420084818
+    md5: 8bde17f2a31e7b5cb0923f7fd74e5dd9
+    time: 1427490352
   /blog/destroy-today-llc/index.html:
-    md5: 306b6738eab7345a7c7da5427183bac8
-    time: 1420084818
+    md5: bb3ba6bbc3e4e498f7b5d7a9cf777b66
+    time: 1427490352
   /blog/last-day-at-adobe/index.html:
     md5: cd6590c0ff9d1b1d7a4476a81ab609d8
     time: 1420084818
@@ -139,9 +136,12 @@ inventory:
   /blog/alfred-dev-env/index.html:
     md5: a6dc0effd5c7747280096bc7e408569e
     time: 1420084820
+  /blog/on-building-and-partnering/index.html:
+    md5: 1a8b0e4c6251d950144d24debe430184
+    time: 1427490355
   /blog/archive/index.html:
-    md5: 7551c6000b3487b3ea115e017099a139
-    time: 1420084820
+    md5: 75be673f18d9fcd35cd3bd7f1e87d943
+    time: 1427490356
   /blog/tags/index.html:
     md5: b8b8c936555570b4e68820b75961fef1
     time: 1420084820
@@ -155,8 +155,8 @@ inventory:
     md5: 55482dec20485d817d844dc9fcbb9f7a
     time: 1420084821
   /blog/tags/interview/index.html:
-    md5: ae1b2beafb2d5dc03d4df7197d22b2a3
-    time: 1420084821
+    md5: 145658797e98cd6bd5cd84d0d04cf4ca
+    time: 1427490358
   /blog/tags/process/index.html:
     md5: 72f907e4093b3eae015f1400018a1cbb
     time: 1420084821
@@ -335,17 +335,17 @@ inventory:
     md5: 25a39b632937aa4775fb7baff6b00aff
     time: 1420084827
   /blog/feed/index.html:
-    md5: 36625c104e3292d2559b6b5db8e21bc7
-    time: 1427488954
+    md5: 3fa22d29e5ea3edda5e893e41293378e
+    time: 1427490373
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: c5e708b5c0631935804fc8fdd7e005ed
-    time: 1427488955
+    md5: e24b77343e2c3984e2bacb0bb9904bea
+    time: 1427490374
   /feed.xml:
-    md5: 7aacafd4c7a0899f35458633f3316bf5
-    time: 1427488955
+    md5: 91994bbfb9558266563b6ad55cf2f1ef
+    time: 1427490374
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
