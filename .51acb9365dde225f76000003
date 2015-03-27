@@ -1,5 +1,5 @@
 ---
-time: 1426106505
+time: 1427488956
 inventory:
   /home/index.html:
     md5: 4c7e1809fe1dae1bc0a027ff4471138f
@@ -8,8 +8,8 @@ inventory:
     md5: 4c7e1809fe1dae1bc0a027ff4471138f
     time: 1420084812
   /about/index.html:
-    md5: fcae17f0910c878cd28b8c947944923f
-    time: 1420084812
+    md5: 4435fd5738432b03286489916b0360ea
+    time: 1427488918
   /office-hours/index.html:
     md5: aafe64c1e4def506b31800bd74b29664
     time: 1420084812
@@ -335,17 +335,17 @@ inventory:
     md5: 25a39b632937aa4775fb7baff6b00aff
     time: 1420084827
   /blog/feed/index.html:
-    md5: cebd715546dd809413dc62f453baf2d5
-    time: 1426106503
+    md5: 36625c104e3292d2559b6b5db8e21bc7
+    time: 1427488954
   /CNAME:
     md5: 4880b32a8a8e4c1cea68a81402517837
     time: 1404167962
   /sitemap.xml:
-    md5: 607bd97e97d174e2956c2175cf2263be
-    time: 1426106503
+    md5: c5e708b5c0631935804fc8fdd7e005ed
+    time: 1427488955
   /feed.xml:
-    md5: f825d99f5db8f4dcc330666941927406
-    time: 1426106504
+    md5: 7aacafd4c7a0899f35458633f3316bf5
+    time: 1427488955
   /assets/lessons-learned.jpg:
     md5: 3a12a93de611b25275c6489c80cfcb98
     time: 1404167962
@@ -688,9 +688,6 @@ inventory:
   /assets/web-friends-interview.png:
     md5: c0d3dc0f8373b30b97acc47f6f715d14
     time: 1404167972
-  /styles/screen.css:
-    md5: a50576c977d914dbe2c06a047bf850c9
-    time: 1404264382
   /assets/uptime.jpg:
     md5: 66bb74492eddd3376a2ae01f4157e8d1
     time: 1404316472
@@ -709,6 +706,9 @@ inventory:
   /assets/cushion-thumb.svg:
     md5: dad1e349a38735bf9b786c91feee8cd5
     time: 1417486176
+  /styles/screen.css:
+    md5: 0cb55b6512bd426aea7e852d9c16600d
+    time: 1427488955
   /assets/abookapart-mobile.jpg:
     md5: e0fc0a7fc8fdbe076a1a39e95f53b4b1
     time: 1404167972
