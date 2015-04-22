@@ -234,6 +234,10 @@
 
     
   
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='/work/sum'></a>
+    </div>
+  
 
   
     <div class='pagination previous'>
@@ -243,6 +247,8 @@
 
   <script>
     document.body.onkeyup = function(e){
+      
+      if (e.keyCode == '37') { window.location = '/work/sum'; }
       
 
       
