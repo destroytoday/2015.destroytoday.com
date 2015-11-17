@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xml:base="http://destroytoday.com">
   <channel>
     <title>Destroy Today</title>
     <link>http://destroytoday.com</link>
-    <pubDate>Wed, 22 Apr 2015 19:40:12 +0000</pubDate>
-    
-    <item>
-      <title>Sum</title>
-      <link>http://destroytoday.com/work/sum</link>
-      <pubDate>Wed, 22 Apr 2015 15:11:00 -0400</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/work/sum</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/assets/sum-logo.svg&quot; alt=&quot;sum-logo&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;I recently worked with &lt;a href=&quot;http://sum.com&quot;&gt;Sum&lt;/a&gt; (formerly Project Florida) on their stealth website. Write-up coming soon.&lt;/p&gt;
-</description>
-    </item>
+    <description></description>
+    <pubDate>Tue, 17 Nov 2015 00:42:51 -0500</pubDate>
     
     <item>
       <title>In 2015</title>
@@ -68,44 +57,6 @@
     </item>
     
     <item>
-      <title>Cushion</title>
-      <link>http://destroytoday.com/work/cushion</link>
-      <pubDate>Mon, 01 Dec 2014 20:18:00 -0500</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/work/cushion</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/assets/cushion-logo.svg&quot; alt=&quot;cushion-logo&quot;&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://cushionapp.com&quot;&gt;Cushion&lt;/a&gt; is an app I’ve been working on to provide freelancers with better insight into their day-to-day and bring a calm to the everyday rollercoaster ride of freelancing.&lt;/p&gt;
-
-&lt;p&gt;Learn more at &lt;a href=&quot;http://cushionapp.com&quot;&gt;cushionapp.com&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Help Scout</title>
-      <link>http://destroytoday.com/work/help-scout</link>
-      <pubDate>Mon, 24 Nov 2014 14:45:00 -0500</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/work/help-scout</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/assets/helpscout-logo.svg&quot; alt=&quot;helpscout-logo&quot;&gt; &lt;/p&gt;
-
-&lt;p style='text-align: center'&gt;I recently worked with &lt;a href='http://helpscout.com'&gt;Help Scout&lt;/a&gt; on an interaction prototype for their mobile app.&lt;br&gt;Write-up coming soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>FiftyThree Paper</title>
-      <link>http://destroytoday.com/work/fiftythree-paper</link>
-      <pubDate>Thu, 18 Sep 2014 10:19:00 -0400</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/work/fiftythree-paper</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/assets/fiftythree-logo.svg&quot; alt=&quot;fiftythree-logo&quot;&gt; &lt;/p&gt;
-
-&lt;p style='text-align: center'&gt;I recently worked with &lt;a href='http://fiftythree.com'&gt;FiftyThree&lt;/a&gt; again on the &lt;a href='http://fiftythree.com/paper'&gt;Paper website&lt;/a&gt;. Write-up coming soon.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Lessons learned on a 3‑month sabbatical</title>
       <link>http://destroytoday.com/blog/sabbatical</link>
       <pubDate>Mon, 04 Aug 2014 09:57:00 -0400</pubDate>
@@ -148,18 +99,6 @@
     </item>
     
     <item>
-      <title>Etsy</title>
-      <link>http://destroytoday.com/work/etsy</link>
-      <pubDate>Thu, 17 Jul 2014 15:32:00 -0400</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/work/etsy</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/assets/etsy-logo.svg&quot; alt=&quot;etsy-logo&quot;&gt;&lt;/p&gt;
-
-&lt;p style='text-align: center'&gt;I recently worked with &lt;a href='http://etsy.com'&gt;Etsy&lt;/a&gt; on an internal website. This is &lt;a href='https://www.etsy.com/shop/STORnewyork'&gt;my favorite Etsy seller&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Experiments</title>
       <link>http://destroytoday.com/blog/experiments</link>
       <pubDate>Thu, 03 Jul 2014 10:20:00 -0400</pubDate>
@@ -176,22 +115,6 @@
 &lt;p&gt;With absolutely no experience with Ruby, I wrote the single-page app on &lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Rails&lt;/a&gt;, which is the equivalent to building a LEGO house with a construction crew. This time around, with a few years of Ruby under my belt, I spent an afternoon and rebuilt it on the lightweight &lt;a href=&quot;http://sinatrarb.com&quot;&gt;Sinatra&lt;/a&gt; framework. I’m also now hosting the &lt;a href=&quot;https://github.com/destroytoday/uptime&quot;&gt;source code&lt;/a&gt; on Github, in case anyone wants their own uptime page.&lt;/p&gt;
 
 &lt;p&gt;At some point, I stopped experimenting. Over the next few days, I plan to add a few more of my older “experiments” and continue posting more as I make them. I’m hoping it will bring more variety into my work schedule, allowing me to take the occasional afternoon to focus on a random idea.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uptime</title>
-      <link>http://destroytoday.com/experiments/uptime</link>
-      <pubDate>Tue, 01 Jul 2014 20:21:00 -0400</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/experiments/uptime</guid>
-      <description>&lt;p&gt;&lt;a href=&quot;http://uptime.destroytoday.com&quot;&gt;&lt;img src=&quot;/assets/uptime.jpg&quot; alt=&quot;uptime&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://uptime.destroytoday.com&quot;&gt;Uptime&lt;/a&gt; is a simple Ruby app that tracks the downtime of &lt;a href=&quot;http://destroytoday.com&quot;&gt;destroytoday.com&lt;/a&gt; in the style of warehouse injury signs. I’ve always loved these signs for their attempt to motivate workers while providing a safety record for all to see. Safety becomes a game where the workers try to top their highest “score”, or days without injury.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/destroytoday/uptime&quot;&gt;View source&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -221,8 +144,8 @@
 
 &lt;p&gt;I flew out to San Francisco to work in-house at Dropbox for a week. On the first day, I sat in on a team meeting to review the state of this mystery project, named “Carousel”. A few team members provided an overview of the branding, along with its history. They demo’d the app itself, their original idea for the website, and storyboards for the upcoming video. It was impressive to see such a large-scale project represented by such a determined team. There was no question they all believed in Carousel.&lt;/p&gt;
 
-&lt;div class='left video-outer' style='max-width: 300px'&gt;
-    &lt;div class='video-inner' style='padding-bottom: 210%'&gt;
+&lt;div class=&#39;left video-outer&#39; style=&#39;max-width: 300px&#39;&gt;
+    &lt;div class=&#39;video-inner&#39; style=&#39;padding-bottom: 210%&#39;&gt;
         &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-mobile.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
             &lt;source src=&quot;/assets/carousel-mobile.mp4&quot; type=&quot;video/mp4&quot; /&gt;
             &lt;source src=&quot;/assets/carousel-mobile.ogv&quot; type=&quot;video/ogg&quot; /&gt;
@@ -239,8 +162,8 @@
 
 &lt;p&gt;Originally, the stack of photos on the last slide returned to the bottom of the stage, but this felt unnatural, as if the photos were swimming against the current of the swipe. I reversed the positioning of the stack, placing them at the top of the stage, with the content below. Again, following the direction of the swipe, this adjustment really pulled the ending together. The last slide now appears to be the continuation of first slide.&lt;/p&gt;
 
-&lt;div class='video-outer'&gt;
-    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+&lt;div class=&#39;video-outer&#39;&gt;
+    &lt;div class=&#39;video-inner&#39; style=&#39;padding-bottom: 77%&#39;&gt;
         &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-intro.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
             &lt;source src=&quot;/assets/carousel-intro.mp4&quot; type=&quot;video/mp4&quot; /&gt;
             &lt;source src=&quot;/assets/carousel-intro.ogv&quot; type=&quot;video/ogg&quot; /&gt;
@@ -255,8 +178,8 @@
 
 &lt;p&gt;With only a couple weeks left, we decided to scrap the triggered animations and start over. Instead of relying on harsh breakpoints, we would track the animation with the scroll. To soften the feel, I took a page out of my Flash days and added friction to the scroll. This allowed the animations to ease into place without feeling so jarring. A few people at Dropbox looked at the website and felt the animations needed to snap into place better. At that time, they were a bit loose—you could easily scrub through the entire animation with a couple swipes on the trackpad.&lt;/p&gt;
 
-&lt;div class='video-outer'&gt;
-    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
+&lt;div class=&#39;video-outer&#39;&gt;
+    &lt;div class=&#39;video-inner&#39; style=&#39;padding-bottom: 77%&#39;&gt;
         &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-conversation.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
             &lt;source src=&quot;/assets/carousel-conversation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
             &lt;source src=&quot;/assets/carousel-conversation.ogv&quot; type=&quot;video/ogg&quot; /&gt;
@@ -301,7 +224,7 @@
       <guid>http://destroytoday.com/blog/the-start-interview</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://thestart.fm/interviews/the-flyer-guy&quot;&gt;&lt;img src=&quot;/assets/the-start-interview.png&quot; alt=&quot;the-start-interview&quot;&gt;&lt;/a&gt; &lt;/p&gt;
 
-&lt;iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/1949?style=dark' width='100%'&gt;&lt;/iframe&gt;
+&lt;iframe frameborder=&#39;0&#39; height=&#39;36px&#39; scrolling=&#39;no&#39; seamless src=&#39;https://simplecast.fm/e/1949?style=dark&#39; width=&#39;100%&#39;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://twitter.com/nr&quot;&gt;Nick Rovisa&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/patrickbjohnson&quot;&gt;Patrick Johnson&lt;/a&gt; invited me to join them on their podcast, &lt;a href=&quot;http://thestart.fm/interviews/the-flyer-guy&quot;&gt;The Start&lt;/a&gt;. We covered my entrance into design at RISD pre-college, my first internship-turned-job at a small studio in Baltimore, and the origin of the name “Destroy Today”.&lt;/p&gt;
 </description>
@@ -335,147 +258,7 @@
       <guid>http://destroytoday.com/blog/how-to-hold-a-pencil-podcast-interview</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://twitter.com/reubeningber&quot;&gt;Reuben Inger&lt;/a&gt; invited me to join him on his podcast, &lt;a href=&quot;http://howtoholdapencil.com/episode/017/&quot;&gt;How to Hold a Pencil&lt;/a&gt;, for an interview about how I started in the design/dev world. I also talked about taking the leap into freelancing and the fears and freedoms that come with it.&lt;/p&gt;
 
-&lt;iframe frameborder='0' height='36px' scrolling='no' seamless src='https://simplecast.fm/e/1926?style=dark' width='100%'&gt;&lt;/iframe&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Question marks in Liquid variable names</title>
-      <link>http://destroytoday.com/findings/question-marks-in-liquid-variable-names</link>
-      <pubDate>Mon, 24 Feb 2014 17:15:00 -0500</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/findings/question-marks-in-liquid-variable-names</guid>
-      <description>&lt;p&gt;&lt;a href=&quot;https://github.com/Shopify/liquid&quot;&gt;Liquid&lt;/a&gt; is a very forgiving templating language, which is part of why I love it. I sometimes find myself pushing Liquid to its limits to see how much it will allow before throwing an error. With a history of Ruby under my belt, I’ve become accustomed to using boolean methods that end with a question mark (ex: &lt;code&gt;new?&lt;/code&gt;, &lt;code&gt;blank?&lt;/code&gt;, etc).&lt;/p&gt;
-
-&lt;p&gt;I felt rather adventureous one day, so I tried following this same approach with Liquid. I created a metadata value named &lt;code&gt;inverted?&lt;/code&gt; in &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt; to indicate that the page should use white text instead of black. In my template, I added the conditional &lt;code&gt;{% if meta.inverted? %}&lt;/code&gt; to insert a CSS class into body.&lt;/p&gt;
-
-&lt;p&gt;It worked!&lt;/p&gt;
-
-&lt;p&gt;From there, I discovered that Liquid has no objections with hyphens in variable names, either. Instead of &lt;code&gt;background_color&lt;/code&gt;, I can use the CSS syntax &lt;code&gt;background-color&lt;/code&gt; and access it with &lt;code&gt;{{ meta.background-color }}&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Liquid, I love you.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mailbox</title>
-      <link>http://destroytoday.com/work/mailbox</link>
-      <pubDate>Tue, 18 Feb 2014 22:51:00 -0500</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/work/mailbox</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/assets/mailbox-logo.svg&quot; alt=&quot;mailbox-logo&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;While in-house at Dropbox, working on the &lt;a href=&quot;/work/carousel&quot;&gt;Carousel website&lt;/a&gt;, the PM for Mailbox, &lt;a href=&quot;http://twitter.com/lizarmistead&quot;&gt;Liz Armistead&lt;/a&gt;, caught a glimpse of my work on the mobile website. She leaned in my direction and asked about my availability—would I have extra time to also take on the Mailbox website? Over the years, I’ve realized that I work best under pressure, but two major projects with the same deadline is floor-of-the-ocean pressure. Continuing a pattern of complete disregard for personal health, I said yes.&lt;/p&gt;
-
-&lt;div class='video-outer'&gt;
-    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
-        &lt;video width=&quot;100%&quot; poster=&quot;/assets/mailbox.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
-            &lt;source src=&quot;/assets/mailbox.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            &lt;source src=&quot;/assets/mailbox.ogv&quot; type=&quot;video/ogg&quot; /&gt;
-            Video tag not supported. Download the video &lt;a href=&quot;/assets/mailbox.mp4&quot;&gt;here&lt;/a&gt;.
-        &lt;/video&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The design of the website took a number of turns before I was given the green light. &lt;a href=&quot;http://twitter.com/morganknutson&quot;&gt;Morgan Knutson&lt;/a&gt; led the final version, landing on using videos to demo the many gestures within the app. Upon scrolling the website, the videos will autoplay once they come into view. When a video falls out of view, it pauses. It’s a straight-forward approach, but very effective, showcasing exactly how the app works without hitting you over the head with effects.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/mailbox-devices.jpg&quot; alt=&quot;mailbox-devices&quot;&gt; &lt;/p&gt;
-
-&lt;p&gt;The responsive side of the Mailbox website is all about replacing content. Reflowing down to the tablet breakpoint, the website first swaps out all videos for stills. As it narrows to the phone breakpoint, icons replace the stills and the top image is replaced with the Mailbox logo. The most complex part of the responsive implementation would definitely be the line of devices at the bottom of the website—the phones fit perfectly together, but at smaller scales, the laptop is too much. Because of this, I move the laptop below its copy when it hits the phone breakpoint.&lt;/p&gt;
-
-&lt;p&gt;Though the Mailbox website wasn’t as ambitious as the Carousel website, I feel its strength lies in its restraint to &lt;em&gt;not&lt;/em&gt; go over the top. Because the app’s ease and simplicity is its main appeal, the goal of the website is to showcase Mailbox’s key gestures and get users right into the app.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://mailboxapp.com&quot;&gt;Visit the Mailbox website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Carousel</title>
-      <link>http://destroytoday.com/work/carousel</link>
-      <pubDate>Tue, 18 Feb 2014 22:24:00 -0500</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/work/carousel</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/assets/carousel-logo.svg&quot; alt=&quot;dropbox-logo&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;A friend of mine and designer at Dropbox, &lt;a href=&quot;http://twitter.com/colin_dunn&quot;&gt;Colin Dunn&lt;/a&gt;, reached out to me in January. He asked if I would mind him referring me to one of their project managers, &lt;a href=&quot;http://twitter.com/prestontweets&quot;&gt;Preston Hershorn&lt;/a&gt;, for an upcoming gig. Of course, I didn’t mind.&lt;/p&gt;
-
-&lt;p&gt;We spoke a few times on the phone, discussing a mystery project that needed a marketing website. I was fresh off of building the &lt;a href=&quot;/work/fiftythree&quot;&gt;Pencil website&lt;/a&gt; for &lt;a href=&quot;http://fiftythree.com&quot;&gt;FiftyThree&lt;/a&gt;, and interested in building more of these single-page websites with a touch of something special. These websites allowed me to return to my roots of experimenting with code while also serving an actual purpose.&lt;/p&gt;
-
-&lt;p&gt;I flew out to San Francisco to work in-house at Dropbox for a week. On the first day, I sat in on a team meeting to review the state of this mystery project, named “Carousel”. A few team members provided an overview of the branding, along with its history. They demo’d the app itself, their original idea for the website, and storyboards for the upcoming video. It was impressive to see such a large-scale project represented by such a determined team. There was no question they all believed in Carousel.&lt;/p&gt;
-
-&lt;div class='left video-outer' style='max-width: 300px'&gt;
-    &lt;div class='video-inner' style='padding-bottom: 210%'&gt;
-        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-mobile.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
-            &lt;source src=&quot;/assets/carousel-mobile.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            &lt;source src=&quot;/assets/carousel-mobile.ogv&quot; type=&quot;video/ogg&quot; /&gt;
-            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-mobile.mp4&quot;&gt;here&lt;/a&gt;.
-        &lt;/video&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;While at Dropbox HQ, I worked on the mobile website, which would step the viewer through several views. A stack of photos would fall, arranging each photo on the device, to fill in the app’s content. Several transitions would play out, demonstrating the app’s main draw—sharing photos. The photos would then return to a stack and prompt the viewer to download the app.&lt;/p&gt;
-
-&lt;p&gt;Since these steps felt very clear-cut, I decided to treat each one as a “slide”. Instead of using a traditional scroll, and adding yet another moving part to the already active page, I locked it in place. I then listened for touch events and advanced to the next step with any vertical movement longer than a thumb’s radius.&lt;/p&gt;
-
-&lt;p&gt;The designer, &lt;a href=&quot;http://byalicelee.com&quot;&gt;Alice Lee&lt;/a&gt;, provided me with flats and we discussed possible transitions. I first used Chrome’s device emulator to test the website, but then moved to using an actual device. This helped in discovering a few key areas of improvement where we could tie the transitions closer to the gestures of the viewer. Since we were swiping up to advance, I wanted the content to feel like it was being pushed with the viewer’s thumb or finger—the logo would scale down in the direction of the swipe and the stack of photos would be pulled up from the bottom. &lt;/p&gt;
-
-&lt;p&gt;Originally, the stack of photos on the last slide returned to the bottom of the stage, but this felt unnatural, as if the photos were swimming against the current of the swipe. I reversed the positioning of the stack, placing them at the top of the stage, with the content below. Again, following the direction of the swipe, this adjustment really pulled the ending together. The last slide now appears to be the continuation of first slide.&lt;/p&gt;
-
-&lt;div class='video-outer'&gt;
-    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
-        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-intro.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
-            &lt;source src=&quot;/assets/carousel-intro.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            &lt;source src=&quot;/assets/carousel-intro.ogv&quot; type=&quot;video/ogg&quot; /&gt;
-            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-intro.mp4&quot;&gt;here&lt;/a&gt;.
-        &lt;/video&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;I wrapped up the mobile website that week, with exception for a few content tweaks throughout the rest of the project. After returning home to Brooklyn, I started on the desktop version. Dropbox wanted a completely different experience from mobile, but they also made it clear they didn’t want a separate “m.carousel.com” subdomain. Considering the mobile version used CSS for all of the transitions, I knew I would need to start from scratch with the desktop’s stylesheet. I ended up using the same HTML as the mobile version, but swapping out the stylesheets based on media queries on the stylesheet tags.&lt;/p&gt;
-
-&lt;p&gt;The original design of the desktop website used scroll-based breakpoints to trigger each transition. The text would follow one-to-one with the scroll and the device would remain fixed. This worked, but with the constant movement of the text, the viewer would be forced to switch focus between the two sides of the page. I switched the text to a fixed position and animated it in parallel with the device. This felt better, but there was a lot of waiting between transitions—and the wait would grow longer with the height of the window.&lt;/p&gt;
-
-&lt;p&gt;With only a couple weeks left, we decided to scrap the triggered animations and start over. Instead of relying on harsh breakpoints, we would track the animation with the scroll. To soften the feel, I took a page out of my Flash days and added friction to the scroll. This allowed the animations to ease into place without feeling so jarring. A few people at Dropbox looked at the website and felt the animations needed to snap into place better. At that time, they were a bit loose—you could easily scrub through the entire animation with a couple swipes on the trackpad.&lt;/p&gt;
-
-&lt;div class='video-outer'&gt;
-    &lt;div class='video-inner' style='padding-bottom: 77%'&gt;
-        &lt;video width=&quot;100%&quot; poster=&quot;/assets/carousel-conversation.jpg&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot; controls=&quot;controls&quot; tabindex=&quot;0&quot;&gt;
-            &lt;source src=&quot;/assets/carousel-conversation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-            &lt;source src=&quot;/assets/carousel-conversation.ogv&quot; type=&quot;video/ogg&quot; /&gt;
-            Video tag not supported. Download the video &lt;a href=&quot;/assets/carousel-conversation.mp4&quot;&gt;here&lt;/a&gt;.
-        &lt;/video&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;I definitely didn’t want to return to the triggered approach from before, so I improvised. Since I was already using friction for a softer feel, I could simply increase the friction based on the scroll’s proximity to each lockpoint. In the code, I call these “speed bumps” and that’s exactly what they are. And, to make these speed bumps less apparent, I ease the friction based on the actual distance. This was enough to achieve the slick movement of the transitions while snapping each slide into place.&lt;/p&gt;
-
-&lt;p&gt;In the final week, there were several more revisions to the content. Initially, the desktop version had twice as many transitions, with each one split into separate parts. The second slide would swipe the screen up to portray a greater collection of photos. The third slide would transition into the conversation view with a fourth slide for easing the second message in from the bottom. We simplified these transitions by combining them, one by one, until we were left with three essential slides.&lt;/p&gt;
-
-&lt;p&gt;At launch, I let out a great sigh of relief. This project took a lot out of me because it consisted of countless technical challenges and several changes in direction late in the game. I’m happy with the end result, though. If we settled at any point instead of pushing through the difficult decisions, I think we would have been left with regret. Looking back, I’m incredibly grateful and fortunate that such a small gesture on Colin’s part, of putting my name in the hat, led to this collaboration.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://carousel.com&quot;&gt;Visit the Carousel website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fix widows with non‑breaking spaces</title>
-      <link>http://destroytoday.com/findings/fix-widows-with-non-breaking-spaces</link>
-      <pubDate>Fri, 10 Jan 2014 16:16:00 -0500</pubDate>
-      <author>Jonnie Hallman</author>
-      <guid>http://destroytoday.com/findings/fix-widows-with-non-breaking-spaces</guid>
-      <description>&lt;p&gt;After learning the ins and outs of typography in design school, I started seeing the world through new eyes. Unfortunately, these eyes focus on the imperfections, like a single word on its own line, known as a “widow”. These imperfections are everywhere on the web because type isn’t laid out as carefully as it is in print.&lt;/p&gt;
-
-&lt;p&gt;While CSS &lt;em&gt;does&lt;/em&gt; have a &lt;code&gt;widows&lt;/code&gt; property, it’s for handling widow lines in column layouts—not words. Because of this, we need to rely on a hack—placing a non-breaking space between the last two words. In the past, I used the &lt;code&gt;&amp;amp;nbsp;&lt;/code&gt; entity, but stopped because of how much it clutters the code. Now, I use an actual non-breaking space character, which can be created with &lt;code&gt;option+space&lt;/code&gt;. This works as long as you have &lt;code&gt;&amp;lt;meta charset=&amp;#39;UTF-8&amp;#39;&amp;gt;&lt;/code&gt; in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; block.&lt;/p&gt;
-
-&lt;p&gt;I like this approach because it’s clean and easy. The non-breaking space looks like any other space and when used in titles, it even prevents widows in the UI of &lt;a href=&quot;http://siteleaf.com&quot;&gt;Siteleaf&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;Note&lt;/h3&gt;
-
-&lt;p&gt;I’m well-aware of the more automated ways of handling widows, like using the &lt;code&gt;String.replace&lt;/code&gt; method in Javascript with a regular expression, but I try to refrain from using JS when there are HTML or CSS‑based alternatives. Also, manually inserting a non-breaking space allows me to pick and choose where to prevent widows, in cases where a title widow is long enough to live on its own line.&lt;/p&gt;
+&lt;iframe frameborder=&#39;0&#39; height=&#39;36px&#39; scrolling=&#39;no&#39; seamless src=&#39;https://simplecast.fm/e/1926?style=dark&#39; width=&#39;100%&#39;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
@@ -485,8 +268,8 @@
       <pubDate>Wed, 08 Jan 2014 21:12:00 -0500</pubDate>
       <author>Jonnie Hallman</author>
       <guid>http://destroytoday.com/blog/creativemornings</guid>
-      <description>&lt;div class=&quot;video-wrapper&quot; style='position: relative; padding-bottom: 56.2%'&gt;
-    &lt;iframe style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' src=&quot;http://creativemornings.com/talks/embed/want-to-speak-at-creativemornings/1&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+      <description>&lt;div class=&quot;video-wrapper&quot; style=&#39;position: relative; padding-bottom: 56.2%&#39;&gt;
+    &lt;iframe style=&#39;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#39; src=&quot;http://creativemornings.com/talks/embed/want-to-speak-at-creativemornings/1&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;This past December, I spoke at &lt;a href=&quot;http://creativemornings.com&quot;&gt;CreativeMornings&lt;/a&gt;, a breakfast lecture series for the creative community with 65 chapters worldwide and growing. The New York venue is located several blocks from my co-working space, &lt;a href=&quot;http://studiomates.com&quot;&gt;Studiomates&lt;/a&gt;, so I’m often in attendance. This time, however, I was fortunate enough to take the stage. Considering the month’s theme, “Make,” my talk focused on my dad and how he made me into the “maker” I am today.&lt;/p&gt;
@@ -497,3 +280,4 @@
     
   </channel>
 </rss>
+

@@ -215,7 +215,7 @@
         <div class='content-body'>
           <p><img src="/assets/sum-logo.svg" alt="sum-logo"></p>
 
-<p>I recently worked with <a href="http://sum.com">Sum</a> (formerly Project Florida) on their stealth website. Write-up coming soon.</p>
+<p>I recently worked with <a href="http://sum.com">Sum</a> (<em>formerly Project Florida</em>) on their stealth website. Write-up coming soon.</p>
 
         </div>
       </article>
@@ -232,19 +232,25 @@
 
     
   
+    <div class='pagination next'>
+      <a class='icon ss-navigateleft' href='/work/cushion'></a>
+    </div>
+  
 
   
     <div class='pagination previous'>
-      <a class='icon ss-navigateright' href='/work/cushion'></a>
+      <a class='icon ss-navigateright' href='/work/help-scout'></a>
     </div>
   
 
   <script>
     document.body.onkeyup = function(e){
       
+      if (e.keyCode == '37') { window.location = '/work/cushion'; }
+      
 
       
-      if (e.keyCode == '39') { window.location = '/work/cushion'; }
+      if (e.keyCode == '39') { window.location = '/work/help-scout'; }
       
     };
   </script>
